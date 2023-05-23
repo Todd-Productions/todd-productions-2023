@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Main CSS Variables
+ */
+:root {
+  --tp-color-white: #fff;
+  --tp-color-black: #000;
+  --tp-color-red-500: #ff0000;
+  --tp-color-blue-500: #083e6c;
+  --tp-color-grey-100: #e1e1e1;
+  --tp-color-grey-500: #949599;
+  --tp-color-grey-600: #5c6568;
+  --tp-color-green-500: #33ba06;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--tp-color-black);
+  color: var(--tp-color-grey-500);
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: black;
+  margin: 0;
+  padding: 0;
+}
