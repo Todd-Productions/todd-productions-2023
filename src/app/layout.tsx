@@ -1,4 +1,5 @@
 import StyledJsxRegistry from "./lib/registry";
+import GlobalStyles from "./lib/global";
 
 export const metadata = {
   title: "Todd Productions",
@@ -13,6 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <GlobalStyles />
         <StyledJsxRegistry>{children}</StyledJsxRegistry>
       </body>
     </html>
