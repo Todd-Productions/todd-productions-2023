@@ -7,6 +7,10 @@
 .env
 .env.local
 
+# storybook
+/storybook-static/
+/storybook-static/*
+
 # testing
 /coverage
 
