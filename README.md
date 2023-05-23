@@ -14,6 +14,14 @@ To start the NextJS frontend run:
 yarn dev
 ```
 
+## Running Storybook
+
+To start Storybook in browser run:
+
+```bash
+yarn storybook
+```
+
 ## Setup Local `.env`
 
 Check the `.env.example` and adjust variables in local file
