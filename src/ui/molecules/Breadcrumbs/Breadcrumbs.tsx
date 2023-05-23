@@ -1,10 +1,15 @@
 import React from "react";
 import slugify from "slugify";
 import Link from "next/link";
+import { UrlObject } from "url";
+
+import { Wrapper } from "../../atoms";
+
+export type UrlType = UrlObject | string;
 
 export interface ICrumb {
   label: string;
-  url: string;
+  url: UrlType;
 }
 
 export interface BreadcrumbsProps {
@@ -15,12 +20,20 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = (props) => {
   const { crumbs } = props;
 
   return (
-    <div>
-      {crumbs.map((crumb) => (
-        <Link key={slugify(crumb.label)} href={crumb.url}>
-          {crumb.label}
-        </Link>
-      ))}
+    <div className="text-grey-500 text-2xl bg-grey-100 p-4 text-center box-border w-full">
+      <Wrapper>
+        {crumbs.map((crumb, ix) => (
+          <React.Fragment key={slugify(crumb.label)}>
+            <Link
+              href={crumb.url}
+              className="uppercase text-grey-500 text-2xl inline-block px-2 no-underline hover:underline"
+            >
+              {crumb.label}
+            </Link>
+            {ix !== crumbs.length - 1 && "/"}
+          </React.Fragment>
+        ))}
+      </Wrapper>
     </div>
   );
 };
