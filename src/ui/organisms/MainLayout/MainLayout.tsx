@@ -1,8 +1,8 @@
 import React, { ReactNode } from "react"
 
-import { getSocialLinks } from "@/ui/molecules/Header/Header"
-
 import { ISocialLinks, INavLink } from "@/types"
+
+import { getSocialLinks } from "../../molecules/Header/Header"
 
 import { Footer } from "../../molecules"
 import MainHeader from "../MainHeader/MainHeader"
