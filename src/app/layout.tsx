@@ -1,3 +1,4 @@
+import React from "react"
 import localFont from "next/font/local"
 import type { Metadata } from "next"
 
@@ -25,14 +26,17 @@ export const metadata: Metadata = {
     "A multimedia production company that offers an incredibly wide range of services from video production to website design services in Northwest Ohio",
 }
 
-export default function RootLayout({
-  children,
-}: {
+interface RootLayoutProps {
   children: React.ReactNode
-}) {
+}
+
+const RootLayout: React.FC<RootLayoutProps> = (props) => {
+  const { children } = props
   return (
     <html lang="en">
       <body className={fontHeading.variable}>{children}</body>
     </html>
   )
 }
+
+export default RootLayout
