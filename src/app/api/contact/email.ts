@@ -1,6 +1,6 @@
-import Handlebars from "handlebars";
-import nodemailer from "nodemailer";
-import SMTPConnection from "nodemailer/lib/smtp-connection";
+import Handlebars from "handlebars"
+import nodemailer from "nodemailer"
+import SMTPConnection from "nodemailer/lib/smtp-connection"
 
 const template = `
 <!DOCTYPE html>
@@ -443,9 +443,9 @@ const template = `
     </table>
   </body>
 </html>
-`;
+`
 
-const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS } = process.env;
+const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS } = process.env
 
 /**
  * Sending Email Function
@@ -462,18 +462,18 @@ const sendEmail = async (email: string, subject: string, context: any) => {
       user: SMTP_USER,
       pass: SMTP_PASS,
     },
-  });
-  const transport = nodemailer.createTransport(connection);
+  })
+  const transport = nodemailer.createTransport(connection)
 
-  const hbs = Handlebars.compile(template);
-  const body = hbs(context);
+  const hbs = Handlebars.compile(template)
+  const body = hbs(context)
 
   await transport.sendMail({
     from: "no-reply@toddprod.com",
     to: email,
     subject,
     html: body,
-  });
-};
+  })
+}
 
-export default sendEmail;
+export default sendEmail

@@ -1,22 +1,22 @@
-import React from "react";
-import slugify from "slugify";
-import Link from "next/link";
+import React from "react"
+import slugify from "slugify"
+import Link from "next/link"
 
-import { UrlType } from "@/types";
+import { UrlType } from "@/types"
 
-import { Wrapper } from "../../atoms";
+import { Wrapper } from "../../atoms"
 
 export interface ICrumb {
-  label: string;
-  url: UrlType;
+  label: string
+  url: UrlType
 }
 
 export interface BreadcrumbsProps {
-  crumbs: ICrumb[];
+  crumbs: ICrumb[]
 }
 
 const Breadcrumbs: React.FC<BreadcrumbsProps> = (props) => {
-  const { crumbs } = props;
+  const { crumbs } = props
 
   return (
     <div className="text-grey-500 text-2xl bg-grey-100 p-4 text-center box-border w-full">
@@ -34,7 +34,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = (props) => {
         ))}
       </Wrapper>
     </div>
-  );
-};
+  )
+}
 
-export default Breadcrumbs;
+export default Breadcrumbs

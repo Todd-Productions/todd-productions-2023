@@ -1,19 +1,19 @@
-import React from "react";
-import cns from "classnames";
+import React from "react"
+import cns from "classnames"
 
-import "./button.css";
+import "./button.css"
 
-export type ButtonColors = "primary" | "danger" | "default";
+export type ButtonColors = "primary" | "danger" | "default"
 
 export interface ButtonProps {
-  type?: "submit" | "button";
-  color?: ButtonColors;
-  children?: string;
-  fullWidth?: boolean;
+  type?: "submit" | "button"
+  color?: ButtonColors
+  children?: string
+  fullWidth?: boolean
 }
 
 const Button: React.FC<ButtonProps> = (props) => {
-  const { type, children, fullWidth, color } = props;
+  const { type, children, fullWidth, color } = props
 
   return (
     <button
@@ -28,12 +28,12 @@ const Button: React.FC<ButtonProps> = (props) => {
     >
       {children}
     </button>
-  );
-};
+  )
+}
 
 Button.defaultProps = {
   type: "button",
   color: "default",
-};
+}
 
-export default Button;
+export default Button

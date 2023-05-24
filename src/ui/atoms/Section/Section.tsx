@@ -1,12 +1,12 @@
-import React from "react";
+import React from "react"
 
 export interface SectionProps {
-  children?: React.ReactNode;
+  children?: React.ReactNode
 }
 
 const Section: React.FC<SectionProps> = (props) => {
-  const { children } = props;
-  return <section className="bg-white py-10">{children}</section>;
-};
+  const { children } = props
+  return <section className="bg-white py-10">{children}</section>
+}
 
-export default Section;
+export default Section

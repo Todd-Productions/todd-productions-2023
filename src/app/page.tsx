@@ -4,7 +4,7 @@ import {
   SectionSubHeading,
   Section,
   Wrapper,
-} from "@/ui/atoms";
+} from "@/ui/atoms"
 
 const HomePage = () => {
   return (
@@ -17,7 +17,7 @@ const HomePage = () => {
         </Wrapper>
       </Section>
     </main>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage

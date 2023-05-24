@@ -1,18 +1,18 @@
-import { Meta, Story } from "@storybook/react";
+import { Meta, Story } from "@storybook/react"
 
-import Breadcrumbs, { BreadcrumbsProps } from "./Breadcrumbs";
+import Breadcrumbs, { BreadcrumbsProps } from "./Breadcrumbs"
 
 export default {
   title: "ui/molecules/Breadcrumbs",
   component: Breadcrumbs,
   argTypes: {},
-} as Meta;
+} as Meta
 
 const Template: Story<BreadcrumbsProps> = (args, { globals }) => (
   <Breadcrumbs {...args} {...globals} />
-);
+)
 
-export const Default = Template.bind({});
+export const Default = Template.bind({})
 Default.args = {
   ...Breadcrumbs.defaultProps,
   crumbs: [
@@ -25,4 +25,4 @@ Default.args = {
       url: "/something",
     },
   ],
-};
+}

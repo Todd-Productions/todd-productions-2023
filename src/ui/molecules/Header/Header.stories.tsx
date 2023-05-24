@@ -1,18 +1,18 @@
-import { Meta, Story } from "@storybook/react";
+import { Meta, Story } from "@storybook/react"
 
-import Header, { HeaderProps } from "./Header";
+import Header, { HeaderProps } from "./Header"
 
 export default {
   title: "ui/molecules/Header",
   component: Header,
   argTypes: {},
-} as Meta;
+} as Meta
 
 const Template: Story<HeaderProps> = (args, { globals }) => (
   <Header {...args} {...globals} />
-);
+)
 
-export const Default = Template.bind({});
+export const Default = Template.bind({})
 Default.args = {
   ...Header.defaultProps,
-};
+}

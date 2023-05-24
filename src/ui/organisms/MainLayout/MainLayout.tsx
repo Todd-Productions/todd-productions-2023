@@ -1,13 +1,13 @@
-import { ReactNode } from "react";
+import { ReactNode } from "react"
 
-import { Footer } from "../../molecules";
-import MainHeader from "../MainHeader/MainHeader";
+import { Footer } from "../../molecules"
+import MainHeader from "../MainHeader/MainHeader"
 
-import Breadcrumbs, { ICrumb } from "../../molecules/Breadcrumbs/Breadcrumbs";
+import Breadcrumbs, { ICrumb } from "../../molecules/Breadcrumbs/Breadcrumbs"
 
 export interface MainLayoutProps {
-  children?: ReactNode;
-  crumbs: ICrumb[];
+  children?: ReactNode
+  crumbs: ICrumb[]
 }
 
 /**
@@ -16,7 +16,7 @@ export interface MainLayoutProps {
  *
  */
 const MainLayout: React.FC<MainLayoutProps> = (props: MainLayoutProps) => {
-  const { children, crumbs } = props;
+  const { children, crumbs } = props
 
   return (
     <div>
@@ -25,9 +25,9 @@ const MainLayout: React.FC<MainLayoutProps> = (props: MainLayoutProps) => {
       <main className="bg-white">{children}</main>
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-MainLayout.defaultProps = {};
+MainLayout.defaultProps = {}
 
-export default MainLayout;
+export default MainLayout

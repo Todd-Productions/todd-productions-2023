@@ -1,6 +1,6 @@
-import React from "react";
+import React from "react"
 
-import Header from "../../molecules/Header/Header";
+import Header from "../../molecules/Header/Header"
 
 export interface MainHeaderProps {}
 
@@ -9,7 +9,7 @@ const MainHeader: React.FC<MainHeaderProps> = () => {
     <div>
       <Header />
     </div>
-  );
-};
+  )
+}
 
-export default MainHeader;
+export default MainHeader

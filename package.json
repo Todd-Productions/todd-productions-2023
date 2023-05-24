@@ -61,5 +61,11 @@
   },
   "engines": {
     "node": "^18"
+  },
+  "lint-staged": {
+    "*.{jsx,ts,tsx}": [
+      "eslint --config .eslintrc.json --fix",
+      "yarn pretty"
+    ]
   }
 }

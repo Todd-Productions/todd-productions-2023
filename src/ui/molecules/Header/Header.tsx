@@ -1,13 +1,13 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
+import React from "react"
+import Image from "next/image"
+import Link from "next/link"
 
-import { Wrapper } from "../../atoms";
+import { Wrapper } from "../../atoms"
 
 export interface HeaderProps {}
 
 const Header: React.FC<HeaderProps> = (props) => {
-  const {} = props;
+  const {} = props
 
   return (
     <header className="bg-white w-full box-border text-grey-600 py-6">
@@ -29,7 +29,7 @@ const Header: React.FC<HeaderProps> = (props) => {
         </div>
       </Wrapper>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
