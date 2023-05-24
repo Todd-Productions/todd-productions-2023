@@ -12,7 +12,7 @@ const Header: React.FC<HeaderProps> = (props) => {
   return (
     <header className="bg-white w-full box-border text-grey-600 py-6">
       <Wrapper>
-        <div className="md:grid content-center items-center gap-4 h-full relative">
+        <div className="md:grid content-center items-center gap-4 h-full relative grid-cols-[1fr_118px_1fr]">
           <div>Social</div>
           <div>
             <Link href="/" title="Todd Production's Home Page">

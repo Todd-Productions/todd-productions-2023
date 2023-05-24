@@ -1,6 +1,23 @@
+import localFont from "next/font/local";
 import type { Metadata } from "next";
 
 import "./globals.css";
+
+const fontHeading = localFont({
+  src: [
+    {
+      path: "../../assets/fonts/Helvetica.woff",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../assets/fonts/HelveticaBlack.woff",
+      weight: "800",
+      style: "normal",
+    },
+  ],
+  variable: "--font-heading",
+});
 
 export const metadata: Metadata = {
   title: "Todd Productions",
@@ -15,7 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={fontHeading.variable}>{children}</body>
     </html>
   );
 }

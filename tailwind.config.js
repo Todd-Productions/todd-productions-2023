@@ -24,7 +24,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Roboto", "Arial", "sans-serif"],
+        sans: ["Arial", "sans-serif"],
+        heading: ["var(--font-heading)", "sans-serif"],
       },
     },
   },

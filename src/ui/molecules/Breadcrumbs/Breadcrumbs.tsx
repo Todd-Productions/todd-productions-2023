@@ -1,11 +1,10 @@
 import React from "react";
 import slugify from "slugify";
 import Link from "next/link";
-import { UrlObject } from "url";
+
+import { UrlType } from "@/types";
 
 import { Wrapper } from "../../atoms";
-
-export type UrlType = UrlObject | string;
 
 export interface ICrumb {
   label: string;
