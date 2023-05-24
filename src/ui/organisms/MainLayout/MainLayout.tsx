@@ -1,13 +1,18 @@
-import { ReactNode } from "react"
+import React, { ReactNode } from "react"
+
+import { getSocialLinks } from "@/ui/molecules/Header/Header"
+
+import { ISocialLinks, INavLink } from "@/types"
 
 import { Footer } from "../../molecules"
 import MainHeader from "../MainHeader/MainHeader"
 
 import Breadcrumbs, { ICrumb } from "../../molecules/Breadcrumbs/Breadcrumbs"
 
-export interface MainLayoutProps {
+export interface MainLayoutProps extends ISocialLinks {
   children?: ReactNode
   crumbs: ICrumb[]
+  headerLinks: INavLink[]
 }
 
 /**
@@ -16,11 +21,12 @@ export interface MainLayoutProps {
  *
  */
 const MainLayout: React.FC<MainLayoutProps> = (props: MainLayoutProps) => {
-  const { children, crumbs } = props
+  const { children, crumbs, headerLinks } = props
 
   return (
     <div>
-      <MainHeader />
+      <MainHeader links={headerLinks} {...getSocialLinks(props)} />
+
       {crumbs && <Breadcrumbs crumbs={crumbs} />}
       <main className="bg-white">{children}</main>
       <Footer />

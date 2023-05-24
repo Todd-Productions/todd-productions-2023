@@ -12,12 +12,9 @@ import { IconDefinition } from "@fortawesome/fontawesome-svg-core"
 
 import "./social.css"
 
-export interface SocialProps {
-  facebook?: string
-  youtube?: string
-  linkedin?: string
-  instagram?: string
-  twitter?: string
+import { ISocialLinks } from "@/types"
+
+export interface SocialProps extends ISocialLinks {
   whiteHover?: boolean
   echo?: boolean
 }

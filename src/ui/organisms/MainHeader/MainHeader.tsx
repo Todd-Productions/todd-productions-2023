@@ -1,13 +1,19 @@
 import React from "react"
 
-import Header from "../../molecules/Header/Header"
+import { INavLink, ISocialLinks } from "@/types"
 
-export interface MainHeaderProps {}
+import Header, { getSocialLinks } from "../../molecules/Header/Header"
 
-const MainHeader: React.FC<MainHeaderProps> = () => {
+export interface MainHeaderProps extends ISocialLinks {
+  links: INavLink[]
+}
+
+const MainHeader: React.FC<MainHeaderProps> = (props) => {
+  const { links } = props
+
   return (
     <div>
-      <Header />
+      <Header links={links} {...getSocialLinks(props)} />
     </div>
   )
 }
