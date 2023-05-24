@@ -1,22 +1,25 @@
-import { Meta, Story } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react"
 
-import SectionSubHeading, { SectionSubHeadingProps } from "./SectionSubHeading"
+import SectionSubHeading from "./SectionSubHeading"
 import Section from "../Section/Section"
 
-export default {
+const meta: Meta<typeof SectionSubHeading> = {
   title: "ui/atoms/SectionSubHeading",
   component: SectionSubHeading,
-  argTypes: {},
-} as Meta
+}
 
-const Template: Story<SectionSubHeadingProps> = (args, { globals }) => (
-  <Section>
-    <SectionSubHeading {...args} {...globals} />
-  </Section>
-)
+export default meta
 
-export const Default = Template.bind({})
-Default.args = {
-  ...SectionSubHeading.defaultProps,
-  children: "Section Sub Heading",
+type Story = StoryObj<typeof SectionSubHeading>
+
+export const Default: Story = {
+  render: (args) => (
+    <Section>
+      <SectionSubHeading {...args} />
+    </Section>
+  ),
+  args: {
+    ...SectionSubHeading.defaultProps,
+    children: "Section Sub Heading",
+  },
 }

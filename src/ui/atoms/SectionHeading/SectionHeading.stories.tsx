@@ -1,25 +1,28 @@
-import { Meta, Story } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react"
 
-import SectionHeading, { SectionHeadingProps } from "./SectionHeading"
+import SectionHeading from "./SectionHeading"
 import Section from "../Section/Section"
 import Wrapper from "../Wrapper/Wrapper"
 
-export default {
+const meta: Meta<typeof SectionHeading> = {
   title: "ui/atoms/SectionHeading",
   component: SectionHeading,
-  argTypes: {},
-} as Meta
+}
 
-const Template: Story<SectionHeadingProps> = (args, { globals }) => (
-  <Section>
-    <Wrapper>
-      <SectionHeading {...args} {...globals} />
-    </Wrapper>
-  </Section>
-)
+export default meta
 
-export const Default = Template.bind({})
-Default.args = {
-  ...SectionHeading.defaultProps,
-  children: "Section Heading",
+type Story = StoryObj<typeof SectionHeading>
+
+export const Default: Story = {
+  render: (args) => (
+    <Section>
+      <Wrapper>
+        <SectionHeading {...args} />
+      </Wrapper>
+    </Section>
+  ),
+  args: {
+    ...SectionHeading.defaultProps,
+    children: "Section Heading",
+  },
 }

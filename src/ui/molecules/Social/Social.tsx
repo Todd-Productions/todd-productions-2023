@@ -1,4 +1,5 @@
 import React from "react"
+import cn from "classnames"
 import {
   faYoutube,
   faFacebook,
@@ -17,6 +18,8 @@ export interface SocialProps {
   linkedin?: string
   instagram?: string
   twitter?: string
+  whiteHover?: boolean
+  echo?: boolean
 }
 
 interface ISocial {
@@ -26,7 +29,8 @@ interface ISocial {
 }
 
 const Social: React.FC<SocialProps> = (props) => {
-  const { facebook, linkedin, instagram, twitter, youtube } = props
+  const { facebook, linkedin, instagram, twitter, youtube, echo, whiteHover } =
+    props
 
   const links: ISocial[] = [
     {
@@ -59,9 +63,19 @@ const Social: React.FC<SocialProps> = (props) => {
   return (
     <div className="flex justify-start content-center items-center h-full">
       {links
-        .filter((v) => !!v)
+        .filter((v) => !!v.url)
         .map((link) => (
-          <a key={link.url} href={link.url} title={link.title} target="_blank">
+          <a
+            key={link.url}
+            href={link.url}
+            title={link.title}
+            target="_blank"
+            rel="noreferrer"
+            className={cn(
+              "flex content-center items-center justify-center text-lg text-grey-500 border border-solid border-grey-500 transition-all ease-in-out relative rounded-full p-2 mr-2 social-icon relative box-border",
+              { "white-hover": whiteHover, "echo-hover": echo }
+            )}
+          >
             <FontAwesomeIcon icon={link.icon} />
           </a>
         ))}

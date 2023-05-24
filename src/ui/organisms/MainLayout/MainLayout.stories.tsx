@@ -1,28 +1,28 @@
-import { Meta, Story } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react"
 
-import MainLayout, { MainLayoutProps } from "./MainLayout"
+import MainLayout from "./MainLayout"
 
-export default {
+const meta: Meta<typeof MainLayout> = {
   title: "ui/organisms/MainLayout",
   component: MainLayout,
-  argTypes: {},
-} as Meta
+}
 
-const Template: Story<MainLayoutProps> = (args, { globals }) => (
-  <MainLayout {...args} {...globals} />
-)
+export default meta
 
-export const Default = Template.bind({})
-Default.args = {
-  ...MainLayout.defaultProps,
-  crumbs: [
-    {
-      label: "Home",
-      url: "/",
-    },
-    {
-      label: "Video Production",
-      url: "/video",
-    },
-  ],
+type Story = StoryObj<typeof MainLayout>
+
+export const Default: Story = {
+  args: {
+    ...MainLayout.defaultProps,
+    crumbs: [
+      {
+        label: "Home",
+        url: "/",
+      },
+      {
+        label: "Video Production",
+        url: "/video",
+      },
+    ],
+  },
 }

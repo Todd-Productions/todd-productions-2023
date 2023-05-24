@@ -1,8 +1,8 @@
 @keyframes echoAnimation {
   0% {
     opacity: 0;
-    height: 25px;
-    width: 25px;
+    height: 35px;
+    width: 35px;
   }
 
   50% {
@@ -11,19 +11,33 @@
 
   100% {
     opacity: 0;
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
   }
 }
 
-.section-heading:before {
+.social-icon,
+.social-icon::before {
+  @apply transition-all duration-500;
+  width: 35px;
+  height: 35px;
+}
+
+.social-icon::before {
+  @apply absolute bg-transparent border-solid border-blue-500 top-1/2 left-1/2 opacity-0 ease-in-out;
+  border-width: 4px;
   content: "";
-  position: absolute;
-  top: 15px;
-  left: -30px;
-  height: 10px;
-  width: 10px;
-  background: var(--tp-color-red-500);
-  border-radius: 10px;
-  animation: recordingAnimation 4s ease infinite;
+  transform: translateY(-50%) translateX(-50%);
+  left: 50%;
+  border-radius: 50px;
+}
+
+.social-icon:hover {
+  @apply border-white text-white bg-blue-500;
+}
+.social-icon.white-hover:hover {
+  @apply text-black bg-white;
+}
+.social-icon.echo-hover:hover::before {
+  animation: echoAnimation 1s ease infinite;
 }

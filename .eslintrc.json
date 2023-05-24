@@ -35,15 +35,6 @@
     ],
     "react/no-unused-prop-types": "warn",
     "jsx-a11y/anchor-is-valid": "warn",
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "js": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never"
-      }
-    ]
+    "import/extensions": 0
   }
 }
