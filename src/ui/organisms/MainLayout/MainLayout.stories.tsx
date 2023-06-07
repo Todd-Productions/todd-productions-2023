@@ -24,5 +24,32 @@ export const Default: Story = {
         url: "/video",
       },
     ],
+    facebook: "https://facebook",
+    twitter: "https://facebook",
+    youtube: "https://facebook",
+    instagram: "https://facebook",
+    linkedin: "https://facebook",
+    headerLinks: [
+      {
+        label: "Video",
+        url: "/",
+      },
+      {
+        label: "Web",
+        url: "/",
+      },
+      {
+        label: "Other",
+        url: "/",
+      },
+      {
+        label: "Who We Are",
+        url: "/",
+      },
+      {
+        label: "Contact",
+        url: "/",
+      },
+    ],
   },
 }
