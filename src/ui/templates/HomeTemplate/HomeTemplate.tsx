@@ -1,10 +1,10 @@
 import React from "react"
 
-import { MainLayout } from "@/ui/organisms"
+import { MainLayout } from "../../organisms"
+import { getSocialLinks } from "../../molecules/Header/Header"
 
-import { INavLink, ISocialLinks } from "@/types"
-import { ICrumb } from "@/ui/molecules/Breadcrumbs/Breadcrumbs"
-import { getSocialLinks } from "@/ui/molecules/Header/Header"
+import { INavLink, ISocialLinks } from "../../../types"
+import { ICrumb } from "../../molecules/Breadcrumbs/Breadcrumbs"
 
 export interface DefaultTemplateProps extends ISocialLinks {
   crumbs: ICrumb[]

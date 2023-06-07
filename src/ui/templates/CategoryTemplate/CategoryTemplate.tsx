@@ -1,7 +1,7 @@
 import React from "react"
 
-import { MainLayout } from "@/ui/organisms"
-import { getSocialLinks } from "@/ui/molecules/Header/Header"
+import { MainLayout } from "../../organisms"
+import { getSocialLinks } from "../../molecules/Header/Header"
 
 import { DefaultTemplateProps } from "../HomeTemplate/HomeTemplate"
 

@@ -1,8 +1,8 @@
 import React from "react"
 
-import { MainLayout } from "@/ui/organisms"
+import { MainLayout } from "../../organisms"
+import { getSocialLinks } from "../../molecules/Header/Header"
 
-import { getSocialLinks } from "@/ui/molecules/Header/Header"
 import { DefaultTemplateProps } from "../HomeTemplate/HomeTemplate"
 
 export interface ContactTemplateProps extends DefaultTemplateProps {}
