@@ -9,17 +9,19 @@ import { ICrumb } from "../../molecules/Breadcrumbs/Breadcrumbs"
 export interface DefaultTemplateProps extends ISocialLinks {
   crumbs: ICrumb[]
   headerLinks: INavLink[]
+  footerLinks: INavLink[]
 }
 
 export interface HomeTemplateProps extends DefaultTemplateProps {}
 
 const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
-  const { crumbs, headerLinks } = props
+  const { crumbs, headerLinks, footerLinks } = props
 
   return (
     <MainLayout
       crumbs={crumbs}
       headerLinks={headerLinks}
+      footerLinks={footerLinks}
       {...getSocialLinks(props)}
     >
       Home Template

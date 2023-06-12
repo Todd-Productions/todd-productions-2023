@@ -51,5 +51,31 @@ export const Default: Story = {
         url: "/",
       },
     ],
+    footerLinks: [
+      {
+        label: "Home",
+        url: "/",
+      },
+      {
+        label: "Video Production",
+        url: "/",
+      },
+      {
+        label: "Web Services",
+        url: "/",
+      },
+      {
+        label: "Other",
+        url: "/",
+      },
+      {
+        label: "Who We Are",
+        url: "/",
+      },
+      {
+        label: "Contact Us",
+        url: "/",
+      },
+    ],
   },
 }

@@ -12,5 +12,28 @@ export default meta
 type Story = StoryObj<typeof Footer>
 
 export const Default: Story = {
-  args: {},
+  args: {
+    links: [
+      {
+        label: "Video",
+        url: "/",
+      },
+      {
+        label: "Web",
+        url: "/",
+      },
+      {
+        label: "Other",
+        url: "/",
+      },
+      {
+        label: "Who We Are",
+        url: "/",
+      },
+      {
+        label: "Contact",
+        url: "/",
+      },
+    ],
+  },
 }

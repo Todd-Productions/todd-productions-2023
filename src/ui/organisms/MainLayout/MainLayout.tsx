@@ -13,6 +13,7 @@ export interface MainLayoutProps extends ISocialLinks {
   children?: ReactNode
   crumbs: ICrumb[]
   headerLinks: INavLink[]
+  footerLinks: INavLink[]
 }
 
 /**
@@ -21,7 +22,7 @@ export interface MainLayoutProps extends ISocialLinks {
  *
  */
 const MainLayout: React.FC<MainLayoutProps> = (props: MainLayoutProps) => {
-  const { children, crumbs, headerLinks } = props
+  const { children, crumbs, headerLinks, footerLinks } = props
 
   return (
     <div>
@@ -29,7 +30,7 @@ const MainLayout: React.FC<MainLayoutProps> = (props: MainLayoutProps) => {
 
       {crumbs && <Breadcrumbs crumbs={crumbs} />}
       <main className="bg-white">{children}</main>
-      <Footer />
+      <Footer links={footerLinks} />
     </div>
   )
 }

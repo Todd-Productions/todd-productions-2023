@@ -8,12 +8,13 @@ import { DefaultTemplateProps } from "../HomeTemplate/HomeTemplate"
 export interface ContactTemplateProps extends DefaultTemplateProps {}
 
 const ContactTemplate: React.FC<ContactTemplateProps> = (props) => {
-  const { crumbs, headerLinks } = props
+  const { crumbs, headerLinks, footerLinks } = props
 
   return (
     <MainLayout
       crumbs={crumbs}
       headerLinks={headerLinks}
+      footerLinks={footerLinks}
       {...getSocialLinks(props)}
     >
       ContactTemplate
