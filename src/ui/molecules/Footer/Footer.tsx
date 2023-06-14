@@ -3,8 +3,8 @@ import Image from "next/image"
 import Link from "next/link"
 import slugify from "slugify"
 
-import { Wrapper } from "../../atoms"
 import Social from "../Social/Social"
+import { Wrapper } from "../../atoms"
 import { INavLink } from "@/types"
 
 export interface FooterProps {
@@ -16,8 +16,8 @@ const Footer: React.FC<FooterProps> = (props) => {
   return (
     <footer>
       <Wrapper>
-        <div className="mt-4 lg:grid content-center items-center gap-4 h-full relative grid-cols-[1fr_1fr_1fr]">
-          <div className="hidden lg:block flex justify-start items-start h-full">
+        <div className="pt-8 pb-12 mt-4 lg:grid content-center items-center gap-4 h-full grid-cols-[1fr_1fr_1fr]">
+          <div className="hidden lg:block h-full">
             Video Production, Web Design, Graphic Designs - What Do You Need?
           </div>
           <div className="flex flex-col justify-center items-center">
@@ -29,12 +29,12 @@ const Footer: React.FC<FooterProps> = (props) => {
               className=""
             />
 
-            <div className="mt-4 md:mb-20 mb-4 flex flex-col justify-center items-center relative capitalized">
+            <div className="mt-4 md:mb-6 mb-8 text-center capitalized">
               {links.map((link) => (
                 <Link
                   key={slugify(link.label)}
                   href={link.url}
-                  className="my-1 md:my-0 mx-0 md:mx-2 hover:underline"
+                  className="my-1 md:my-0 mx-0 md:mx-2 block hover:underline"
                 >
                   {link.label}
                 </Link>
@@ -50,15 +50,22 @@ const Footer: React.FC<FooterProps> = (props) => {
               whiteHover
             />
           </div>
-          <div className="mt-6 md:mt-0 text-center flex flex-col justify-start items-center h-full">
+          <div className="mt-8 md:mt-0 text-center h-full">
             <div>
               <div className="mb-4">
                 <p>Phone:</p>
-                <p>419-290-0794</p>
+                <a className="hover:underline" href="tel: 419-290-0794">
+                  419-290-0794
+                </a>
               </div>
               <div className="mb-4">
                 <p>Email:</p>
-                <p>contact@toddprod.com</p>
+                <a
+                  className="hover:underline"
+                  href="mailto: contact@toddprod.com"
+                >
+                  contact@toddprod.com
+                </a>
               </div>
             </div>
           </div>
