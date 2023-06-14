@@ -20,6 +20,7 @@ const Footer: React.FC<FooterProps> = (props) => {
           <div className="hidden lg:block h-full">
             Video Production, Web Design, Graphic Designs - What Do You Need?
           </div>
+
           <div className="flex flex-col justify-center items-center">
             <Image
               src="/images/logo-footer.jpg"
@@ -28,7 +29,6 @@ const Footer: React.FC<FooterProps> = (props) => {
               alt="Todd Productions"
               className=""
             />
-
             <div className="mt-4 md:mb-6 mb-8 text-center capitalized">
               {links.map((link) => (
                 <Link
@@ -40,7 +40,6 @@ const Footer: React.FC<FooterProps> = (props) => {
                 </Link>
               ))}
             </div>
-
             <Social
               facebook="/"
               twitter="/"
@@ -50,7 +49,8 @@ const Footer: React.FC<FooterProps> = (props) => {
               whiteHover
             />
           </div>
-          <div className="mt-8 md:mt-0 text-center h-full">
+
+          <div className="mt-8 lg:mt-0 text-center h-full">
             <div>
               <div className="mb-4">
                 <p>Phone:</p>
