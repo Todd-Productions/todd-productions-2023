@@ -5,15 +5,17 @@ import { getSocialLinks } from "../../molecules/Header/Header"
 
 import { INavLink, ISocialLinks } from "../../../types"
 import { ICrumb } from "../../molecules/Breadcrumbs/Breadcrumbs"
-import { SplitContentSection } from "../../molecules"
+import { SplitContentSection, BasicContentSection } from "../../molecules"
 
 // @types
 import { ISplitContent } from "../../molecules/SplitContentSection/SplitContentSection"
+import { IBasicContent } from "@/ui/molecules/BasicContentSection/BasicContentSection"
 
 export interface DefaultTemplateProps extends ISocialLinks {
   crumbs: ICrumb[]
   headerLinks: INavLink[]
   footerLinks: INavLink[]
+  topCTAData: IBasicContent
   videoData: ISplitContent
   webData: ISplitContent
   otherData: ISplitContent
@@ -22,8 +24,15 @@ export interface DefaultTemplateProps extends ISocialLinks {
 export interface HomeTemplateProps extends DefaultTemplateProps {}
 
 const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
-  const { crumbs, headerLinks, footerLinks, videoData, webData, otherData } =
-    props
+  const {
+    crumbs,
+    headerLinks,
+    footerLinks,
+    topCTAData,
+    videoData,
+    webData,
+    otherData,
+  } = props
 
   return (
     <MainLayout
@@ -32,6 +41,13 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
       footerLinks={footerLinks}
       {...getSocialLinks(props)}
     >
+      <BasicContentSection
+        title={topCTAData.title}
+        textContent={topCTAData.textContent}
+        buttonLink={topCTAData.buttonLink}
+        buttonText={topCTAData.buttonText}
+      />
+
       <SplitContentSection
         title={videoData.title}
         subTitle={videoData.subTitle}

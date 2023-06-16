@@ -1,0 +1,38 @@
+import React, { ReactNode } from "react"
+import Link from "next/link"
+
+import { Button, SectionHeading, Section, Wrapper } from "../../atoms"
+
+export interface IBasicContent {
+  title: string
+  textContent: ReactNode
+  buttonLink: string
+  buttonText: string
+}
+
+export interface SplitContentProps extends IBasicContent {}
+
+const BasicContentSection: React.FC<SplitContentProps> = ({
+  title,
+  textContent,
+  buttonLink,
+  buttonText,
+}) => {
+  return (
+    <Section>
+      <Wrapper>
+        <div className="grid gap-10 md:gap-20 grid-cols-1 md:grid-cols-[1fr_3fr] px-10">
+          <div>
+            <SectionHeading>{title}</SectionHeading>
+            <Link href={buttonLink}>
+              <Button fullWidth>{buttonText}</Button>
+            </Link>
+          </div>
+          <div className="leading-6 p { bg-black}">{textContent}</div>
+        </div>
+      </Wrapper>
+    </Section>
+  )
+}
+
+export default BasicContentSection
