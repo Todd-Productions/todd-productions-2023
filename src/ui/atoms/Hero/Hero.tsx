@@ -1,7 +1,8 @@
 import "./hero.css"
+import { UrlType } from "../../../types"
 
 export interface HeroProps {
-  img: string
+  img: UrlType
 }
 
 const Hero: React.FC<HeroProps> = (props) => {
