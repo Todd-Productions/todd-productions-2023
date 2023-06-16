@@ -28,7 +28,7 @@ const BasicContentSection: React.FC<SplitContentProps> = ({
               <Button fullWidth>{buttonText}</Button>
             </Link>
           </div>
-          <div className="leading-6 p { bg-black}">{textContent}</div>
+          <div className="leading-6">{textContent}</div>
         </div>
       </Wrapper>
     </Section>
