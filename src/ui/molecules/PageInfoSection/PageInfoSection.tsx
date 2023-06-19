@@ -3,16 +3,16 @@ import Link from "next/link"
 
 import { Button, SectionHeading, Section, Wrapper } from "../../atoms"
 
-export interface IBasicContent {
+export interface IPageInfoContent {
   title: string
   textContent: ReactNode
   buttonLink: string
   buttonText: string
 }
 
-export interface SplitContentProps extends IBasicContent {}
+export interface SplitContentProps extends IPageInfoContent {}
 
-const BasicContentSection: React.FC<SplitContentProps> = ({
+const PageInfoSection: React.FC<SplitContentProps> = ({
   title,
   textContent,
   buttonLink,
@@ -35,4 +35,4 @@ const BasicContentSection: React.FC<SplitContentProps> = ({
   )
 }
 
-export default BasicContentSection
+export default PageInfoSection

@@ -4,12 +4,12 @@ import { MainLayout } from "../../organisms"
 import { getSocialLinks } from "../../molecules/Header/Header"
 
 import { DefaultTemplateProps } from "../HomeTemplate/HomeTemplate"
-import { ServicesContetProps } from "../../organisms/ServicesContent/ServicesContent"
+import { ServicesContentProps } from "../../organisms/ServicesContent/ServicesContent"
 import { ServicesContent } from "../../organisms"
 
 export interface ServiceTemplateProps
   extends DefaultTemplateProps,
-    ServicesContetProps {}
+    ServicesContentProps {}
 
 const ServiceTemplate: React.FC<ServiceTemplateProps> = (props) => {
   const {

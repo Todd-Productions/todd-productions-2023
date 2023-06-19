@@ -1,18 +1,18 @@
 import type { Meta, StoryObj } from "@storybook/react"
 
-import BasicContentSection, { IBasicContent } from "./BasicContentSection"
+import PageInfoSection, { IPageInfoContent } from "./PageInfoSection"
 
-const meta: Meta<typeof BasicContentSection> = {
+const meta: Meta<typeof PageInfoSection> = {
   title: "ui/molecules/BasicContentSection",
-  component: BasicContentSection,
+  component: PageInfoSection,
 }
 
 export default meta
 
-type Story = StoryObj<typeof BasicContentSection>
+type Story = StoryObj<typeof PageInfoSection>
 
 export const Default: Story = {
-  render: (args) => <BasicContentSection {...args} />,
+  render: (args) => <PageInfoSection {...args} />,
   args: {
     title: "VIDEO PRODUCTION",
     textContent:

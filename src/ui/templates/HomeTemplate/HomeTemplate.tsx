@@ -5,17 +5,17 @@ import { getSocialLinks } from "../../molecules/Header/Header"
 
 import { INavLink, ISocialLinks } from "../../../types"
 import { ICrumb } from "../../molecules/Breadcrumbs/Breadcrumbs"
-import { SplitContentSection, BasicContentSection } from "../../molecules"
+import { SplitContentSection, PageInfoSection } from "../../molecules"
 
 // @types
 import { ISplitContent } from "../../molecules/SplitContentSection/SplitContentSection"
-import { IBasicContent } from "@/ui/molecules/BasicContentSection/BasicContentSection"
+import { IPageInfoContent } from "../../molecules/PageInfoSection/PageInfoSection"
 
 export interface DefaultTemplateProps extends ISocialLinks {
   crumbs: ICrumb[]
   headerLinks: INavLink[]
   footerLinks: INavLink[]
-  topCTAData: IBasicContent
+  topCTAData: IPageInfoContent
   videoData: ISplitContent
   webData: ISplitContent
   otherData: ISplitContent
@@ -41,7 +41,7 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
       footerLinks={footerLinks}
       {...getSocialLinks(props)}
     >
-      <BasicContentSection
+      <PageInfoSection
         title={topCTAData.title}
         textContent={topCTAData.textContent}
         buttonLink={topCTAData.buttonLink}

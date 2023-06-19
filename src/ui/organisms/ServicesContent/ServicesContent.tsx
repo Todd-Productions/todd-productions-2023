@@ -1,22 +1,22 @@
 import React from "react"
 
 import { Hero } from "../../atoms"
-import { SplitContentSection, BasicContentSection } from "../../molecules/"
+import { SplitContentSection, PageInfoSection } from "../../molecules/"
 import { UrlType } from "../../../types"
 import { ISplitContent } from "../../molecules/SplitContentSection/SplitContentSection"
-import { IBasicContent } from "../../molecules/BasicContentSection/BasicContentSection"
+import { IPageInfoContent } from "../../molecules/PageInfoSection/PageInfoSection"
 
-export interface ServicesContetProps {
+export interface ServicesContentProps {
   bannerImg: UrlType
   contentBlocks: ISplitContent[]
-  topCTAData: IBasicContent
+  topCTAData: IPageInfoContent
 }
 
-const ServicesContent: React.FC<ServicesContetProps> = (props) => {
+const ServicesContent: React.FC<ServicesContentProps> = (props) => {
   const { bannerImg, contentBlocks, topCTAData } = props
   return (
     <div>
-      <BasicContentSection
+      <PageInfoSection
         title={topCTAData.title}
         textContent={topCTAData.textContent}
         buttonText={topCTAData.buttonText}
