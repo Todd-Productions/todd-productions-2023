@@ -4,3 +4,4 @@ export { default as SectionSubHeading } from "./SectionSubHeading/SectionSubHead
 export { default as Wrapper } from "./Wrapper/Wrapper"
 export { default as Section } from "./Section/Section"
 export { default as Hero } from "./Hero/Hero"
+export { default as Input } from "./Input/Input"

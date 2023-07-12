@@ -2,10 +2,12 @@ import React from "react"
 
 export interface InputProps {
   label: string
+  placeholder: string
+  type?: "text" | "email"
 }
 
 const Input: React.FC<InputProps> = (props) => {
-  const { label } = props
+  const { label, placeholder, type } = { type: "text", ...props }
   return (
     <div className="bg-white p-20">
       <label
@@ -16,9 +18,10 @@ const Input: React.FC<InputProps> = (props) => {
       </label>
       <input
         className="rounded border border-solid border-gray-500 p-4 w-full"
-        type="text"
+        type={type}
         id="input"
         name="input"
+        placeholder={placeholder}
       />
     </div>
   )
