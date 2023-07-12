@@ -15,13 +15,15 @@ const SEOPricing: React.FC<SEOProps> = (props) => {
   return (
     <Section>
       <Wrapper>
-        <h2 className="text-center text-4xl font-normal">{title}</h2>
-        <div className="grid grid-cols-3 gap-x-8 my-12">
-          {packages.map((service) => (
-            <PricingCard service={service} />
-          ))}
+        <div className="my-20">
+          <h2 className="text-center text-5xl font-normal">{title}</h2>
+          <div className="grid grid-cols-3 gap-x-8 my-12">
+            {packages.map((service) => (
+              <PricingCard service={service} />
+            ))}
+          </div>
+          <div className="text-sm px-60">{description}</div>
         </div>
-        <div className="text-sm">{description}</div>
       </Wrapper>
     </Section>
   )

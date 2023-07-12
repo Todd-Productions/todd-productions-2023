@@ -1,7 +1,7 @@
 import React from "react"
 
 import { Hero } from "../../atoms"
-import { SplitContentSection, PageInfoSection } from "../../molecules/"
+import { SplitContentSection, PageInfoSection } from "../../molecules"
 import { UrlType } from "../../../types"
 import { ISplitContent } from "../../molecules/SplitContentSection/SplitContentSection"
 import { IPageInfoContent } from "../../molecules/PageInfoSection/PageInfoSection"
@@ -18,9 +18,8 @@ const ServicesContent: React.FC<ServicesContentProps> = (props) => {
     <div>
       <PageInfoSection
         title={topCTAData.title}
-        textContent={topCTAData.textContent}
-        buttonText={topCTAData.buttonText}
-        buttonLink={topCTAData.buttonLink}
+        description={topCTAData.description}
+        button={topCTAData.button}
       />
       {bannerImg && <Hero img={bannerImg} />}
       {contentBlocks.map((section) => (

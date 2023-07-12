@@ -15,10 +15,12 @@ export const Default: Story = {
   render: (args) => <PageInfoSection {...args} />,
   args: {
     title: "VIDEO PRODUCTION",
-    textContent:
+    description:
       "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
-    buttonLink: "/",
-    buttonText: "see video types",
+    button: {
+      link: "/",
+      label: "see video types",
+    },
     videoLink: "https://www.youtube.com/embed/u31qwQUeGuM",
   },
 }

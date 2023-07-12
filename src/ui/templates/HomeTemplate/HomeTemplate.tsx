@@ -15,13 +15,14 @@ export interface DefaultTemplateProps extends ISocialLinks {
   crumbs: ICrumb[]
   headerLinks: INavLink[]
   footerLinks: INavLink[]
+}
+
+export interface HomeTemplateProps extends DefaultTemplateProps {
   topCTAData: IPageInfoContent
   videoData: ISplitContent
   webData: ISplitContent
   otherData: ISplitContent
 }
-
-export interface HomeTemplateProps extends DefaultTemplateProps {}
 
 const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
   const {
@@ -43,9 +44,8 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
     >
       <PageInfoSection
         title={topCTAData.title}
-        textContent={topCTAData.textContent}
-        buttonLink={topCTAData.buttonLink}
-        buttonText={topCTAData.buttonText}
+        description={topCTAData.description}
+        button={topCTAData.button}
       />
 
       <SplitContentSection

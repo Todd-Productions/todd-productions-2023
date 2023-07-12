@@ -103,7 +103,7 @@ export const Default: Story = {
     ],
     topCTAData: {
       title: "e=mc2",
-      textContent: (
+      description: (
         <div>
           <p>In 1905, Einstein got it right. We’ve just modernized it.</p>
           <p>
@@ -120,8 +120,10 @@ export const Default: Story = {
           </p>
         </div>
       ),
-      buttonLink: "/",
-      buttonText: "connect with us",
+      button: {
+        link: "/",
+        label: "connect with us",
+      },
     },
   },
 }

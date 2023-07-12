@@ -28,7 +28,7 @@ const PricingCard: React.FC<PricingCardProps> = (props) => {
         <div className="text-6xl font-extrabold pb-2">${service.price}</div>
         <div>{service.priceFrequency}</div>
       </div>
-      <ul className="my-8 pl-6 pr-4 list-disc leading-8">
+      <ul className="my-8 pl-12 pr-4 list-disc leading-8 text-left">
         {service.highlights.map((item) => (
           <li className="pb-2">{item}</li>
         ))}

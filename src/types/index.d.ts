@@ -22,3 +22,8 @@ export interface IPricingCard {
   priceFrequency: string
   highlights: string[]
 }
+
+export interface IButton {
+  label: string
+  link: UrlType
+}

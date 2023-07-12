@@ -2,14 +2,13 @@ import React, { ReactNode } from "react"
 import Link from "next/link"
 
 import { Button, SectionHeading, Section, Wrapper } from "../../atoms"
-import { UrlType } from "../../../types"
+import { UrlType, IButton } from "../../../types"
 import "./pageinfosection.css"
 
 export interface IPageInfoContent {
   title: string
-  textContent: ReactNode
-  buttonLink: UrlType
-  buttonText: string
+  description: ReactNode
+  button: IButton
   videoLink?: UrlType
 }
 
@@ -17,18 +16,17 @@ export interface SplitContentProps extends IPageInfoContent {}
 
 const PageInfoSection: React.FC<SplitContentProps> = ({
   title,
-  textContent,
-  buttonLink,
-  buttonText,
+  description,
+  button,
   videoLink,
 }) => (
   <Section>
     <Wrapper>
-      <div className="grid gap-10 md:gap-20 grid-cols-1 md:grid-cols-[1fr_3fr] px-10">
+      <div className="grid gap-10 md:gap-20 grid-cols-1 md:grid-cols-[1fr_3fr] ">
         <div className="order-3 md:order-1">
           <SectionHeading>{title}</SectionHeading>
-          <Link href={buttonLink}>
-            <Button fullWidth>{buttonText}</Button>
+          <Link href={button.link}>
+            <Button fullWidth>{button.label}</Button>
           </Link>
         </div>
         {videoLink ? (
@@ -41,7 +39,7 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
             />
           </div>
         ) : null}
-        <div className="leading-6 order-1 md:order-2">{textContent}</div>
+        <div className="leading-6 order-1 md:order-2">{description}</div>
       </div>
     </Wrapper>
   </Section>
