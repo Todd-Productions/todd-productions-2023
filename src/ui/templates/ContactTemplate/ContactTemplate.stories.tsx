@@ -16,12 +16,8 @@ export const Default: Story = {
     ...ContactTemplate.defaultProps,
     crumbs: [
       {
-        label: "Home",
-        url: "/",
-      },
-      {
-        label: "Video Production",
-        url: "/video",
+        label: "contact us",
+        url: "/contact-us",
       },
     ],
     facebook: "https://facebook",
@@ -77,5 +73,10 @@ export const Default: Story = {
         url: "/",
       },
     ],
+    title: "let's talk business",
+    description:
+      "We appreciate your visit to our website. We look forward to hearing from you. Give us a call or email us... whatever is convenient for you.",
+    email: "contact@toddprod.com",
+    phone: "419-290-0794",
   },
 }

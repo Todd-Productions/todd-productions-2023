@@ -20,7 +20,7 @@ const ContactSection: React.FC<ContactProps> = (props) => {
   return (
     <Section>
       <Wrapper>
-        <div className="grid grid-cols-2 gap-x-20">
+        <div className="grid px-6 md:px-0 md:grid-cols-2 gap-x-20">
           <ContactContent
             title={title}
             description={description}
