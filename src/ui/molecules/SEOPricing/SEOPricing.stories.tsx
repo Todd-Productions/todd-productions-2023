@@ -14,6 +14,9 @@ type Story = StoryObj<typeof SEOPricing>
 export const Default: Story = {
   render: (args) => <SEOPricing {...args} />,
   args: {
+    title: "OUR SEO MAINTENANCE PACKAGES",
+    description:
+      "* All Todd Productions Inc. SEO maintenance packages required initial setup fee. Setup SEO will include research site structure, initial keyword research, third party service setup (such as Google Business and Yelp), and other setup processes. Please contact Todd Productions Inc. for initial setup cost.",
     packages: [
       {
         type: "PROFESSIONAL",

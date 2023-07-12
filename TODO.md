@@ -3,7 +3,7 @@
 # Molecules
 - [ ] Content/Video area (title, connect with us btn, description, video), use PageInfoSection for title, btn, desc
 - [ ] Samples area (use SampleCard)
-- [ ] Pricing area (use PricingCard)
+- [x] Pricing area (use PricingCard)
 
 
 # Misc

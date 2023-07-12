@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Section, Wrapper, SectionHeading, PricingCard } from "../../atoms"
+import { Section, Wrapper, PricingCard } from "../../atoms"
 import { IPricingCard } from "../../../types"
 
 export interface SEOProps {
@@ -15,13 +15,13 @@ const SEOPricing: React.FC<SEOProps> = (props) => {
   return (
     <Section>
       <Wrapper>
-        <SectionHeading>{title}</SectionHeading>
-        <div>
+        <h2 className="text-center text-4xl font-normal">{title}</h2>
+        <div className="grid grid-cols-3 gap-x-8 my-12">
           {packages.map((service) => (
             <PricingCard service={service} />
           ))}
         </div>
-        <div>{description}</div>
+        <div className="text-sm">{description}</div>
       </Wrapper>
     </Section>
   )

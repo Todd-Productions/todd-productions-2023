@@ -7,3 +7,4 @@ export { default as SplitContentSection } from "./SplitContentSection/SplitConte
 export { default as PageInfoSection } from "./PageInfoSection/PageInfoSection"
 export { default as ContactForm } from "./ContactForm/ContactForm"
 export { default as ContactContent } from "./ContactContent/ContactContent"
+export { default as SEOPricing } from "./SEOPricing/SEOPricing"
