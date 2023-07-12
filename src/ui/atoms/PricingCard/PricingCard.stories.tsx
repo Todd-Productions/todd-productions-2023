@@ -14,14 +14,15 @@ type Story = StoryObj<typeof PricingCard>
 export const Default: Story = {
   render: (args: any) => <PricingCard {...args} />,
   args: {
-    ...PricingCard.defaultProps,
-    type: "PROFESSIONAL",
-    price: "150",
-    price_frequency: "every month",
-    highlights: [
-      "Keyword research based on site analytical data",
-      "Adjustment of HTML tags including title and meta",
-      "Increased MONTHLY updates for higher rankings",
-    ],
+    service: {
+      type: "PROFESSIONAL",
+      price: "150",
+      priceFrequency: "a month",
+      highlights: [
+        "Keyword research based on site analytical data",
+        "Adjustment of HTML tags including title and meta",
+        "Increased MONTHLY updates for higher rankings",
+      ],
+    },
   },
 }

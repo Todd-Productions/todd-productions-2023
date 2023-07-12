@@ -14,3 +14,11 @@ export interface ISocialLinks {
   instagram?: string
   twitter?: string
 }
+
+// SEO Page
+export interface IPricingCard {
+  type: "PROFESSIONAL" | "ADVANCED" | "STANDARD"
+  price: string
+  priceFrequency: string
+  highlights: string[]
+}

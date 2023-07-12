@@ -14,16 +14,7 @@ type Story = StoryObj<typeof HomeTemplate>
 export const Default: Story = {
   args: {
     ...HomeTemplate.defaultProps,
-    crumbs: [
-      {
-        label: "Home",
-        url: "/",
-      },
-      {
-        label: "Video Production",
-        url: "/video",
-      },
-    ],
+
     facebook: "https://facebook",
     twitter: "https://facebook",
     youtube: "https://facebook",
