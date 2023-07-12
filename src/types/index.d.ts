@@ -27,3 +27,9 @@ export interface IButton {
   label: string
   link: UrlType
 }
+
+export interface ISampleCard {
+  title: string
+  img: string | UrlObject
+  url: string
+}

@@ -1,26 +1,24 @@
 import React from "react"
-import { UrlObject } from "url"
 import Image from "next/image"
 import Link from "next/link"
 
+import { ISampleCard } from "../../../types"
 import "./samplecard.css"
 
 export interface SampleCardProps {
-  title: string
-  img: string | UrlObject
-  url: string
+  card: ISampleCard
 }
 
 const SampleCard: React.FC<SampleCardProps> = (props) => {
-  const { title, img, url } = props
+  const { card } = props
 
   return (
     <div className="sample-card">
-      <Link href={url}>
-        <div className="title">{title}</div>
+      <Link href={card.url}>
+        <div className="title">{card.title}</div>
       </Link>
-      <div className="overlay"></div>
-      <Image className="" src={img as string} fill alt={title} />
+      <div className="overlay" />
+      <Image className="" src={card.img as string} fill alt={card.title} />
     </div>
   )
 }
