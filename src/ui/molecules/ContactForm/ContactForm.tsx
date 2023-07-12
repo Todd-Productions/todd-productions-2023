@@ -12,7 +12,6 @@ type Inputs = {
 export interface ContactFormProps {}
 
 const ContactForm: React.FC<ContactFormProps> = (props) => {
-  const {} = props
   const {
     register,
     handleSubmit,
@@ -34,7 +33,7 @@ const ContactForm: React.FC<ContactFormProps> = (props) => {
         {...register("email", { required: true })}
       />
 
-      <div className="bg-white p-20">
+      <div className="bg-white pb-4">
         <label
           className="uppercase font-bold text-blue-500 py-4 radius-2 w-full block"
           htmlFor="message"
@@ -53,7 +52,7 @@ const ContactForm: React.FC<ContactFormProps> = (props) => {
       )}
 
       <div className="text-center">
-        <Button color="primary" type="submit">
+        <Button color="primary" type="submit" fullWidth>
           contact us
         </Button>
       </div>

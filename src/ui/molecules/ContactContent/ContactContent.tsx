@@ -29,7 +29,7 @@ const ContactContent: React.FC<ContactContentProps> = (props) => {
     <div>
       <SectionHeading>{title}</SectionHeading>
       <p className="mt-4">{description}</p>
-      <div className="mt-4 mb-10">
+      <div className="mt-4 mb-12">
         <div className="pb-1">
           <b className="text-grey-600">Email: </b>
           <a href={`mailto: ${email}`} className="inline hover:underline">
@@ -44,13 +44,17 @@ const ContactContent: React.FC<ContactContentProps> = (props) => {
         </div>
       </div>
 
-      <h3 className="text-xl font-bold mb-6">Connect With Us</h3>
-      <Social
-        facebook={facebook}
-        linkedin={linkedin}
-        instagram={instagram}
-        twitter={twitter}
-      />
+      <h3 className="text-grey-600 text-2xl font-normal mb-6">
+        Connect With Us
+      </h3>
+      <div>
+        <Social
+          facebook={facebook}
+          linkedin={linkedin}
+          instagram={instagram}
+          twitter={twitter}
+        />
+      </div>
     </div>
   )
 }
