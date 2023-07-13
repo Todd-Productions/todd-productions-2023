@@ -1,6 +1,8 @@
 import React from "react"
+import cns from "classnames"
 
 import { IPricingCard } from "../../../types"
+import "./pricingcard.css"
 
 const borderColors: { [key: string]: string } = {
   PROFESSIONAL: "red",
@@ -17,11 +19,16 @@ const PricingCard: React.FC<PricingCardProps> = (props) => {
 
   return (
     <div
-      className={`grid text-center bg-white shadow-xl drop-shadow-xl border-b-8 border-solid border-${
-        borderColors[service.type]
-      }-500`}
+      className={cns(
+        "grid text-center bg-white shadow-xl drop-shadow-xl border-b-8 border-solid",
+        { [`${borderColors[service.type]}-border`]: service.type }
+      )}
     >
-      <div className={`bg-${borderColors[service.type]}-500 text-white py-4`}>
+      <div
+        className={cns("text-white py-4", {
+          [`${borderColors[service.type]}`]: service.type,
+        })}
+      >
         {service.type}
       </div>
       <div className="py-16 border-b border-l border-r border-solid border-grey-500">

@@ -1,0 +1,23 @@
+.red {
+  background-color: var(--tp-color-red-500);
+}
+
+.red-border {
+  border-bottom: 10px solid var(--tp-color-red-500);
+}
+
+.blue {
+  background-color: var(--tp-color-blue-500);
+}
+
+.blue-border {
+  border-bottom: 10px solid var(--tp-color-blue-500);
+}
+
+.grey {
+  background-color: var(--tp-color-grey-600);
+}
+
+.grey-border {
+  border-bottom: 10px solid var(--tp-color-grey-600);
+}

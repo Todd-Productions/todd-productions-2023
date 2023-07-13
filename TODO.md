@@ -1,5 +1,4 @@
 # Atoms
-- [ ] PricingCard color issue with borders (might be sb)
 
 # Molecules
 - [ ] Samples area (use SampleCard)
