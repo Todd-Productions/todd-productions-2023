@@ -16,6 +16,10 @@ export const Default: Story = {
     ...ContactTemplate.defaultProps,
     crumbs: [
       {
+        label: "Home",
+        url: "/",
+      },
+      {
         label: "contact us",
         url: "/contact-us",
       },

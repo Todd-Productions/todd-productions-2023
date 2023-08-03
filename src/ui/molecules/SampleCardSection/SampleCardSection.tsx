@@ -13,9 +13,9 @@ const SampleCards: React.FC<SampleCardsProps> = (props) => {
 
   return (
     <Section>
-      <SimpleSectionHeading>{title}</SimpleSectionHeading>
       <Wrapper>
-        <div className="grid grid-cols-3 gap-y-4">
+        <SimpleSectionHeading>{title}</SimpleSectionHeading>
+        <div className="grid grid-cols-3 gap-y-4 place-items-center">
           {cards.map((card) => (
             <SampleCard card={card} />
           ))}

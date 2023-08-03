@@ -1,33 +1,22 @@
 import React from "react"
 
-import { MainLayout } from "../../organisms"
-import { getSocialLinks } from "../../molecules/Header/Header"
+import { MainLayout, ServicesContent } from "../../organisms"
+import {
+  getMainLayoutProps,
+  DefaultTemplateProps,
+} from "../HomeTemplate/HomeTemplate"
 
-import { DefaultTemplateProps } from "../HomeTemplate/HomeTemplate"
 import { ServicesContentProps } from "../../organisms/ServicesContent/ServicesContent"
-import { ServicesContent } from "../../organisms"
 
 export interface ServiceTemplateProps
   extends DefaultTemplateProps,
     ServicesContentProps {}
 
 const ServiceTemplate: React.FC<ServiceTemplateProps> = (props) => {
-  const {
-    crumbs,
-    headerLinks,
-    footerLinks,
-    bannerImg,
-    contentBlocks,
-    topCTAData,
-  } = props
+  const { bannerImg, contentBlocks, topCTAData } = props
 
   return (
-    <MainLayout
-      crumbs={crumbs}
-      headerLinks={headerLinks}
-      footerLinks={footerLinks}
-      {...getSocialLinks(props)}
-    >
+    <MainLayout {...getMainLayoutProps(props)}>
       <ServicesContent
         bannerImg={bannerImg}
         topCTAData={topCTAData}

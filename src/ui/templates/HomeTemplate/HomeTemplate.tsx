@@ -24,24 +24,18 @@ export interface HomeTemplateProps extends DefaultTemplateProps {
   otherData: ISplitContent
 }
 
+export const getMainLayoutProps = (data: DefaultTemplateProps) => ({
+  crumbs: data.crumbs,
+  headerLinks: data.headerLinks,
+  footerLinks: data.footerLinks,
+  ...getSocialLinks(data),
+})
+
 const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
-  const {
-    crumbs,
-    headerLinks,
-    footerLinks,
-    topCTAData,
-    videoData,
-    webData,
-    otherData,
-  } = props
+  const { topCTAData, videoData, webData, otherData } = props
 
   return (
-    <MainLayout
-      crumbs={crumbs}
-      headerLinks={headerLinks}
-      footerLinks={footerLinks}
-      {...getSocialLinks(props)}
-    >
+    <MainLayout {...getMainLayoutProps(props)}>
       <PageInfoSection
         title={topCTAData.title}
         description={topCTAData.description}

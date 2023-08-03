@@ -2,9 +2,11 @@ import React from "react"
 
 import { PageInfoSection, SEOPricing } from "../../molecules"
 import { MainLayout } from "../../organisms"
-import { getSocialLinks } from "../../molecules/Header/Header"
+import {
+  getMainLayoutProps,
+  DefaultTemplateProps,
+} from "../HomeTemplate/HomeTemplate"
 
-import { DefaultTemplateProps } from "../HomeTemplate/HomeTemplate"
 import { IButton, IPricingCard, UrlType } from "../../../types"
 
 export interface SEOTemplateProps extends DefaultTemplateProps {
@@ -19,9 +21,6 @@ export interface SEOTemplateProps extends DefaultTemplateProps {
 
 const SEOTemplate: React.FC<SEOTemplateProps> = (props) => {
   const {
-    crumbs,
-    headerLinks,
-    footerLinks,
     title,
     description,
     videoBtn,
@@ -32,12 +31,7 @@ const SEOTemplate: React.FC<SEOTemplateProps> = (props) => {
   } = props
 
   return (
-    <MainLayout
-      crumbs={crumbs}
-      headerLinks={headerLinks}
-      footerLinks={footerLinks}
-      {...getSocialLinks(props)}
-    >
+    <MainLayout {...getMainLayoutProps(props)}>
       <PageInfoSection
         title={title}
         description={description}

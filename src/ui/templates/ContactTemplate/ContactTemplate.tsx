@@ -1,9 +1,11 @@
 import React from "react"
 
 import { MainLayout, ContactSection } from "../../organisms"
-import { getSocialLinks } from "../../molecules/Header/Header"
 
-import { DefaultTemplateProps } from "../HomeTemplate/HomeTemplate"
+import {
+  DefaultTemplateProps,
+  getMainLayoutProps,
+} from "../HomeTemplate/HomeTemplate"
 import { ContactProps } from "../../organisms/ContactSection/ContactSection"
 
 export interface ContactTemplateProps
@@ -12,9 +14,6 @@ export interface ContactTemplateProps
 
 const ContactTemplate: React.FC<ContactTemplateProps> = (props) => {
   const {
-    crumbs,
-    headerLinks,
-    footerLinks,
     title,
     description,
     email,
@@ -26,12 +25,7 @@ const ContactTemplate: React.FC<ContactTemplateProps> = (props) => {
   } = props
 
   return (
-    <MainLayout
-      crumbs={crumbs}
-      headerLinks={headerLinks}
-      footerLinks={footerLinks}
-      {...getSocialLinks(props)}
-    >
+    <MainLayout {...getMainLayoutProps(props)}>
       <ContactSection
         title={title}
         description={description}

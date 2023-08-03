@@ -3,9 +3,11 @@ import React from "react"
 import { Hero } from "../../atoms"
 import { PageInfoSection, SampleCardSection } from "../../molecules"
 import { MainLayout } from "../../organisms"
-import { getSocialLinks } from "../../molecules/Header/Header"
+import {
+  getMainLayoutProps,
+  DefaultTemplateProps,
+} from "../HomeTemplate/HomeTemplate"
 
-import { DefaultTemplateProps } from "../HomeTemplate/HomeTemplate"
 import { ISampleCard } from "../../../types"
 import { IPageInfoContent } from "../../molecules/PageInfoSection/PageInfoSection"
 
@@ -17,23 +19,10 @@ export interface SampleTemplateProps extends DefaultTemplateProps {
 }
 
 const SampleTemplate: React.FC<SampleTemplateProps> = (props) => {
-  const {
-    crumbs,
-    headerLinks,
-    footerLinks,
-    samples,
-    samplesTitle,
-    topCTAData,
-    bannerImg,
-  } = props
+  const { samples, samplesTitle, topCTAData, bannerImg } = props
 
   return (
-    <MainLayout
-      crumbs={crumbs}
-      headerLinks={headerLinks}
-      footerLinks={footerLinks}
-      {...getSocialLinks(props)}
-    >
+    <MainLayout {...getMainLayoutProps(props)}>
       <PageInfoSection
         title={topCTAData.title}
         description={topCTAData.description}
