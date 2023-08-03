@@ -1,12 +1,6 @@
 .sample-card {
-  position: relative;
-  background-color: transparent;
   height: 400px;
   width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(2, 2, 110, 0.5);
 }
 
 .sample-card:hover {
@@ -19,20 +13,14 @@
   object-fit: cover;
 }
 
+.title {
+  text-shadow: 2px 2px 3px rgba(1, 94, 156, 0.815);
+}
+
 .overlay {
   height: 100%;
   width: 100%;
-  background: rgba(33, 74, 101, 0.692);
+  background: rgba(0, 88, 146, 0.692);
   position: absolute;
   z-index: 1;
-}
-
-.title {
-  z-index: 2;
-  text-shadow: 2px 2px 3px rgb(33, 74, 101);
-  position: relative;
-  font-weight: bolder;
-  font-size: 2.5rem;
-  color: #fff;
-  text-align: center;
 }

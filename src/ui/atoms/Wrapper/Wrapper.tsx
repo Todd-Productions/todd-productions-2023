@@ -6,7 +6,7 @@ export interface WrapperProps {
 
 const Wrapper: React.FC<WrapperProps> = (props) => {
   const { children } = props
-  return <div className="container mx-auto">{children}</div>
+  return <div className="px-2 mx-auto">{children}</div>
 }
 
 export default Wrapper

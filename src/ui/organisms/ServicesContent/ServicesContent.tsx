@@ -2,12 +2,11 @@ import React from "react"
 
 import { Hero } from "../../atoms"
 import { SplitContentSection, PageInfoSection } from "../../molecules"
-import { UrlType } from "../../../types"
 import { ISplitContent } from "../../molecules/SplitContentSection/SplitContentSection"
 import { IPageInfoContent } from "../../molecules/PageInfoSection/PageInfoSection"
 
 export interface ServicesContentProps {
-  bannerImg: UrlType
+  bannerImg: string
   contentBlocks: ISplitContent[]
   topCTAData: IPageInfoContent
 }

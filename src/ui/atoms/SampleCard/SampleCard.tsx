@@ -14,16 +14,20 @@ const SampleCard: React.FC<SampleCardProps> = (props) => {
 
   return (
     <div className="sample-card">
-      <Link href={card.url}>
-        <div className="title">{card.title}</div>
+      <Link className="bg-white w-fit" href={card.url}>
+        <div className="h-full relative flex items-center justify-center text-center px-4">
+          <div className="title relative z-10 font-bold text-white text-4xl">
+            {card.title}
+          </div>
+          <div className="overlay" />
+          <Image
+            className="card-img"
+            src={card.img as string}
+            fill
+            alt={card.title}
+          />
+        </div>
       </Link>
-      <div className="overlay" />
-      <Image
-        className="card-img"
-        src={card.img as string}
-        fill
-        alt={card.title}
-      />
     </div>
   )
 }
