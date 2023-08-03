@@ -18,7 +18,12 @@ const SampleCard: React.FC<SampleCardProps> = (props) => {
         <div className="title">{card.title}</div>
       </Link>
       <div className="overlay" />
-      <Image className="" src={card.img as string} fill alt={card.title} />
+      <Image
+        className="card-img"
+        src={card.img as string}
+        fill
+        alt={card.title}
+      />
     </div>
   )
 }
