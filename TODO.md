@@ -1,11 +1,14 @@
-# Atoms
-
-# Molecules
-- [x] Samples area (use SampleCard)
-- [x] Pricing area (use PricingCard)
+# Pages
+- [ ] Home
+- [ ] Contact Us
+- [ ] Other Services
+- [ ] Video Production
+- [ ] Web Services
 
 # Templates
 - [x] SampleTemplate
+- [ ] CategoryTemplate (find best implementation, this template structure changes)
 
 # Misc
+- [ ] Make getSplitContentProps
 - [ ] Add 'active' key to crumbs
