@@ -4,7 +4,7 @@
 }
 
 .hamburger > * {
-  background-color: black;
+  background-color: rgb(148, 149, 153);
   height: 4px;
   width: 35px;
   margin-bottom: 6px;

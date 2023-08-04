@@ -28,8 +28,8 @@ const Header: React.FC<HeaderProps> = (props) => {
   return (
     <header className="bg-white w-full box-border text-grey-600 py-6">
       <Wrapper>
-        <div className="lg:grid content-center items-center gap-4 h-full relative grid-cols-[1fr_118px_1fr]">
-          <div className="burder-container">
+        <div className="grid md:inline lg:grid content-center items-center gap-4 h-full relative grid-cols-[1fr_118px_1fr]">
+          <div className="md:hidden">
             <Hamburger on={isOpen} onClick={onHamburgerClick} />
           </div>
           <div className="hidden md:flex justify-start lg:justify-center">
@@ -50,7 +50,7 @@ const Header: React.FC<HeaderProps> = (props) => {
               />
             </Link>
           </div>
-          <div className="px-4 h-full">
+          <div className="px-4 h-full hidden md:block">
             <Nav links={links} />
           </div>
         </div>

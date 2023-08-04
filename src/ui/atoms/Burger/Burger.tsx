@@ -1,6 +1,6 @@
 import React from "react"
 
-import "./hamburger.css"
+import "./burger.css"
 
 export interface HamburgerProps {
   on?: boolean
