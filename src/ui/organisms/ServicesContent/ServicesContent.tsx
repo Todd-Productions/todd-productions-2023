@@ -1,4 +1,5 @@
 import React from "react"
+import slugify from "slugify"
 
 import { Hero } from "../../atoms"
 import { SplitContentSection, PageInfoSection } from "../../molecules"
@@ -31,6 +32,7 @@ const ServicesContent: React.FC<ServicesContentProps> = (props) => {
           buttonText={section.buttonText}
           buttonLink={section.buttonLink}
           imgleft={section.imgleft}
+          key={slugify(section.title)}
         />
       ))}
     </div>

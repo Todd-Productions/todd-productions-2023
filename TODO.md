@@ -1,14 +1,17 @@
 # Add template to page
 - [x] Home
-- [ ] Contact Us
-- [ ] Other Services
-- [ ] Video Production
-- [ ] Web Services
+- [x] Contact Us
+- [x] Other Services
+- [x] Video Production
+- [x] Web Services
+- [x] Web SEO
+- [ ] Category Pages
 
 # Templates
 - [x] SampleTemplate
-- [ ] CategoryTemplate (find best implementation, this template structure changes)
+- [ ] CategoryTemplate, SimpleTemplate (will only use PageInfoSection, is used on some category pages)
 
 # Misc
+- [ ] Fix getDefaultProps
 - [ ] Make getSplitContentProps
 - [ ] Add 'active' key to crumbs

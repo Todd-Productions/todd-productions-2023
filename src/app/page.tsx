@@ -3,17 +3,17 @@
 import { HomeTemplate } from "../ui/templates"
 
 import { navLinks, footerLinks } from "../../siteMeta"
-import { DefaultTemplateProps } from "../ui/templates/HomeTemplate/HomeTemplate"
 
-export const getDefaultTemplateProps = (): DefaultTemplateProps => ({
-  facebook: "/",
-  twitter: "/",
-  youtube: "/",
-  instagram: "/",
-  linkedin: "/",
-  headerLinks: navLinks,
-  footerLinks,
-})
+// causes error
+// export const getDefaultTemplateProps = (): DefaultTemplateProps => ({
+//   facebook: "/",
+//   twitter: "/",
+//   youtube: "/",
+//   instagram: "/",
+//   linkedin: "/",
+//   headerLinks: navLinks,
+//   footerLinks,
+// })
 
 const HomePage = () => (
   <HomeTemplate
@@ -71,7 +71,8 @@ const HomePage = () => (
       buttonLink: "/",
       buttonText: "see video types",
     }}
-    {...getDefaultTemplateProps()}
+    headerLinks={navLinks}
+    footerLinks={footerLinks}
   />
 )
 
