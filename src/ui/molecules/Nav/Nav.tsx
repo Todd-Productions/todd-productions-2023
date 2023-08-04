@@ -4,7 +4,7 @@ import slugify from "slugify"
 
 import "./nav.css"
 
-import { INavLink } from "@/types"
+import { INavLink } from "../../../types"
 
 export interface NavProps {
   links: INavLink[]

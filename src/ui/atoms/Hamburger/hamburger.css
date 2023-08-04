@@ -1,0 +1,11 @@
+.hamburger {
+  height: 25px;
+  width: 25px;
+}
+
+.hamburger > * {
+  background-color: black;
+  height: 4px;
+  width: 35px;
+  margin-bottom: 6px;
+}

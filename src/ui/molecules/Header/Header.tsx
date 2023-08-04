@@ -4,12 +4,14 @@ import Link from "next/link"
 
 import { INavLink, ISocialLinks } from "@/types"
 
-import { Wrapper } from "../../atoms"
+import { Wrapper, Hamburger } from "../../atoms"
 import Social from "../Social/Social"
 import Nav from "../Nav/Nav"
 
 export interface HeaderProps extends ISocialLinks {
   links: INavLink[]
+  isOpen: boolean
+  onHamburgerClick?: () => void
 }
 
 export const getSocialLinks = (props: ISocialLinks): ISocialLinks => ({
@@ -21,12 +23,15 @@ export const getSocialLinks = (props: ISocialLinks): ISocialLinks => ({
 })
 
 const Header: React.FC<HeaderProps> = (props) => {
-  const { links } = props
+  const { links, isOpen, onHamburgerClick } = props
 
   return (
     <header className="bg-white w-full box-border text-grey-600 py-6">
       <Wrapper>
         <div className="lg:grid content-center items-center gap-4 h-full relative grid-cols-[1fr_118px_1fr]">
+          <div className="burder-container">
+            <Hamburger on={isOpen} onClick={onHamburgerClick} />
+          </div>
           <div className="hidden md:flex justify-start lg:justify-center">
             <Social {...getSocialLinks(props)} echo />
           </div>
