@@ -12,7 +12,7 @@ import { ISplitContent } from "../../molecules/SplitContentSection/SplitContentS
 import { IPageInfoContent } from "../../molecules/PageInfoSection/PageInfoSection"
 
 export interface DefaultTemplateProps extends ISocialLinks {
-  crumbs: ICrumb[]
+  crumbs?: ICrumb[]
   headerLinks: INavLink[]
   footerLinks: INavLink[]
 }

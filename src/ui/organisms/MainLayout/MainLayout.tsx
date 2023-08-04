@@ -11,7 +11,7 @@ import Breadcrumbs, { ICrumb } from "../../molecules/Breadcrumbs/Breadcrumbs"
 
 export interface MainLayoutProps extends ISocialLinks {
   children?: ReactNode
-  crumbs: ICrumb[]
+  crumbs?: ICrumb[]
   headerLinks: INavLink[]
   footerLinks: INavLink[]
 }

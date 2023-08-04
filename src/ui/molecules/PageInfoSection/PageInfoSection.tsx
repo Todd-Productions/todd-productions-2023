@@ -12,7 +12,7 @@ export interface IPageInfoContent {
   videoLink?: UrlType
 }
 
-export interface SplitContentProps extends IPageInfoContent {}
+type SplitContentProps = IPageInfoContent
 
 const PageInfoSection: React.FC<SplitContentProps> = ({
   title,
@@ -23,7 +23,7 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
   <Section>
     <Wrapper>
       <div className="grid gap-10 md:gap-20 grid-cols-1 md:grid-cols-[1fr_3fr] ">
-        <div className="order-3 md:order-1">
+        <div className="header-container order-3 md:order-1">
           <SectionHeading>{title}</SectionHeading>
           <Link href={button.link}>
             <Button fullWidth>{button.label}</Button>

@@ -14,3 +14,13 @@
   height: 100%;
   float: left;
 }
+
+.header-container:first-child > h2 {
+  margin-left: 30px;
+}
+
+@screen md {
+  .header-container:first-child > h2 {
+    margin-left: 0;
+  }
+}
