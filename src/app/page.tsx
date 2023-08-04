@@ -6,6 +6,8 @@ import {
   Wrapper,
 } from "@/ui/atoms"
 
+// import { HomeTemplate } from "../ui/templates"
+
 const HomePage = () => (
   <main>
     <Section>
