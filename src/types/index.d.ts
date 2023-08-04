@@ -15,6 +15,11 @@ export interface ISocialLinks {
   twitter?: string
 }
 
+export interface ISEOMeta {
+  seoTitle: string | null
+  seoDescription: string | null
+}
+
 // SEO Page
 export interface IPricingCard {
   type: "PROFESSIONAL" | "ADVANCED" | "STANDARD"

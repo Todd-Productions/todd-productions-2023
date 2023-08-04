@@ -1,5 +1,5 @@
-# Pages
-- [ ] Home
+# Add template to page
+- [x] Home
 - [ ] Contact Us
 - [ ] Other Services
 - [ ] Video Production

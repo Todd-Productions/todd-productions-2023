@@ -1,7 +1,17 @@
 "use client"
 
 import { HomeTemplate } from "../ui/templates"
-import { getMainLayoutProps } from "../ui/templates/HomeTemplate/HomeTemplate"
+
+import { navLinks, footerLinks } from "../../siteMeta"
+
+// export const getDefaultProps = (data: any) => ({
+//   title: data.seoTitle,
+//   description: data.seoDescription,
+//   crumbs: data.crumbs,
+//   headerLinks: navLinks,
+//   footerLinks,
+//   socialLinks,
+// })
 
 const HomePage = () => (
   <HomeTemplate
@@ -59,61 +69,8 @@ const HomePage = () => (
       buttonLink: "/",
       buttonText: "see video types",
     }}
-    {...getMainLayoutProps({
-      facebook: "https://facebook",
-      twitter: "https://facebook",
-      youtube: "https://facebook",
-      instagram: "https://facebook",
-      linkedin: "https://facebook",
-      headerLinks: [
-        {
-          label: "Video",
-          url: "/",
-        },
-        {
-          label: "Web",
-          url: "/",
-        },
-        {
-          label: "Other",
-          url: "/",
-        },
-        {
-          label: "Who We Are",
-          url: "/",
-        },
-        {
-          label: "Contact",
-          url: "/",
-        },
-      ],
-      footerLinks: [
-        {
-          label: "Home",
-          url: "/",
-        },
-        {
-          label: "Video Production",
-          url: "/",
-        },
-        {
-          label: "Web Services",
-          url: "/",
-        },
-        {
-          label: "Other",
-          url: "/",
-        },
-        {
-          label: "Who We Are",
-          url: "/",
-        },
-        {
-          label: "Contact Us",
-          url: "/",
-        },
-      ],
-    })}
+    footerLinks={footerLinks}
+    headerLinks={navLinks}
   />
 )
 
