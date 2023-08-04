@@ -14,14 +14,14 @@ export interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = (props) => {
   const { type, children, fullWidth, color } = props
-
   return (
     <button
-      type={type}
+      /* eslint-disable react/button-has-type */
+      type={type || "button"}
       className={cns(
         "border-0 bg-transparent transition-all text-base md:text-base text-sm px-12 py-3 text-center duration-300 lowercase leading-6 no-underline disabled:opacity-50 disabled:cursor-default hover:cursor-pointer hover:no-underline",
         {
-          [`btn-${color}`]: true,
+          [`btn-${color ?? "primary"}`]: true,
           "btn-block": fullWidth,
         }
       )}
@@ -29,11 +29,6 @@ const Button: React.FC<ButtonProps> = (props) => {
       {children}
     </button>
   )
-}
-
-Button.defaultProps = {
-  type: "button",
-  color: "default",
 }
 
 export default Button
