@@ -47,7 +47,7 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
         subTitle={videoData.subTitle}
         textContent={videoData.textContent}
         buttonLink={videoData.buttonLink}
-        buttonText={videoData.buttonText}
+        buttonLabel={videoData.buttonLabel}
         imageSrc={videoData.imageSrc}
         imageAlt={videoData.imageAlt}
         imgleft
@@ -58,7 +58,7 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
         subTitle={webData.subTitle}
         textContent={webData.textContent}
         buttonLink={webData.buttonLink}
-        buttonText={webData.buttonText}
+        buttonLabel={webData.buttonLabel}
         imageSrc={webData.imageSrc}
         imageAlt={webData.imageAlt}
       />
@@ -68,7 +68,7 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
         subTitle={otherData.subTitle}
         textContent={otherData.textContent}
         buttonLink={otherData.buttonLink}
-        buttonText={otherData.buttonText}
+        buttonLabel={otherData.buttonLabel}
         imageSrc={otherData.imageSrc}
         imageAlt={otherData.imageAlt}
         imgleft

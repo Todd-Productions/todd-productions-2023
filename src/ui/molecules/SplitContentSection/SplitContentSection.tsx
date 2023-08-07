@@ -11,7 +11,7 @@ export interface ISplitContent {
   subTitle: string
   textContent: string
   buttonLink: string
-  buttonText: string
+  buttonLabel: string
   imgleft?: boolean
 }
 
@@ -24,7 +24,7 @@ const SplitContentSection: React.FC<SplitContentProps> = ({
   subTitle,
   textContent,
   buttonLink,
-  buttonText,
+  buttonLabel,
   imgleft,
 }) => {
   const gridColSizes = imgleft
@@ -45,7 +45,7 @@ const SplitContentSection: React.FC<SplitContentProps> = ({
           <SectionSubHeading>{subTitle}</SectionSubHeading>
           <div className="mb-12 leading-9">{textContent}</div>
           <Link href={buttonLink}>
-            <Button fullWidth>{buttonText}</Button>
+            <Button fullWidth>{buttonLabel}</Button>
           </Link>
         </div>
       </div>

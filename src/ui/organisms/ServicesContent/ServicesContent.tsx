@@ -29,7 +29,7 @@ const ServicesContent: React.FC<ServicesContentProps> = (props) => {
           textContent={section.textContent}
           imageSrc={section.imageSrc}
           imageAlt={section.imageAlt}
-          buttonText={section.buttonText}
+          buttonLabel={section.buttonLabel}
           buttonLink={section.buttonLink}
           imgleft={section.imgleft}
           key={slugify(section.title)}

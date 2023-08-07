@@ -39,7 +39,7 @@ const WebPage = () => (
         textContent:
           "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
         buttonLink: "/",
-        buttonText: "see video types",
+        buttonLabel: "see video types",
       },
       {
         imageSrc: "https://source.unsplash.com/random",
@@ -49,7 +49,7 @@ const WebPage = () => (
         textContent:
           "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
         buttonLink: "/",
-        buttonText: "see video types",
+        buttonLabel: "see video types",
         imgleft: true,
       },
     ]}
