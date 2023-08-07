@@ -2,43 +2,29 @@
 
 import { HomeTemplate } from "../ui/templates"
 
+import homeData from "../data/home.json"
 import { navLinks, footerLinks } from "../../siteMeta"
+// import { INavLink } from "../types"
 
 // causes error
-// export const getDefaultTemplateProps = (): DefaultTemplateProps => ({
-//   facebook: "/",
-//   twitter: "/",
-//   youtube: "/",
-//   instagram: "/",
-//   linkedin: "/",
-//   headerLinks: navLinks,
-//   footerLinks,
-// })
-
+const getDefaultProps = () => ({
+  headerLinks: navLinks,
+  footerLinks,
+})
 const HomePage = () => (
   <HomeTemplate
     topCTAData={{
-      title: "e=mc2",
+      title: homeData.pageInfoData.title,
       description: (
-        <div>
-          <p>In 1905, Einstein got it right. We’ve just modernized it.</p>
-          <p>
-            At Todd Productions Inc., e=mc2 means electronic media content for
-            clients. We help businesses and organizations promote their products
-            and services by developing content for electronic media (Internet,
-            Social Media, TV). That includes video production, web design / web
-            development, web hosting, and many more services.
-          </p>
-          <p>
-            Based in Northwest Ohio since 1999, Todd Productions Inc. serves
-            clients in the business, education, health care, and broadcast
-            fields. Let us help you get your business noticed!
-          </p>
-        </div>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: homeData.pageInfoData.description,
+          }}
+        />
       ),
       button: {
-        label: "connect with us",
-        link: "/",
+        label: homeData.pageInfoData.button.label,
+        link: homeData.pageInfoData.button.link,
       },
     }}
     videoData={{
@@ -71,8 +57,7 @@ const HomePage = () => (
       buttonLink: "/",
       buttonText: "see video types",
     }}
-    headerLinks={navLinks}
-    footerLinks={footerLinks}
+    {...getDefaultProps()}
   />
 )
 
