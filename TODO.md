@@ -7,9 +7,18 @@
 - [x] Web SEO
 - [ ] Category Pages
 
-# Templates
-- [x] SampleTemplate
-- [ ] CategoryTemplate, SimpleTemplate (will only use PageInfoSection, is used on some category pages)
+# Set up data
+- [ ] home
+- [ ] contact
+- [ ] other
+- [ ] who are we
+- [ ] web
+  - [ ] SEO
+  - [ ] marketing samples
+  - [ ] web app samples
+- [ ] video
+
+
 
 # Misc
 - [ ] Fix getDefaultProps

@@ -1,6 +1,5 @@
 import React from "react"
 
-import { Hero } from "../../atoms"
 import { PageInfoSection, SampleCardSection } from "../../molecules"
 import { MainLayout } from "../../organisms"
 import {
@@ -27,9 +26,8 @@ const SampleTemplate: React.FC<SampleTemplateProps> = (props) => {
         title={topCTAData.title}
         description={topCTAData.description}
         button={topCTAData.button}
+        bannerImg={bannerImg}
       />
-
-      <Hero img={bannerImg} />
 
       <SampleCardSection title={samplesTitle} cards={samples} />
     </MainLayout>

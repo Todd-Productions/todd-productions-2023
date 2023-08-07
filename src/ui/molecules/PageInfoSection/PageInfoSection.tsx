@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react"
 import Link from "next/link"
 
-import { Button, SectionHeading, Section, Wrapper } from "../../atoms"
+import { Button, SectionHeading, Section, Wrapper, Hero } from "../../atoms"
 import { UrlType, IButton } from "../../../types"
 import "./pageinfosection.css"
 
@@ -10,6 +10,7 @@ export interface IPageInfoContent {
   description: ReactNode
   button: IButton
   videoLink?: UrlType
+  bannerImg?: string
 }
 
 type SplitContentProps = IPageInfoContent
@@ -19,6 +20,7 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
   description,
   button,
   videoLink,
+  bannerImg,
 }) => (
   <Section>
     <Wrapper>
@@ -39,9 +41,15 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
             />
           </div>
         ) : null}
+
         <div className="leading-6 order-1 md:order-2">{description}</div>
       </div>
     </Wrapper>
+    {bannerImg ? (
+      <div className="mt-8">
+        <Hero img={bannerImg} />
+      </div>
+    ) : null}
   </Section>
 )
 
