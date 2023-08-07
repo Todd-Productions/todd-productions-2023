@@ -3,21 +3,20 @@
 import { HomeTemplate } from "../ui/templates"
 
 import homeData from "../data/home.json"
-import { navLinks, footerLinks } from "../../siteMeta"
+import { navLinks, footerLinks, socialLinks } from "../../siteMeta"
+
+import { getSocialLinks } from "../ui/molecules/Header/Header"
 
 // @types
 import { IPageInfoContent } from "../ui/molecules/PageInfoSection/PageInfoSection"
 import { ISplitContent } from "../ui/molecules/SplitContentSection/SplitContentSection"
+import { DefaultTemplateProps } from "../ui/templates/HomeTemplate/HomeTemplate"
 
-// Setting type causes error
-const getDefaultProps = () => ({
+// Setting type causes error - is not assignable to type 'never'.
+const getDefaultProps = (): DefaultTemplateProps => ({
   headerLinks: navLinks,
   footerLinks,
-  facebook: "/",
-  twitter: "/",
-  youtube: "/",
-  instagram: "/",
-  linkedin: "/",
+  ...getSocialLinks(socialLinks),
 })
 
 const getTopCTA = (data: any): IPageInfoContent => ({
@@ -35,22 +34,21 @@ const getTopCTA = (data: any): IPageInfoContent => ({
   },
 })
 
-const getSplitContent = (data: any): ISplitContent => ({
-  imageSrc: data.imageSrc,
-  imageAlt: data.imageAlt,
-  title: data.heading,
-  subTitle: data.subHeading,
-  textContent: data.content,
-  buttonLink: data.buttonLink,
-  buttonLabel: data.buttonLabel,
-})
+const getSplitContent = (data: any): ISplitContent[] =>
+  data.map((section: ISplitContent) => ({
+    imageSrc: section.imageSrc,
+    imageAlt: section.imageAlt,
+    heading: section.heading,
+    subHeading: section.subHeading,
+    content: section.content,
+    buttonLink: section.buttonLink,
+    buttonLabel: section.buttonLabel,
+  }))
 
 const HomePage = () => (
   <HomeTemplate
     topCTAData={getTopCTA(homeData)}
-    videoData={getSplitContent(homeData.videoData)}
-    webData={getSplitContent(homeData.webData)}
-    otherData={getSplitContent(homeData.otherData)}
+    splitContent={getSplitContent(homeData.splitContent)}
     {...getDefaultProps()}
   />
 )

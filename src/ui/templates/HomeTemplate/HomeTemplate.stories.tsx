@@ -92,35 +92,37 @@ export const Default: Story = {
         link: "connect with us",
       },
     },
-    videoData: {
-      imageSrc: "https://source.unsplash.com/random",
-      imageAlt: "",
-      title: "VIDEO PRODUCTION",
-      subTitle: "SALES, COMMERICAL, MUSIC, AND MORE",
-      textContent:
-        "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
-      buttonLink: "/",
-      buttonLabel: "see video types",
-    },
-    webData: {
-      imageSrc: "https://source.unsplash.com/random",
-      imageAlt: "",
-      title: "web services",
-      subTitle: "SALES, COMMERICAL, MUSIC, AND MORE",
-      textContent:
-        "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
-      buttonLink: "/",
-      buttonLabel: "see video types",
-    },
-    otherData: {
-      imageSrc: "https://source.unsplash.com/random",
-      imageAlt: "",
-      title: "other services",
-      subTitle: "SALES, COMMERICAL, MUSIC, AND MORE",
-      textContent:
-        "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
-      buttonLink: "/",
-      buttonLabel: "see video types",
-    },
+    splitContent: [
+      {
+        imageSrc: "https://source.unsplash.com/random",
+        imageAlt: "",
+        heading: "VIDEO PRODUCTION",
+        subHeading: "SALES, COMMERICAL, MUSIC, AND MORE",
+        content:
+          "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
+        buttonLink: "/",
+        buttonLabel: "see video types",
+      },
+      {
+        imageSrc: "https://source.unsplash.com/random",
+        imageAlt: "",
+        heading: "web services",
+        subHeading: "SALES, COMMERICAL, MUSIC, AND MORE",
+        content:
+          "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
+        buttonLink: "/",
+        buttonLabel: "see video types",
+      },
+      {
+        imageSrc: "https://source.unsplash.com/random",
+        imageAlt: "",
+        heading: "other services",
+        subHeading: "SALES, COMMERICAL, MUSIC, AND MORE",
+        content:
+          "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
+        buttonLink: "/",
+        buttonLabel: "see video types",
+      },
+    ],
   },
 }

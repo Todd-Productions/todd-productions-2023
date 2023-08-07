@@ -14,14 +14,13 @@ type Story = StoryObj<typeof ServicesContent>
 export const Default: Story = {
   args: {
     ...ServicesContent.defaultProps,
-    bannerImg: "https://source.unsplash.com/random",
     contentBlocks: [
       {
         imageSrc: "https://source.unsplash.com/random",
         imageAlt: "",
-        title: "VIDEO PRODUCTION",
-        subTitle: "SALES, COMMERICAL, MUSIC, AND MORE",
-        textContent:
+        heading: "VIDEO PRODUCTION",
+        subHeading: "SALES, COMMERICAL, MUSIC, AND MORE",
+        content:
           "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
         buttonLink: "/",
         buttonLabel: "see video types",
@@ -29,9 +28,9 @@ export const Default: Story = {
       {
         imageSrc: "https://source.unsplash.com/random",
         imageAlt: "",
-        title: "VIDEO PRODUCTION",
-        subTitle: "SALES, COMMERICAL, MUSIC, AND MORE",
-        textContent:
+        heading: "VIDEO PRODUCTION",
+        subHeading: "SALES, COMMERICAL, MUSIC, AND MORE",
+        content:
           "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
         buttonLink: "/",
         buttonLabel: "see video types",

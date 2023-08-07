@@ -19,9 +19,7 @@ export interface DefaultTemplateProps extends ISocialLinks {
 
 export interface HomeTemplateProps extends DefaultTemplateProps {
   topCTAData: IPageInfoContent
-  videoData: ISplitContent
-  webData: ISplitContent
-  otherData: ISplitContent
+  splitContent: ISplitContent[]
 }
 
 export const getMainLayoutProps = (data: DefaultTemplateProps) => ({
@@ -32,7 +30,7 @@ export const getMainLayoutProps = (data: DefaultTemplateProps) => ({
 })
 
 const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
-  const { topCTAData, videoData, webData, otherData } = props
+  const { topCTAData, splitContent } = props
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
@@ -42,37 +40,18 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
         button={topCTAData.button}
       />
 
-      <SplitContentSection
-        title={videoData.title}
-        subTitle={videoData.subTitle}
-        textContent={videoData.textContent}
-        buttonLink={videoData.buttonLink}
-        buttonLabel={videoData.buttonLabel}
-        imageSrc={videoData.imageSrc}
-        imageAlt={videoData.imageAlt}
-        imgleft
-      />
-
-      <SplitContentSection
-        title={webData.title}
-        subTitle={webData.subTitle}
-        textContent={webData.textContent}
-        buttonLink={webData.buttonLink}
-        buttonLabel={webData.buttonLabel}
-        imageSrc={webData.imageSrc}
-        imageAlt={webData.imageAlt}
-      />
-
-      <SplitContentSection
-        title={otherData.title}
-        subTitle={otherData.subTitle}
-        textContent={otherData.textContent}
-        buttonLink={otherData.buttonLink}
-        buttonLabel={otherData.buttonLabel}
-        imageSrc={otherData.imageSrc}
-        imageAlt={otherData.imageAlt}
-        imgleft
-      />
+      {splitContent.map((section, idx) => (
+        <SplitContentSection
+          heading={section.heading}
+          subHeading={section.subHeading}
+          content={section.content}
+          buttonLink={section.buttonLink}
+          buttonLabel={section.buttonLabel}
+          imageSrc={section.imageSrc}
+          imageAlt={section.imageAlt}
+          imgleft={idx % 2 === 0}
+        />
+      ))}
     </MainLayout>
   )
 }

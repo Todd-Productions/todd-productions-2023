@@ -1,0 +1,57 @@
+{
+  "pageInfoData": {
+    "heading": "WHAT DOES YOUR BUSINESS NEED?",
+    "description": "<div><p>In this high-tech world of smart phones and tablets, sometimes the best marketing tool is the good old-fashioned printed piece. For many companies, brochures, flyers, and direct mail pieces are just one aspect of their integrated marketing strategy that cuts across old and new technology. Need a brochure, flyer or direct mail piece? Perhaps a new logo or new photography to use in marketing tools? A place to record voice over? Or help with your social media presence? Todd Productions Inc. can help!</p></div>",
+    "button": {
+      "label": "connect with us",
+      "link": "/contact-us"
+    }
+  },
+  "splitContent": [
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "PRINT MATERIAL",
+      "subHeading": "UNIQUE DESIGNS SPECIFIC TO YOU",
+      "content": "As trendy as websites and social media are today, a true integrated marketing campaign utilizes print materials to reinforce the online message. Those printed pieces can be brochures, folders, flyers, direct mailers, newsletters, and more. A printed piece can tell a more in-depth story of your business or product, and it tends to have a shelf life for quick reference. Let Todd Productions’ show you how printed pieces might fit your marketing strategy.",
+      "buttonLink": "/contact-us",
+      "buttonLabel": "contact us"
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "LOGO DESIGN",
+      "subHeading": "YOU THINK IT, WE DESIGN IT",
+      "content": "A logo often serves as the introduction of your company or business to a stakeholder. It becomes your corporate identity and is a big part of your brand strategy. Think about the awareness of major brands like Nike© and Target©. The right logo can quickly say a lot about your culture and type of business without going into much detail. It’s used on letterhead, envelopes, business cards, websites, and social media pages. At Todd Productions, we can help you develop the right logo for your business.",
+      "buttonLink": "/contact-us",
+      "buttonLabel": "contact us"
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "VOICE OVER / AUDIO",
+      "subHeading": "NEED NARRATION RECORDED?",
+      "content": "Sometimes you just need the right recorded voice to convey your message. Is it a young female that fits your targeted audience? An older gentleman? Are you conveying a serious message, describing a product in a lengthy video, developing a short social media video clip or commercial? Voice over is an important part to video production. We can develop a script or follow one you provide yourself, then record in our on-site audio booth using state-of-the-art recording equipment.",
+      "buttonLink": "/contact-us",
+      "buttonLabel": "schedule session"
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "WEB HOSTING",
+      "subHeading": "CHEAP RELIABLE HOSTING",
+      "content": "Web design is not the end of the process, once you have a finished website, it needs to be launched and hosted on a server site. At Todd Productions, our Frontward Web Hosting Division will provide hosting services at very competitive rates. And, we’ll quickly troubleshoot if there are any issues that develop with the complexities of the Internet, to keep your site running smoothly.",
+      "buttonLink": "/contact-us",
+      "buttonLabel": "contact for pricing"
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "SOCIAL MEDIA MARKETING",
+      "subHeading": "BUILD AN ONLINE PRESENCE",
+      "content": "Reach your audience where they can be found. Facebook, Instagram, Twitter, and more! This is where people are spending their time, so why not use these apps to target your audience and market your brand? The videos you post there can drive traffic to your website or continue to build brand awareness. It’s important to note that most viewers quickly scroll through their phones, so the name of the game here is short, direct content that is designed to quickly grab their attention.",
+      "buttonLink": "/contact-us",
+      "buttonLabel": "contact for"
+    }
+  ]
+}

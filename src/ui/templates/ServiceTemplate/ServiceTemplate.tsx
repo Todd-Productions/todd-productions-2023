@@ -4,24 +4,19 @@ import { MainLayout, ServicesContent } from "../../organisms"
 import {
   getMainLayoutProps,
   DefaultTemplateProps,
+  HomeTemplateProps,
 } from "../HomeTemplate/HomeTemplate"
-
-import { ServicesContentProps } from "../../organisms/ServicesContent/ServicesContent"
 
 export interface ServiceTemplateProps
   extends DefaultTemplateProps,
-    ServicesContentProps {}
+    HomeTemplateProps {}
 
 const ServiceTemplate: React.FC<ServiceTemplateProps> = (props) => {
-  const { bannerImg, contentBlocks, topCTAData } = props
+  const { splitContent, topCTAData } = props
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
-      <ServicesContent
-        bannerImg={bannerImg}
-        topCTAData={topCTAData}
-        contentBlocks={contentBlocks}
-      />
+      <ServicesContent topCTAData={topCTAData} contentBlocks={splitContent} />
     </MainLayout>
   )
 }

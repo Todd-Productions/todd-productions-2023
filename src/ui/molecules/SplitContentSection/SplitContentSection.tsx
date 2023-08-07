@@ -7,9 +7,9 @@ import { Button, SectionHeading, SectionSubHeading } from "../../atoms"
 export interface ISplitContent {
   imageSrc: string
   imageAlt: string
-  title: string
-  subTitle: string
-  textContent: string
+  heading: string
+  subHeading: string
+  content: string
   buttonLink: string
   buttonLabel: string
   imgleft?: boolean
@@ -20,9 +20,9 @@ export interface SplitContentProps extends ISplitContent {}
 const SplitContentSection: React.FC<SplitContentProps> = ({
   imageSrc,
   imageAlt,
-  title,
-  subTitle,
-  textContent,
+  heading,
+  subHeading,
+  content,
   buttonLink,
   buttonLabel,
   imgleft,
@@ -41,9 +41,9 @@ const SplitContentSection: React.FC<SplitContentProps> = ({
         </div>
 
         <div className={`my-10 md:p-16 order-2 ${order2}`}>
-          <SectionHeading>{title}</SectionHeading>
-          <SectionSubHeading>{subTitle}</SectionSubHeading>
-          <div className="mb-12 leading-9">{textContent}</div>
+          <SectionHeading>{heading}</SectionHeading>
+          <SectionSubHeading>{subHeading}</SectionSubHeading>
+          <div className="mb-12 leading-9">{content}</div>
           <Link href={buttonLink}>
             <Button fullWidth>{buttonLabel}</Button>
           </Link>

@@ -8,7 +8,7 @@
 - [ ] Category Pages
 
 # Set up data
-- [ ] home
+- [x] home
 - [ ] contact
 - [ ] other
 - [ ] who are we
