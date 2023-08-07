@@ -4,12 +4,16 @@ import { HomeTemplate } from "../ui/templates"
 
 import homeData from "../data/home.json"
 import { navLinks, footerLinks } from "../../siteMeta"
-// import { INavLink } from "../types"
 
-// causes error
+// Setting type causes error
 const getDefaultProps = () => ({
   headerLinks: navLinks,
   footerLinks,
+  facebook: "/",
+  twitter: "/",
+  youtube: "/",
+  instagram: "/",
+  linkedin: "/",
 })
 const HomePage = () => (
   <HomeTemplate
