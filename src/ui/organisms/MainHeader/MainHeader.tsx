@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState, useRef } from "react"
 
 import { INavLink, ISocialLinks } from "@/types"

@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react"
 
 import { useForm, SubmitHandler } from "react-hook-form"
@@ -11,7 +13,7 @@ type Inputs = {
 
 export interface ContactFormProps {}
 
-const ContactForm: React.FC<ContactFormProps> = (props) => {
+const ContactForm: React.FC<ContactFormProps> = () => {
   const {
     register,
     handleSubmit,
@@ -35,16 +37,17 @@ const ContactForm: React.FC<ContactFormProps> = (props) => {
 
       <div className="bg-white pb-4">
         <label
-          className="uppercase font-bold text-blue-500 py-4 radius-2 w-full block"
           htmlFor="message"
+          className="uppercase font-bold text-blue-500 py-4 radius-2 w-full block"
         >
           what can we do for you? *
+          <textarea
+            id="message"
+            className="rounded border border-solid border-gray-500 p-4 w-full"
+            placeholder="What Can We Do For You?"
+            {...register("message", { required: true })}
+          />
         </label>
-        <textarea
-          className="rounded border border-solid border-gray-500 p-4 w-full"
-          placeholder="What Can We Do For You?"
-          {...register("message", { required: true })}
-        />
       </div>
 
       {(errors.name || errors.email || errors.message) && (
