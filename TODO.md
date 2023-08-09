@@ -9,8 +9,8 @@
 
 # Set up data
 - [x] home
-- [ ] contact
-- [ ] other
+- [x] contact
+- [x] other
 - [ ] who are we
 - [ ] web
   - [ ] SEO
