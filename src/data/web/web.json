@@ -1,9 +1,10 @@
 {
   "pageInfoData": {
     "heading": "CONQUER THE WEB",
-    "description": "<div><p>In 1905, Einstein got it right. We’ve just modernized it.</p><p>At Todd Productions Inc., e=mc2 means electronic media content for clients. We help businesses and organizations promote their products and services by developing content for electronic media (Internet, Social Media, TV). That includes video production, web design / web development, web hosting, and many more services.</p><p>Based in Northwest Ohio since 1999, Todd Productions Inc. serves clients in the business, education, health care, and broadcast fields. Let us help you get your business noticed!</p></div>",
+    "description": "Websites are the digital home of a business! While social media sites can serve as great marketing for you, businesses and organizations need to capitalize on both. Designing a website for your company or product can seem overwhelming with all the different paths you can follow. Even updating your existing site can be time-consuming and confusing. Furthermore, many sites today are not properly optimized, causing them to load slowly or to not properly display content. At Todd Productions Inc. we’ll work with you to make your website the best that it can be. Whether it’s a pre-existing site that you want to optimize, or you are seeking to build an entirely new corporate site or a marketing site, we can work with you and your budget to get you the best result.",
+    "bannerImg": "https://source.unsplash.com/random",
     "button": {
-      "link": "/",
+      "link": "/contact-us",
       "label": "connect with us"
     }
   },
@@ -11,23 +12,35 @@
     {
       "imageSrc": "https://source.unsplash.com/random",
       "imageAlt": "",
-      "heading": "VIDEO PRODUCTION",
-      "subHeading": "SALES, COMMERICAL, MUSIC, AND MORE",
-      "textContent": "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
+      "heading": "MARKETING WEBSITES",
+      "subHeading": "GET ONLINE BUSINESS PRESENCE",
+      "content": "A marketing website can seem complex. Yes, there are many applications that allow you to “drag and drop” to create your own website. But do you have the time to do that while running your business? Will it be optimized to load quickly? Or will it be unnecessarily complicated and slow to load? And how could you tell the difference between an optimized site and an overloaded one? Let Todd Productions research, write and produce the content for your site.",
       "button": {
         "link": "/",
-        "label": "see video types"
+        "label": "see marketing site examples"
+      },
+      "imgLeft": true
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "WEB APPLICATIONS",
+      "subHeading": "SAVE TIME AND MONEY",
+      "content": "Is there any part of your business that is repeatedly laborious and time-consuming, like entering in data and filling out paperwork? We can develop a web application to streamline and automate that manual process, to save you time and money. And we’ll create the app so it is scale-able and can be expanded to grow with your business as needed. You think it. We build it.",
+      "button": {
+        "link": "/",
+        "label": "learn about web applications"
       }
     },
     {
       "imageSrc": "https://source.unsplash.com/random",
       "imageAlt": "",
-      "heading": "VIDEO PRODUCTION",
-      "subHeading": "SALES, COMMERICAL, MUSIC, AND MORE",
-      "textContent": "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
+      "heading": "SEARCH ENGINE OPTIMIZATION",
+      "subHeading": "FIRST ON GOOGLE",
+      "content": "What good is a great website if it can’t be found quickly through search engines? We design our website content with Search Engine Optimization (SEO) in mind. SEO means adjusting or optimizing your website to help users get to your site faster. SEO uses organic (non-paid) methods to drive traffic from search engine result pages to your website. Our proven techniques will boost your website’s ranking on search engines to result in more people getting to know your company and its products.",
       "button": {
         "link": "/",
-        "label": "see video types"
+        "label": "learn about seo"
       },
       "imgLeft": true
     }

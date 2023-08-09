@@ -23,13 +23,8 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
   bannerImg,
 }) => (
   <Section>
-    {bannerImg ? (
-      <div className="mt-8">
-        <Hero img={bannerImg} />
-      </div>
-    ) : null}
     <Wrapper>
-      <div className="grid gap-10 md:gap-20 grid-cols-1 md:grid-cols-[1fr_3fr] mt-10">
+      <div className="grid gap-10 md:gap-20 grid-cols-1 md:grid-cols-[1fr_3fr]">
         <div className="header-container order-3 md:order-1">
           <SectionHeading>{title}</SectionHeading>
           <Link href={button.link}>
@@ -50,6 +45,13 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
         <div className="leading-6 order-1 md:order-2">{description}</div>
       </div>
     </Wrapper>
+    {bannerImg ? (
+      <div className="mt-8">
+        <Hero img={bannerImg} />
+      </div>
+    ) : (
+      <h1>NOTHING</h1>
+    )}
   </Section>
 )
 

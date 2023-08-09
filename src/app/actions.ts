@@ -10,11 +10,12 @@ export const getDefaultProps = (): any => ({
 })
 
 export const getTopCTA = (data: any): IPageInfoContent => ({
-  title: data.pageInfoData.heading,
-  description: data.pageInfoData.description,
+  title: data.heading,
+  description: data.description,
+  bannerImg: data.bannerImg,
   button: {
-    label: data.pageInfoData.button.label,
-    link: data.pageInfoData.button.link,
+    label: data.button.label,
+    link: data.button.link,
   },
 })
 
