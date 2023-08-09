@@ -6,7 +6,7 @@
 // import { getTopCTA, getSplitContent, getDefaultProps } from "../page"
 
 const OtherPage = () => (
-  <p>.</p>
+  <h1>d</h1>
   // <ServiceTemplate
   //   topCTAData={getTopCTA(data)}
   //   splitContent={getSplitContent(data.splitContent)}

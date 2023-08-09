@@ -1,19 +1,19 @@
 "use client"
 
+import React from "react"
+import { INavLink } from "../types"
 import { HomeTemplate } from "../ui/templates"
-
 import homeData from "../data/home.json"
 import { navLinks, footerLinks, socialLinks } from "../../siteMeta"
-
 import { getSocialLinks } from "../ui/molecules/Header/Header"
-
-// @types
 import { IPageInfoContent } from "../ui/molecules/PageInfoSection/PageInfoSection"
 import { ISplitContent } from "../ui/molecules/SplitContentSection/SplitContentSection"
-import { DefaultTemplateProps } from "../ui/templates/HomeTemplate/HomeTemplate"
 
-// Setting type causes error - is not assignable to type 'never'.
-const getDefaultProps = (): DefaultTemplateProps => ({
+export interface IDefault {
+  headerLinks: INavLink[]
+  footerLinks: INavLink[]
+}
+const getDefaultProps = (): any => ({
   headerLinks: navLinks,
   footerLinks,
   ...getSocialLinks(socialLinks),
@@ -49,6 +49,8 @@ const HomePage = () => (
   <HomeTemplate
     topCTAData={getTopCTA(homeData)}
     splitContent={getSplitContent(homeData.splitContent)}
+    headerLinks={navLinks}
+    footerLinks={footerLinks}
     {...getDefaultProps()}
   />
 )
