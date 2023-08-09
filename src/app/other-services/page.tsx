@@ -1,5 +1,3 @@
-"use client"
-
 import { ServiceTemplate } from "../../ui/templates"
 import data from "../../data/other.json"
 

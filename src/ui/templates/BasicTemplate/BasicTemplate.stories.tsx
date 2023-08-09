@@ -69,5 +69,12 @@ export const Default: Story = {
     title: "20+ YEARS OF EXPERIENCE",
     description:
       "Owner Todd Stanton began his business in 1984 shooting and editing videos for weddings. The business continued to grow, and in 1999, Todd Productions became a full service multi-media firm, integrating the latest technology and cutting-edge design methods into every client project. In a broad yet focused sense, Todd Productions, Inc. specializes in every type of video production — from small, intimate events to large, corporate productions for local, regional and global companies. Web design and development, web hosting, digital and printed media, and an array of Internet supportive tools are also part of Todd Productions Inc.’ s capabilities. Our goal is to provide every client with a comprehensive and sensible solution with integrity, meaning, and the utmost care. After all, the work we do for our clients reflects OUR image. So we treat every project as our very own. WHAT DO YOU NEED?",
+    button: {
+      label: "contact us",
+      link: "/",
+    },
+    videoLink:
+      "https://www.youtube.com/watch?v=19XKJ8lb_AE&ab_channel=ToddProductions",
+    bannerImg: "https://source.unsplash.com/random",
   },
 }

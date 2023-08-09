@@ -7,16 +7,18 @@ import {
   DefaultTemplateProps,
   getMainLayoutProps,
 } from "../HomeTemplate/HomeTemplate"
-import { IButton } from "../../../types"
+import { IButton, UrlType } from "../../../types"
 
 export interface BasicTemplateProps extends DefaultTemplateProps {
   title: string
   description: string
   button: IButton
+  videoLink?: UrlType
+  bannerImg?: string
 }
 
 const BasicTemplate: React.FC<BasicTemplateProps> = (props) => {
-  const { title, description, button } = props
+  const { title, description, button, videoLink, bannerImg } = props
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
@@ -24,6 +26,8 @@ const BasicTemplate: React.FC<BasicTemplateProps> = (props) => {
         title={title}
         description={description}
         button={button}
+        videoLink={videoLink}
+        bannerImg={bannerImg}
       />
     </MainLayout>
   )

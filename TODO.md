@@ -11,7 +11,7 @@
 - [x] home
 - [x] contact
 - [x] other
-- [ ] who are we
+- [x] who are we
 - [ ] web
   - [ ] SEO
   - [ ] marketing samples
