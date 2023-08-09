@@ -1,0 +1,35 @@
+{
+  "pageInfoSection": {
+    "title": "FROM CONCEPT TO COMPLETION",
+    "description": "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals. Our award-winning video production team has created videos for promotions, products/services, internal use, employee training, broadcast/streaming/online commercials, conventions and events, as well as music. No two videos are the same. At Todd Productions, we will help you realize your video. What do you need?",
+    "button": {
+      "link": "/",
+      "label": "connect with us"
+    }
+  },
+  "splitContent": [
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "VIDEO PRODUCTION",
+      "subHeading": "SALES, COMMERICAL, MUSIC, AND MORE",
+      "content": "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
+      "button": {
+        "link": "/",
+        "label": "see video types"
+      }
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "VIDEO PRODUCTION",
+      "subHeading": "SALES, COMMERICAL, MUSIC, AND MORE",
+      "content": "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
+      "button": {
+        "link": "/",
+        "label": "see video types"
+      },
+      "imgLeft": true
+    }
+  ]
+}

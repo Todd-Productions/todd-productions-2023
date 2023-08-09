@@ -12,11 +12,11 @@
 - [x] contact
 - [x] other
 - [x] who are we
-- [ ] web
+- [x] web
   - [ ] SEO
   - [ ] marketing samples
   - [ ] web app samples
-- [ ] video
+- [-] video
 
 
 

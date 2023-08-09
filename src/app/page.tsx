@@ -6,7 +6,7 @@ import { getDefaultProps, getTopCTA, getSplitContent } from "./actions"
 
 const HomePage = () => (
   <HomeTemplate
-    topCTAData={getTopCTA(homeData)}
+    topCTAData={getTopCTA(homeData.pageInfoData)}
     splitContent={getSplitContent(homeData.splitContent)}
     {...getDefaultProps()}
   />

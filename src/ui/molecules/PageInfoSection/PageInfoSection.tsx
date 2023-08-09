@@ -49,9 +49,7 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
       <div className="mt-8">
         <Hero img={bannerImg} />
       </div>
-    ) : (
-      <h1>NOTHING</h1>
-    )}
+    ) : null}
   </Section>
 )
 
