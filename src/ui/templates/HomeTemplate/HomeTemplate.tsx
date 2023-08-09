@@ -1,4 +1,5 @@
 import React from "react"
+import slugify from "slugify"
 
 import { MainLayout } from "../../organisms"
 import { getSocialLinks } from "../../molecules/Header/Header"
@@ -45,11 +46,11 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
           heading={section.heading}
           subHeading={section.subHeading}
           content={section.content}
-          buttonLink={section.buttonLink}
-          buttonLabel={section.buttonLabel}
+          button={section.button}
           imageSrc={section.imageSrc}
           imageAlt={section.imageAlt}
-          imgleft={idx % 2 === 0}
+          imgLeft={section.imgLeft}
+          key={slugify(String(idx))}
         />
       ))}
     </MainLayout>

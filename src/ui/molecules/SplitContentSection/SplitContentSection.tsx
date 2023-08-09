@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 import { Button, SectionHeading, SectionSubHeading } from "../../atoms"
+import { IButton } from "../../../types"
 
 export interface ISplitContent {
   imageSrc: string
@@ -10,9 +11,8 @@ export interface ISplitContent {
   heading: string
   subHeading: string
   content: string
-  buttonLink: string
-  buttonLabel: string
-  imgleft?: boolean
+  button: IButton
+  imgLeft?: boolean
 }
 
 export interface SplitContentProps extends ISplitContent {}
@@ -23,15 +23,14 @@ const SplitContentSection: React.FC<SplitContentProps> = ({
   heading,
   subHeading,
   content,
-  buttonLink,
-  buttonLabel,
-  imgleft,
+  button,
+  imgLeft,
 }) => {
-  const gridColSizes = imgleft
+  const gridColSizes = imgLeft
     ? "md:grid-cols-[3fr_2fr]"
     : "md:grid-cols-[2fr_3fr]"
-  const order = imgleft ? "md:order-1" : "md:order-2"
-  const order2 = imgleft ? "md:order-2" : "md:order-1"
+  const order = imgLeft ? "md:order-1" : "md:order-2"
+  const order2 = imgLeft ? "md:order-2" : "md:order-1"
 
   return (
     <section className="bg-white px-4 md:px-0">
@@ -44,8 +43,8 @@ const SplitContentSection: React.FC<SplitContentProps> = ({
           <SectionHeading>{heading}</SectionHeading>
           <SectionSubHeading>{subHeading}</SectionSubHeading>
           <div className="mb-12 leading-9">{content}</div>
-          <Link href={buttonLink}>
-            <Button fullWidth>{buttonLabel}</Button>
+          <Link href={button.link}>
+            <Button fullWidth>{button.label}</Button>
           </Link>
         </div>
       </div>

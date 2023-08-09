@@ -28,10 +28,9 @@ const ServicesContent: React.FC<ServicesContentProps> = (props) => {
           content={section.content}
           imageSrc={section.imageSrc}
           imageAlt={section.imageAlt}
-          buttonLabel={section.buttonLabel}
-          buttonLink={section.buttonLink}
-          imgleft={idx % 2 === 0}
-          key={slugify(section.heading)}
+          button={section.button}
+          imgLeft={section.imgLeft}
+          key={slugify(String(idx))}
         />
       ))}
     </div>

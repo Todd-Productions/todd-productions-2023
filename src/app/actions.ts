@@ -25,6 +25,6 @@ export const getSplitContent = (data: any): ISplitContent[] =>
     heading: section.heading,
     subHeading: section.subHeading,
     content: section.content,
-    buttonLink: section.buttonLink,
-    buttonLabel: section.buttonLabel,
+    button: section.button,
+    imgLeft: section.imgLeft,
   }))
