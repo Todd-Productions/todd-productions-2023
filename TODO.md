@@ -13,14 +13,15 @@
 - [x] other
 - [x] who are we
 - [x] web
-  - [ ] SEO
+  - [-] SEO
   - [ ] marketing samples
   - [ ] web app samples
-- [-] video
+- [x] video
 
 
 
 # Misc
+- [ ] Removed bottom margin on PageInfoSection
 - [ ] Fix getDefaultProps
 - [ ] Make getSplitContentProps
 - [ ] Add 'active' key to crumbs

@@ -1,7 +1,8 @@
 {
   "pageInfoSection": {
-    "title": "FROM CONCEPT TO COMPLETION",
+    "heading": "FROM CONCEPT TO COMPLETION",
     "description": "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals. Our award-winning video production team has created videos for promotions, products/services, internal use, employee training, broadcast/streaming/online commercials, conventions and events, as well as music. No two videos are the same. At Todd Productions, we will help you realize your video. What do you need?",
+    "bannerImg": "https://source.unsplash.com/random",
     "button": {
       "link": "/",
       "label": "connect with us"
@@ -11,23 +12,104 @@
     {
       "imageSrc": "https://source.unsplash.com/random",
       "imageAlt": "",
-      "heading": "VIDEO PRODUCTION",
-      "subHeading": "SALES, COMMERICAL, MUSIC, AND MORE",
-      "content": "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
+      "heading": "PROMOTIONAL / SALES",
+      "subHeading": "CONVEY YOUR MESSAGE",
+      "content": "Do you need a video to promote your entire company? Or maybe a video to market a single product or brand? A captivating video promoting your product or business is a great way to gain traction with your target audience. Promotional videos are an effective way to invite someone to a conference, event, open house, or even a webinar. Pre-recorded sales videos can speed the sales process by eliminating back and forth emails between you and a potential client.",
       "button": {
-        "link": "/",
-        "label": "see video types"
+        "link": "/promotional-sales",
+        "label": "see promotional samples"
+      },
+      "imgLeft": true
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "PRODUCT",
+      "subHeading": "PROMOTE FEATURES",
+      "content": "Are you trying to market a product that needs to be shown? Then videos are the way to go. Whether it’s a new product introduction or the promotion of a complete line, our team will tailor your video to explain how your product works and promote its features and benefits.",
+      "button": {
+        "link": "/product",
+        "label": "view product videos"
       }
     },
     {
       "imageSrc": "https://source.unsplash.com/random",
       "imageAlt": "",
-      "heading": "VIDEO PRODUCTION",
-      "subHeading": "SALES, COMMERICAL, MUSIC, AND MORE",
-      "content": "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals.",
+      "heading": "CORPORATE",
+      "subHeading": "PHILOSOPHY AND CULTURE",
+      "content": "Many of our clients ask us to develop legacy videos for internal use to capture their long history. Some want to convey the strategy of implementing a new corporate philosophy and culture. Our video work has encompassed clients that are single-site in-town businesses, medium-sized regional companies, and large multi-national corporations.",
       "button": {
-        "link": "/",
-        "label": "see video types"
+        "link": "/corporate",
+        "label": "view corporate videos"
+      },
+      "imgLeft": true
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "TRAINING",
+      "subHeading": "DEMONSTRATE USAGE",
+      "content": "Do you need to demonstrate how to use your new product or how to properly make something? Maybe you want to show new employees what your company is all about or walk staff members through procedures and processes. Perhaps you are looking to develop a whiteboard video to demonstrate something. We have the experience to give your video the edge it needs to accomplish your goal.",
+      "button": {
+        "link": "/corporate",
+        "label": "training video examples"
+      }
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "COMMERCIAL",
+      "subHeading": "TARGET YOUR AUDIENCE",
+      "content": "Commercials have changed dramatically with today’s plethora of media outlets. How do you reach your targeted audience? Is it through online pre-roll videos; Over-the-Top videos streamed on the internet, satellite and broadcast television platforms; or with traditional broadcast television spots? We’ve developed commercials for all of these applications ranging from 15 second spots to ones that last several minutes.",
+      "button": {
+        "link": "/commercial",
+        "label": "view commercial videos"
+      },
+      "imgLeft": true
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "CONVENTION / EVENTS",
+      "subHeading": "HIGHLIGHT THE EXPERIENCE",
+      "content": "Is your business hosting a seminar that needs to be filmed and recorded? Maybe it’s a special wedding that needs to be filmed. Is your company holding a large, multi-day/multi-speaker national sales meeting or convention that will require capturing the proceedings on camera to create a highlight video? Maybe you need pre-event promotional footage or video work for stakeholders. We have years of experience creating all of these.",
+      "button": {
+        "link": "/convention-events",
+        "label": "view event video"
+      }
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "MUSIC",
+      "subHeading": "SHOW YOUR PERFORMANCE",
+      "content": "You may be an aspiring musician who wants to create a video with lyrics. Perhaps you want intimate footage of your performance. From single-camera shoots to multi-camera live performances or recording sessions, we have the expertise to handle your project wherever you perform.",
+      "button": {
+        "link": "/music-video-production",
+        "label": "watch music videos"
+      },
+      "imgLeft": true
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "DRONE",
+      "subHeading": "CINEMATIC FOOTAGE",
+      "content": "Drones can capture dramatic and cinematic footage to showcase the outside of your facilities and campus, highlight the beauty of your vineyard, or capture your manufacturing and warehouse operations from the inside. They can highlight the dynamic nature of your workplace. It is important to note that at Todd Productions, we are certified by the Federal Aviation Administration (FAA) as a Part 107 drone licensed operator.",
+      "button": {
+        "link": "/drone",
+        "label": "need drone footage?"
+      }
+    },
+    {
+      "imageSrc": "https://source.unsplash.com/random",
+      "imageAlt": "",
+      "heading": "STUDIO",
+      "subHeading": "AUDIO AND VIDEO",
+      "content": "At Todd Productions, we can film at your facilities or your designated offsite locations. And we'll provide all the video, audio, and lighting equipment to get the job done right. But sometimes the best place for your specific needs would be a studio setting. Todd Productions has its own in-house studio with a variety of backdrops and a large green screen area. The area can be configured in countless different ways, to make your video unique.",
+      "button": {
+        "link": "/studio",
+        "label": "learn more"
       },
       "imgLeft": true
     }
