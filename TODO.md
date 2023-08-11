@@ -14,14 +14,24 @@
 - [x] who are we
 - [x] web
   - [x] SEO
-  - [ ] marketing samples
-  - [ ] web app samples
+  - [x] marketing samples
+  - [x] web app samples
 - [x] video
+  - [-] promo / sales
+  - [ ] product
+  - [ ] corporate
+  - [ ] traning
+  - [ ] commercial
+  - [ ] convention / events
+  - [ ] music
+  - [ ] drone
+  - [ ] studio
+
 
 
 
 # Misc
-- [ ] set up pop up for samples 
+- [ ] set up pop up for samples
 - [ ] remove use client from pages, use in components needed
 - [ ] Removed bottom margin on PageInfoSection
 - [ ] Fix getDefaultProps

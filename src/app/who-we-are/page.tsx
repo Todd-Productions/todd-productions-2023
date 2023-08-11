@@ -1,6 +1,6 @@
 import { BasicTemplate } from "../../ui/templates"
 
-import data from "../../data/who-are-we.json"
+import data from "../../data/whoAreWe.json"
 
 import { getDefaultProps } from "../actions"
 

@@ -1,0 +1,129 @@
+{
+  "pageInfoSection": {
+    "heading": "PROMOTE YOUR PRODUCT OR EVENT",
+    "description": "Promotional videos are an effective way to invite someone to a conference, event, open house, or even a webinar. They promote your event while giving your audience a feel for your brand. Promotional videos should include brief, but specific details of your event with some type of Call To Action to encourage the viewer to sign up or save the date. The goal is to boost event attendance and generate potential leads. Pre-recorded sales videos can speed the sales process by eliminating back and forth emails between you and a potential client. That results in the client getting more information up front. Plus, prospects can watch your sales pitch on their own time and be able to return to sections of the presentation as needed. They can also share your sales video with colleagues to extend the sales pitch to others. Our award-winning team will work closely with your staff to develop a script, brainstorm ideas for video scenarios, film, record, and provide post-production editing with narration and music as needed.",
+    "bannerImg": "https://source.unsplash.com/random",
+    "button": {
+      "link": "/contact-us",
+      "label": "connect with us"
+    }
+  },
+  "samples": [
+    {
+      "title": "CAREER TECH LAB PROMO",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/SMZ3_Wtgb70",
+      "description": "An informative showcase of a career technical school lab, helping potential students gauge their interest in the lab!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=SMZ3_Wtgb70&ab_channel=ToddProductions",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "INDUSTRIAL SERVICES",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/fETQXysJU6Q",
+      "description": "A promotional piece featuring talking head testimonials to educate audiences about their services.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=fETQXysJU6Q&feature=youtu.be&ab_channel=ToddProductions",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "PORTABLE ASSEMBLY MACHINE",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/egKObuzG-uE",
+      "description": "Promotional footage showing off the exciting features of this portable machine and all of its various combination options!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=egKObuzG-uE&feature=youtu.be&ab_channel=ToddProductions",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "ORGANIZATION FUNDRAISER PROMO",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/Fi0QfzKinuU",
+      "description": "A heartfelt promotional video, designed to outline Rotary’s efforts and contributions to it’s community and how much more they can help with more supporters.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=Fi0QfzKinuU&ab_channel=ToddProductions",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "RESTAURANT PROMO",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/nxzuu_KldQI",
+      "description": "An exciting promotional featurette showcasing a lively restaurant and it’s history!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=nxzuu_KldQI&ab_channel=ToddProductions",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "INDUSTRIAL MACHINING",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/FM3vknpeOCY",
+      "description": "Fast paced, exciting showcase of a multitude of different machines. Showing the wide range of capabilities the company offers!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=FM3vknpeOCY&ab_channel=ToddProductions",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "NURSING HOME ANNIVERSARY RETROSPECTIVE",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/Wxox-uIt_4M",
+      "description": "A retrospective look back at the long history of this well respected nursing home in northwest Ohio. Complete with interview portions and informative statements about the origin and 70 year evolution of the community.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=Wxox-uIt_4M&ab_channel=ElizabethScott",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "CHIROPRACTIC “PASSIONS” PROMO",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/wa09EsISnns",
+      "description": "A quick, exciting, and fun promotional piece from a long running series of “Passions” videos promoting chiropractic services and the doctors performing them.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=wa09EsISnns&feature=youtu.be&ab_channel=ToddProductions",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "MEXICAN RESTAURANT PROMO",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/wa09EsISnns",
+      "description": "How do you catch people's attention? Displaying mouth watering authentic Mexican food helps peak consumer interest and attracts hungry customers!"
+    },
+    {
+      "title": "HIGH SCHOOL TOUR PROMO",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/W6gHMDv4uiM",
+      "description": "An informative presentation, showing new students the layout of the campus and informing them on all school procedures and operations.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=W6gHMDv4uiM&feature=youtu.be&ab_channel=ToddProductions",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "SPINAL DECOMPRESSION PROMO",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/9Tr7UyRfsy0",
+      "description": "A fun advertisement encouraging consumers to seek relief from back pain by taking advantage of procedures offered by these chiropractic services!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=9Tr7UyRfsy0&feature=youtu.be&ab_channel=ToddProductions",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "ELECTRONIC REPAIR PROMO",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/N7V95UPoYwU",
+      "description": "Promotional material for in-house use, to be played on monitors in stores as digital displays.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=N7V95UPoYwU&feature=youtu.be&ab_channel=ToddProductions",
+        "label": "watch video on youtube"
+      }
+    }
+  ]
+}

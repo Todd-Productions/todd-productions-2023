@@ -36,7 +36,8 @@ export interface IButton {
 export interface ISampleCard {
   title: string
   img: string | UrlObject
-  largeImg: string | UrlObject
+  largeImg?: string | UrlObject
+  videoLink?: string
   description?: string
-  url: string
+  button?: IButton
 }

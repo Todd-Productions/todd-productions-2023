@@ -81,42 +81,60 @@ export const Default: Story = {
         title: "Food Labeling Product",
         img: "https://source.unsplash.com/random",
         largeImg: "https://source.unsplash.com/random",
-        url: "/",
+        button: {
+          label: "contact us",
+          link: "/",
+        },
       },
       {
         title: "Worker Training product",
         img: "https://source.unsplash.com/random",
         largeImg: "https://source.unsplash.com/random",
 
-        url: "/",
+        button: {
+          label: "contact us",
+          link: "/",
+        },
       },
       {
         title: "'Signature Decks' Build Time-lapse",
         img: "https://source.unsplash.com/random",
         largeImg: "https://source.unsplash.com/random",
 
-        url: "/",
+        button: {
+          label: "contact us",
+          link: "/",
+        },
       },
       {
         title: "Restaurant Menu Product",
         img: "https://source.unsplash.com/random",
         largeImg: "https://source.unsplash.com/random",
 
-        url: "/",
+        button: {
+          label: "contact us",
+          link: "/",
+        },
       },
       {
         title: "'Absolute Haitian' Machine Assembly Time-lapse",
         largeImg: "https://source.unsplash.com/random",
 
         img: "https://source.unsplash.com/random",
-        url: "/",
+        button: {
+          label: "contact us",
+          link: "/",
+        },
       },
       {
         title: "industrial manufacturing product",
         largeImg: "https://source.unsplash.com/random",
 
         img: "https://source.unsplash.com/random",
-        url: "/",
+        button: {
+          label: "contact us",
+          link: "/",
+        },
       },
     ],
     samplesTitle: "EXAMPLES OF PROMOTIONAL / SALES",

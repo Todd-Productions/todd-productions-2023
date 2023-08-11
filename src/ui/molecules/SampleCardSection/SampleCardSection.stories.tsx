@@ -22,42 +22,60 @@ export const Default: Story = {
         img: "https://source.unsplash.com/random",
         largeImg: "",
 
-        url: "/",
+        button: {
+          label: "contact us",
+          link: "/",
+        },
       },
       {
         title: "Worker Training product",
         img: "https://source.unsplash.com/random",
         largeImg: "",
 
-        url: "/",
+        button: {
+          label: "contact us",
+          link: "/",
+        },
       },
       {
         title: "'Signature Decks' Build Time-lapse",
         img: "https://source.unsplash.com/random",
         largeImg: "",
 
-        url: "/",
+        button: {
+          label: "contact us",
+          link: "/",
+        },
       },
       {
         title: "Restaurant Menu Product",
         img: "https://source.unsplash.com/random",
         largeImg: "",
 
-        url: "/",
+        button: {
+          label: "contact us",
+          link: "/",
+        },
       },
       {
         title: "'Absolute Haitian' Machine Assembly Time-lapse",
         img: "https://source.unsplash.com/random",
         largeImg: "",
 
-        url: "/",
+        button: {
+          label: "contact us",
+          link: "/",
+        },
       },
       {
         title: "industrial manufacturing product",
         img: "https://source.unsplash.com/random",
         largeImg: "",
 
-        url: "/",
+        button: {
+          label: "contact us",
+          link: "/",
+        },
       },
     ],
   },
