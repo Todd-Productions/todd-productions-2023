@@ -6,39 +6,50 @@
     "button": {
       "link": "/contact-us",
       "label": "boost your seo today"
+    }
+  },
+  "seoTitle": "OUR SEO MAINTENANCE PACKAGES",
+  "seoDescription": "* All Todd Productions Inc. SEO maintenance packages required initial setup fee. Setup SEO will include research site structure, initial keyword research, third party service setup (such as Google Business and Yelp), and other setup processes. Please contact Todd Productions Inc. for initial setup cost.",
+  "seoPackages": [
+    {
+      "type": "PROFESSIONAL",
+      "price": "150",
+      "priceFrequency": "a month",
+      "highlights": [
+        "Keyword research based on site analytical data",
+        "Adjustment of HTML tags including title and meta",
+        "Updating content based on keywords",
+        "Optimizing images for best performance",
+        "Content moving according to user flow",
+        "Increased MONTHLY updates for higher rankings",
+        "Content maintenance / updates",
+        "CUSTOM analytical report including page analysis, compared performances, and much more"
+      ]
     },
-    "seoTitle": "OUR SEO MAINTENANCE PACKAGES",
-    "seoPackages": [
-      {
-        "type": "PROFESSIONAL",
-        "price": "150",
-        "priceFrequency": "a month",
-        "highlights": [
-          "Keyword research based on site analytical data",
-          "Adjustment of HTML tags including title and meta",
-          "Increased MONTHLY updates for higher rankings"
-        ]
-      },
-      {
-        "type": "ADVANCED",
-        "price": "375",
-        "priceFrequency": "every 3 months",
-        "highlights": [
-          "Keyword research based on site analytical data",
-          "Adjustment of HTML tags including title and meta",
-          "Increased MONTHLY updates for higher rankings"
-        ]
-      },
-      {
-        "type": "STANDARD",
-        "price": "600",
-        "priceFrequency": "every 6 months",
-        "highlights": [
-          "Keyword research based on site analytical data",
-          "Adjustment of HTML tags including title and meta",
-          "Increased MONTHLY updates for higher rankings"
-        ]
-      }
-    ]
-  }
+    {
+      "type": "ADVANCED",
+      "price": "375",
+      "priceFrequency": "every 3 months",
+      "highlights": [
+        "Keyword research based on site analytical data",
+        "Adjustment of HTML tags including title and meta",
+        "Updating content based on keywords",
+        "Optimizing images for best performance",
+        "Content moving according to user flow",
+        "Increased updates every 3 months for improved rankings",
+        "CUSTOM analytical report including page analysis, compared performances, and much more"
+      ]
+    },
+    {
+      "type": "STANDARD",
+      "price": "600",
+      "priceFrequency": "every 6 months",
+      "highlights": [
+        "Keyword research based on site analytical data",
+        "Adjustment of HTML tags including title and meta",
+        "Updating content based on keywords",
+        "Content moving according to user flow"
+      ]
+    }
+  ]
 }

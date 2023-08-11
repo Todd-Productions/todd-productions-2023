@@ -112,13 +112,15 @@ export const Default: Story = {
         ],
       },
     ],
-    title: "ENHANCE YOUR SEARCH PRESENCE",
-    description:
-      "Everyone wants their website to be at the top of the list for searches. And companies pay lots of money to make that happen. But experienced web developers avoid the paid ads at the top of a search to get to what they consider a more viable source. At Todd Productions, we believe in organic (non-paid) methods, such as Search Engine Optimization, to get our clients’ websites moved up the list. There are many techniques to code a site to help make that happen. Let us sit down with you to discuss how we can help your business website get to the top of the search engine list.",
-    videoBtn: {
-      link: "/",
-      label: "boost your seo today",
+    topCTAData: {
+      title: "CONQUER THE WEB",
+      description:
+        "Websites are the digital home of a business! While social media sites can serve as great marketing for you, businesses and organizations need to capitalize on both. Designing a website for your company or product can seem overwhelming with all the different paths you can follow. Even updating your existing site can be time-consuming and confusing. Furthermore, many sites today are not properly optimized, causing them to load slowly or to not properly display content. At Todd Productions Inc. we’ll work with you to make your website the best that it can be. Whether it’s a pre-existing site that you want to optimize, or you are seeking to build an entirely new corporate site or a marketing site, we can work with you and your budget to get you the best result.",
+      bannerImg: "https://source.unsplash.com/random",
+      button: {
+        link: "/contact-us",
+        label: "connect with us",
+      },
     },
-    videoLink: "https://www.youtube.com/embed/u31qwQUeGuM",
   },
 }

@@ -16,7 +16,7 @@
       "subHeading": "GET ONLINE BUSINESS PRESENCE",
       "content": "A marketing website can seem complex. Yes, there are many applications that allow you to “drag and drop” to create your own website. But do you have the time to do that while running your business? Will it be optimized to load quickly? Or will it be unnecessarily complicated and slow to load? And how could you tell the difference between an optimized site and an overloaded one? Let Todd Productions research, write and produce the content for your site.",
       "button": {
-        "link": "/",
+        "link": "/web-services/marketing-websites",
         "label": "see marketing site examples"
       },
       "imgLeft": true
@@ -28,7 +28,7 @@
       "subHeading": "SAVE TIME AND MONEY",
       "content": "Is there any part of your business that is repeatedly laborious and time-consuming, like entering in data and filling out paperwork? We can develop a web application to streamline and automate that manual process, to save you time and money. And we’ll create the app so it is scale-able and can be expanded to grow with your business as needed. You think it. We build it.",
       "button": {
-        "link": "/",
+        "link": "/web-services/web-applications",
         "label": "learn about web applications"
       }
     },
@@ -39,7 +39,7 @@
       "subHeading": "FIRST ON GOOGLE",
       "content": "What good is a great website if it can’t be found quickly through search engines? We design our website content with Search Engine Optimization (SEO) in mind. SEO means adjusting or optimizing your website to help users get to your site faster. SEO uses organic (non-paid) methods to drive traffic from search engine result pages to your website. Our proven techniques will boost your website’s ranking on search engines to result in more people getting to know your company and its products.",
       "button": {
-        "link": "/",
+        "link": "/web-services/search-engine-optimization",
         "label": "learn about seo"
       },
       "imgLeft": true

@@ -22,7 +22,7 @@ export interface ISEOMeta {
 
 // SEO Page
 export interface IPricingCard {
-  type: "PROFESSIONAL" | "ADVANCED" | "STANDARD"
+  type: string
   price: string
   priceFrequency: string
   highlights: string[]

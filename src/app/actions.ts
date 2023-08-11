@@ -13,6 +13,7 @@ export const getTopCTA = (data: any): IPageInfoContent => ({
   title: data.heading,
   description: data.description,
   bannerImg: data.bannerImg,
+  videoLink: data.videoLink,
   button: {
     label: data.button.label,
     link: data.button.link,

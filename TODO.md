@@ -13,7 +13,7 @@
 - [x] other
 - [x] who are we
 - [x] web
-  - [-] SEO
+  - [x] SEO
   - [ ] marketing samples
   - [ ] web app samples
 - [x] video
@@ -21,6 +21,7 @@
 
 
 # Misc
+- [ ] remove use client from pages, use in components needed
 - [ ] Removed bottom margin on PageInfoSection
 - [ ] Fix getDefaultProps
 - [ ] Make getSplitContentProps
