@@ -17,6 +17,7 @@ export const Default: Story = {
     card: {
       title: "Title Here",
       img: "https://picsum.photos/700/700",
+      largeImg: "https://picsum.photos/700/700",
       url: "/",
     },
   },

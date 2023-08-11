@@ -80,30 +80,41 @@ export const Default: Story = {
       {
         title: "Food Labeling Product",
         img: "https://source.unsplash.com/random",
+        largeImg: "https://source.unsplash.com/random",
         url: "/",
       },
       {
         title: "Worker Training product",
         img: "https://source.unsplash.com/random",
+        largeImg: "https://source.unsplash.com/random",
+
         url: "/",
       },
       {
         title: "'Signature Decks' Build Time-lapse",
         img: "https://source.unsplash.com/random",
+        largeImg: "https://source.unsplash.com/random",
+
         url: "/",
       },
       {
         title: "Restaurant Menu Product",
         img: "https://source.unsplash.com/random",
+        largeImg: "https://source.unsplash.com/random",
+
         url: "/",
       },
       {
         title: "'Absolute Haitian' Machine Assembly Time-lapse",
+        largeImg: "https://source.unsplash.com/random",
+
         img: "https://source.unsplash.com/random",
         url: "/",
       },
       {
         title: "industrial manufacturing product",
+        largeImg: "https://source.unsplash.com/random",
+
         img: "https://source.unsplash.com/random",
         url: "/",
       },

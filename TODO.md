@@ -21,6 +21,7 @@
 
 
 # Misc
+- [ ] set up pop up for samples 
 - [ ] remove use client from pages, use in components needed
 - [ ] Removed bottom margin on PageInfoSection
 - [ ] Fix getDefaultProps
