@@ -6,6 +6,7 @@
 - [x] Web Services
 - [x] Web SEO
 - [ ] Category Pages
+ - [-] Web categories
 
 # Set up data
 - [x] home

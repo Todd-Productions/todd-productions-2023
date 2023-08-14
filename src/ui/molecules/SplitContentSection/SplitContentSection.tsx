@@ -42,7 +42,7 @@ const SplitContentSection: React.FC<SplitContentProps> = ({
         <div className={`my-10 md:p-16 order-2 ${order2}`}>
           <SectionHeading>{heading}</SectionHeading>
           <SectionSubHeading>{subHeading}</SectionSubHeading>
-          <div className="mb-12 leading-9">{content}</div>
+          <p className="mb-12 leading-9">{content}</p>
           <Link href={button.link}>
             <Button fullWidth>{button.label}</Button>
           </Link>
