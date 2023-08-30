@@ -18,7 +18,7 @@
   - [x] marketing samples
   - [x] web app samples
 - [x] video
-  - [-] promo / sales
+  - [x] promo / sales
   - [ ] product
   - [ ] corporate
   - [ ] traning
