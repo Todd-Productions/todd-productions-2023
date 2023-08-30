@@ -19,7 +19,7 @@
   - [x] web app samples
 - [x] video
   - [x] promo / sales
-  - [ ] product
+  - [x] product
   - [ ] corporate
   - [ ] traning
   - [ ] commercial

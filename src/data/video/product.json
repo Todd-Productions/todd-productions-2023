@@ -1,0 +1,173 @@
+{
+  "pageInfoSection": {
+    "heading": "SHOW OFF YOUR PRODUCT'S FEATURES",
+    "description": "<p>Are you trying to market a product that isn&apos;t easy to explain unless it is shown? Or do you need a showcase video of your product to display its design and packaging. Perhaps research tells you if you add a product video to your website, it will increase the visitors’ time spent on that page and improve the chances of a sale.</p><p>Product videos show your product&apos;s features and benefits and can also demonstrate how it works in different applications. They are especially helpful when targeting customers who are in the buying phase and at the stage of weighing the different options available to them.</p><p>In short, product videos are an excellent way to convey the right message. Whether it&apos;s a new product introduction, a product update or the promotion of a complete line, our team will work closely with your staff to develop a script, brainstorm ideas for video scenarios, film, record, and provide post-production editing with narration and music as needed.</p>",
+    "bannerImg": "https://source.unsplash.com/random",
+    "button": {
+      "link": "/contact-us",
+      "label": "market your product"
+    }
+  },
+  "samples": [
+    {
+      "title": "FOOD LABELING PRODUCT",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/2w5BYyNus90",
+      "description": "A short, exciting pre-roll video designed to capture the attention of viewers and show them the benefits of this useful kitchen product!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=2w5BYyNus90",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "WORKER TRAINING PRODUCT",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/84uCAvvBhc0",
+      "description": "Showcase for this specialized software that trains and tracks all sorts of unique features.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=84uCAvvBhc0",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "SIGNATURE DECKS BUILD TIME-LAPSE",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/nLXFoEHXUr4",
+      "description": "A fun time-lapse video to show the construction process of Signature Deck&apos;s Pergola on a home.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=nLXFoEHXUr4",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "RESTAURANT MENU PRODUCT",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/9F65QP-ywfI",
+      "description": "A stylish advertisement, showing off a brand new menu design for an authentic Mexican restaurant!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=9F65QP-ywfI",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "ABSOLUTE HAITIAN MACHINE ASSEMBLY TIME-LAPSE",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/1nlir5esVC0",
+      "description": "An informative time-lapse video to showcase the assembly process of a machine designed by Absolute Haitian.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=1nlir5esVC0",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "INDUSTRIAL MANUFACTURING PRODUCT",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/SC_fw5FB_z8",
+      "description": "Exciting showcase for a specially designed machine made for palletizing and packaging!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=SC_fw5FB_z8",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "MARCO&apos;S LOCATION CONSTRUCTION TIME-LAPSE",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/xqPKBGlwpyU",
+      "description": "An energetic time-lapse video chronicling the process of a new building site for a Marco&apos;s Pizza location, over the entire duration of it&apos;s construction.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=xqPKBGlwpyU",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "PRODUCT PACKAGING SHOWCASE",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/rkZQiYMdVJw",
+      "description": "Sleek, stylish, showcase of the well designed packaging for a product.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=rkZQiYMdVJw",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "CLEANING PROCESS PRODUCT",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/RMOoQgyillQ",
+      "description": "Advertisement designed to provide information about this packaged cleaning system.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=RMOoQgyillQ",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "OUTDOOR COOKING PRODUCT",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/u5mtP4kanNU",
+      "description": "A quick showcase of this unique grill that is only available in this one location locally!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=u5mtP4kanNU",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "INDUSTRIAL MANUFACTURING SERVICE",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/MDi8j3-MXeg",
+      "description": "An informative promotional video that utilizes a nice blend of talking head sections and b-roll of the day to day operations, giving a nice overall view of the services provided.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=MDi8j3-MXeg",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "MUSIC COMPILATION PRODUCT",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/yL8rU0goMpM",
+      "description": "A fun, electrifying, retro style advertisement for an album of classic pop hits reinterpreted!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=yL8rU0goMpM",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "CLEANING & SANITIZATION PRODUCT",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/-qSYDiUpuuE",
+      "description": "Sleek, well shot commercial for an incredible line of multi-surface wipes and their many surface cleaning capabilities.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=-qSYDiUpuuE",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "HANDCRAFTED WOODWORK PRODUCT SHOWCASE",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/rP9AyPU_qyg",
+      "description": "Stylish, well polished video showcase displaying a wide assortment of finely crafted woodworking&apos;s, made completely by hand.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=rP9AyPU_qyg",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "RESTAURANT DRINK PASS",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/iXmgwR-fNEI",
+      "description": "A quick but functional video designed for in-house display in restaurant franchise locations on monitors and screens.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=iXmgwR-fNEI",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "LABEL PRINTING PRODUCT",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/i4zl9BHOpfA",
+      "description": "An alternate pre-roll for this useful kitchen tool. Being quick and flashy while also maintaining substance, detailing the benefits of the product&apos;s capabilities!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=i4zl9BHOpfA",
+        "label": "watch video on youtube"
+      }
+    }
+  ]
+}
