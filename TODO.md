@@ -20,13 +20,13 @@
 - [x] video
   - [x] promo / sales
   - [x] product
-  - [ ] corporate
-  - [ ] traning
+  - [x] corporate
+  - [x] traning
   - [ ] commercial
-  - [ ] convention / events
+  - [x] convention / events
   - [ ] music
   - [ ] drone
-  - [ ] studio
+  - [x] studio
 
 
 
