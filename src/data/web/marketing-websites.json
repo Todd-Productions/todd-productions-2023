@@ -9,69 +9,60 @@
       "label": "start building your website today"
     }
   },
-  "samplesTitles": "EXAMPLES OF MARKETING WEBSITES",
-  "sites": [
+  "samplesTitle": "EXAMPLES OF MARKETING WEBSITES",
+  "samples": [
     {
       "title": "HEALTHSOURCE",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "description": "",
       "url": "https://hsfranchising.com/"
     },
     {
       "title": "SEA SCHOOL",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "description": "",
       "url": "https://www.seaschool.com/"
     },
     {
       "title": "ELIZABETH SCOTT",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "description": "",
       "url": "https://www.elizabethscott.org/"
     },
     {
       "title": "SIFERDS PLUMBING",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "description": "",
       "url": "https://siferds.com/"
     },
     {
       "title": "MAUMEE SUMMER FAIR",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "description": "",
       "url": "https://maumeesummerfair.com/"
     },
     {
       "title": "CIVIL WAR ANTIQUES",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "description": "",
       "url": "https://civilwarantique.com/"
     },
     {
       "title": "HUNT POOLS & SERVICE",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "description": "",
       "url": "https://huntpoolsandservice.com/"
     },
     {
       "title": "MCINTIRE RETIREMENT SERVICES",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "description": "",
       "url": "https://mcintireretirementservices.com/"
     },
     {
       "title": "OHIO WILDLIFE PRO",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "description": "",
       "url": "http://ohiowildlifepro.com/"
     }
   ]

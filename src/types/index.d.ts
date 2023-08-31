@@ -1,3 +1,4 @@
+import { ReactNode } from "react"
 import { UrlObject } from "url"
 
 export type UrlType = UrlObject | string
@@ -40,4 +41,26 @@ export interface ISampleCard {
   videoLink?: string
   description?: string
   button?: IButton
+}
+
+export interface IPageInfo {
+  type: string
+  heading: string
+  description: ReactNode
+  videoLink: string
+  button: IButton
+}
+
+export interface ICategorySample {
+  title: string
+  img: string
+  largeImg: string
+  description?: string
+  url: string
+}
+
+export interface ICategoryData {
+  pageInfoSection: IPageInfo
+  samplesTitle?: string
+  samples?: ICategorySample[]
 }

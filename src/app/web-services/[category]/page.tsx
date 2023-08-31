@@ -1,3 +1,4 @@
+import { ICategoryData } from "@/types"
 import { SampleTemplate } from "../../../ui/templates"
 
 import getCategoryData from "../../../../lib/getCategoryData"
@@ -6,7 +7,9 @@ import { ICrumb } from "../../../ui/molecules/Breadcrumbs/Breadcrumbs"
 
 const CatPage = async ({ params }: { params: { category: string } }) => {
   const { category } = params
-  const data: any = getCategoryData(category)
+
+  const data: ICategoryData = await getCategoryData(category)
+
   const crumbs: ICrumb[] = [
     {
       label: "WEB SERVICES",
@@ -16,12 +19,13 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
       label: data.pageInfoSection.type,
     },
   ]
+
   return (
     <SampleTemplate
       crumbs={crumbs}
       topCTAData={getTopCTA(data.pageInfoSection)}
-      samplesTitle={data.samplesTitles}
-      samples={data.sites}
+      samplesTitle={data.samplesTitle}
+      samples={data.samples}
       {...getDefaultProps()}
     />
   )
