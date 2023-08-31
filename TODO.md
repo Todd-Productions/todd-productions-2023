@@ -23,3 +23,4 @@
 
 # Components
 - [ ] set up pop up for samples
+- [ ] update netlify from sb to prod

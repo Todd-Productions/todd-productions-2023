@@ -31,7 +31,11 @@ const SampleTemplate: React.FC<SampleTemplateProps> = (props) => {
       />
 
       {samplesTitle && samples ? (
-        <SampleCardSection title={samplesTitle} cards={samples} />
+        <SampleCardSection
+          title={samplesTitle}
+          cards={samples}
+          isCard={topCTAData.isCard}
+        />
       ) : null}
     </MainLayout>
   )

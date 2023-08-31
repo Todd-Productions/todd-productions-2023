@@ -1,5 +1,7 @@
 {
   "pageInfoSection": {
+    "type": "PRODUCT",
+    "isCard": true,
     "heading": "SHOW OFF YOUR PRODUCT'S FEATURES",
     "description": "<p>Are you trying to market a product that isn&apos;t easy to explain unless it is shown? Or do you need a showcase video of your product to display its design and packaging. Perhaps research tells you if you add a product video to your website, it will increase the visitors’ time spent on that page and improve the chances of a sale.</p><p>Product videos show your product&apos;s features and benefits and can also demonstrate how it works in different applications. They are especially helpful when targeting customers who are in the buying phase and at the stage of weighing the different options available to them.</p><p>In short, product videos are an excellent way to convey the right message. Whether it&apos;s a new product introduction, a product update or the promotion of a complete line, our team will work closely with your staff to develop a script, brainstorm ideas for video scenarios, film, record, and provide post-production editing with narration and music as needed.</p>",
     "bannerImg": "https://source.unsplash.com/random",
@@ -8,6 +10,7 @@
       "label": "market your product"
     }
   },
+  "samplesTitle": "EXAMPLES OF PRODUCT",
   "samples": [
     {
       "title": "FOOD LABELING PRODUCT",
