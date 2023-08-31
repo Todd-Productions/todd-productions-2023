@@ -8,25 +8,25 @@
 - [ ] Category Pages
  - [-] Web categories
 
-# Set up data
+# Set up page
 - [x] home
 - [x] contact
 - [x] other
 - [x] who are we
 - [x] web
   - [x] SEO
-  - [x] marketing samples
-  - [x] web app samples
+  - [ ] marketing samples
+  - [ ] web app samples
 - [x] video
-  - [x] promo / sales
-  - [x] product
-  - [x] corporate
-  - [x] traning
-  - [x] commercial
-  - [x] convention / events
+  - [ ] promo / sales
+  - [ ] product
+  - [ ] corporate
+  - [ ] traning
+  - [ ] commercial
+  - [ ] convention / events
   - [ ] music
   - [ ] drone
-  - [x] studio
+  - [ ] studio
 
 
 

@@ -1,0 +1,73 @@
+{
+  "pageInfoSection": {
+    "heading": "CAPTURE CINEMATIC FOOTAGE OF YOUR BUSINESS OR PROPERTY",
+    "description": "<p>Drones can capture dramatic and cinematic footage to showcase the outside of your facilities and campus, highlight the beauty of your vineyard, or capture your manufacturing and warehouse operations from the inside. They can highlight the dynamic nature of your workplace. It is important to note that at Todd Productions, we are certified by the Federal Aviation Administration (FAA) as a Part 107 drone licensed operator.</p><p>At Todd Productions, we can capture sweeping landscape shots of your land, business, or property. We will work with you to figure out the right footage for your needs. Perhaps it&apos;s a tracking shot of a moving object, a tour through a building, or a beautiful overhead shot of a property or land. Whatever your needs are, we&apos;re here to help.</p>",
+    "bannerImg": "https://source.unsplash.com/random",
+    "button": {
+      "link": "/contact-us",
+      "label": "get drone footage of your business"
+    }
+  },
+  "samples": [
+    {
+      "title": "DRIVING VEHICLE TRACKING SHOT",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/NMYutVruoLI",
+      "description": "An example of the tracking shot capability of our drone, by stylishly tracking a vehicle driving around a neighborhood.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=NMYutVruoLI",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "LAND SURVEYING",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/dfKoPLDe9P4",
+      "description": "A short video example of land surveying for commercial purposes and also showcasing our ability to get sweeping landscape shots!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=dfKoPLDe9P4",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "CLUBHOUSE PROPERTY SHOWCASE",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/5Yrc_Zb6QCE",
+      "description": "A short highlight reel of a property showcase, sweeping over the building and outdoor pool area, showing off the beauty and layout of the facility.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=5Yrc_Zb6QCE",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "BUSINESS CAMPUS SHOWCASE",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/QqLH3M2LBdE",
+      "description": "Wide panning shots of a large business mixed with flying indoor shots showing the ins and outs of the business and its operations.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=QqLH3M2LBdE",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "DOWNTOWN MAUMEE AERIAL VIEW",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/5c0X7HAsRqA",
+      "description": "Full 180 degree turns showing the entire surrounding area and showing a full view of downtown by taking the drone to new heights!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=5c0X7HAsRqA",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "RESORT GROUNDS OVERVIEW",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/1fdk7wj8ZqA",
+      "description": "A quick highlight video showing off the various activities and fun atmosphere of a huge resort, as well as showcasing the vast property. Good for use in exciting advertisements!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=1fdk7wj8ZqA",
+        "label": "watch video on youtube"
+      }
+    }
+  ]
+}

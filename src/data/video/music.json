@@ -1,0 +1,202 @@
+{
+  "pageInfoSection": {
+    "heading": "SHOW OFF YOUR MUSICAL TALENT",
+    "description": "<p>Do you want to create a music video of your solo or band&apos;s performance at a local event? Maybe it&apos;s a video to post on social media or your website to bring in new fans, a short documentary about your musical process or song creation, or a promotional video to boost hype for an upcoming album.</p><p>You may be an aspiring musician who wants to create a video with lyrics. Perhaps you want intimate footage of your performance. Todd Productions&apos; has the capability of providing simple single-camera shoots up to multi-camera shoots at live performances or recording sessions. As experienced musicians ourselves, we understand what you are trying to achieve … because we&apos;ve done the same with our own band. So you won&apos;t have to explain to us the details of music recordings. And that will free you up to focus on your music.</p>",
+    "bannerImg": "https://source.unsplash.com/random",
+    "button": {
+      "link": "/contact-us",
+      "label": "create your music video"
+    }
+  },
+  "samples": [
+    {
+      "title": "THE LICKERISH QUARTET – “THE DREAM THAT TOOK ME OVER”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/sAJn-xoARFY",
+      "description": "With one band member (Lead Singer Eric Dover) singing through the streets of Los Angeles and the other&apos;s providing self shot footage, Todd Productions was able to combine them with stock footage to creating an energetic video to capture the “dreamlike” feel of the song!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=sAJn-xoARFY",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "THE LICKERISH QUARTET – “THERE IS A MAGIC NUMBER”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/38gA45Xvw-w",
+      "description": "With the band&apos;s members residing in different states, making a video with them all together on one screen was nearly impossible.  The band shot themselves against simple green screens, and with Todd&apos;s “Magic” touch, the final product gives the feel that they all together for an energized performance!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=38gA45Xvw-w",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "THE LICKERISH QUARTET – “SNOLLYGOSTER GOON”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/VjbrYrrOLYU",
+      "description": "An energetic and fast paced music video for The Lickerish Quartet&apos;s fun and quirky song, “Snollygoster Goon”.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=VjbrYrrOLYU",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "THE LICKERISH QUARTET – “NEW ALBUM PROMO”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/aUoNtg7YLiY",
+      "description": "In the spirit of the old K-Tel record ads of the 70s, we created this fun video to promote this bands first album!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=aUoNtg7YLiY",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "JEFF STEWART – “PRETTY LITTLE MORNING”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/rFFm0VSC75A",
+      "description": "A simple, yet beautiful music video that matches the tone of “Pretty Little Morning” by Jeff Stewart.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=rFFm0VSC75A",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "CARL & HIS CAMERA: DON&apos;T LICK THE CAMERA",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/Z8t8Kd4K6zA",
+      "description": "Mike Viola (Candy Butchers, That Thing You Do) asked Todd Stanton if he wanted to document the development of a new band forming – Carl and his Camera.  Todd and his assistant readily jumped at the opportunity to shoot a behind-the-scenes documentary of these great artists collaborate on the newly formed band&apos;s first song writing session.  The concept was to write a song that day, and then debut the song at their show, that very same night!”",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=Z8t8Kd4K6zA",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "CARL & HIS CAMERA – “HERE WE ARE NOW”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/JGx-zl09Myg",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=JGx-zl09Myg",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "MIKE VIOLA, STEVE EGGERS, AND ANDY REED – “VIRGINIA”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/yXBychbmXHw",
+      "description": "With a simple budget, our multi-camera setup captured the spirit of the, then, “One Night Only” Performance of Mike Viola (Candy Butchers), Steve Eggers (The Nines) and Andy Reed&apos;s (An American Underdog) version of Virgina.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=yXBychbmXHw",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "FARRINGTON – “DAMSEL IN DISTRESS”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/ReRVNlaIqB0",
+      "description": "The client wanted animation, but with no big budget to spend on custom animation, we offered a simpler yet creative solution. Equipped with the clients initial suggestion of dragons and a fairytale esthetic, as well as access to many stock footage suppliers we developed a fun solution that captured the imagination of the artists song!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=ReRVNlaIqB0",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "BLEU – “IN LOVE WITH MY LOVER”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/IvJtoQ3VTpE",
+      "description": "Operating on a shoestring budget, Bleu and Todd Stanton made a simple video consisting of one single shot, Bleu drove Todd&apos;s convertible and only sang one part to the camera.  The footage was shot as Bleu sang the song at two times speed to then be synced to the actual speed to the song in post.  Giving the singing section a surreal look.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=IvJtoQ3VTpE",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "DAVID MYHR – “EVERY RAINDROP MEANS A LOT”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/rBgv3Pqzkxk",
+      "description": "David Myhr (Merrymakers) hired Todd Productions to combine a small amount of existing studio footage with some previously shot B-roll to create a cohesive music video to encompass the tone of his heartfelt song.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=rBgv3Pqzkxk",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "DAVID MYHR – “THE THINGS WE DO FOR LOVE”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/bHLQLjzCimE",
+      "description": "A simple music video that creatively captures the innocence and purity portrayed in the heartfelt song by David Myhr.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=bHLQLjzCimE",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "IDENTICAL SUNS – “I&apos;VE BEEN THINKING”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/mZVKXvIx7Ng",
+      "description": "A stylish and creative music video that captures the somber and introspective tone of this slower, soothing track by Identical Suns.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=mZVKXvIx7Ng",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "THE SHAKIN SHIVERS – “MAMA”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/IU9aYGYmJ-w",
+      "description": "A simple yet stylish edit for the lovely, local band, The Shakin Shivers and their wonderful performance!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=IU9aYGYmJ-w",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "BRANDON SCHOTT – “VERDUGO PARK”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/8gTXy8FxqWg",
+      "description": "Needing a video, but having very little budget, Todd and Brandon came up with a concept they found suited nicely.  Brandon shot himself against a simple green screen using various instruments, and Todd did the rest, giving the final production a circus like look that matches the song&apos;s energetic sound.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=8gTXy8FxqWg",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "DAHLMANNS – “DUMB ME DOWN”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/5Lj54WOt--I",
+      "description": "Having no real script to work from, the band hired another videographer to shoot some professional footage, that we then edited into the final production that you see here.",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=5Lj54WOt--I",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "THE DEADBEAT POETS – “JOHNNY SINCERE”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/0bcgE2hNoMM",
+      "description": "Shot by another professional videographer but edited by Todd Productions into a simple, yet fast paced, video that matches the energy and feel of this electric song!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=0bcgE2hNoMM",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "KIDZB4 – “RING OF FIRE”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/NR9EEzJT8Ps",
+      "description": "On a scorching summer day in Waterville, this local band delivered an intense performance! This is only a mere highlight of the full show, which we also captured with the same energy and style!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=NR9EEzJT8Ps",
+        "label": "watch video on youtube"
+      }
+    },
+    {
+      "title": "THE LICKERISH QUARTET – “TV COMMERCIAL”",
+      "img": "https://source.unsplash.com/random",
+      "videoLink": "https://www.youtube.com/embed/pEQMp0l5VgE",
+      "description": "In the style of the old Ronco ads of the 80s, we create this tongue-in-cheek video to promote this bands first album!",
+      "button": {
+        "link": "https://www.youtube.com/watch?v=pEQMp0l5VgE",
+        "label": "watch video on youtube"
+      }
+    }
+  ]
+}
