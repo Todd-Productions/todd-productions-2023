@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react"
 import Link from "next/link"
 
-import { Button, SectionHeading, Section, Wrapper, Hero } from "../../atoms"
+import { Button, SectionHeading, Wrapper, Hero } from "../../atoms"
 import { UrlType, IButton } from "../../../types"
 import "./pageinfosection.css"
 
@@ -22,9 +22,9 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
   videoLink,
   bannerImg,
 }) => (
-  <Section>
+  <section className="pt-10">
     <Wrapper>
-      <div className="grid gap-10 md:gap-20 grid-cols-1 md:grid-cols-[1fr_3fr]">
+      <div className="pb-10 grid gap-10 md:gap-20 grid-cols-1 md:grid-cols-[1fr_3fr]">
         <div className="header-container order-3 md:order-1">
           <SectionHeading>{title}</SectionHeading>
           <Link href={button.link}>
@@ -32,7 +32,7 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
           </Link>
         </div>
         {videoLink ? (
-          <div className="video-container order-2 md:order-3 md:col-start-2 bg-black">
+          <div className="video-container order-2 md:order-3 md:col-start-2">
             <iframe
               src={videoLink as string}
               title="YouTube video player"
@@ -50,7 +50,7 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
         <Hero img={bannerImg} />
       </div>
     ) : null}
-  </Section>
+  </section>
 )
 
 export default PageInfoSection

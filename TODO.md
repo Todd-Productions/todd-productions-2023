@@ -1,14 +1,4 @@
-# Add template to page
-- [x] Home
-- [x] Contact Us
-- [x] Other Services
-- [x] Video Production
-- [x] Web Services
-- [x] Web SEO
-- [ ] Category Pages
- - [-] Web categories
-
-# Set up page
+# Pages
 - [x] home
 - [x] contact
 - [x] other
@@ -16,7 +6,7 @@
 - [x] web
   - [x] SEO
   - [-] marketing samples (need to create sample popup)
-  - [ ] web app samples
+  - [x] web app samples
 - [x] video
   - [ ] promo / sales
   - [ ] product
@@ -31,10 +21,5 @@
 
 
 
-# Misc
+# Components
 - [ ] set up pop up for samples
-- [ ] remove use client from pages, use in components needed
-- [ ] Removed bottom margin on PageInfoSection
-- [ ] Fix getDefaultProps
-- [ ] Make getSplitContentProps
-- [ ] Add 'active' key to crumbs
