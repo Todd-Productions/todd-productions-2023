@@ -5,7 +5,7 @@ import slugify from "slugify"
 
 import Social from "../Social/Social"
 import { Wrapper } from "../../atoms"
-import { INavLink } from "@/types"
+import { INavLink } from "../../../types"
 
 export interface FooterProps {
   links: INavLink[]

@@ -1,5 +1,5 @@
 async function getCategoryData(category: string) {
-  const webApplicationsData = await import(`../src/data/web/${category}.json`)
+  const webApplicationsData = await import(`../src/data/${category}.json`)
   return webApplicationsData
 }
 

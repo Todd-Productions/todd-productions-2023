@@ -8,7 +8,7 @@ import { ICrumb } from "../../../ui/molecules/Breadcrumbs/Breadcrumbs"
 const CatPage = async ({ params }: { params: { category: string } }) => {
   const { category } = params
 
-  const data: ICategoryData = await getCategoryData(category)
+  const data: ICategoryData = await getCategoryData(`web/${category}`)
 
   const crumbs: ICrumb[] = [
     {

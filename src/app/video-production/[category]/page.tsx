@@ -1,5 +1,3 @@
-const CatPage = () => {
-  return <div>CatPage</div>
-}
+const CatPage = () => <div>CatPage</div>
 
 export default CatPage
