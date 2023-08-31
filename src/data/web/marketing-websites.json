@@ -1,7 +1,7 @@
 {
   "pageInfoSection": {
     "heading": "WEB DEVELOPMENT FOR YOU",
-    "description": "Do you really have the time to research, download, and learn how to use these applications to create your own website? Will it load quickly, will it be found easily during searches? We've developed many websites ranging from sites for small, local businesses, to medium-sized regional companies, to large multi-national businesses. The list includes for-profit companies and non-profit organizations and schools. Websites are the digital homes for businesses and organizations. Let Todd Productions work with you and your staff to build a site that tells your story while making it optimized for visitors to access.",
+    "description": "<p>Do you really have the time to research, download, and learn how to use these applications to create your own website? Will it load quickly, will it be found easily during searches?</p><p>We’ve developed many websites ranging from sites for small, local businesses, to medium-sized regional companies, to large multi-national businesses. The list includes for-profit companies and non-profit organizations and schools.</p><p>Websites are the digital homes for businesses and organizations. Let Todd Productions work with you and your staff to build a site that tells your story while making it optimized for visitors to access.</p>",
     "videoLink": "https://www.youtube.com/embed/VaM-3-0iHBA",
     "button": {
       "link": "/contact-us",
@@ -11,63 +11,63 @@
   "sites": [
     {
       "title": "HEALTHSOURCE",
-      "img:": "https://source.unsplash.com/random",
+      "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
       "description": "",
       "url": "https://hsfranchising.com/"
     },
     {
       "title": "SEA SCHOOL",
-      "img:": "https://source.unsplash.com/random",
+      "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
       "description": "",
       "url": "https://www.seaschool.com/"
     },
     {
       "title": "ELIZABETH SCOTT",
-      "img:": "https://source.unsplash.com/random",
+      "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
       "description": "",
       "url": "https://www.elizabethscott.org/"
     },
     {
       "title": "SIFERDS PLUMBING",
-      "img:": "https://source.unsplash.com/random",
+      "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
       "description": "",
       "url": "https://siferds.com/"
     },
     {
       "title": "MAUMEE SUMMER FAIR",
-      "img:": "https://source.unsplash.com/random",
+      "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
       "description": "",
       "url": "https://maumeesummerfair.com/"
     },
     {
       "title": "CIVIL WAR ANTIQUES",
-      "img:": "https://source.unsplash.com/random",
+      "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
       "description": "",
       "url": "https://civilwarantique.com/"
     },
     {
       "title": "HUNT POOLS & SERVICE",
-      "img:": "https://source.unsplash.com/random",
+      "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
       "description": "",
       "url": "https://huntpoolsandservice.com/"
     },
     {
       "title": "MCINTIRE RETIREMENT SERVICES",
-      "img:": "https://source.unsplash.com/random",
+      "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
       "description": "",
       "url": "https://mcintireretirementservices.com/"
     },
     {
       "title": "OHIO WILDLIFE PRO",
-      "img:": "https://source.unsplash.com/random",
+      "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
       "description": "",
       "url": "http://ohiowildlifepro.com/"

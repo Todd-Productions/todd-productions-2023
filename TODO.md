@@ -15,7 +15,7 @@
 - [x] who are we
 - [x] web
   - [x] SEO
-  - [ ] marketing samples
+  - [-] marketing samples (need to create sample popup)
   - [ ] web app samples
 - [x] video
   - [ ] promo / sales

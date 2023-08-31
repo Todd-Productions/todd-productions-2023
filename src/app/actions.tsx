@@ -11,7 +11,7 @@ export const getDefaultProps = (): any => ({
 
 export const getTopCTA = (data: any): IPageInfoContent => ({
   title: data.heading,
-  description: data.description,
+  description: <div dangerouslySetInnerHTML={{ __html: data.description }} />,
   bannerImg: data.bannerImg,
   videoLink: data.videoLink,
   button: {

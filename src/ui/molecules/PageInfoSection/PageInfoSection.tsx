@@ -42,7 +42,7 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
           </div>
         ) : null}
 
-        <div className="leading-6 order-1 md:order-2">{description}</div>
+        <div className="content order-1 md:order-2">{description}</div>
       </div>
     </Wrapper>
     {bannerImg ? (

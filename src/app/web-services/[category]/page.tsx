@@ -6,7 +6,7 @@ import { getTopCTA, getDefaultProps } from "../../actions"
 const CatPage = async ({ params }: { params: { category: string } }) => {
   const { category } = params
   const data: any = getCategoryData(category)
-  console.log(data.sites)
+
   return (
     <SampleTemplate
       topCTAData={getTopCTA(data.pageInfoSection)}
