@@ -12,14 +12,15 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
 
   const crumbs: ICrumb[] = [
     {
-      label: "VIDEO SERVICES",
-      url: "/video-services",
+      label: "VIDEO PRODUCTION",
+      url: "/video-production",
     },
     {
       label: data.pageInfoSection.type,
     },
   ]
 
+  console.log(data.pageInfoSection.bannerImg)
   return (
     <SampleTemplate
       crumbs={crumbs}

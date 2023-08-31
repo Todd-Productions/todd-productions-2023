@@ -12,6 +12,7 @@ export interface IPageInfoContent {
   videoLink?: UrlType
   bannerImg?: string
   isCard?: boolean
+  type?: string
 }
 
 type SplitContentProps = IPageInfoContent

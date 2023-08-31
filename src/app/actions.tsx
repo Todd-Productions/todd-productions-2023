@@ -19,6 +19,7 @@ export const getTopCTA = (data: any): IPageInfoContent => ({
     link: data.button.link,
   },
   isCard: data.isCard,
+  type: data.type,
 })
 
 export const getSplitContent = (data: any): ISplitContent[] =>

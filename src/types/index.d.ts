@@ -46,6 +46,7 @@ export interface ISampleCard {
 export interface IPageInfo {
   type: string
   isCard?: boolean
+  bannerImg?: string
   heading: string
   description: ReactNode
   videoLink: string

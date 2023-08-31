@@ -24,7 +24,6 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
     <SampleTemplate
       crumbs={crumbs}
       topCTAData={getTopCTA(data.pageInfoSection)}
-      samplesTitle={data.samplesTitle}
       samples={data.samples}
       {...getDefaultProps()}
     />

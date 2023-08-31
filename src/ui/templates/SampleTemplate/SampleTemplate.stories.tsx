@@ -137,7 +137,6 @@ export const Default: Story = {
         },
       },
     ],
-    samplesTitle: "EXAMPLES OF PROMOTIONAL / SALES",
     topCTAData: {
       title: "PROMOTE YOUR PRODUCT OR EVENT",
       description: (
@@ -158,6 +157,5 @@ export const Default: Story = {
         label: "connect with us",
       },
     },
-    bannerImg: "https://source.unsplash.com/random",
   },
 }
