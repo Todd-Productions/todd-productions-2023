@@ -22,7 +22,7 @@
   - [x] product
   - [x] corporate
   - [x] traning
-  - [ ] commercial
+  - [x] commercial
   - [x] convention / events
   - [ ] music
   - [ ] drone
