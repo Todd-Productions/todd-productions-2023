@@ -3,7 +3,7 @@ import cn from "classnames"
 import {
   faYoutube,
   faFacebook,
-  faTwitter,
+  faXTwitter,
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
@@ -48,7 +48,7 @@ const Social: React.FC<SocialProps> = (props) => {
     {
       url: twitter,
       title: "Todd Production's Twitter",
-      icon: faTwitter,
+      icon: faXTwitter,
     },
     {
       url: youtube,

@@ -14,7 +14,8 @@
       "title": "HEALTHSOURCE",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "url": "https://hsfranchising.com/"
+      "url": "https://hsfranchising.com/",
+      "slug": "/healthsource"
     },
     {
       "title": "SEA SCHOOL",

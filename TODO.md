@@ -5,18 +5,22 @@
 - [x] who are we
 - [x] web
   - [x] SEO
-  - [-] marketing samples (need to create sample popup)
+  - [-] marketing samples (need to set up slug prop to make card link to new page)
+  # New Pages
+    - [-] marketing sites (need to setup video as 1200px for video samples, image on site?)
   - [x] web app samples
 - [x] video
-  - [-] promo / sales (needs popup)
-  - [-] product
-  - [x] corporate
-  - [-] traning
-  - [-] commercial
-  - [x] convention / events
-  - [-] music
-  - [-] drone
-  - [x] studio
+# New Pages
+ - [ ] need to set up slug prop to make card link to new page
+  - [ ] promo / sales (needs popup)
+  - [ ] product
+  - [ ] corporate
+  - [ ] traning
+  - [ ] commercial
+  - [ ] convention / events
+  - [ ] music
+  - [ ] drone
+  - [ ] studio
 
 
 
