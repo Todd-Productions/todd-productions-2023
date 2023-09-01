@@ -7,10 +7,11 @@
   - [x] SEO
   - [-] marketing samples (need to set up slug prop to make card link to new page)
   # New Pages
-    - [-] marketing sites (need to setup video as 1200px for video samples, image on site?)
+    - [-] marketing sites (crumbs, need to setup video as 1200px for video samples, image on site?)
   - [x] web app samples
 - [x] video
 # New Pages
+ - [ ] crumbs
  - [ ] need to set up slug prop to make card link to new page
   - [ ] promo / sales (needs popup)
   - [ ] product
@@ -26,6 +27,7 @@
 
 
 # Components
+- [ ] Cards text should look more like HS cards (red hover) checkout HS clinic page
 - [ ] set up pop up for samples
 - [ ] refactor/ clean up interfaces for data and related functions
 - [ ] update netlify from sb to prod

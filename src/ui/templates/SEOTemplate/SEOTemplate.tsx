@@ -1,6 +1,6 @@
 import React from "react"
 
-import { PageInfoSection, SEOPricing } from "../../molecules"
+import { PageInfoSection } from "../../molecules"
 import { MainLayout } from "../../organisms"
 import {
   getMainLayoutProps,
@@ -18,7 +18,7 @@ export interface SEOTemplateProps extends DefaultTemplateProps {
 }
 
 const SEOTemplate: React.FC<SEOTemplateProps> = (props) => {
-  const { topCTAData, seoTitle, seoDescription, seoPackages } = props
+  const { topCTAData } = props
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
@@ -28,11 +28,11 @@ const SEOTemplate: React.FC<SEOTemplateProps> = (props) => {
         button={topCTAData.button}
         videoLink={topCTAData.videoLink}
       />
-      <SEOPricing
+      {/* <SEOPricing
         title={seoTitle}
         description={seoDescription}
         packages={seoPackages}
-      />
+      /> */}
     </MainLayout>
   )
 }
