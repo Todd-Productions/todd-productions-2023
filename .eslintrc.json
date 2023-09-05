@@ -18,6 +18,7 @@
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
     "react/require-default-props": "off",
+    "import/prefer-default-export": "warn",
     "no-shadow": "off",
     "import/no-duplicates": "warn",
     "react/jsx-filename-extension": [

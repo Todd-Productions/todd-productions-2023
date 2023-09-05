@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "next/image"
+import Link from "next/link"
 
 import "../SampleCard/samplecard.css"
 import { ISampleCard } from "../../../types"
@@ -13,14 +14,16 @@ const SampleImage: React.FC<SampleImageProps> = (props) => {
 
   return (
     <div className="sample-card">
-      <div className="h-full relative flex items-center justify-center text-center px-4">
-        <Image
-          className="card-img"
-          src={card.img as string}
-          fill
-          alt={card.title}
-        />
-      </div>
+      <Link href={card.slug}>
+        <div className="h-full relative flex items-center justify-center text-center px-4">
+          <Image
+            className="card-img"
+            src={card.img as string}
+            fill
+            alt={card.title}
+          />
+        </div>
+      </Link>
     </div>
   )
 }

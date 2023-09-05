@@ -41,6 +41,7 @@ export interface ISampleCard {
   videoLink?: string
   description?: string
   button?: IButton
+  slug: string
 }
 
 export interface IPageInfo {

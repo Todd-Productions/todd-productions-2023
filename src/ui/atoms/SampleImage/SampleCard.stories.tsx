@@ -15,6 +15,7 @@ export const Default: Story = {
   render: (args: any) => <SampleImage {...args} />,
   args: {
     card: {
+      slug: "",
       title: "Title Here",
       img: "https://picsum.photos/700/700",
       button: {

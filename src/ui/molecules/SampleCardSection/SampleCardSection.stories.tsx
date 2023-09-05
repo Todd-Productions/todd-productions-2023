@@ -21,6 +21,7 @@ export const Default: Story = {
         title: "Food Labeling Product",
         img: "https://source.unsplash.com/random",
         largeImg: "",
+        slug: "",
 
         button: {
           label: "contact us",
@@ -31,6 +32,7 @@ export const Default: Story = {
         title: "Worker Training product",
         img: "https://source.unsplash.com/random",
         largeImg: "",
+        slug: "",
 
         button: {
           label: "contact us",
@@ -41,6 +43,7 @@ export const Default: Story = {
         title: "'Signature Decks' Build Time-lapse",
         img: "https://source.unsplash.com/random",
         largeImg: "",
+        slug: "",
 
         button: {
           label: "contact us",
@@ -51,6 +54,7 @@ export const Default: Story = {
         title: "Restaurant Menu Product",
         img: "https://source.unsplash.com/random",
         largeImg: "",
+        slug: "",
 
         button: {
           label: "contact us",
@@ -61,6 +65,7 @@ export const Default: Story = {
         title: "'Absolute Haitian' Machine Assembly Time-lapse",
         img: "https://source.unsplash.com/random",
         largeImg: "",
+        slug: "",
 
         button: {
           label: "contact us",
@@ -71,6 +76,7 @@ export const Default: Story = {
         title: "industrial manufacturing product",
         img: "https://source.unsplash.com/random",
         largeImg: "",
+        slug: "",
 
         button: {
           label: "contact us",

@@ -15,55 +15,72 @@
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
       "url": "https://hsfranchising.com/",
-      "slug": "/healthsource"
+      "slug": "/web-services/marketing-websites/healthsource",
+      "description": "some description"
     },
     {
       "title": "SEA SCHOOL",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "url": "https://www.seaschool.com/"
+      "url": "https://www.seaschool.com/",
+      "slug": "/web-services/marketing-websites/seaschool",
+      "description": "some description"
     },
     {
       "title": "ELIZABETH SCOTT",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "url": "https://www.elizabethscott.org/"
+      "url": "https://www.elizabethscott.org/",
+      "slug": "/web-services/marketing-websites/elizabeth-scott",
+      "description": "some description"
     },
     {
       "title": "SIFERDS PLUMBING",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "url": "https://siferds.com/"
+      "url": "https://siferds.com/",
+      "slug": "/web-services/marketing-websites/siferds-plumbing",
+      "description": "some description"
     },
     {
       "title": "MAUMEE SUMMER FAIR",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "url": "https://maumeesummerfair.com/"
+      "url": "https://maumeesummerfair.com/",
+      "slug": "/web-services/marketing-websites/maumee-summer-fair",
+      "description": "some description"
     },
     {
       "title": "CIVIL WAR ANTIQUES",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "url": "https://civilwarantique.com/"
+      "url": "https://civilwarantique.com/",
+      "slug": "/web-services/marketing-websites/civil-war-antiques",
+      "description": "some description"
     },
     {
       "title": "HUNT POOLS & SERVICE",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "url": "https://huntpoolsandservice.com/"
+      "url": "https://huntpoolsandservice.com/",
+      "slug": "/web-services/marketing-websites/hunt-pools-and-services",
+      "description": "some description"
     },
     {
       "title": "MCINTIRE RETIREMENT SERVICES",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "url": "https://mcintireretirementservices.com/"
+      "url": "https://mcintireretirementservices.com/",
+      "slug": "/web-services/marketing-websites/mcintire-retirement-services",
+      "description": "some description"
     },
     {
       "title": "OHIO WILDLIFE PRO",
       "img": "https://source.unsplash.com/random",
       "largeImg": "https://source.unsplash.com/random",
-      "url": "http://ohiowildlifepro.com/"
+      "url": "http://ohiowildlifepro.com/",
+      "slug": "/web-services/marketing-websites/ohio-wildlife-prop",
+      "description": "some description"
     }
   ]
 }

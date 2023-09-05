@@ -16,6 +16,7 @@ export const Default: Story = {
   args: {
     card: {
       title: "Title Here",
+      slug: "",
       img: "https://picsum.photos/700/700",
       largeImg: "https://picsum.photos/700/700",
       button: {

@@ -27,6 +27,7 @@
 
 
 # Components
+- [ ] Add some type of loading placeholder while fetching specific site/sample data, use boolean for template
 - [ ] Cards text should look more like HS cards (red hover) checkout HS clinic page
 - [ ] set up pop up for samples
 - [ ] refactor/ clean up interfaces for data and related functions
