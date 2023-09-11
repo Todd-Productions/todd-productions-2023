@@ -1,13 +1,19 @@
 import React from "react"
 import cns from "classnames"
 
-import { IPricingCard } from "../../../types"
 import "./pricingcard.css"
 
 const borderColors: { [key: string]: string } = {
   PROFESSIONAL: "red",
   ADVANCED: "blue",
   STANDARD: "grey",
+}
+
+export interface IPricingCard {
+  type: string
+  price: string
+  priceFrequency: string
+  highlights: string[]
 }
 
 export interface PricingCardProps {

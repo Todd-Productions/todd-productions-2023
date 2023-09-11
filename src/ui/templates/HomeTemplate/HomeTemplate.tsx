@@ -10,7 +10,7 @@ import { SplitContentSection, PageInfoSection } from "../../molecules"
 
 // @types
 import { ISplitContent } from "../../molecules/SplitContentSection/SplitContentSection"
-import { IPageInfoContent } from "../../molecules/PageInfoSection/PageInfoSection"
+import { IPageInfo } from "../../molecules/PageInfoSection/PageInfoSection"
 
 export interface DefaultTemplateProps extends ISocialLinks {
   crumbs?: ICrumb[]
@@ -19,7 +19,7 @@ export interface DefaultTemplateProps extends ISocialLinks {
 }
 
 export interface HomeTemplateProps extends DefaultTemplateProps {
-  topCTAData: IPageInfoContent
+  topCTAData: IPageInfo
   splitContent: ISplitContent[]
 }
 

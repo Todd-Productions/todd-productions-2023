@@ -7,7 +7,7 @@ import {
   SimpleSectionHeading,
   SampleImage,
 } from "../../atoms"
-import { ISampleCard } from "../../../types"
+import { ISampleCard } from "../../atoms/SampleCard/SampleCard"
 
 export interface SampleCardsProps {
   title: string

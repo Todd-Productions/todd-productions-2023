@@ -7,11 +7,11 @@ import { getDefaultProps } from "../../../actions"
 import { BasicTemplate } from "../../../../ui/templates"
 
 import { ICrumb } from "../../../../ui/molecules/Breadcrumbs/Breadcrumbs"
-import { IPageInfoContent } from "../../../../ui/molecules/PageInfoSection/PageInfoSection"
+import { IPageInfo } from "../../../../ui/molecules/PageInfoSection/PageInfoSection"
 
 const ExmapleSitePage = () => {
   const pathname = usePathname()
-  const [data, setData] = useState<IPageInfoContent>()
+  const [data, setData] = useState<IPageInfo>()
   const [loading, setLoading] = useState(true)
 
   const crumbs: ICrumb[] = [
@@ -39,6 +39,7 @@ const ExmapleSitePage = () => {
       title={data.title}
       description={data.description}
       videoLink={data.videoLink}
+      // bannerImg={data.largeImg}
       data={data}
       button={{
         link: "https://hsfranchising.com/",

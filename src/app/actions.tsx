@@ -1,6 +1,6 @@
 import { navLinks, footerLinks, socialLinks } from "../../siteMeta"
 import { getSocialLinks } from "../ui/molecules/Header/Header"
-import { IPageInfoContent } from "../ui/molecules/PageInfoSection/PageInfoSection"
+import { IPageInfo } from "../ui/molecules/PageInfoSection/PageInfoSection"
 import { ISplitContent } from "../ui/molecules/SplitContentSection/SplitContentSection"
 
 export const getDefaultProps = (): any => ({
@@ -9,7 +9,7 @@ export const getDefaultProps = (): any => ({
   ...getSocialLinks(socialLinks),
 })
 
-export const getTopCTA = (data: any): IPageInfoContent => ({
+export const getTopCTA = (data: any): IPageInfo => ({
   title: data.heading,
   description: <div dangerouslySetInnerHTML={{ __html: data.description }} />,
   bannerImg: data.bannerImg,

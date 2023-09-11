@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 import "../SampleCard/samplecard.css"
-import { ISampleCard } from "../../../types"
+import { ISampleCard } from "../SampleCard/SampleCard"
 
 export interface SampleImageProps {
   card: ISampleCard

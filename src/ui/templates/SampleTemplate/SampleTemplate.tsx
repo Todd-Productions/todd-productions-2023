@@ -7,11 +7,11 @@ import {
   DefaultTemplateProps,
 } from "../HomeTemplate/HomeTemplate"
 
-import { ISampleCard } from "../../../types"
-import { IPageInfoContent } from "../../molecules/PageInfoSection/PageInfoSection"
+import { ISampleCard } from "../../atoms/SampleCard/SampleCard"
+import { IPageInfo } from "../../molecules/PageInfoSection/PageInfoSection"
 
 export interface SampleTemplateProps extends DefaultTemplateProps {
-  topCTAData: IPageInfoContent
+  topCTAData: IPageInfo
   samples?: ISampleCard[]
 }
 

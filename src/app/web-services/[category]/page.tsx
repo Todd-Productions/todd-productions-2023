@@ -1,9 +1,22 @@
-import { ICategoryData } from "@/types"
 import { SampleTemplate } from "../../../ui/templates"
-
+import { IPageInfo } from "../../../ui/molecules/PageInfoSection/PageInfoSection"
 import getCategoryData from "../../../../lib/getCategoryData"
 import { getTopCTA, getDefaultProps } from "../../actions"
 import { ICrumb } from "../../../ui/molecules/Breadcrumbs/Breadcrumbs"
+
+export interface ICategorySample {
+  title: string
+  img: string
+  largeImg: string
+  description?: string
+  url: string
+}
+
+export interface ICategoryData {
+  pageInfoSection: IPageInfo
+  samplesTitle?: string
+  samples?: ICategorySample[]
+}
 
 const CatPage = async ({ params }: { params: { category: string } }) => {
   const { category } = params
@@ -16,7 +29,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
       url: "/web-services",
     },
     {
-      label: data.pageInfoSection.type,
+      label: data.pageInfoSection.type as string,
     },
   ]
 

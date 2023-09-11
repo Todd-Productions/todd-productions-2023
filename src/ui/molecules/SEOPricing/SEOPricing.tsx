@@ -1,7 +1,7 @@
 import React from "react"
 
 import { Section, Wrapper, PricingCard } from "../../atoms"
-import { IPricingCard } from "../../../types"
+import { IPricingCard } from "../../atoms/PricingCard/PricingCard"
 
 export interface SEOProps {
   title: string

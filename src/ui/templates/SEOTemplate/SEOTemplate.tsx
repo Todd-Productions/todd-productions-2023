@@ -7,11 +7,11 @@ import {
   DefaultTemplateProps,
 } from "../HomeTemplate/HomeTemplate"
 
-import { IPricingCard } from "../../../types"
-import { IPageInfoContent } from "../../molecules/PageInfoSection/PageInfoSection"
+import { IPricingCard } from "../../atoms/PricingCard/PricingCard"
+import { IPageInfo } from "../../molecules/PageInfoSection/PageInfoSection"
 
 export interface SEOTemplateProps extends DefaultTemplateProps {
-  topCTAData: IPageInfoContent
+  topCTAData: IPageInfo
   seoTitle: string
   seoDescription: string
   seoPackages: IPricingCard[]

@@ -15,12 +15,11 @@ export interface BasicTemplateProps extends DefaultTemplateProps {
   button: IButton
   videoLink?: UrlType
   bannerImg?: string
-  data: any
 }
 
 const BasicTemplate: React.FC<BasicTemplateProps> = (props) => {
-  const { title, description, button, videoLink, bannerImg, data } = props
-  console.log("in tempalte", data)
+  const { title, description, button, videoLink, bannerImg } = props
+
   return (
     <MainLayout {...getMainLayoutProps(props)}>
       <PageInfoSection

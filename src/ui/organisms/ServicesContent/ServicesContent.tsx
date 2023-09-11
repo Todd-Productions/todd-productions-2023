@@ -3,11 +3,11 @@ import slugify from "slugify"
 
 import { SplitContentSection, PageInfoSection } from "../../molecules"
 import { ISplitContent } from "../../molecules/SplitContentSection/SplitContentSection"
-import { IPageInfoContent } from "../../molecules/PageInfoSection/PageInfoSection"
+import { IPageInfo } from "../../molecules/PageInfoSection/PageInfoSection"
 
 export interface ServicesContentProps {
   contentBlocks: ISplitContent[]
-  topCTAData: IPageInfoContent
+  topCTAData: IPageInfo
 }
 
 const ServicesContent: React.FC<ServicesContentProps> = (props) => {

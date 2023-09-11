@@ -1,9 +1,21 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
+import { UrlObject } from "url"
 
-import { ISampleCard } from "../../../types"
 import "./samplecard.css"
+
+import { IButton } from "../../../types"
+
+export interface ISampleCard {
+  title: string
+  img: string | UrlObject
+  largeImg?: string | UrlObject
+  videoLink?: string
+  description?: string
+  button?: IButton
+  slug: string
+}
 
 export interface SampleCardProps {
   card: ISampleCard

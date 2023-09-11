@@ -1,4 +1,4 @@
-import { ICategoryData } from "@/types"
+import { ICategoryData } from "../../web-services/[category]/page"
 import { SampleTemplate } from "../../../ui/templates"
 
 import getCategoryData from "../../../../lib/getCategoryData"
@@ -16,7 +16,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
       url: "/video-production",
     },
     {
-      label: data.pageInfoSection.type,
+      label: data.pageInfoSection.type as string,
     },
   ]
 
