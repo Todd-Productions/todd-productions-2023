@@ -7,11 +7,19 @@ import { getDefaultProps } from "../../../actions"
 import { BasicTemplate } from "../../../../ui/templates"
 
 import { ICrumb } from "../../../../ui/molecules/Breadcrumbs/Breadcrumbs"
-import { IPageInfo } from "../../../../ui/molecules/PageInfoSection/PageInfoSection"
 
-const ExmapleSitePage = () => {
+export interface IRawPageInfo {
+  title: string
+  img: string
+  largeImg: string
+  url: string
+  slug: string
+  description: string
+}
+
+const ExamplePage = () => {
   const pathname = usePathname()
-  const [data, setData] = useState<IPageInfo>()
+  const [data, setData] = useState<IRawPageInfo>()
   const [loading, setLoading] = useState(true)
 
   const crumbs: ICrumb[] = [
@@ -38,11 +46,10 @@ const ExmapleSitePage = () => {
       crumbs={crumbs}
       title={data.title}
       description={data.description}
-      videoLink={data.videoLink}
-      // bannerImg={data.largeImg}
-      data={data}
+      bannerImg={data.largeImg}
+      videoLink="asdf"
       button={{
-        link: "https://hsfranchising.com/",
+        link: data.url,
         label: "View Site",
       }}
       {...getDefaultProps()}
@@ -50,4 +57,4 @@ const ExmapleSitePage = () => {
   )
 }
 
-export default ExmapleSitePage
+export default ExamplePage

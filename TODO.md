@@ -32,3 +32,4 @@
 - [ ] set up pop up for samples
 - [ ] refactor/ clean up interfaces for data and related functions
 - [ ] update netlify from sb to prod
+- [ ] set up get basicprops
