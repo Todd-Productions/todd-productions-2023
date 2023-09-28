@@ -39,7 +39,7 @@ const ExamplePage = () => {
 
   // todo - use boolean to display in template
   if (loading) return <p>Loading...</p>
-  if (!data) return <p>No profile data</p>
+  if (!data) return <p>No data</p>
 
   return (
     <BasicTemplate
@@ -47,7 +47,7 @@ const ExamplePage = () => {
       title={data.title}
       description={data.description}
       bannerImg={data.largeImg}
-      videoLink="asdf"
+      // videoLink="asdf"
       button={{
         link: data.url,
         label: "View Site",
