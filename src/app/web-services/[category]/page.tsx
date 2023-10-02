@@ -1,4 +1,4 @@
-import { SampleTemplate } from "../../../ui/templates"
+import { SamplesTemplate } from "../../../ui/templates"
 import { IPageInfo } from "../../../ui/molecules/PageInfoSection/PageInfoSection"
 import getCategoryData from "../../../../lib/getCategoryData"
 import { getTopCTA, getDefaultProps } from "../../actions"
@@ -34,7 +34,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
   ]
 
   return (
-    <SampleTemplate
+    <SamplesTemplate
       crumbs={crumbs}
       topCTAData={getTopCTA(data.pageInfoSection)}
       samples={data.samples}

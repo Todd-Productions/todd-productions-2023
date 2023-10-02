@@ -1,5 +1,5 @@
 import { ICategoryData } from "../../web-services/[category]/page"
-import { SampleTemplate } from "../../../ui/templates"
+import { SamplesTemplate } from "../../../ui/templates"
 
 import getCategoryData from "../../../../lib/getCategoryData"
 import { getTopCTA, getDefaultProps } from "../../actions"
@@ -22,7 +22,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
 
   console.log(data.pageInfoSection.bannerImg)
   return (
-    <SampleTemplate
+    <SamplesTemplate
       crumbs={crumbs}
       topCTAData={getTopCTA(data.pageInfoSection)}
       samplesTitle={data.samplesTitle}

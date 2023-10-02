@@ -4,6 +4,9 @@
   padding-top: 56.25%;
   height: 100%;
   width: 100%;
+}
+
+.media-container {
   max-width: 1200px;
 }
 

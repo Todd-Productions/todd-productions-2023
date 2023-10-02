@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 import { Button, SectionHeading, Wrapper } from "../../atoms"
 
@@ -12,10 +13,11 @@ export interface IExampleProps {
   description: string
   embededLink: string
   button: IButton
+  img: string
 }
 
 const ExampleSection = (props: IExampleProps) => {
-  const { title, description, embededLink, button } = props
+  const { title, description, embededLink, button, img } = props
   return (
     <section className="pt-10">
       <Wrapper>
@@ -29,16 +31,20 @@ const ExampleSection = (props: IExampleProps) => {
 
           <div className="content order-1 md:order-2">{description}</div>
         </div>
-        {embededLink ? (
-          <div className="video-container mx-auto">
-            <iframe
-              src={embededLink}
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            />
-          </div>
-        ) : null}
+        <div className="media-container">
+          {embededLink ? (
+            <div className="video-container mx-auto">
+              <iframe
+                src={embededLink}
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
+          ) : (
+            <Image src={img} alt={title} fill />
+          )}
+        </div>
       </Wrapper>
     </section>
   )

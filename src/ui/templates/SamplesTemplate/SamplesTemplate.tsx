@@ -15,7 +15,7 @@ export interface SampleTemplateProps extends DefaultTemplateProps {
   samples?: ISampleCard[]
 }
 
-const SampleTemplate: React.FC<SampleTemplateProps> = (props) => {
+const SamplesTemplate: React.FC<SampleTemplateProps> = (props) => {
   const { samples, topCTAData } = props
 
   return (
@@ -39,4 +39,4 @@ const SampleTemplate: React.FC<SampleTemplateProps> = (props) => {
   )
 }
 
-export default SampleTemplate
+export default SamplesTemplate

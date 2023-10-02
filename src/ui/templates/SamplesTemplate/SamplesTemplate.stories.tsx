@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from "@storybook/react"
 
-import SampleTemplate from "./SampleTemplate"
+import SamplesTemplate from "./SamplesTemplate"
 
-const meta: Meta<typeof SampleTemplate> = {
-  title: "ui/templates/SampleTemplate",
-  component: SampleTemplate,
+const meta: Meta<typeof SamplesTemplate> = {
+  title: "ui/templates/SamplesTemplate",
+  component: SamplesTemplate,
 }
 
 export default meta
 
-type Story = StoryObj<typeof SampleTemplate>
+type Story = StoryObj<typeof SamplesTemplate>
 
 export const Default: Story = {
   args: {
