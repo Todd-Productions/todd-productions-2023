@@ -1,18 +1,17 @@
 import type { Meta, StoryObj } from "@storybook/react"
 
-import ExampleSection from "./ExampleSection"
+import ExampleTemplate from "./ExampleTemplate"
 
-const meta: Meta<typeof ExampleSection> = {
-  title: "ui/molecules/ExampleSection",
-  component: ExampleSection,
+const meta: Meta<typeof ExampleTemplate> = {
+  title: "ui/templates/ExampleTemplate",
+  component: ExampleTemplate,
 }
 
 export default meta
 
-type Story = StoryObj<typeof ExampleSection>
+type Story = StoryObj<typeof ExampleTemplate>
 
 export const Default: Story = {
-  render: (args) => <ExampleSection {...args} />,
   args: {
     title: "VIDEO PRODUCTION",
     description:

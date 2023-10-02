@@ -4,9 +4,7 @@ import React, { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
 
 import { getDefaultProps } from "../../../actions"
-import { BasicTemplate } from "../../../../ui/templates"
-
-import { ICrumb } from "../../../../ui/molecules/Breadcrumbs/Breadcrumbs"
+import { ExampleTemplate } from "../../../../ui/templates"
 
 export interface IRawPageInfo {
   title: string
@@ -22,12 +20,6 @@ const ExamplePage = () => {
   const [data, setData] = useState<IRawPageInfo>()
   const [loading, setLoading] = useState(true)
 
-  const crumbs: ICrumb[] = [
-    {
-      label: "WHO ARE WE",
-    },
-  ]
-
   useEffect(() => {
     fetch(`/api/website?slug=${pathname}`)
       .then((res) => res.json())
@@ -42,16 +34,11 @@ const ExamplePage = () => {
   if (!data) return <p>No data</p>
 
   return (
-    <BasicTemplate
-      crumbs={crumbs}
+    <ExampleTemplate
       title={data.title}
       description={data.description}
-      bannerImg={data.largeImg}
-      // videoLink="asdf"
-      button={{
-        link: data.url,
-        label: "View Site",
-      }}
+      button={{ label: "View Website", link: data.url }}
+      siteImg={data.largeImg}
       {...getDefaultProps()}
     />
   )
