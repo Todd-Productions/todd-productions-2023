@@ -5,9 +5,9 @@
 - [x] who are we
 - [x] web
   - [x] SEO
-  - [-] marketing samples (No video for these samples, only image)
+  - [x] marketing samples (No video for these samples, only image)
   # New Pages
-    - [-] marketing sites (crumbs, need to setup video as 1200px for video samples, image on site?)
+    - [x] marketing sites (crumbs, need to setup video as 1200px for video samples, image on site?)
   - [x] web app samples
 - [x] video
 # New Pages
