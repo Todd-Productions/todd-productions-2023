@@ -13,7 +13,7 @@
   "samples": [
     {
       "title": "CAREER TECH LAB PROMO",
-      "slug": "career-tech-lab-promo",
+      "slug": "/video-production/promotional-sales/career-tech-lab-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/SMZ3_Wtgb70",
       "description": "An informative showcase of a career technical school lab, helping potential students gauge their interest in the lab!",
@@ -24,7 +24,7 @@
     },
     {
       "title": "INDUSTRIAL SERVICES",
-      "slug": "industrial-services",
+      "slug": "/video-production/promotional-sales/industrial-services",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/fETQXysJU6Q",
       "description": "A promotional piece featuring talking head testimonials to educate audiences about their services.",
@@ -35,7 +35,7 @@
     },
     {
       "title": "PORTABLE ASSEMBLY MACHINE",
-      "slug": "portable-assembly-machine",
+      "slug": "/video-production/promotional-sales/portable-assembly-machine",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/egKObuzG-uE",
       "description": "Promotional footage showing off the exciting features of this portable machine and all of its various combination options!",
@@ -46,7 +46,7 @@
     },
     {
       "title": "ORGANIZATION FUNDRAISER PROMO",
-      "slug": "organization-fundraiser-promo",
+      "slug": "/video-production/promotional-sales/organization-fundraiser-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/Fi0QfzKinuU",
       "description": "A heartfelt promotional video, designed to outline Rotary’s efforts and contributions to its community and how much more they can help with more supporters.",
@@ -57,7 +57,7 @@
     },
     {
       "title": "RESTAURANT PROMO",
-      "slug": "restaurant-promo",
+      "slug": "/video-production/promotional-sales/restaurant-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/nxzuu_KldQI",
       "description": "An exciting promotional featurette showcasing a lively restaurant and its history!",
@@ -68,7 +68,7 @@
     },
     {
       "title": "INDUSTRIAL MACHINING",
-      "slug": "industrial-machining",
+      "slug": "/video-production/promotional-sales/industrial-machining",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/FM3vknpeOCY",
       "description": "Fast paced, exciting showcase of a multitude of different machines. Showing the wide range of capabilities the company offers!",
@@ -79,7 +79,7 @@
     },
     {
       "title": "NURSING HOME ANNIVERSARY RETROSPECTIVE",
-      "slug": "nursing-home-anniversary-retrospective",
+      "slug": "/video-production/promotional-sales/nursing-home-anniversary-retrospective",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/Wxox-uIt_4M",
       "description": "A retrospective look back at the long history of this well respected nursing home in northwest Ohio. Complete with interview portions and informative statements about the origin and 70 year evolution of the community.",
@@ -90,7 +90,7 @@
     },
     {
       "title": "CHIROPRACTIC “PASSIONS” PROMO",
-      "slug": "chiropractic-passions-promo",
+      "slug": "/video-production/promotional-sales/chiropractic-passions-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/wa09EsISnns",
       "description": "A quick, exciting, and fun promotional piece from a long running series of “Passions” videos promoting chiropractic services and the doctors performing them.",
@@ -101,14 +101,14 @@
     },
     {
       "title": "MEXICAN RESTAURANT PROMO",
-      "slug": "mexican-restaurant-promo",
+      "slug": "/video-production/promotional-sales/mexican-restaurant-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/wa09EsISnns",
       "description": "How do you catch people's attention? Displaying mouth watering authentic Mexican food helps peak consumer interest and attracts hungry customers!"
     },
     {
       "title": "HIGH SCHOOL TOUR PROMO",
-      "slug": "high-school-tour-promo",
+      "slug": "/video-production/promotional-sales/high-school-tour-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/W6gHMDv4uiM",
       "description": "An informative presentation, showing new students the layout of the campus and informing them on all school procedures and operations.",
@@ -119,7 +119,7 @@
     },
     {
       "title": "SPINAL DECOMPRESSION PROMO",
-      "slug": "spinal-decompression-promo",
+      "slug": "/video-production/promotional-sales/spinal-decompression-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/9Tr7UyRfsy0",
       "description": "A fun advertisement encouraging consumers to seek relief from back pain by taking advantage of procedures offered by these chiropractic services!",
@@ -130,7 +130,7 @@
     },
     {
       "title": "ELECTRONIC REPAIR PROMO",
-      "slug": "electronic-repair-promo",
+      "slug": "/video-production/promotional-sales/electronic-repair-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/N7V95UPoYwU",
       "description": "Promotional material for in-house use, to be played on monitors in stores as digital displays.",
@@ -141,7 +141,7 @@
     },
     {
       "title": "CAREER TECH APPLICATION PROMO",
-      "slug": "career-tech-application-promo",
+      "slug": "/video-production/promotional-sales/career-tech-application-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/FdMX7DJVq1s",
       "description": "A unique and exciting virtual tour introduction for a career technical school, outlining the application process.",
@@ -152,7 +152,7 @@
     },
     {
       "title": "ENGINEERED SYSTEMS PROMO",
-      "slug": "engineered-systems-promo",
+      "slug": "/video-production/promotional-sales/engineered-systems-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/9ERrB_fbo1M",
       "description": "A simple yet eloquent video that is informative about a specific machine and the intricacies of its design.",
@@ -163,7 +163,7 @@
     },
     {
       "title": "PRODUCT TESTIMONIAL",
-      "slug": "product-testimonial",
+      "slug": "/video-production/promotional-sales/product-testimonial",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/BHCyzvUpWdo",
       "description": "A sleek testimonial for a useful product including talking heads describing the usefulness and applications of the product.",
@@ -174,7 +174,7 @@
     },
     {
       "title": "LOCAL EVENT HISTORY PROMO",
-      "slug": "local-event-history-promo",
+      "slug": "/video-production/promotional-sales/local-event-history-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/jSoGccnJ-So",
       "description": "Fun, informative promo detailing the history of this exciting local festival that is held annually. Displaying all the fun and activities you can participate in!",
@@ -185,7 +185,7 @@
     },
     {
       "title": "TECHNICAL EDUCATION AND TRAINING",
-      "slug": "technical-education-and-training",
+      "slug": "/video-production/promotional-sales/technical-education-and-training",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/i-xRQy5xBeM",
       "description": "An exciting and informative promotion that provides important information on career paths and possible salaries to potential students.",
@@ -196,7 +196,7 @@
     },
     {
       "title": "FINANCIAL SERVICES PROMO",
-      "slug": "financial-services-promo",
+      "slug": "/video-production/promotional-sales/financial-services-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/uV-huBDf6N0",
       "description": "Advertisement for a financial firm that helps individuals prepare for retirement and how to handle their funds.",
@@ -207,7 +207,7 @@
     },
     {
       "title": "ORGANIZATION'S 100 YEAR HISTORY PROMO",
-      "slug": "organizations-100-year-history-promo",
+      "slug": "/video-production/promotional-sales/organizations-100-year-history-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/mN2cdnFJMMg",
       "description": "A retrospective look at this organization's long and storied history.",
@@ -218,7 +218,7 @@
     },
     {
       "title": "RETROSPECTIVE PROMO",
-      "slug": "retrospective-promo",
+      "slug": "/video-production/promotional-sales/retrospective-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/p4xoM5MgoOE",
       "description": "This peaceful reflection on the beautiful history of a long established school showcases the people who have helped it succeed over the years and pays respect to their contributions.",
@@ -229,7 +229,7 @@
     },
     {
       "title": "DENTAL SERVICES PROMO",
-      "slug": "dental-services-promo",
+      "slug": "/video-production/promotional-sales/dental-services-promo",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/fFu4q8rZR0s",
       "description": "A great promotional video that includes a great blend of talking head informative sections and visual examples that showcase the range of services available to care for your dental needs.",

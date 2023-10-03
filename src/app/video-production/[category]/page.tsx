@@ -20,7 +20,6 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
     },
   ]
 
-  console.log(data.pageInfoSection.bannerImg)
   return (
     <SamplesTemplate
       crumbs={crumbs}
