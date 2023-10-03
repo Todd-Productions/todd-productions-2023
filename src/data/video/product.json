@@ -14,7 +14,7 @@
   "samples": [
     {
       "title": "FOOD LABELING PRODUCT",
-      "slug": "/video-production/product/food-labeling-product/",
+      "slug": "/video-production/product/food-labeling-product",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/2w5BYyNus90",
       "description": "A short, exciting pre-roll video designed to capture the attention of viewers and show them the benefits of this useful kitchen product!",
@@ -25,7 +25,7 @@
     },
     {
       "title": "WORKER TRAINING PRODUCT",
-      "slug": "/video-production/product/worker-training/product/",
+      "slug": "/video-production/product/worker-training-product",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/84uCAvvBhc0",
       "description": "Showcase for this specialized software that trains and tracks all sorts of unique features.",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "slug": "signature-decks-build-time-lapse",
+      "slug": "/video-production/product/signature-decks-build-time-lapse",
       "title": "SIGNATURE DECKS BUILD TIME-LAPSE",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/nLXFoEHXUr4",
@@ -46,7 +46,7 @@
       }
     },
     {
-      "slug": "restaurant-menu-product",
+      "slug": "/video-production/product/restaurant-menu-product",
       "title": "RESTAURANT MENU PRODUCT",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/9F65QP-ywfI",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "slug": "absolute-haitian-machine-assembly-time-lapse",
+      "slug": "/video-production/product/absolute-haitian-machine-assembly-time-lapse",
       "title": "ABSOLUTE HAITIAN MACHINE ASSEMBLY TIME-LAPSE",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/1nlir5esVC0",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "slug": "industrial-manufacturing-product",
+      "slug": "/video-production/product/industrial-manufacturing-product",
       "title": "INDUSTRIAL MANUFACTURING PRODUCT",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/SC_fw5FB_z8",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "slug": "marcos-location-construction-time-lapse",
+      "slug": "/video-production/product/marcos-location-construction-time-lapse",
       "title": "MARCO'S LOCATION CONSTRUCTION TIME-LAPSE",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/xqPKBGlwpyU",
@@ -90,7 +90,7 @@
       }
     },
     {
-      "slug": "product-packaging-showcase",
+      "slug": "/video-production/product/product-packaging-showcase",
       "title": "PRODUCT PACKAGING SHOWCASE",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/rkZQiYMdVJw",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "slug": "cleaning-process-product",
+      "slug": "/video-production/product/cleaning-process-product",
       "title": "CLEANING PROCESS PRODUCT",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/RMOoQgyillQ",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "slug": "outdoor-cooking-product",
+      "slug": "/video-production/product/outdoor-cooking-product",
       "title": "OUTDOOR COOKING PRODUCT",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/u5mtP4kanNU",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "slug": "industrial-manufacturing-service",
+      "slug": "/video-production/product/industrial-manufacturing-service",
       "title": "INDUSTRIAL MANUFACTURING SERVICE",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/MDi8j3-MXeg",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "slug": "music-compilation-product",
+      "slug": "/video-production/product/music-compilation-product",
       "title": "MUSIC COMPILATION PRODUCT",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/yL8rU0goMpM",
@@ -145,7 +145,7 @@
       }
     },
     {
-      "slug": "cleaning-sanitization-product",
+      "slug": "/video-production/product/cleaning-sanitization-product",
       "title": "CLEANING & SANITIZATION PRODUCT",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/-qSYDiUpuuE",
@@ -156,7 +156,7 @@
       }
     },
     {
-      "slug": "handcrafted-woodwork-product-showcase",
+      "slug": "/video-production/product/handcrafted-woodwork-product-showcase",
       "title": "HANDCRAFTED WOODWORK PRODUCT SHOWCASE",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/rP9AyPU_qyg",
@@ -167,7 +167,7 @@
       }
     },
     {
-      "slug": "restaurant-drink-pass",
+      "slug": "/video-production/product/restaurant-drink-pass",
       "title": "RESTAURANT DRINK PASS",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/iXmgwR-fNEI",
@@ -178,7 +178,7 @@
       }
     },
     {
-      "slug": "label-printing-product",
+      "slug": "/video-production/product/label-printing-product",
       "title": "LABEL PRINTING PRODUCT",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/i4zl9BHOpfA",

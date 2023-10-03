@@ -11,8 +11,6 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url)
     const cat = searchParams.get("category")
     const path = searchParams.get("path")
-    console.log("searchParams", searchParams)
-    console.log(path)
 
     let site
 
@@ -23,7 +21,7 @@ export async function GET(request: Request) {
       case "drone":
         site = drone.samples.find((obj) => obj.slug === path)
         return NextResponse.json(site)
-      case "music":
+      case "music-video-production":
         site = music.samples.find((obj) => obj.slug === path)
         return NextResponse.json(site)
       case "product":
