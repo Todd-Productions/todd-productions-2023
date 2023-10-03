@@ -24,7 +24,11 @@ const SampleCards: React.FC<SampleCardsProps> = (props) => {
         <SimpleSectionHeading>{title}</SimpleSectionHeading>
         <div className="grid grid-cols-3 gap-y-4 place-items-center">
           {cards.map((card) =>
-            isCard ? <SampleCard card={card} /> : <SampleImage card={card} />
+            isCard ? (
+              <SampleCard card={card} key={card.title} />
+            ) : (
+              <SampleImage card={card} key={card.title} />
+            )
           )}
         </div>
       </Wrapper>

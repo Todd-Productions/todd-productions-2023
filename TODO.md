@@ -1,5 +1,7 @@
 - [x] Add ExampleTemplate to video page (site)
 - [ ] Fix ExampleTemplate video size
+- [ ] 404 page
+- [ ] Loading page?
 
 # Backlog
 - [ ] update netlify from sb to prod

@@ -40,14 +40,17 @@ const ExamplePage = () => {
     fetch(`/api/website?slug=${pathname}`)
       .then((res) => res.json())
       .then((data) => {
-        setData(data)
+        if (!data.error) {
+          setData(data)
+        }
         setLoading(false)
       })
   }, [])
 
-  // todo - use boolean to display in template
   if (loading) return <p>Loading...</p>
   if (!data) return <p>No data</p>
+
+  console.log(data)
 
   return (
     <ExampleTemplate
