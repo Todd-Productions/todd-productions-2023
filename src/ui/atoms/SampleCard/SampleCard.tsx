@@ -25,7 +25,7 @@ const SampleCard: React.FC<SampleCardProps> = (props) => {
   const { card } = props
   return (
     <div className="sample-card">
-      <Link className="bg-white w-fit" href={String(card.slug)}>
+      <Link className="bg-white w-fit" href={card.slug}>
         <div className="h-full relative flex items-center justify-center text-center px-4">
           <div className="title relative z-10 font-bold text-white text-4xl">
             {card.title}
