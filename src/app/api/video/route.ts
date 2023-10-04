@@ -7,11 +7,10 @@ import product from "../../../data/video/product.json"
 import sales from "../../../data/video/promotional-sales.json"
 
 export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url)
+  const cat = searchParams.get("category")
+  const path = searchParams.get("path")
   try {
-    const { searchParams } = new URL(request.url)
-    const cat = searchParams.get("category")
-    const path = searchParams.get("path")
-
     let site
 
     switch (cat) {
