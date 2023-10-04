@@ -13,13 +13,10 @@ export const getTopCTA = (data: any): IPageInfo => ({
   title: data.heading,
   description: <div dangerouslySetInnerHTML={{ __html: data.description }} />,
   bannerImg: data.bannerImg,
-  videoLink: data.videoLink,
   button: {
     label: data.button.label,
     link: data.button.link,
   },
-  isCard: data.isCard,
-  type: data.type,
 })
 
 export const getSplitContent = (data: any): ISplitContent[] =>

@@ -16,7 +16,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
       url: "/video-production",
     },
     {
-      label: data.pageInfoSection.type as string,
+      label: data.type as string,
     },
   ]
 

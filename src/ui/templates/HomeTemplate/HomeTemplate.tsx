@@ -6,7 +6,7 @@ import { getSocialLinks } from "../../molecules/Header/Header"
 
 import { INavLink, ISocialLinks } from "../../../types"
 import { ICrumb } from "../../molecules/Breadcrumbs/Breadcrumbs"
-import { SplitContentSection, PageInfoSection } from "../../molecules"
+import { SplitContentSection, HomeHeroSection } from "../../molecules"
 
 // @types
 import { ISplitContent } from "../../molecules/SplitContentSection/SplitContentSection"
@@ -35,13 +35,14 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
-      <PageInfoSection
+      <HomeHeroSection
         title={topCTAData.title}
         description={topCTAData.description}
         button={topCTAData.button}
+        bannerImg={String(topCTAData.bannerImg)}
       />
 
-      {splitContent.map((section, idx) => (
+      {splitContent.map((section) => (
         <SplitContentSection
           heading={section.heading}
           subHeading={section.subHeading}
@@ -50,7 +51,7 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
           imageSrc={section.imageSrc}
           imageAlt={section.imageAlt}
           imgLeft={section.imgLeft}
-          key={slugify(String(idx))}
+          key={slugify(String(section.heading))}
         />
       ))}
     </MainLayout>

@@ -25,18 +25,20 @@ const SampleCard: React.FC<SampleCardProps> = (props) => {
   const { card } = props
   return (
     <div className="sample-card">
-      <Link className="bg-white w-fit" href={card.slug}>
-        <div className="h-full relative flex items-center justify-center text-center px-4">
-          <div className="title relative z-10 font-bold text-white text-4xl">
+      <Link className="" href={card.slug}>
+        <div className="h-full relative flex items-center justify-center text-center">
+          <div className="title absolute z-10 font-bold text-white text-2xl lg:text-5xl px-4">
             {card.title}
           </div>
           <div className="overlay" />
-          <Image
-            className="card-img"
-            src={card.img as string}
-            fill
-            alt={card.title}
-          />
+          <div className="relative h-full w-full">
+            <Image
+              className="absolute object-cover h-full w-full"
+              src={card.img as string}
+              alt={card.title}
+              fill
+            />
+          </div>
         </div>
       </Link>
     </div>

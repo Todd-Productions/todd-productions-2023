@@ -5,14 +5,23 @@ import "./hero.css"
 
 export interface HeroProps {
   img: string
+  height?: number
+  priority?: boolean
+  altText?: string
 }
 
 const Hero: React.FC<HeroProps> = (props) => {
-  const { img } = props
+  const { img, height, priority, altText } = props
 
   return (
-    <div className="hero">
-      <Image className="hero-img" src={img} alt="hero" fill />
+    <div className="hero" style={{ height }}>
+      <Image
+        className="hero-img"
+        src={img}
+        priority={priority}
+        alt={altText ?? ""}
+        fill
+      />
     </div>
   )
 }

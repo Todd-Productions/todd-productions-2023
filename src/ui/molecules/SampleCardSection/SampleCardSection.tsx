@@ -8,6 +8,7 @@ import {
   SampleImage,
 } from "../../atoms"
 import { ISampleCard } from "../../atoms/SampleCard/SampleCard"
+import "./sample-card-section.css"
 
 export interface SampleCardsProps {
   title: string
@@ -22,7 +23,7 @@ const SampleCards: React.FC<SampleCardsProps> = (props) => {
     <Section>
       <Wrapper>
         <SimpleSectionHeading>{title}</SimpleSectionHeading>
-        <div className="grid grid-cols-3 gap-y-4 place-items-center">
+        <div className="sample-card-section-grid grid grid-cols-2 grid-auto-rows-40 xl:grid-cols-3 gap-4 place-items-center">
           {cards.map((card) =>
             isCard ? (
               <SampleCard card={card} key={card.title} />

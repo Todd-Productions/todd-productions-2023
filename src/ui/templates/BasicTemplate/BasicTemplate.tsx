@@ -26,8 +26,8 @@ const BasicTemplate: React.FC<BasicTemplateProps> = (props) => {
         title={title}
         description={description}
         button={button}
-        videoLink={videoLink}
-        bannerImg={bannerImg}
+        videoLink={videoLink as string}
+        bannerImg={bannerImg as string}
       />
     </MainLayout>
   )

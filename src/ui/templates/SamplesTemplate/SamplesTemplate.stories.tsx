@@ -78,7 +78,7 @@ export const Default: Story = {
     ],
     samples: [
       {
-        title: "Food Labeling Product",
+        title: "Career Tech Lab Promo",
         img: "https://source.unsplash.com/random",
         largeImg: "https://source.unsplash.com/random",
         slug: "",
@@ -162,6 +162,7 @@ export const Default: Story = {
         link: "/",
         label: "connect with us",
       },
+      bannerImg: "https://source.unsplash.com/random",
     },
   },
 }

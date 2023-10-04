@@ -15,7 +15,7 @@ export interface IExampleProps {
   siteImg?: string
 }
 
-const ExampleSection = (props: IExampleProps) => {
+const ExampleSection: React.FC<IExampleProps> = (props) => {
   const { title, description, videoLink, button, siteImg } = props
   return (
     <section className="pt-10">

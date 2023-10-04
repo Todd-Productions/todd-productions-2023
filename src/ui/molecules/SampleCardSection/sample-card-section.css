@@ -1,0 +1,9 @@
+.sample-card-section-grid {
+  grid-auto-rows: 300px;
+}
+
+@screen xl {
+  .sample-card-section-grid {
+    grid-auto-rows: auto;
+  }
+}

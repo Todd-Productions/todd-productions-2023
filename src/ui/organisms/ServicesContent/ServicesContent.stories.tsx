@@ -64,6 +64,7 @@ export const Default: Story = {
         link: "/",
         label: "connect with us",
       },
+      bannerImg: "",
     },
   },
 }

@@ -91,6 +91,7 @@ export const Default: Story = {
         label: "/",
         link: "connect with us",
       },
+      bannerImg: "https://source.unsplash.com/random",
     },
     splitContent: [
       {

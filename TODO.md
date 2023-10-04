@@ -7,15 +7,16 @@
 - [ ] Email missing from nav
 - [ ] Footer should use reg white
 - [ ] Slightly reduce X padding on button atom (making most text wrap)
+- [ ] SampleCard - text slightly changes on hover
 
-- [ ] Home
-  - [ ] Add Hero to home (maybe pic only, no video)
-  - [ ] Make PageInfoSection go to 1 col sooner
-  - [ ] Adjust PageInfoSection text line height
+- [x] Home
+  - [x] Add Hero to home (maybe pic only, no video)
+  - [x] Make PageInfoSection go to 1 col sooner
+  - [x] Adjust PageInfoSection text line height
 
-- [ ] Samples Page
-  - [ ] Have samples switch to a 2 col grid
-  - [ ] Banner should be hidden on smaller screens
+- [x] Samples Page
+  - [x] Have samples switch to a 2 col grid
+  - [x] Banner should be hidden on smaller screens
 
 - [ ] Web Services
   - [ ] SEO & Web Apps - fix grid breakpoint

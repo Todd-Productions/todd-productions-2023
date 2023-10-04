@@ -20,7 +20,7 @@
 @layer base {
   html,
   body {
-    @apply text-grey-500 bg-black font-sans;
+    @apply text-grey-600 bg-black font-sans;
     font-size: 16px;
   }
 

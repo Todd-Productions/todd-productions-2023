@@ -16,6 +16,7 @@ export interface ICategoryData {
   pageInfoSection: IPageInfo
   samplesTitle?: string
   samples?: ICategorySample[]
+  type?: string
 }
 
 const CatPage = async ({ params }: { params: { category: string } }) => {
@@ -29,7 +30,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
       url: "/web-services",
     },
     {
-      label: data.pageInfoSection.type as string,
+      label: data.type as string,
     },
   ]
 

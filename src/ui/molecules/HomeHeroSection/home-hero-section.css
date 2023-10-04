@@ -1,0 +1,13 @@
+.header-container:first-child > h2 {
+  margin-left: 30px;
+}
+
+@screen md {
+  .header-container:first-child > h2 {
+    margin-left: 0;
+  }
+}
+
+.content-container div p {
+  margin-bottom: 1rem;
+}

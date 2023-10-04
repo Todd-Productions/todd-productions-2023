@@ -13,10 +13,12 @@ import { IPageInfo } from "../../molecules/PageInfoSection/PageInfoSection"
 export interface SampleTemplateProps extends DefaultTemplateProps {
   topCTAData: IPageInfo
   samples?: ISampleCard[]
+  isCard?: boolean
+  samplesTitle: string
 }
 
 const SamplesTemplate: React.FC<SampleTemplateProps> = (props) => {
-  const { samples, topCTAData } = props
+  const { samples, topCTAData, isCard, samplesTitle } = props
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
@@ -25,14 +27,13 @@ const SamplesTemplate: React.FC<SampleTemplateProps> = (props) => {
         description={topCTAData.description}
         button={topCTAData.button}
         bannerImg={topCTAData.bannerImg}
-        videoLink={topCTAData.videoLink}
       />
 
       {samples ? (
         <SampleCardSection
-          title={`EXAMPLES OF ${topCTAData.type}`}
+          title={`EXAMPLES OF ${samplesTitle}`}
           cards={samples}
-          isCard={topCTAData.isCard}
+          isCard={isCard}
         />
       ) : null}
     </MainLayout>
