@@ -16,7 +16,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
       url: "/video-production",
     },
     {
-      label: data.type as string,
+      label: data.pageInfoSection.pageTitle as string,
     },
   ]
 
@@ -24,7 +24,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
     <SamplesTemplate
       crumbs={crumbs}
       topCTAData={getTopCTA(data.pageInfoSection)}
-      samplesTitle={data.samplesTitle}
+      samplesTitle={data.pageInfoSection.pageTitle}
       samples={data.samples}
       {...getDefaultProps()}
     />

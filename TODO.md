@@ -22,8 +22,9 @@
   - [ ] SEO & Web Apps - fix grid breakpoint
 
 - [ ] Contact Page
-  - [ ] Message input should be taller
-  - [ ] Phone & email should be blue text
+  - [x] Message input should be taller
+  - [x] Phone & email should be blue text
+  - [x] No bold text on textarea
   - [ ] Update font
 
 - [ ] Who Are We Page

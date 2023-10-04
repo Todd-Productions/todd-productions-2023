@@ -25,12 +25,12 @@ const ContactForm: React.FC<ContactFormProps> = () => {
     <form onSubmit={handleSubmit(onSubmit)} className="bg-white pb-24">
       <Input
         label="name"
-        placeholder="name"
+        placeholder="Name *"
         {...register("name", { required: true })}
       />
       <Input
         label="email"
-        placeholder="email"
+        placeholder="Email *"
         type="email"
         {...register("email", { required: true })}
       />
@@ -43,8 +43,8 @@ const ContactForm: React.FC<ContactFormProps> = () => {
           what can we do for you? *
           <textarea
             id="message"
-            className="rounded border border-solid border-gray-500 p-4 w-full"
-            placeholder="What Can We Do For You?"
+            className="rounded border border-solid border-gray-500 p-4 w-full font-normal h-80 outline-none focus:shadow-lg resize-none"
+            placeholder="What Can We Do For You? *"
             {...register("message", { required: true })}
           />
         </label>

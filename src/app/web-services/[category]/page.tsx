@@ -14,9 +14,7 @@ export interface ICategorySample {
 
 export interface ICategoryData {
   pageInfoSection: IPageInfo
-  samplesTitle?: string
   samples?: ICategorySample[]
-  type?: string
 }
 
 const CatPage = async ({ params }: { params: { category: string } }) => {
@@ -30,7 +28,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
       url: "/web-services",
     },
     {
-      label: data.type as string,
+      label: data.pageInfoSection.pageTitle as string,
     },
   ]
 
@@ -39,6 +37,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
       crumbs={crumbs}
       topCTAData={getTopCTA(data.pageInfoSection)}
       samples={data.samples}
+      samplesTitle={data.pageInfoSection.pageTitle}
       {...getDefaultProps()}
     />
   )

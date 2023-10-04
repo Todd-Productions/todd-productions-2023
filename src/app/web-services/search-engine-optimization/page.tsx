@@ -12,7 +12,7 @@ const SEOPage = () => {
       label: "WEB SERVICES",
     },
     {
-      label: data.pageInfoData.type,
+      label: data.pageInfoData.pageTitle,
     },
   ]
 

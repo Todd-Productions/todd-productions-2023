@@ -7,6 +7,7 @@ import "./pageinfosection.css"
 
 export interface IPageInfo {
   title: string
+  pageTitle?: string
   description: ReactNode
   button: IButton
   bannerImg?: string

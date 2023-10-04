@@ -30,8 +30,4 @@ const Hamburger: React.FC<HamburgerProps> = (props: HamburgerProps) => {
   ) : null
 }
 
-Hamburger.defaultProps = {
-  on: true,
-}
-
 export default Hamburger
