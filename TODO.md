@@ -26,7 +26,9 @@
   - [x] Message input should be taller
   - [x] Phone & email should be blue text
   - [x] No bold text on textarea
-  - [ ] Update font
+  - [x] Update font
+  - [ ] crumbs
+  - [ ] adjust layout
 
 - [x] Who Are We Page
  - [x] Adjust grid breakpoint

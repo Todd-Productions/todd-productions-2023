@@ -11,7 +11,7 @@ const Input: React.FC<InputProps> = (props) => {
   return (
     <div className="bg-white pb-4">
       <label
-        className="uppercase font-bold text-blue-500 py-4 radius-2 w-full block"
+        className="uppercase font-bold text-blue-500 py-4 radius-2 w-full block font-helvetica"
         htmlFor="input"
       >
         {label} *
