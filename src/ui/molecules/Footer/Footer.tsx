@@ -16,7 +16,7 @@ const Footer: React.FC<FooterProps> = (props) => {
   return (
     <footer>
       <Wrapper>
-        <div className="pt-8 pb-12 mt-4 lg:grid content-center items-center gap-4 h-full grid-cols-[1fr_1fr_1fr]">
+        <div className="pt-8 pb-12 mt-4 lg:grid content-center items-center gap-4 h-full grid-cols-[1fr_1fr_1fr] text-white">
           <div className="hidden lg:block h-full">
             Video Production, Web Design, Graphic Designs - What Do You Need?
           </div>
@@ -47,6 +47,7 @@ const Footer: React.FC<FooterProps> = (props) => {
               instagram="/"
               linkedin="/"
               whiteHover
+              whiteColor
             />
           </div>
 

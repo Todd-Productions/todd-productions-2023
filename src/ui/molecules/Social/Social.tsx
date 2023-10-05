@@ -17,6 +17,7 @@ import { ISocialLinks } from "@/types"
 export interface SocialProps extends ISocialLinks {
   whiteHover?: boolean
   echo?: boolean
+  whiteColor?: boolean
 }
 
 interface ISocial {
@@ -26,8 +27,16 @@ interface ISocial {
 }
 
 const Social: React.FC<SocialProps> = (props) => {
-  const { facebook, linkedin, instagram, twitter, youtube, echo, whiteHover } =
-    props
+  const {
+    facebook,
+    linkedin,
+    instagram,
+    twitter,
+    youtube,
+    echo,
+    whiteHover,
+    whiteColor,
+  } = props
 
   const links: ISocial[] = [
     {
@@ -70,7 +79,11 @@ const Social: React.FC<SocialProps> = (props) => {
             rel="noreferrer"
             className={cn(
               "flex content-center items-center justify-center text-lg text-grey-500 border border-solid border-grey-500 transition-all ease-in-out relative rounded-full p-2 mr-2 social-icon relative box-border",
-              { "white-hover": whiteHover, "echo-hover": echo }
+              {
+                "white-hover": whiteHover,
+                "echo-hover": echo,
+                "color-white": whiteColor,
+              }
             )}
           >
             <FontAwesomeIcon icon={link.icon} />

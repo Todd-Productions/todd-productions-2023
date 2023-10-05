@@ -5,7 +5,7 @@
 - [ ] On smaller screens, the nav links "red" hover effect overlaps with link label
 - [ ] Nav links smushed on med screens
 - [ ] Email missing from nav
-- [ ] Footer should use reg white
+- [x] Footer should use reg white
 - [ ] Slightly reduce X padding on button atom (making most text wrap)
 - [ ] SampleCard - text slightly changes on hover
 
@@ -22,20 +22,21 @@
   - [x] SEO & Web Apps - fix grid breakpoint
   - [x] Marketing sites missing video link
 
-- [ ] Contact Page
+- [x] Contact Page
   - [x] Message input should be taller
   - [x] Phone & email should be blue text
   - [x] No bold text on textarea
   - [x] Update font
-  - [ ] crumbs
-  - [ ] adjust layout
+  - [x] crumbs
+  - [x] adjust layout
 
 - [x] Who Are We Page
  - [x] Adjust grid breakpoint
  - [x] Adjusted content line height
 
  # SEO
- - [ ] Nav burger button - Buttons do not have an accessible name
+ <!-- Make sure these are actually resolved - rerun Unlighthouse -->
+ - [x] Nav burger button - Buttons do not have an accessible name
  - [ ] Contact page form - The value of an ARIA ID must be unique & Form fields with multiple labels
  - [ ] Possibly adjust text grey color (Crumbs, Content) - Background and foreground colors do not have a sufficient contrast ratio
  - [ ] Nav links - Interactive elements like buttons and links should be large enough (48x48px), and have enough space around them, to be easy enough to tap without overlapping onto other elements

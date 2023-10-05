@@ -41,3 +41,7 @@
 .social-icon.echo-hover:hover::before {
   animation: echoAnimation 1s ease infinite;
 }
+
+.color-white {
+  color: white;
+}

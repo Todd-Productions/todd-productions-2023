@@ -22,6 +22,7 @@ const Hamburger: React.FC<HamburgerProps> = (props: HamburgerProps) => {
       onKeyDown={() => onClick && handleKeyDown}
       className="hamburger"
       type="button"
+      aria-label="Toggle Menu"
     >
       <div />
       <div />
