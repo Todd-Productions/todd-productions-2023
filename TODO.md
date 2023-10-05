@@ -18,9 +18,9 @@
   - [x] Have samples switch to a 2 col grid
   - [x] Banner should be hidden on smaller screens
 
-- [ ] Web Services
-  - [ ] SEO & Web Apps - fix grid breakpoint
-  - [ ] Marketing sites missing video link
+- [x] Web Services
+  - [x] SEO & Web Apps - fix grid breakpoint
+  - [x] Marketing sites missing video link
 
 - [ ] Contact Page
   - [x] Message input should be taller

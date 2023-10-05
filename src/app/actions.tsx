@@ -17,6 +17,7 @@ export const getTopCTA = (data: any): IPageInfo => ({
     label: data.button.label,
     link: data.button.link,
   },
+  videoLink: data.videoLink,
 })
 
 export const getSplitContent = (data: any): ISplitContent[] =>

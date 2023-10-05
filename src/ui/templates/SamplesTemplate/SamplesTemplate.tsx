@@ -27,6 +27,7 @@ const SamplesTemplate: React.FC<SampleTemplateProps> = (props) => {
         description={topCTAData.description}
         button={topCTAData.button}
         bannerImg={topCTAData.bannerImg}
+        videoLink={topCTAData.videoLink}
       />
 
       {samples ? (

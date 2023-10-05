@@ -29,7 +29,9 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
         <div className="header-container order-3 lg:order-1">
           <SectionHeading>{title}</SectionHeading>
           <Link href={button.link}>
-            <Button fullWidth>{button.label}</Button>
+            <Button color="default" fullWidth>
+              {button.label}
+            </Button>
           </Link>
         </div>
         {videoLink ? (
