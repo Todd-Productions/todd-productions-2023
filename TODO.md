@@ -20,6 +20,7 @@
 
 - [ ] Web Services
   - [ ] SEO & Web Apps - fix grid breakpoint
+  - [ ] Marketing sites missing video link
 
 - [ ] Contact Page
   - [x] Message input should be taller
@@ -27,8 +28,9 @@
   - [x] No bold text on textarea
   - [ ] Update font
 
-- [ ] Who Are We Page
- - [ ] Adjust grid breakpoint
+- [x] Who Are We Page
+ - [x] Adjust grid breakpoint
+ - [x] Adjusted content line height
 
  # SEO
  - [ ] Nav burger button - Buttons do not have an accessible name
