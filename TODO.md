@@ -1,6 +1,7 @@
 # Todo
 - [ ] Fix ExampleTemplate video size
-- [ ] 404 page
+  - [ ] video bleeds outside of view
+- [x] 404 page
 - [ ] Loading page?
 - [ ] On smaller screens, the nav links "red" hover effect overlaps with link label
 - [ ] Nav links smushed on med screens
@@ -8,6 +9,7 @@
 - [x] Footer should use reg white
 - [ ] Slightly reduce X padding on button atom (making most text wrap)
 - [ ] SampleCard - text slightly changes on hover
+- [-] Update social links (Missing X/Twitter link)
 
 - [x] Home
   - [x] Add Hero to home (maybe pic only, no video)
@@ -37,9 +39,9 @@
  # SEO
  <!-- Make sure these are actually resolved - rerun Unlighthouse -->
  - [x] Nav burger button - Buttons do not have an accessible name
- - [ ] Contact page form - The value of an ARIA ID must be unique & Form fields with multiple labels
- - [ ] Possibly adjust text grey color (Crumbs, Content) - Background and foreground colors do not have a sufficient contrast ratio
- - [ ] Nav links - Interactive elements like buttons and links should be large enough (48x48px), and have enough space around them, to be easy enough to tap without overlapping onto other elements
+ - [x] Contact page form - The value of an ARIA ID must be unique & Form fields with multiple labels
+ - [x] Possibly adjust text grey color (Crumbs, Content) - Background and foreground colors do not have a sufficient contrast ratio (Slightly adjusted)
+ - [ ] Nav links - Interactive elements like buttons and links should be large enough (48x48px), and have enough space around them, to be easy enough to tap without overlapping onto other elements (actualy nav links are smushed)
 
 # Backlog
 - [ ] update netlify from sb to prod

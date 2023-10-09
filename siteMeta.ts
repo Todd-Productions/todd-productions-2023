@@ -51,9 +51,9 @@ export const footerLinks: INavLink[] = [
 ]
 
 export const socialLinks = {
-  facebook: "https://facebook",
-  twitter: "https://facebook",
-  youtube: "https://facebook",
-  instagram: "https://facebook",
-  linkedin: "https://facebook",
+  facebook: "https://www.facebook.com/toddproductions/",
+  twitter: "/",
+  youtube: "https://www.youtube.com/@toddproductionsinc",
+  instagram: "https://www.instagram.com/toddproductionsinc/?hl=en",
+  linkedin: "https://www.linkedin.com/in/toddproductions/",
 }

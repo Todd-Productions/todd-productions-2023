@@ -26,8 +26,8 @@ const ExampleVideoPage = () => {
   const [loading, setLoading] = useState(true)
   const crumbs: ICrumb[] = [
     {
-      label: "Web Services",
-      url: "/web-services/",
+      label: "Video Services",
+      url: "/video-services/",
     },
     {
       label: "marketing services",
