@@ -29,12 +29,29 @@ const Header: React.FC<HeaderProps> = (props) => {
   return (
     <header className="bg-white w-full box-border text-grey-600 py-6">
       <Wrapper>
-        <div className="grid md:inline lg:grid content-center items-center gap-4 h-full relative grid-cols-[1fr_118px_1fr]">
+        <div className="grid md:inline xl:grid content-center items-center gap-4 h-full relative grid-cols-[1fr_118px_1fr]">
           <div className="md:hidden">
             <Hamburger on={isOpen} onClick={onHamburgerClick} />
           </div>
-          <div className="hidden md:flex justify-start lg:justify-center items-center">
+          <div className="hidden md:flex md:mb-8 xl:mb-0 justify-between xl:justify-start items-center">
             <Social {...getSocialLinks(props)} echo />
+
+            <div className="text-center lg:py-0 block xl:hidden">
+              <Link
+                href="/"
+                title="Todd Production's Home Page"
+                className="inline-block"
+              >
+                <Image
+                  src="/images/logo.svg"
+                  height={73}
+                  width={118}
+                  alt="Todd Productions"
+                  className="transition-all ease-in-out hover:scale-110"
+                />
+              </Link>
+            </div>
+
             <a
               href="mailto:contact@toddprod.com"
               className="nav-email text-sm ml-4 text-blue-500"
@@ -42,7 +59,7 @@ const Header: React.FC<HeaderProps> = (props) => {
               CONTACT@TODDPROD.COM
             </a>
           </div>
-          <div className="text-center lg:py-0">
+          <div className="text-center lg:py-0 hidden xl:block">
             <Link
               href="/"
               title="Todd Production's Home Page"

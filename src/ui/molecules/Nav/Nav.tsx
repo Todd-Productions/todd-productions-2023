@@ -19,7 +19,7 @@ const Nav: React.FC<NavProps> = (props) => {
         <Link
           key={slugify(link.label)}
           href={link.url}
-          className="flex h-full justify-center items-center content-center relative uppercase nav-item"
+          className="flex h-full justify-center items-center content-center relative uppercase nav-item text-sm"
         >
           {link.label}
         </Link>

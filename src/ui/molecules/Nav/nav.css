@@ -1,12 +1,28 @@
 .nav-item::before {
   @apply bg-red-500 absolute opacity-0 rounded-full transition-all ease-in-out duration-700;
   content: "";
-  top: -10px;
+  left: -50px;
   width: 8px;
   height: 8px;
+  top: 5px;
 }
 
 .nav-item:hover::before {
   @apply opacity-100;
-  top: 10px;
+  left: -25px;
+}
+
+@screen xl {
+  .nav-item::before {
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .nav-item:hover::before {
+    @apply opacity-100;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }

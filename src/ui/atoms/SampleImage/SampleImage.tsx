@@ -17,7 +17,7 @@ const SampleImage: React.FC<SampleImageProps> = (props) => {
       <Link href={card.slug}>
         <div className="h-full relative flex items-center justify-center text-center px-4">
           <Image
-            className="card-img"
+            className="object-cover"
             src={card.img as string}
             fill
             alt={card.title}

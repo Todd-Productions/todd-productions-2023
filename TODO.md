@@ -3,14 +3,14 @@
   - [ ] video bleeds outside of view
 - [x] 404 page
 - [ ] Loading page?
-- [ ] On smaller screens, the nav links "red" hover effect overlaps with link label
-- [ ] Nav links smushed on med screens
+- [x] On smaller screens, the nav links "red" hover effect overlaps with link label
+- [x] Nav links smushed on med screens
 - [x] Email missing from nav
 - [x] Footer should use reg white
 - [x] Slightly reduce X padding on button atom (making most text wrap)
 - [x] SampleCard - text slightly changes on hover
 - [-] Update social links (Missing X/Twitter link)
-- [ ] SamplesPage - image pos needs to be cover
+- [x] SamplesPage - image pos needs to be cover
 
 - [x] Home
   - [x] Add Hero to home (maybe pic only, no video)
