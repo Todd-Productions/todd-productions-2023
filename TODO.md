@@ -5,11 +5,12 @@
 - [ ] Loading page?
 - [ ] On smaller screens, the nav links "red" hover effect overlaps with link label
 - [ ] Nav links smushed on med screens
-- [ ] Email missing from nav
+- [x] Email missing from nav
 - [x] Footer should use reg white
-- [ ] Slightly reduce X padding on button atom (making most text wrap)
-- [ ] SampleCard - text slightly changes on hover
+- [x] Slightly reduce X padding on button atom (making most text wrap)
+- [x] SampleCard - text slightly changes on hover
 - [-] Update social links (Missing X/Twitter link)
+- [ ] SamplesPage - image pos needs to be cover
 
 - [x] Home
   - [x] Add Hero to home (maybe pic only, no video)
@@ -44,8 +45,7 @@
  - [ ] Nav links - Interactive elements like buttons and links should be large enough (48x48px), and have enough space around them, to be easy enough to tap without overlapping onto other elements (actualy nav links are smushed)
 
 # Backlog
-- [ ] update netlify from sb to prod
-- [ ] Add some type of loading placeholder while fetching specific site/sample data, use boolean for template
+- [x] update netlify from sb to prod
 
 # Check out during Unlighthouse
 https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#generating-static-params

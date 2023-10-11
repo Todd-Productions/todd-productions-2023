@@ -7,6 +7,7 @@ import { INavLink, ISocialLinks } from "@/types"
 import { Wrapper, Hamburger } from "../../atoms"
 import Social from "../Social/Social"
 import Nav from "../Nav/Nav"
+import "./header.css"
 
 export interface HeaderProps extends ISocialLinks {
   links: INavLink[]
@@ -32,8 +33,14 @@ const Header: React.FC<HeaderProps> = (props) => {
           <div className="md:hidden">
             <Hamburger on={isOpen} onClick={onHamburgerClick} />
           </div>
-          <div className="hidden md:flex justify-start lg:justify-center">
+          <div className="hidden md:flex justify-start lg:justify-center items-center">
             <Social {...getSocialLinks(props)} echo />
+            <a
+              href="mailto:contact@toddprod.com"
+              className="nav-email text-sm ml-4 text-blue-500"
+            >
+              CONTACT@TODDPROD.COM
+            </a>
           </div>
           <div className="text-center lg:py-0">
             <Link
