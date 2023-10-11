@@ -1,6 +1,6 @@
 # Todo
-- [ ] Fix ExampleTemplate video size
-  - [ ] video bleeds outside of view
+- [x] Fix ExampleTemplate video size
+  - [x] video bleeds outside of view
 - [x] 404 page
 - [ ] Loading page?
 - [x] On smaller screens, the nav links "red" hover effect overlaps with link label
@@ -42,7 +42,7 @@
  - [x] Nav burger button - Buttons do not have an accessible name
  - [x] Contact page form - The value of an ARIA ID must be unique & Form fields with multiple labels
  - [x] Possibly adjust text grey color (Crumbs, Content) - Background and foreground colors do not have a sufficient contrast ratio (Slightly adjusted)
- - [ ] Nav links - Interactive elements like buttons and links should be large enough (48x48px), and have enough space around them, to be easy enough to tap without overlapping onto other elements (actualy nav links are smushed)
+ - [x] Nav links - Interactive elements like buttons and links should be large enough (48x48px), and have enough space around them, to be easy enough to tap without overlapping onto other elements (actualy nav links are smushed)
 
 # Backlog
 - [x] update netlify from sb to prod
