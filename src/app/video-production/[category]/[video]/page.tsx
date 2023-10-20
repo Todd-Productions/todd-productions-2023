@@ -27,11 +27,11 @@ const ExampleVideoPage = () => {
   const crumbs: ICrumb[] = [
     {
       label: "Video Services",
-      url: "/video-services/",
+      url: "/video-production/",
     },
     {
-      label: "marketing services",
-      url: "/web-services/marketing-websites/",
+      label: pathSegments[2],
+      url: `/video-production/${pathSegments[2]}/`,
     },
     {
       label: data?.title ?? "Website",
