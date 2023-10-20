@@ -1,10 +1,12 @@
 "use client"
 
 import React, { useEffect, useState } from "react"
+// import Link from "next/link"
 import { usePathname } from "next/navigation"
 
 import { getDefaultProps } from "../../../actions"
-import { ExampleTemplate } from "../../../../ui/templates"
+import { ExampleTemplate, InternalTemplate } from "../../../../ui/templates"
+// import NotFoundPage from "../../../not-found"
 
 import { ICrumb } from "../../../../ui/molecules/Breadcrumbs/Breadcrumbs"
 
@@ -47,10 +49,18 @@ const ExamplePage = () => {
       })
   }, [])
 
-  if (loading) return <p>Loading...</p>
-  if (!data) return <p>No data</p>
-
-  console.log(data)
+  if (!data || loading)
+    return (
+      <InternalTemplate {...getDefaultProps()}>
+        <div className="text-center">
+          <h1>Loading...</h1>
+          {/* <p>Sorry 😔 we couldn&apos;t find what you were looking for.</p>
+          <Link className="text-blue-500 underline" href="/">
+            Return Home
+          </Link> */}
+        </div>
+      </InternalTemplate>
+    )
 
   return (
     <ExampleTemplate

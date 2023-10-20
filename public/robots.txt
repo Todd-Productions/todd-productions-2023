@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://marvelous-sable-8532a1.netlify.app/
+
+# Sitemaps
+Sitemap: https://marvelous-sable-8532a1.netlify.app/sitemap.xml

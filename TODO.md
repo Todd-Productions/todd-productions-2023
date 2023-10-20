@@ -44,6 +44,9 @@
  - [x] Possibly adjust text grey color (Crumbs, Content) - Background and foreground colors do not have a sufficient contrast ratio (Slightly adjusted)
  - [x] Nav links - Interactive elements like buttons and links should be large enough (48x48px), and have enough space around them, to be easy enough to tap without overlapping onto other elements (actualy nav links are smushed)
 
+# Performance
+- [ ] Switch to a ditionary for Samples - maybe use slug as the key rest as values
+
 # Backlog
 - [x] update netlify from sb to prod
 
