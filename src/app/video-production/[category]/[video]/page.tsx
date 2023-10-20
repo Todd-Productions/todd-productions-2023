@@ -54,7 +54,10 @@ const ExampleVideoPage = () => {
     <ExampleTemplate
       title={data.title}
       description={data.description}
-      button={{ label: "View Website", link: data.url }}
+      button={{
+        label: "View Website",
+        link: data.url ? data.url : null,
+      }}
       videoLink={data.videoLink}
       {...getDefaultProps()}
       crumbs={crumbs}

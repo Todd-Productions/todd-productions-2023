@@ -24,13 +24,15 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
         <div className="pb-10 grid gap-10 md:gap-20 grid-cols-1 md:grid-cols-[1fr_3fr]">
           <div className="order-2 md:order-1">
             <SectionHeading>{title}</SectionHeading>
-            <a
-              href={button.link as string}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button fullWidth>{button.label}</Button>
-            </a>
+            {button.link && (
+              <a
+                href={button.link as string}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button fullWidth>{button.label}</Button>
+              </a>
+            )}
           </div>
 
           <div className="order-1 md:order-2">{description}</div>
@@ -41,16 +43,10 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
               <LiteYouTubeEmbed
                 aspectHeight={9}
                 aspectWidth={16}
+                // Clean
                 id={videoLink.split("/embed/")[1]}
                 title="YouTube video player"
               />
-              {/* testing */}
-              {/* <iframe
-                src={videoLink}
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              /> */}
             </div>
           ) : (
             <div className="img-container">
