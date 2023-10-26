@@ -10,7 +10,7 @@
   },
   "splitContent": [
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/home-video.jpg",
       "imageAlt": "",
       "heading": "VIDEO PRODUCTION",
       "subHeading": "SALES, COMMERICAL, MUSIC, AND MORE",
@@ -22,7 +22,7 @@
       "imgLeft": true
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/home-web.jpg",
       "imageAlt": "",
       "heading": "web services",
       "subHeading": "SALES, COMMERICAL, MUSIC, AND MORE",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/home-other.jpg",
       "imageAlt": "",
       "heading": "other services",
       "subHeading": "SALES, COMMERICAL, MUSIC, AND MORE",

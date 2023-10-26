@@ -4,7 +4,7 @@
     "isCard": true,
     "heading": "TRAIN YOUR EMPLOYEES ON PROCEDURES",
     "description": "<p>Do you need to demonstrate or explain how to use your new product or make something? Training videos are essentially an educational tool to teach your targeted audience how to do something. At the end of the video, the viewer should have a clear understanding of what action to take with the knowledge gleaned from the presentation.</p><p>Training videos can be especially helpful for new employees who are overwhelmed with information. The video can show that new employee what your company is all about or walk him/her through a new facility as an online video tour. Perhaps you want to develop a whiteboard video to provide an in-depth demonstration of how a new product is being made or should be used. By using a training video to take new employees through in-depth processes about your product or company, you can save time.</p><p>At Todd Productions, we have a great deal of experience developing training videos. Our team will work closely with your staff to develop a script, brainstorm ideas for video scenarios, film, record, and provide post-production editing with narration and music as needed.</p>",
-    "bannerImg": "https://source.unsplash.com/random",
+    "bannerImg": "/images/placeholders/video-training.jpg",
     "button": {
       "link": "/contact-us",
       "label": "commission a training video"
@@ -13,6 +13,7 @@
   "samples": [
     {
       "title": "CLEANING PROCESS TRAINING APP",
+      "slug": "cleaning-process-training-app",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/CgFk4cBtee0",
       "description": "An exciting and informative promo showcasing all of the features this software has available, for training and tracking cleaning processes.",
@@ -23,9 +24,10 @@
     },
     {
       "title": "INDUSTRIAL CLEANING PROCEDURE",
+      "slug": "industrial-cleaning-procedure",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/tgZ8hJf6O2E",
-      "description": "Informative training video designed specifically for new employees who need to be informed of the company&aposs cleaning operations and procedures, for safety and thoroughness.",
+      "description": "Informative training video designed specifically for new employees who need to be informed of the company's cleaning operations and procedures, for safety and thoroughness.",
       "button": {
         "link": "https://www.youtube.com/watch?v=tgZ8hJf6O2E",
         "label": "watch video on youtube"
@@ -33,6 +35,7 @@
     },
     {
       "title": "WEB HOSTING EXPLAINER",
+      "slug": "web-hosting-explainer",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/r9oCGz7FfqQ",
       "description": "A short but informative explainer video that uses sleek animation graphics for a nice professional, corporate feel, and informs the audience about all the services provided by Frontward Web Hosting!",
@@ -43,6 +46,7 @@
     },
     {
       "title": "MACHINE INSPECTION CHECKLIST",
+      "slug": "machine-inspection-checklist",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/BVUO85MSJvc",
       "description": "A quick run-through of all the steps in a checklist for visually inspecting a piece of machinery prior to use, according to the safety standards.",
@@ -53,9 +57,10 @@
     },
     {
       "title": "COMPANY VALUES PRESENTATION",
+      "slug": "company-values-presentation",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/PkGcDe4Yxx0",
-      "description": "Short excerpt from a company&apos;s seminar presentation to its employees discussing its values.",
+      "description": "Short excerpt from a company's seminar presentation to its employees discussing its values.",
       "button": {
         "link": "https://www.youtube.com/watch?v=PkGcDe4Yxx0",
         "label": "watch video on youtube"
@@ -63,6 +68,7 @@
     },
     {
       "title": "PIZZA MAKING PROCEDURE",
+      "slug": "pizza-making-procedure",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/PVuMIPllFgE",
       "description": "An exciting edited video designed to train employees on proper pizza making procedure but also to be fun to watch!",

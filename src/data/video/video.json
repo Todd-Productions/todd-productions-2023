@@ -2,7 +2,7 @@
   "pageInfoSection": {
     "heading": "FROM CONCEPT TO COMPLETION",
     "description": "Videos are an excellent way to convey just the right message to your audience, and we make it easy! From script development to filming to audio recording and post-production editing, we’ll work closely with your staff to ensure that the end product exceeds your goals. Our award-winning video production team has created videos for promotions, products/services, internal use, employee training, broadcast/streaming/online commercials, conventions and events, as well as music. No two videos are the same. At Todd Productions, we will help you realize your video. What do you need?",
-    "bannerImg": "https://source.unsplash.com/random",
+    "bannerImg": "/images/placeholders/home-video.jpg",
     "button": {
       "link": "/",
       "label": "connect with us"
@@ -10,7 +10,7 @@
   },
   "splitContent": [
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/video-promotional-sales.jpg",
       "imageAlt": "",
       "heading": "PROMOTIONAL / SALES",
       "subHeading": "CONVEY YOUR MESSAGE",
@@ -22,7 +22,7 @@
       "imgLeft": true
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/video-product.jpg",
       "imageAlt": "",
       "heading": "PRODUCT",
       "subHeading": "PROMOTE FEATURES",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/video-corporate.jpg",
       "imageAlt": "",
       "heading": "CORPORATE",
       "subHeading": "PHILOSOPHY AND CULTURE",
@@ -45,18 +45,18 @@
       "imgLeft": true
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/video-training.jpg",
       "imageAlt": "",
       "heading": "TRAINING",
       "subHeading": "DEMONSTRATE USAGE",
       "content": "Do you need to demonstrate how to use your new product or how to properly make something? Maybe you want to show new employees what your company is all about or walk staff members through procedures and processes. Perhaps you are looking to develop a whiteboard video to demonstrate something. We have the experience to give your video the edge it needs to accomplish your goal.",
       "button": {
-        "link": "/video-production/corporate",
+        "link": "/video-production/training",
         "label": "training video examples"
       }
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/video-commercial.jpg",
       "imageAlt": "",
       "heading": "COMMERCIAL",
       "subHeading": "TARGET YOUR AUDIENCE",
@@ -68,7 +68,7 @@
       "imgLeft": true
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/video-convention-events.jpg",
       "imageAlt": "",
       "heading": "CONVENTION / EVENTS",
       "subHeading": "HIGHLIGHT THE EXPERIENCE",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/video-music.jpg",
       "imageAlt": "",
       "heading": "MUSIC",
       "subHeading": "SHOW YOUR PERFORMANCE",
@@ -91,7 +91,7 @@
       "imgLeft": true
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/video-drone.jpg",
       "imageAlt": "",
       "heading": "DRONE",
       "subHeading": "CINEMATIC FOOTAGE",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/video-studio.jpg",
       "imageAlt": "",
       "heading": "STUDIO",
       "subHeading": "AUDIO AND VIDEO",

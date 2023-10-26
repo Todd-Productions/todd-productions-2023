@@ -18,7 +18,8 @@ const Footer: React.FC<FooterProps> = (props) => {
       <Wrapper>
         <div className="pt-8 pb-12 mt-4 lg:grid content-center items-center gap-4 h-full grid-cols-[1fr_1fr_1fr] text-white">
           <div className="hidden lg:block h-full">
-            Video Production, Web Design, Graphic Designs - What Do You Need?
+            <div>Video Production, Web Design, Graphic Designs</div>
+            <div>- What Do You Need?</div>
           </div>
 
           <div className="flex flex-col justify-center items-center">
@@ -54,13 +55,13 @@ const Footer: React.FC<FooterProps> = (props) => {
           <div className="mt-8 lg:mt-0 text-center h-full">
             <div>
               <div className="mb-4">
-                <p>Phone:</p>
+                <p className="font-black">Phone:</p>
                 <a className="hover:underline" href="tel: 419-290-0794">
                   419-290-0794
                 </a>
               </div>
               <div className="mb-4">
-                <p>Email:</p>
+                <p className="font-black">Email:</p>
                 <a
                   className="hover:underline"
                   href="mailto: contact@toddprod.com"
