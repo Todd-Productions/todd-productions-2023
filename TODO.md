@@ -48,9 +48,8 @@
 - [ ] Switch to a ditionary for Samples - maybe use slug as the key rest as values
 
 # Components
-- [ ] Make EmbedVideoPlayer component with LiteYouTubeEmbed
-  - [ ] Clean up video links
-  - [ ] Adjust view
+- [x] Make EmbedVideoPlayer component with LiteYouTubeEmbed
+  - [x] Adjust view
 
 # Backlog
 - [x] update netlify from sb to prod

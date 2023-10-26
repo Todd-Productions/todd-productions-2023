@@ -1,9 +1,7 @@
 import React from "react"
 import Image from "next/image"
-import LiteYouTubeEmbed from "react-lite-youtube-embed"
-import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
 
-import { Button, SectionHeading, Wrapper } from "../../atoms"
+import { Button, SectionHeading, Wrapper, VideoPlayer } from "../../atoms"
 import { IButton } from "../../../types"
 import "./example-section.css"
 
@@ -39,15 +37,7 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
         </div>
         <div className="media-container">
           {videoLink ? (
-            <div className="video-container">
-              <LiteYouTubeEmbed
-                aspectHeight={9}
-                aspectWidth={16}
-                // Clean
-                id={videoLink.split("/embed/")[1]}
-                title="YouTube video player"
-              />
-            </div>
+            <VideoPlayer videoId={videoLink.split("/embed/")[1]} />
           ) : (
             <div className="img-container">
               <Image src={siteImg as string} alt={title} fill />

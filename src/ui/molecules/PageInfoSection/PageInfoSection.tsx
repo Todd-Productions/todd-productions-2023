@@ -2,10 +2,8 @@
 
 import React, { ReactNode } from "react"
 import Link from "next/link"
-import LiteYouTubeEmbed from "react-lite-youtube-embed"
-import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
 
-import { Button, SectionHeading, Wrapper, Hero } from "../../atoms"
+import { Button, SectionHeading, Wrapper, Hero, VideoPlayer } from "../../atoms"
 import { IButton } from "../../../types"
 import "./pageinfosection.css"
 
@@ -39,14 +37,8 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
           </Link>
         </div>
         {videoLink ? (
-          <div className="video-container order-2 lg:order-3 lg:col-start-2">
-            <LiteYouTubeEmbed
-              aspectHeight={9}
-              aspectWidth={16}
-              // Clean
-              id={videoLink.split("/embed/")[1]}
-              title="YouTube video player"
-            />
+          <div className="order-2 lg:order-3 lg:col-start-2">
+            <VideoPlayer videoId={videoLink.split("/embed/")[1]} />
           </div>
         ) : null}
         <div className="content leading-8 order-1 lg:order-2">

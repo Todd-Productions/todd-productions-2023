@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
+import NotFoundPage from "../../../not-found"
 
 import { getDefaultProps } from "../../../actions"
 import { ExampleTemplate } from "../../../../ui/templates"
@@ -47,8 +48,9 @@ const ExampleVideoPage = () => {
       })
   }, [])
 
+  // Including loading wheel in Template?
   if (loading) return <p>Loading...</p>
-  if (!data) return <p>No data</p>
+  if (!data) return <NotFoundPage />
 
   return (
     <ExampleTemplate
