@@ -37,6 +37,15 @@
  - [x] Adjust grid breakpoint
  - [x] Adjusted content line height
 
+- [ ] Footer
+ - Phone Heading should be bold like OTHER SERICE
+ - [ ] --- WHat do you need? should be on another line
+
+ - [ ] When gathering content use a google doc
+ - [ ] Right click to download images, make sure they are jpg
+ - [ ] Do not download web or images with text
+  - [ ] any large images that have no text
+
  # SEO
  <!-- Make sure these are actually resolved - rerun Unlighthouse -->
  - [x] Nav burger button - Buttons do not have an accessible name
