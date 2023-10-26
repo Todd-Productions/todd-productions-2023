@@ -2,7 +2,7 @@
   "pageInfoData": {
     "heading": "CONQUER THE WEB",
     "description": "Websites are the digital home of a business! While social media sites can serve as great marketing for you, businesses and organizations need to capitalize on both. Designing a website for your company or product can seem overwhelming with all the different paths you can follow. Even updating your existing site can be time-consuming and confusing. Furthermore, many sites today are not properly optimized, causing them to load slowly or to not properly display content. At Todd Productions Inc. we’ll work with you to make your website the best that it can be. Whether it’s a pre-existing site that you want to optimize, or you are seeking to build an entirely new corporate site or a marketing site, we can work with you and your budget to get you the best result.",
-    "bannerImg": "https://source.unsplash.com/random",
+    "bannerImg": "/images/placeholders/home-web.jpg",
     "button": {
       "link": "/contact-us",
       "label": "connect with us"
@@ -10,7 +10,7 @@
   },
   "splitContent": [
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/web-marketing.jpg",
       "imageAlt": "",
       "heading": "MARKETING WEBSITES",
       "subHeading": "GET ONLINE BUSINESS PRESENCE",
@@ -22,7 +22,7 @@
       "imgLeft": true
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/web-web-apps.jpg",
       "imageAlt": "",
       "heading": "WEB APPLICATIONS",
       "subHeading": "SAVE TIME AND MONEY",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/web-seo.jpg",
       "imageAlt": "",
       "heading": "SEARCH ENGINE OPTIMIZATION",
       "subHeading": "FIRST ON GOOGLE",

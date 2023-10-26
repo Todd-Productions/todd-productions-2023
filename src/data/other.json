@@ -9,7 +9,7 @@
   },
   "splitContent": [
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/other-print-material.jpg",
       "imageAlt": "",
       "heading": "PRINT MATERIAL",
       "subHeading": "UNIQUE DESIGNS SPECIFIC TO YOU",
@@ -21,7 +21,7 @@
       "imgLeft": true
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/other-logo-design.jpg",
       "imageAlt": "",
       "heading": "LOGO DESIGN",
       "subHeading": "YOU THINK IT, WE DESIGN IT",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/other-voice-over.jpg",
       "imageAlt": "",
       "heading": "VOICE OVER / AUDIO",
       "subHeading": "NEED NARRATION RECORDED?",
@@ -44,7 +44,7 @@
       "imgLeft": true
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/other-web-hosting.jpg",
       "imageAlt": "",
       "heading": "WEB HOSTING",
       "subHeading": "CHEAP RELIABLE HOSTING",
@@ -55,7 +55,7 @@
       }
     },
     {
-      "imageSrc": "https://source.unsplash.com/random",
+      "imageSrc": "/images/placeholders/other-social-media-marketing.jpg",
       "imageAlt": "",
       "heading": "SOCIAL MEDIA MARKETING",
       "subHeading": "BUILD AN ONLINE PRESENCE",
