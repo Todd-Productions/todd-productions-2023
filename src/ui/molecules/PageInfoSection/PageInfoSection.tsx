@@ -48,7 +48,7 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
     </Wrapper>
     {bannerImg ? (
       <div className="mt-8 hidden md:block">
-        <Hero img={bannerImg} />
+        <Hero img={bannerImg} objectPosition="center 20%" priority />
       </div>
     ) : null}
   </section>
