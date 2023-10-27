@@ -2,14 +2,20 @@
 
 import React from "react"
 
-import { useForm, SubmitHandler } from "react-hook-form"
+import { useForm } from "react-hook-form"
 import { Input, Button } from "../../atoms"
 import "./contact-form.css"
 
-type Inputs = {
+export interface IContactValues {
   name: string
   email: string
   message: string
+}
+
+const defaultValues: IContactValues = {
+  name: "",
+  email: "",
+  message: "",
 }
 
 export interface ContactFormProps {}
@@ -18,23 +24,59 @@ const ContactForm: React.FC<ContactFormProps> = () => {
   const {
     register,
     handleSubmit,
+    setError,
     formState: { errors },
-  } = useForm<Inputs>()
+  } = useForm<IContactValues>({
+    defaultValues,
+  })
 
-  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data)
+  /**
+   * Handle Submission
+   */
+  const onSubmit = async (data: IContactValues) => {
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      })
+      if (!res.ok) {
+        throw new Error(`HTTP error! status: ${res.status}`)
+      }
+    } catch (error) {
+      setError("root", {
+        type: "400",
+        message: "Sorry, we couldn't process your request",
+      })
+    }
+  }
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="bg-white pb-24">
       <Input
         label="name"
         placeholder="Name *"
-        {...register("name", { required: true })}
+        id="name"
+        required
+        {...register("name", { required: "name requi" })}
       />
+
       <Input
         label="email"
         placeholder="Email *"
         type="email"
-        {...register("email", { required: true })}
+        id="email"
+        required
+        {...register("email", {
+          required: "This field is required",
+          pattern: {
+            value:
+              /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+            message: "Invalid Email",
+          },
+        })}
       />
 
       <div className="bg-white pb-4">
@@ -54,6 +96,9 @@ const ContactForm: React.FC<ContactFormProps> = () => {
 
       {(errors.name || errors.email || errors.message) && (
         <span className="px-20 text-red-500">All fields are required*</span>
+      )}
+      {errors.root && (
+        <span className="px-20 text-red-500">{errors.root.message}</span>
       )}
 
       <div className="text-center">

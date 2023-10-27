@@ -6,6 +6,7 @@ import slugify from "slugify"
 import Social from "../Social/Social"
 import { Wrapper } from "../../atoms"
 import { INavLink } from "../../../types"
+import { socialLinks } from "../../../../siteMeta"
 
 export interface FooterProps {
   links: INavLink[]
@@ -42,11 +43,10 @@ const Footer: React.FC<FooterProps> = (props) => {
               ))}
             </div>
             <Social
-              facebook="/"
-              twitter="/"
-              youtube="/"
-              instagram="/"
-              linkedin="/"
+              facebook={socialLinks.facebook}
+              youtube={socialLinks.youtube}
+              instagram={socialLinks.instagram}
+              linkedin={socialLinks.linkedin}
               whiteHover
               whiteColor
             />
