@@ -1,5 +1,5 @@
 # Todo
-- [ ] Success contact page or just display a message?
+- [x] Success contact page or just display a message?
 - [ ] Add home hero video
 
 # Backlog

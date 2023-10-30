@@ -11,3 +11,4 @@ export { default as SimpleSectionHeading } from "./SimpleSectionHeading/SimpleSe
 export { default as Hamburger } from "./Burger/Burger"
 export { default as SampleImage } from "./SampleImage/SampleImage"
 export { default as VideoPlayer } from "./VideoPlayer/VideoPlayer"
+export { default as Alert } from "./Alert/Alert"

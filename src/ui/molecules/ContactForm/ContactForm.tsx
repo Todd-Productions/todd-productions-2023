@@ -1,9 +1,9 @@
 "use client"
 
-import React from "react"
+import React, { useState } from "react"
 
 import { useForm } from "react-hook-form"
-import { Input, Button } from "../../atoms"
+import { Input, Button, Alert } from "../../atoms"
 import "./contact-form.css"
 
 export interface IContactValues {
@@ -21,6 +21,8 @@ const defaultValues: IContactValues = {
 export interface ContactFormProps {}
 
 const ContactForm: React.FC<ContactFormProps> = () => {
+  const [success, setSuccess] = useState(false)
+
   const {
     register,
     handleSubmit,
@@ -44,6 +46,9 @@ const ContactForm: React.FC<ContactFormProps> = () => {
       })
       if (!res.ok) {
         throw new Error(`HTTP error! status: ${res.status}`)
+      } else {
+        console.log("Success")
+        setSuccess(true)
       }
     } catch (error) {
       setError("root", {
@@ -53,7 +58,7 @@ const ContactForm: React.FC<ContactFormProps> = () => {
     }
   }
 
-  return (
+  return !success ? (
     <form onSubmit={handleSubmit(onSubmit)} className="bg-white pb-24">
       <Input
         label="name"
@@ -95,10 +100,14 @@ const ContactForm: React.FC<ContactFormProps> = () => {
       </div>
 
       {(errors.name || errors.email || errors.message) && (
-        <span className="px-20 text-red-500">All fields are required*</span>
+        <span className="text-center mb-4 text-red-500">
+          All fields are required*
+        </span>
       )}
       {errors.root && (
-        <span className="px-20 text-red-500">{errors.root.message}</span>
+        <div className="text-center mb-4 text-red-500">
+          {errors.root.message}
+        </div>
       )}
 
       <div className="text-center">
@@ -107,6 +116,10 @@ const ContactForm: React.FC<ContactFormProps> = () => {
         </Button>
       </div>
     </form>
+  ) : (
+    <Alert>
+      Thank you! We have received your message and will be in touch shortly.
+    </Alert>
   )
 }
 
