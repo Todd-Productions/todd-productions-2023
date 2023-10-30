@@ -1,9 +1,14 @@
-import { navLinks, footerLinks, socialLinks } from "../../siteMeta"
 import { getSocialLinks } from "../ui/molecules/Header/Header"
+import { navLinks, footerLinks, socialLinks } from "../../siteMeta"
+
+// @types
 import { IPageInfo } from "../ui/molecules/PageInfoSection/PageInfoSection"
 import { ISplitContent } from "../ui/molecules/SplitContentSection/SplitContentSection"
+import { ISEOMeta } from "../types"
 
-export const getDefaultProps = (): any => ({
+export const getDefaultProps = (data?: ISEOMeta) => ({
+  seoTitle: data?.seoTitle,
+  seoDescription: data?.seoDescription,
   headerLinks: navLinks,
   footerLinks,
   ...getSocialLinks(socialLinks),

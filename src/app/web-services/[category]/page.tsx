@@ -37,7 +37,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
       crumbs={crumbs}
       topCTAData={getTopCTA(data.pageInfoSection)}
       samples={data.samples}
-      samplesTitle={data.pageInfoSection.pageTitle}
+      samplesTitle={data.pageInfoSection.pageTitle as string}
       {...getDefaultProps()}
     />
   )

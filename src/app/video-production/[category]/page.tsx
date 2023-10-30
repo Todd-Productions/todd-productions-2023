@@ -1,8 +1,10 @@
+import { getTopCTA, getDefaultProps } from "../../actions"
 import { ICategoryData } from "../../web-services/[category]/page"
 import { SamplesTemplate } from "../../../ui/templates"
 
 import getCategoryData from "../../../../lib/getCategoryData"
-import { getTopCTA, getDefaultProps } from "../../actions"
+
+// @types
 import { ICrumb } from "../../../ui/molecules/Breadcrumbs/Breadcrumbs"
 
 const CatPage = async ({ params }: { params: { category: string } }) => {
@@ -24,7 +26,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
     <SamplesTemplate
       crumbs={crumbs}
       topCTAData={getTopCTA(data.pageInfoSection)}
-      samplesTitle={data.pageInfoSection.pageTitle}
+      samplesTitle={data.pageInfoSection.pageTitle as string}
       samples={data.samples}
       {...getDefaultProps()}
     />

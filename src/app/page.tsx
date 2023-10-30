@@ -1,7 +1,5 @@
-import React from "react"
 import { HomeTemplate } from "../ui/templates"
 import homeData from "../data/home.json"
-
 import { getDefaultProps, getTopCTA, getSplitContent } from "./actions"
 
 const HomePage = () => (

@@ -1,8 +1,8 @@
-import { SEOTemplate } from "../../../ui/templates"
-
-import data from "../../../data/web/seo.json"
 import { getTopCTA, getDefaultProps } from "../../actions"
+import { SEOTemplate } from "../../../ui/templates"
+import data from "../../../data/web/seo.json"
 
+// @types
 import { ICrumb } from "../../../ui/molecules/Breadcrumbs/Breadcrumbs"
 
 const SEOPage = () => {
@@ -18,8 +18,8 @@ const SEOPage = () => {
 
   return (
     <SEOTemplate
-      seoTitle={data.seoTitle}
-      seoDescription={data.seoDescription}
+      seoSectionTitle={data.seoTitle}
+      seoSectionDescription={data.seoDescription}
       seoPackages={data.seoPackages}
       crumbs={crumbs}
       topCTAData={getTopCTA(data.pageInfoData)}

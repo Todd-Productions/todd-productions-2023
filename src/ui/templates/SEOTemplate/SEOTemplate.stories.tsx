@@ -77,8 +77,8 @@ export const Default: Story = {
         url: "/",
       },
     ],
-    seoTitle: "OUR SEO MAINTENANCE PACKAGES",
-    seoDescription:
+    seoSectionTitle: "OUR SEO MAINTENANCE PACKAGES",
+    seoSectionDescription:
       "* All Todd Productions Inc. SEO maintenance packages required initial setup fee. Setup SEO will include research site structure, initial keyword research, third party service setup (such as Google Business and Yelp), and other setup processes. Please contact Todd Productions Inc. for initial setup cost.",
     seoPackages: [
       {

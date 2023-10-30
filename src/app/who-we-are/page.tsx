@@ -1,9 +1,8 @@
+import { getDefaultProps } from "../actions"
 import { BasicTemplate } from "../../ui/templates"
-
 import data from "../../data/whoAreWe.json"
 
-import { getDefaultProps } from "../actions"
-
+// @ types
 import { ICrumb } from "../../ui/molecules/Breadcrumbs/Breadcrumbs"
 
 const WhoAreWePage = () => {

@@ -12,8 +12,8 @@ import { IPageInfo } from "../../molecules/PageInfoSection/PageInfoSection"
 
 export interface SEOTemplateProps extends DefaultTemplateProps {
   topCTAData: IPageInfo
-  seoTitle: string
-  seoDescription: string
+  seoSectionTitle: string
+  seoSectionDescription: string
   seoPackages: IPricingCard[]
 }
 
@@ -29,8 +29,8 @@ const SEOTemplate: React.FC<SEOTemplateProps> = (props) => {
         videoLink={topCTAData.videoLink}
       />
       {/* <SEOPricing
-        title={seoTitle}
-        description={seoDescription}
+        title={seoSectionTitle}
+        description={seoSectionDescription}
         packages={seoPackages}
       /> */}
     </MainLayout>

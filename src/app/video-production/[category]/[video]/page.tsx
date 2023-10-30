@@ -58,7 +58,7 @@ const ExampleVideoPage = () => {
       description={data.description}
       button={{
         label: "View Website",
-        link: data.url ? data.url : null,
+        link: data?.url ? data.url : "",
       }}
       videoLink={data.videoLink}
       {...getDefaultProps()}
