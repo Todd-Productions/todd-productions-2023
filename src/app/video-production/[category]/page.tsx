@@ -28,6 +28,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
       topCTAData={getTopCTA(data.pageInfoSection)}
       samplesTitle={data.pageInfoSection.pageTitle as string}
       samples={data.samples}
+      isCard
       {...getDefaultProps()}
     />
   )

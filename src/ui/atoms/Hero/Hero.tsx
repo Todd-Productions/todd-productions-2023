@@ -9,21 +9,26 @@ export interface HeroProps {
   priority?: boolean
   altText?: string
   objectPosition?: string
+  isVideo?: boolean
 }
 
 const Hero: React.FC<HeroProps> = (props) => {
-  const { img, height, priority, altText, objectPosition } = props
+  const { img, height, priority, altText, objectPosition, isVideo } = props
 
   return (
     <div className="hero" style={{ height }}>
-      <Image
-        className="hero-img"
-        style={{ objectPosition }}
-        src={img}
-        priority={priority}
-        alt={altText ?? ""}
-        fill
-      />
+      {isVideo ? (
+        <video src="/videos/home-hero.mp4" autoPlay loop muted />
+      ) : (
+        <Image
+          className="hero-img"
+          style={{ objectPosition }}
+          src={img}
+          priority={priority}
+          alt={altText ?? ""}
+          fill
+        />
+      )}
     </div>
   )
 }

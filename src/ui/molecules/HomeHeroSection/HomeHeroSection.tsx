@@ -21,9 +21,9 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
   bannerImg,
 }) => (
   <section>
-    <Hero img={bannerImg} height={500} priority />
+    <Hero img={bannerImg} height={500} isVideo priority />
     <Wrapper>
-      <div className="py-8">
+      <div className="py-8 z-10">
         <div className="grid gap-0 xl:gap-20 grid-cols-1 xl:grid-cols-[1fr_3fr]">
           <div className="header-container order-2 xl:order-1">
             <SectionHeading>{title}</SectionHeading>
