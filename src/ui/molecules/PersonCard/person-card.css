@@ -1,0 +1,13 @@
+.person-card {
+  width: 100%;
+  max-width: 360px;
+}
+
+.person-img-container {
+  max-width: 360px;
+  height: 360px;
+}
+
+.person-img {
+  border-radius: 3px 15px 3px 3px;
+}

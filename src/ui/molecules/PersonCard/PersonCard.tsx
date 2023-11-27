@@ -2,7 +2,7 @@ import React, { ReactNode } from "react"
 
 import Image from "next/image"
 
-import { Button } from "../../atoms"
+import "./person-card.css"
 
 export interface IMember {
   img: string
@@ -16,30 +16,31 @@ export interface IMember {
 
 export interface PersonCardProps {
   member: IMember
-  // handleClick?: PersonClickType
   size?: number
   maxWidth?: number
 }
 
 const PersonCard: React.FC<PersonCardProps> = (props: PersonCardProps) => {
   const { member } = props
-  const { img, name, title, linkText } = member
+  const { img, name, title } = member
 
   return (
-    <div className="flex flex-col items-stretch">
-      <div className="transition-all duration-500 items-end flex-row bg-cover w-full h-full">
-        <Image src={img} fill alt={name} />
+    <figure className="person-card flex flex-col justify-center items-start w-full h-full transition-all hover:scale-105 cursor-pointer">
+      <div className="relative h-full w-full person-img-container">
+        <Image
+          className="absolute w-full h-auto object-cover person-img"
+          src={img}
+          alt={name}
+          fill
+        />
       </div>
-      <div className="flex flex-grow">
-        <div>
-          <div>{name}</div>
-          <div>{title}</div>
-          <div>
-            <Button color="primary">{linkText ?? "Read Bio"}</Button>
-          </div>
+      <figcaption>
+        <div className="capitalize text-black">
+          <h4 className="font-normal">{name}</h4>
+          <p className="opacity-50 ">{title}</p>
         </div>
-      </div>
-    </div>
+      </figcaption>
+    </figure>
   )
 }
 

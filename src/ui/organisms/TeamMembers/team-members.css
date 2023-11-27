@@ -1,0 +1,11 @@
+.heading-container h2 {
+  font-size: 45px;
+  line-height: 125%;
+}
+
+.our-values-list h4 {
+  color: var(--tp-color-blue-500);
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
