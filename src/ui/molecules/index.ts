@@ -12,3 +12,4 @@ export { default as SampleCardSection } from "./SampleCardSection/SampleCardSect
 export { default as ExampleSection } from "./ExampleSection/ExampleSection"
 export { default as HomeHeroSection } from "./HomeHeroSection/HomeHeroSection"
 export { default as InternalSection } from "./InternalSection/InternalSection"
+export { default as PersonCard } from "./PersonCard/PersonCard"
