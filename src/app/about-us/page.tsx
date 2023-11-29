@@ -1,6 +1,6 @@
 import { getDefaultProps } from "../actions"
 import { TeamTemplate } from "../../ui/templates"
-// import data from "../../data/contact.json"
+import data from "../../data/aboutUs.json"
 
 // types
 import { ICrumb } from "../../ui/molecules/Breadcrumbs/Breadcrumbs"
@@ -12,7 +12,13 @@ const ContactPage = () => {
     },
   ]
 
-  return <TeamTemplate crumbs={crumbs} {...getDefaultProps()} />
+  return (
+    <TeamTemplate
+      crumbs={crumbs}
+      members={data.members}
+      {...getDefaultProps()}
+    />
+  )
 }
 
 export default ContactPage

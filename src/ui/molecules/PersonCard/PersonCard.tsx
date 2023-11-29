@@ -9,7 +9,6 @@ export interface IMember {
   name: string
   title: string
   bio: ReactNode
-  linkText?: string
 }
 
 export interface PersonCardProps {

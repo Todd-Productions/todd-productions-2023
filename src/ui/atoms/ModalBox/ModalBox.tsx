@@ -18,7 +18,7 @@ const ModalBox: React.FC<ModalBoxProps> = (props: ModalBoxProps) => {
       <button
         type="button"
         onClick={() => onClose && onClose()}
-        className="text-red-500 flex justify-center content-center items-center absolute right-0 text-3xl cursor-pointer mr-4 mt-2 transition hover:border-white"
+        className="text-blue-500 flex justify-center content-center items-center absolute right-0 text-3xl cursor-pointer mr-4 mt-2 transition hover:border-white"
       >
         x
       </button>

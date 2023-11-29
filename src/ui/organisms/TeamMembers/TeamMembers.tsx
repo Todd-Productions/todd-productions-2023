@@ -11,6 +11,7 @@ import {
   SectionHeading,
   SectionSubHeading,
   Modal,
+  Content,
 } from "../../atoms"
 
 import "./team-members.css"
@@ -37,14 +38,16 @@ const TeamModal: React.FC<TeamModalProps> = (props: TeamModalProps) => {
     <Modal on={on} toggle={toggle}>
       {member && (
         <div>
-          <h2 className="text-black font-black text-3xl m-0 mb-1 text-center">
+          <h2 className="capitalize text-black font-black text-3xl m-0 mb-1 text-center">
             {member?.name}
           </h2>
-          <h3 className="text-black text-grey-400 text-xl m-0 mb-4 text-center">
+          <h3 className="capitalize text-black text-grey-400 text-xl m-0 mb-4 text-center">
             {member?.title}
           </h3>
           <div>
-            <div dangerouslySetInnerHTML={{ __html: String(member.bio) }} />
+            <Content>
+              <div dangerouslySetInnerHTML={{ __html: String(member.bio) }} />
+            </Content>
           </div>
         </div>
       )}

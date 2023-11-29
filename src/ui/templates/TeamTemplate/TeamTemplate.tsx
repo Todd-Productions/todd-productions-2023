@@ -1,5 +1,6 @@
 import React from "react"
 
+import { IMember } from "@/ui/molecules/PersonCard/PersonCard"
 import { MainLayout, TeamMembers } from "../../organisms"
 
 import {
@@ -7,75 +8,22 @@ import {
   getMainLayoutProps,
 } from "../HomeTemplate/HomeTemplate"
 
-export interface TeamTemplateProps extends DefaultTemplateProps {}
+export interface TeamTemplateProps extends DefaultTemplateProps {
+  members: IMember[]
+}
 
-const TeamTemplate: React.FC<TeamTemplateProps> = (props) => (
-  // const {} = props
+const TeamTemplate: React.FC<TeamTemplateProps> = (props) => {
+  const { members } = props
 
-  <MainLayout {...getMainLayoutProps(props)}>
-    <TeamMembers
-      title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      membersTitle="Who Are We"
-      members={[
-        {
-          img: "https://source.unsplash.com/random",
-          name: "first last",
-          title: "Senior Web Developer",
-          bio: "This is a bio...",
-          linkText: "/",
-        },
-        {
-          img: "https://source.unsplash.com/random",
-          name: "first last",
-          title: "Senior Web Developer",
-          bio: "This is a bio...",
-          linkText: "/",
-        },
-        {
-          img: "https://source.unsplash.com/random",
-          name: "first last",
-          title: "Senior Web Developer",
-          bio: "This is a bio...",
-          linkText: "/",
-        },
-        {
-          img: "https://source.unsplash.com/random",
-          name: "first last",
-          title: "Senior Web Developer",
-          bio: "This is a bio...",
-          linkText: "/",
-        },
-        {
-          img: "https://source.unsplash.com/random",
-          name: "first last",
-          title: "Senior Web Developer",
-          bio: "This is a bio...",
-          linkText: "/",
-        },
-        {
-          img: "https://source.unsplash.com/random",
-          name: "first last",
-          title: "Senior Web Developer",
-          bio: "This is a bio...",
-          linkText: "/",
-        },
-        {
-          img: "https://source.unsplash.com/random",
-          name: "first last",
-          title: "Senior Web Developer",
-          bio: "This is a bio...",
-          linkText: "/",
-        },
-        {
-          img: "https://source.unsplash.com/random",
-          name: "first last",
-          title: "Senior Web Developer",
-          bio: "This is a bio...",
-          linkText: "/",
-        },
-      ]}
-    />
-  </MainLayout>
-)
+  return (
+    <MainLayout {...getMainLayoutProps(props)}>
+      <TeamMembers
+        title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        membersTitle="Who Are We"
+        members={members}
+      />
+    </MainLayout>
+  )
+}
 
 export default TeamTemplate
