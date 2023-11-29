@@ -1,5 +1,8 @@
-import React from "react"
+"use client"
+
+import React, { useState } from "react"
 import Link from "next/link"
+import slugify from "slugify"
 
 import { PersonCard } from "../../molecules"
 import {
@@ -7,6 +10,7 @@ import {
   Wrapper,
   SectionHeading,
   SectionSubHeading,
+  Modal,
 } from "../../atoms"
 
 import "./team-members.css"
@@ -20,16 +24,61 @@ export interface TeamMembersProps {
   members: IMember[]
 }
 
+interface TeamModalProps {
+  member?: IMember
+  on: boolean
+  toggle: () => void
+}
+
+const TeamModal: React.FC<TeamModalProps> = (props: TeamModalProps) => {
+  const { member, on, toggle } = props
+
+  return (
+    <Modal on={on} toggle={toggle}>
+      {member && (
+        <div>
+          <h2 className="text-black font-black text-3xl m-0 mb-1 text-center">
+            {member?.name}
+          </h2>
+          <h3 className="text-black text-grey-400 text-xl m-0 mb-4 text-center">
+            {member?.title}
+          </h3>
+          <div>
+            <div dangerouslySetInnerHTML={{ __html: String(member.bio) }} />
+          </div>
+        </div>
+      )}
+    </Modal>
+  )
+}
+
 const TeamMembers: React.FC<TeamMembersProps> = (props) => {
   const { title, membersTitle, members } = props
+  const [on, setOn] = useState(false)
+  const [member, setMember] = useState<IMember | undefined>(undefined)
+
+  const toggle = () => {
+    setOn((o) => !o)
+  }
+
+  // Open Modal
+  const openModal = (p: IMember) => {
+    const currentPerson: IMember = p
+    setMember(currentPerson)
+    setOn(true)
+  }
 
   return (
     <Section>
       <Wrapper>
+        <TeamModal on={on} toggle={toggle} member={member} />
+
         <div>
-          <div className="heading-container flex justify-between items-start">
-            <SectionHeading>{title}</SectionHeading>
-            <div className="text-2xl leading-10">
+          <div className="heading-container flex flex-col gap-y-4 lg:gap-10 lg:flex-row justify-between items-start">
+            <div className="ml-8">
+              <SectionHeading>{title}</SectionHeading>
+            </div>
+            <div className="text-xl md:text-2xl leading-10">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Pellentesque commodo et justo eu tempor. Cras nec tincidunt
@@ -52,7 +101,7 @@ const TeamMembers: React.FC<TeamMembersProps> = (props) => {
 
         <div className="my-20">
           <SectionSubHeading>Our Values</SectionSubHeading>
-          <ul className="our-values-list grid grid-cols-3 gap-x-8 leading-loose text-xl leading-normal">
+          <ul className="our-values-list grid md:grid-cols-3 gap-x-8 leading-loose text-xl leading-normal">
             <li>
               <h4>One</h4>
               <p>
@@ -81,9 +130,13 @@ const TeamMembers: React.FC<TeamMembersProps> = (props) => {
         </div>
 
         <SectionSubHeading>{membersTitle ?? "Who Are We"}</SectionSubHeading>
-        <div className="grid justify-items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-4 h-full gap-8">
+        <div className="grid justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 h-full gap-8">
           {members.map((member) => (
-            <PersonCard member={member} />
+            <PersonCard
+              key={slugify(`${member.name}-${member.title}`)}
+              member={member}
+              handleClick={openModal}
+            />
           ))}
         </div>
       </Wrapper>

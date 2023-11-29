@@ -1,6 +1,9 @@
-.heading-container h2 {
-  font-size: 45px;
-  line-height: 125%;
+@screen md {
+  .heading-container h2 {
+    font-size: 45px;
+    line-height: 125%;
+    background: red;
+  }
 }
 
 .our-values-list h4 {

@@ -6,10 +6,10 @@
 
 - [ ] About Us page
   - [ ] Setup json data
-  - [ ] complete styles
+  - [x] complete styles
   - [ ] update props for IMember
   - [ ] popup bio
-  - [ ] check mobile styles
+  - [x] check mobile styles
 
 # Backlog
 - [ ] Switch to a ditionary for Samples - maybe use slug as the key rest as values

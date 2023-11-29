@@ -12,28 +12,31 @@ export interface IMember {
   linkText?: string
 }
 
-// export type PersonClickType = (_: IMember) => void
-
 export interface PersonCardProps {
   member: IMember
   size?: number
   maxWidth?: number
+  handleClick?: (p: IMember) => void
 }
 
 const PersonCard: React.FC<PersonCardProps> = (props: PersonCardProps) => {
-  const { member } = props
+  const { member, handleClick } = props
   const { img, name, title } = member
 
   return (
     <figure className="person-card flex flex-col justify-center items-start w-full h-full transition-all hover:scale-105 cursor-pointer">
-      <div className="relative h-full w-full person-img-container">
+      <button
+        type="button"
+        onClick={() => handleClick && handleClick(member)}
+        className="relative h-full w-full person-img-container"
+      >
         <Image
           className="absolute w-full h-auto object-cover person-img"
           src={img}
           alt={name}
           fill
         />
-      </div>
+      </button>
       <figcaption>
         <div className="capitalize text-black">
           <h4 className="font-normal">{name}</h4>
