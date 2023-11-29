@@ -18,11 +18,14 @@ export interface IRawPageInfo {
   videoLink: string
 }
 
-const ExampleVideoPage = ({ params }: { params: { category: string } }) => {
-  const { category } = params
+const ExampleVideoPage = ({
+  params,
+}: {
+  params: { category: string; video: string }
+}) => {
+  const { category, video } = params
 
   const pathname = usePathname()
-  const pathSegments = pathname.split("/")
 
   const [data, setData] = useState<IRawPageInfo>()
   const crumbs: ICrumb[] = [
@@ -31,8 +34,8 @@ const ExampleVideoPage = ({ params }: { params: { category: string } }) => {
       url: "/video-production/",
     },
     {
-      label: pathSegments[2],
-      url: `/video-production/${pathSegments[2]}/`,
+      label: category.split("-").join(" "),
+      url: `/video-production/${category}/`,
     },
     {
       label: data?.title ?? "Promo Video",

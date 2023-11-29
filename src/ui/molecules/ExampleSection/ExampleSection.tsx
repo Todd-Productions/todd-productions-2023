@@ -19,7 +19,7 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
   return (
     <section className="py-10">
       <Wrapper>
-        <div className="pb-10 grid gap-10 md:gap-20 grid-cols-1 md:grid-cols-[1fr_3fr]">
+        <div className="pb-10 grid gap-x-10 grid-cols-1 md:grid-cols-[2fr_3fr]">
           <div className="order-2 md:order-1">
             <SectionHeading>{title}</SectionHeading>
             {button.link && (
@@ -29,12 +29,11 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
                 rel="noopener noreferrer"
               >
                 <Button fullWidth>{button.label}</Button>
-                heloo
               </a>
             )}
           </div>
 
-          <div className="order-1 md:order-2">{description}</div>
+          <div className="order-1 md:order-2 bg-white">{description}</div>
         </div>
         <div className="media-container">
           {videoLink ? (

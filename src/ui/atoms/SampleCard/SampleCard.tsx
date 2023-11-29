@@ -27,7 +27,7 @@ const SampleCard: React.FC<SampleCardProps> = (props) => {
     <div className="sample-card">
       <Link href={`${card.slug}`}>
         <div className="h-full relative flex items-center justify-center text-center">
-          <div className="title absolute z-10 font-bold text-white text-2xl lg:text-5xl px-4">
+          <div className="title absolute z-10 font-bold text-white text-2xl lg:text-4xl px-4">
             {card.title}
           </div>
           <div className="overlay" />
