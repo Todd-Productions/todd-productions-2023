@@ -41,7 +41,7 @@ const TeamModal: React.FC<TeamModalProps> = (props: TeamModalProps) => {
           <h2 className="capitalize text-black font-black text-3xl m-0 mb-1 text-center">
             {member?.name}
           </h2>
-          <h3 className="capitalize text-black text-grey-400 text-xl m-0 mb-4 text-center">
+          <h3 className="capitalize text-black text-grey-600 text-2xl m-0 mb-4 text-center">
             {member?.title}
           </h3>
           <div>
@@ -133,7 +133,7 @@ const TeamMembers: React.FC<TeamMembersProps> = (props) => {
         </div>
 
         <SectionSubHeading>{membersTitle ?? "Who Are We"}</SectionSubHeading>
-        <div className="grid justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 h-full gap-8">
+        <div className="grid justify-items-center sm:grid-cols-2 h-full gap-x-8 gap-y-12">
           {members.map((member) => (
             <PersonCard
               key={slugify(`${member.name}-${member.title}`)}

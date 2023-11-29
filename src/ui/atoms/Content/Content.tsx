@@ -7,7 +7,7 @@ interface ContentProps {
 }
 
 const Content: React.FC<ContentProps> = ({ children }) => (
-  <div className="content">{children}</div>
+  <div className="content text-grey-600">{children}</div>
 )
 
 export default Content

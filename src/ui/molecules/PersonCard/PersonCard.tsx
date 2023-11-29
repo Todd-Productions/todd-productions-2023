@@ -30,16 +30,16 @@ const PersonCard: React.FC<PersonCardProps> = (props: PersonCardProps) => {
         className="relative h-full w-full person-img-container"
       >
         <Image
-          className="absolute w-full h-auto object-cover person-img"
+          className="absolute w-full h-auto object-cover rounded-full"
           src={img}
           alt={name}
           fill
         />
       </button>
-      <figcaption>
-        <div className="capitalize text-black">
-          <h4 className="font-normal">{name}</h4>
-          <p className="opacity-50 ">{title}</p>
+      <figcaption className="w-full text-center">
+        <div className="capitalize">
+          <h4 className="font-bold mt-5">{name}</h4>
+          <p className="opacity-95 text-lg">{title}</p>
         </div>
       </figcaption>
     </figure>
