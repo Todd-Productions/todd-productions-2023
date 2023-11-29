@@ -15,20 +15,23 @@ export interface BasicTemplateProps extends DefaultTemplateProps {
   button: IButton
   videoLink?: string
   siteImg?: string
+  loading?: string
 }
 
 const BasicTemplate: React.FC<BasicTemplateProps> = (props) => {
-  const { title, description, button, videoLink, siteImg } = props
+  const { title, description, button, videoLink, siteImg, loading } = props
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
-      <ExampleSection
-        title={title}
-        description={description}
-        button={button}
-        videoLink={videoLink}
-        siteImg={siteImg}
-      />
+      {!loading && (
+        <ExampleSection
+          title={title}
+          description={description}
+          button={button}
+          videoLink={videoLink}
+          siteImg={siteImg}
+        />
+      )}
     </MainLayout>
   )
 }

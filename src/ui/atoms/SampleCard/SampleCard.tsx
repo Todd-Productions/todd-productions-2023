@@ -25,7 +25,7 @@ const SampleCard: React.FC<SampleCardProps> = (props) => {
   const { card } = props
   return (
     <div className="sample-card">
-      <Link className="" href={card.slug}>
+      <Link href={`${card.slug}`}>
         <div className="h-full relative flex items-center justify-center text-center">
           <div className="title absolute z-10 font-bold text-white text-2xl lg:text-5xl px-4">
             {card.title}
@@ -35,7 +35,7 @@ const SampleCard: React.FC<SampleCardProps> = (props) => {
             <Image
               className="absolute object-cover h-full w-full"
               src={card.img as string}
-              alt={card.title}
+              alt={card.slug}
               fill
             />
           </div>

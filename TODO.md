@@ -3,7 +3,14 @@
 - [x] Add home hero video
 - [x] Add text to samples
 - [ ] SectionHeading uses an H2, add prop for H1 variant
-- [ ] Include loading wheel in temp for pages that fetch data
+
+# Need
+- [ ] Marketing site page
+  - [ ] Description
+  - [ ] Sample image (small Monitor image and a page image)
+- [ ] Video Production cat page
+ - [ ] Sample images without text
+ - [ ] Favicon
 
 - [-] About Us page
   - [x] complete styles
@@ -15,4 +22,3 @@
 
 # Backlog
 - [ ] Switch to a ditionary for Samples - maybe use slug as the key rest as values
-- [ ] Loading page/ add loading wheel to template, determine with boolean already in place?

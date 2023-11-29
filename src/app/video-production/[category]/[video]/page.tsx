@@ -2,10 +2,9 @@
 
 import React, { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
-import NotFoundPage from "../../../not-found"
 
 import { getDefaultProps } from "../../../actions"
-import { ExampleTemplate } from "../../../../ui/templates"
+import { ExampleTemplate, BasicTemplate } from "../../../../ui/templates"
 
 import { ICrumb } from "../../../../ui/molecules/Breadcrumbs/Breadcrumbs"
 
@@ -19,12 +18,13 @@ export interface IRawPageInfo {
   videoLink: string
 }
 
-const ExampleVideoPage = () => {
+const ExampleVideoPage = ({ params }: { params: { category: string } }) => {
+  const { category } = params
+
   const pathname = usePathname()
   const pathSegments = pathname.split("/")
 
   const [data, setData] = useState<IRawPageInfo>()
-  const [loading, setLoading] = useState(true)
   const crumbs: ICrumb[] = [
     {
       label: "Video Services",
@@ -35,22 +35,20 @@ const ExampleVideoPage = () => {
       url: `/video-production/${pathSegments[2]}/`,
     },
     {
-      label: data?.title ?? "Website",
+      label: data?.title ?? "Promo Video",
     },
   ]
 
   useEffect(() => {
-    fetch(`/api/video?category=${pathSegments[2]}&path=${pathname}`)
+    fetch(`/api/video?category=${category}&path=${pathname}`)
       .then((res) => res.json())
       .then((data) => {
         setData(data)
-        setLoading(false)
       })
-  }, [])
+  }, [category, pathname])
 
-  // Including loading wheel in Template?
-  if (loading) return <p>Loading...</p>
-  if (!data) return <NotFoundPage />
+  // Avoid "loading" render
+  if (!data) return null
 
   return (
     <ExampleTemplate

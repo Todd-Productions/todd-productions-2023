@@ -15,7 +15,7 @@ export interface IExampleProps {
 
 const ExampleSection: React.FC<IExampleProps> = (props) => {
   const { title, description, videoLink, button, siteImg } = props
-  console.log(videoLink)
+
   return (
     <section className="py-10">
       <Wrapper>
@@ -29,6 +29,7 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
                 rel="noopener noreferrer"
               >
                 <Button fullWidth>{button.label}</Button>
+                heloo
               </a>
             )}
           </div>

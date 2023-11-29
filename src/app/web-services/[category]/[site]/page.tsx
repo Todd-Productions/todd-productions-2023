@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react"
 // import Link from "next/link"
 import { usePathname } from "next/navigation"
 
+import path from "path"
 import { getDefaultProps } from "../../../actions"
 import { ExampleTemplate, InternalTemplate } from "../../../../ui/templates"
 // import NotFoundPage from "../../../not-found"
@@ -22,7 +23,6 @@ export interface IRawPageInfo {
 const ExamplePage = () => {
   const pathname = usePathname()
   const [data, setData] = useState<IRawPageInfo>()
-  const [loading, setLoading] = useState(true)
 
   const crumbs: ICrumb[] = [
     {
@@ -30,7 +30,7 @@ const ExamplePage = () => {
       url: "/web-services/",
     },
     {
-      label: "marketing services",
+      label: "Marketing Services",
       url: "/web-services/marketing-websites/",
     },
     {
@@ -45,22 +45,11 @@ const ExamplePage = () => {
         if (!data.error) {
           setData(data)
         }
-        setLoading(false)
       })
   }, [])
 
-  if (!data || loading)
-    return (
-      <InternalTemplate {...getDefaultProps()}>
-        <div className="text-center">
-          <h1>Loading...</h1>
-          {/* <p>Sorry 😔 we couldn&apos;t find what you were looking for.</p>
-          <Link className="text-blue-500 underline" href="/">
-            Return Home
-          </Link> */}
-        </div>
-      </InternalTemplate>
-    )
+  // Avoid "loading" render
+  if (!data) return null
 
   return (
     <ExampleTemplate

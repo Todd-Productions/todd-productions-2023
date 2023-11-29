@@ -5,6 +5,7 @@ import drone from "../../../data/video/drone.json"
 import music from "../../../data/video/music-video-production.json"
 import product from "../../../data/video/product.json"
 import sales from "../../../data/video/promotional-sales.json"
+import training from "../../../data/video/training.json"
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
@@ -28,6 +29,9 @@ export async function GET(request: Request) {
         return NextResponse.json(site)
       case "promotional-sales":
         site = sales.samples.find((obj) => obj.slug === path)
+        return NextResponse.json(site)
+      case "training":
+        site = training.samples.find((obj) => obj.slug === path)
         return NextResponse.json(site)
       default:
         throw new Error("Invalid category")
