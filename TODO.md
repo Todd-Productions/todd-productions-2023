@@ -4,6 +4,7 @@
 - [x] Add text to samples
 - [ ] SectionHeading uses an H2, add prop for H1 variant
 - [ ] Merge About Us and Who We Are or added to Nav?
+- [ ] SEO title, description
 
 # Need
 - [ ] Marketing site page (/web-services/marketing-websites/[site])
@@ -12,7 +13,7 @@
 - [ ] Video Production cat page
  - [ ] Sample images without text
 - [ ] CARL & HIS CAMERA – “HERE WE ARE NOW” (Needs description, in /video-production/cat/[video])
-- [ ] Favicon
+- [x] Favicon
 
 
 - [x] About Us page

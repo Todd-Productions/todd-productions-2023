@@ -7,7 +7,6 @@ import {
   DefaultTemplateProps,
 } from "../HomeTemplate/HomeTemplate"
 
-// import { ISampleCard } from "../../atoms/SampleCard/SampleCard"
 import { IPageInfo } from "../../molecules/PageInfoSection/PageInfoSection"
 
 export interface SampleTemplateProps extends DefaultTemplateProps {
