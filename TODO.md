@@ -20,7 +20,7 @@
   - [x] update props for IMember
   - [x] popup bio
   - [x] check mobile styles
-  - [ ] complete json data
+  - [ ] complete json data for employees
 
 
 # Backlog

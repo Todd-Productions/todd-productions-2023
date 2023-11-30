@@ -15,3 +15,29 @@ video {
   position: absolute;
   object-fit: cover;
 }
+
+.video-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 100%;
+}
+
+.video-heading {
+  background-color: rgba(8, 26, 108, 0.5);
+}
+
+.video-subheading {
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+}
+
+.video-text span {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background: rgb(255, 0, 0);
+  border-radius: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
