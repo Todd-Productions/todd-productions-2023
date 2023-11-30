@@ -2,8 +2,8 @@
 - [x] Success contact page or just display a message?
 - [x] Add home hero video
 - [x] Add text to samples
-- [ ] SectionHeading uses an H2, add prop for H1 variant
-- [ ] Merge About Us and Who We Are or added to Nav?
+- [x] Merge About Us and Who We Are or added to Nav?
+- [x] SectionHeading uses an H2, add prop for H1 variant
 - [ ] SEO title, description
 - [ ] Checkout link in 404 page
 
@@ -26,4 +26,4 @@
 
 
 # Backlog
-- [ ] Switch to a ditionary for Samples - maybe use slug as the key rest as values
+- [ ] Switch to a ditionary for Samples - maybe use slug as the key

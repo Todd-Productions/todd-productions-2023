@@ -21,7 +21,7 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
       <Wrapper>
         <div className="pb-10 grid gap-x-10 grid-cols-1 md:grid-cols-[2fr_3fr]">
           <div className="order-2 md:order-1">
-            <SectionHeading>{title}</SectionHeading>
+            <SectionHeading headingLevel="h1">{title}</SectionHeading>
             {button.link && (
               <a
                 href={button.link as string}

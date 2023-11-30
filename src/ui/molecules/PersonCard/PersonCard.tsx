@@ -38,7 +38,7 @@ const PersonCard: React.FC<PersonCardProps> = (props: PersonCardProps) => {
           <h4 className="font-black text-blue-500 text-2xl mt-5 uppercase">
             {name}
           </h4>
-          <p className="opacity-95 text-lg uppercase">{title}</p>
+          <p className="opacity-95 text-lg uppercase mt-3">{title}</p>
           <Content>
             <div
               className="text-left mt-4 text-xl md:text-2xl leading-10"

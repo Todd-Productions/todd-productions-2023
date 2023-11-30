@@ -26,7 +26,7 @@ const TeamMembers: React.FC<TeamMembersProps> = (props) => {
         <SimpleSectionHeading>{title ?? "Our Team"}</SimpleSectionHeading>
         <Content>
           <div className="mb-12">
-            <p>{description}</p>
+            <p className="mx-auto md:w-3/4">{description}</p>
           </div>
         </Content>
 

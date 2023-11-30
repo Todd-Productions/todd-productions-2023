@@ -29,7 +29,7 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
     <Wrapper>
       <div className="py-10 grid gap-10 md:gap-y-10 gap-x-20 grid-cols-1 lg:grid-cols-[1fr_3fr] ">
         <div className="header-container order-3 lg:order-1">
-          <SectionHeading>{title}</SectionHeading>
+          <SectionHeading headingLevel="h1">{title}</SectionHeading>
           <Link href={button.link}>
             <Button color="default" fullWidth>
               {button.label}

@@ -27,7 +27,7 @@ const ContactContent: React.FC<ContactContentProps> = (props) => {
 
   return (
     <div>
-      <SectionHeading>{title}</SectionHeading>
+      <SectionHeading headingLevel="h1">{title}</SectionHeading>
       <p className="mt-4">{description}</p>
       <div className="mt-4 mb-12">
         <div className="pb-3">
