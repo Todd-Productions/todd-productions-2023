@@ -1,5 +1,5 @@
 import { getDefaultProps } from "../actions"
-import { BasicTemplate } from "../../ui/templates"
+import { WhoAreWeTemplate } from "../../ui/templates"
 import data from "../../data/whoAreWe.json"
 
 // @ types
@@ -13,12 +13,15 @@ const WhoAreWePage = () => {
   ]
 
   return (
-    <BasicTemplate
+    <WhoAreWeTemplate
       crumbs={crumbs}
       title={data.title}
       description={data.description}
       videoLink={data.videoLink}
       button={data.button}
+      members={data.members}
+      membersTitle={data.membersTitle}
+      membersDescription={data.membersDescription}
       {...getDefaultProps()}
     />
   )

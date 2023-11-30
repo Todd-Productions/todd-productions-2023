@@ -24,7 +24,16 @@ export interface WhoAreWeTemplateProps extends DefaultTemplateProps {
 }
 
 const WhoAreWeTemplate: React.FC<WhoAreWeTemplateProps> = (props) => {
-  const { title, description, button, videoLink, bannerImg } = props
+  const {
+    title,
+    description,
+    button,
+    videoLink,
+    bannerImg,
+    membersTitle,
+    membersDescription,
+    members,
+  } = props
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
@@ -34,6 +43,12 @@ const WhoAreWeTemplate: React.FC<WhoAreWeTemplateProps> = (props) => {
         button={button}
         videoLink={videoLink as string}
         bannerImg={bannerImg as string}
+      />
+
+      <TeamMembers
+        members={members}
+        title={membersTitle}
+        description={membersDescription}
       />
     </MainLayout>
   )

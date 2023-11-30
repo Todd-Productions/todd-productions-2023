@@ -8,9 +8,7 @@ const NotFoundPage = () => (
     <div className="text-center">
       <h2>Not Found</h2>
       <p>Sorry 😔 we couldn&apos;t find what you were looking for.</p>
-      <Link className="text-blue-500 underline" href="/">
-        Return Home
-      </Link>
+      <Link href="/">Return Home</Link>
     </div>
   </InternalTemplate>
 )

@@ -41,7 +41,7 @@ const PersonCard: React.FC<PersonCardProps> = (props: PersonCardProps) => {
           <p className="opacity-95 text-lg uppercase">{title}</p>
           <Content>
             <div
-              className="text-left mt-4"
+              className="text-left mt-4 text-xl md:text-2xl leading-10"
               dangerouslySetInnerHTML={{ __html: String(bio) }}
             />
           </Content>
