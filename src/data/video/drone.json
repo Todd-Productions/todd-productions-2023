@@ -13,7 +13,7 @@
     {
       "title": "DRIVING VEHICLE TRACKING SHOT",
       "slug": "/video-production/drone/driving-vehicle-tracking-shot",
-      "img": "https://source.unsplash.com/random",
+      "img": "/images/placeholders/drone/driving-vehicle-tracking-shot.jpg",
       "videoLink": "https://www.youtube.com/embed/NMYutVruoLI",
       "description": "An example of the tracking shot capability of our drone, by stylishly tracking a vehicle driving around a neighborhood.",
       "button": {
@@ -24,7 +24,7 @@
     {
       "title": "LAND SURVEYING",
       "slug": "/video-production/drone/land-surveying",
-      "img": "https://source.unsplash.com/random",
+      "img": "/images/placeholders/drone/land-surveying.jpg",
       "videoLink": "https://www.youtube.com/embed/dfKoPLDe9P4",
       "description": "A short video example of land surveying for commercial purposes and also showcasing our ability to get sweeping landscape shots!",
       "button": {
@@ -35,8 +35,8 @@
     {
       "title": "CLUBHOUSE PROPERTY SHOWCASE",
       "slug": "/video-production/drone/clubhouse-property-showcase",
-      "img": "https://source.unsplash.com/random",
-      "videoLink": "https://www.youtube.com/embed/5Yrc_Zb6QCE",
+      "img": "/images/placeholders/drone/clubhouse-property-showcase.jpg",
+      "videoLink": "/images/placeholders/drone/clubhouse-property-showcase.jpg",
       "description": "A short highlight reel of a property showcase, sweeping over the building and outdoor pool area, showing off the beauty and layout of the facility.",
       "button": {
         "link": "https://www.youtube.com/watch?v=5Yrc_Zb6QCE",
@@ -46,7 +46,7 @@
     {
       "title": "BUSINESS CAMPUS SHOWCASE",
       "slug": "/video-production/drone/business-campus-showcase",
-      "img": "https://source.unsplash.com/random",
+      "img": "/images/placeholders/drone/business-campus-showcase.jpg",
       "videoLink": "https://www.youtube.com/embed/QqLH3M2LBdE",
       "description": "Wide panning shots of a large business mixed with flying indoor shots showing the ins and outs of the business and its operations.",
       "button": {
@@ -57,7 +57,7 @@
     {
       "title": "DOWNTOWN MAUMEE AERIAL VIEW",
       "slug": "/video-production/drone/downtown-maumee-aerial-view",
-      "img": "https://source.unsplash.com/random",
+      "img": "/images/placeholders/drone/downtown-maumee-aerial-view.jpg",
       "videoLink": "https://www.youtube.com/embed/5c0X7HAsRqA",
       "description": "Full 180 degree turns showing the entire surrounding area and showing a full view of downtown by taking the drone to new heights!",
       "button": {
@@ -68,7 +68,7 @@
     {
       "title": "RESORT GROUNDS OVERVIEW",
       "slug": "/video-production/drone/resort-grounds-overview",
-      "img": "https://source.unsplash.com/random",
+      "img": "/images/placeholders/drone/resort-grounds-overview.jpg",
       "videoLink": "https://www.youtube.com/embed/1fdk7wj8ZqA",
       "description": "A quick highlight video showing off the various activities and fun atmosphere of a huge resort, as well as showcasing the vast property. Good for use in exciting advertisements!",
       "button": {
