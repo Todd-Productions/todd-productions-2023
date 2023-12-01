@@ -11,8 +11,17 @@
 - [ ] Marketing site page (/web-services/marketing-websites/[site])
   - [ ] Description
   - [ ] Sample image (small Monitor image and a larger image for the page image)
-- [ ] Video Production cat page
- - [ ] Sample images without text
+- [ ] Video Production Cat page examples images
+ - [ ] Promo / Sales
+ - [ ] Product
+ - [ ] Corp
+ - [ ] Training
+ - [ ] Commerical
+ - [ ] Convention / Events
+ - [ ] Music
+ - [ ] Drone
+ - [ ] Studio
+ 
 - [ ] CARL & HIS CAMERA – “HERE WE ARE NOW” (Needs description, in /video-production/cat/[video])
 - [x] Favicon
 

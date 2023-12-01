@@ -24,20 +24,11 @@
   will-change: transform;
 }
 
-.title:hover + .overlay {
-  background: rgba(0, 88, 146, 0.692);
-  transition: all 0.25s;
-}
-
 .overlay {
   height: 100%;
   width: 100%;
-  background: rgba(0, 88, 146, 0.2);
   position: absolute;
   z-index: 1;
   transition: all 0.25s;
-}
-
-.overlay:hover {
   background: rgba(0, 88, 146, 0.692);
 }
