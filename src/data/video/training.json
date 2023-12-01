@@ -14,7 +14,7 @@
     {
       "title": "CLEANING PROCESS TRAINING APP",
       "slug": "/video-production/training/cleaning-process-training-app",
-      "img": "https://source.unsplash.com/random",
+      "img": "/images/placeholders/training/cleaning-process.jpg",
       "videoLink": "https://www.youtube.com/embed/CgFk4cBtee0",
       "description": "An exciting and informative promo showcasing all of the features this software has available, for training and tracking cleaning processes.",
       "button": {
@@ -24,7 +24,7 @@
     },
     {
       "title": "INDUSTRIAL CLEANING PROCEDURE",
-      "slug": "/video-production/training/industrial-cleaning-procedure",
+      "slug": "/images/placeholders/training/industrial-cleaning-procedure.jpg",
       "img": "https://source.unsplash.com/random",
       "videoLink": "https://www.youtube.com/embed/tgZ8hJf6O2E",
       "description": "Informative training video designed specifically for new employees who need to be informed of the company's cleaning operations and procedures, for safety and thoroughness.",
@@ -36,7 +36,7 @@
     {
       "title": "WEB HOSTING EXPLAINER",
       "slug": "/video-production/training/web-hosting-explainer",
-      "img": "https://source.unsplash.com/random",
+      "img": "/images/placeholders/training/web-hosting-explainer.jpg",
       "videoLink": "https://www.youtube.com/embed/r9oCGz7FfqQ",
       "description": "A short but informative explainer video that uses sleek animation graphics for a nice professional, corporate feel, and informs the audience about all the services provided by Frontward Web Hosting!",
       "button": {
@@ -47,7 +47,7 @@
     {
       "title": "MACHINE INSPECTION CHECKLIST",
       "slug": "/video-production/training/machine-inspection-checklist",
-      "img": "https://source.unsplash.com/random",
+      "img": "/images/placeholders/training/machine-inspection-checklist.jpg",
       "videoLink": "https://www.youtube.com/embed/BVUO85MSJvc",
       "description": "A quick run-through of all the steps in a checklist for visually inspecting a piece of machinery prior to use, according to the safety standards.",
       "button": {
@@ -58,7 +58,7 @@
     {
       "title": "COMPANY VALUES PRESENTATION",
       "slug": "/video-production/training/company-values-presentation",
-      "img": "https://source.unsplash.com/random",
+      "img": "/images/placeholders/training/company-values-presentation.jpg",
       "videoLink": "https://www.youtube.com/embed/PkGcDe4Yxx0",
       "description": "Short excerpt from a company's seminar presentation to its employees discussing its values.",
       "button": {
@@ -69,7 +69,7 @@
     {
       "title": "PIZZA MAKING PROCEDURE",
       "slug": "/video-production/training/pizza-making-procedure",
-      "img": "https://source.unsplash.com/random",
+      "img": "/images/placeholders/training/pizza-making-procedure.jpg",
       "videoLink": "https://www.youtube.com/embed/PVuMIPllFgE",
       "description": "An exciting edited video designed to train employees on proper pizza making procedure but also to be fun to watch!",
       "button": {
