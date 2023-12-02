@@ -2,6 +2,8 @@ import React from "react"
 import localFont from "next/font/local"
 import type { Metadata } from "next"
 
+import { getCanonicalLink } from "../../utils/common"
+
 import "./globals.css"
 
 const fontHeading = localFont({
@@ -21,9 +23,15 @@ const fontHeading = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Todd Productions",
+  title: {
+    default: "Todd Productions",
+    template: "%s | Todd Productions Inc.",
+  },
   description:
     "A multimedia production company that offers an incredibly wide range of services from video production to website design services in Northwest Ohio",
+  alternates: {
+    canonical: getCanonicalLink(null),
+  },
 }
 
 interface RootLayoutProps {

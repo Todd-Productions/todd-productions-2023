@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
 
 import { getDefaultProps } from "../../../actions"
-import { ExampleTemplate, BasicTemplate } from "../../../../ui/templates"
+import { ExampleTemplate } from "../../../../ui/templates"
 
 import { ICrumb } from "../../../../ui/molecules/Breadcrumbs/Breadcrumbs"
 
