@@ -26,7 +26,7 @@ const PersonCard: React.FC<PersonCardProps> = (props: PersonCardProps) => {
     <figure className="person-card w-full h-fit">
       <div className="relative h-full w-full mx-auto person-img-container">
         <Image
-          className="absolute w-full h-auto object-cover rounded-full"
+          className="absolute w-full h-auto object-contain"
           src={img}
           alt={name}
           fill

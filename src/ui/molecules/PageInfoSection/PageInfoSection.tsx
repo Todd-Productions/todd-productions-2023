@@ -3,7 +3,14 @@
 import React, { ReactNode } from "react"
 import Link from "next/link"
 
-import { Button, SectionHeading, Wrapper, Hero, VideoPlayer } from "../../atoms"
+import {
+  Button,
+  SectionHeading,
+  Wrapper,
+  Hero,
+  VideoPlayer,
+  Content,
+} from "../../atoms"
 import { IButton } from "../../../types"
 import "./pageinfosection.css"
 
@@ -14,6 +21,8 @@ export interface IPageInfo {
   button: IButton
   bannerImg?: string
   videoLink?: string
+  seoTitle?: string
+  seoDescription?: string
 }
 
 type SplitContentProps = IPageInfo
@@ -41,8 +50,8 @@ const PageInfoSection: React.FC<SplitContentProps> = ({
             <VideoPlayer videoId={videoLink.split("/embed/")[1]} />
           </div>
         ) : null}
-        <div className="content leading-8 order-1 lg:order-2">
-          {description}
+        <div className="order-1 lg:order-2">
+          <Content>{description}</Content>
         </div>
       </div>
     </Wrapper>

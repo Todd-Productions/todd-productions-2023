@@ -1,3 +1,6 @@
+import { Metadata } from "next"
+
+import { getCanonicalLink } from "../../../../utils/common"
 import { SamplesTemplate } from "../../../ui/templates"
 import { IPageInfo } from "../../../ui/molecules/PageInfoSection/PageInfoSection"
 import getCategoryData from "../../../../lib/getCategoryData"
@@ -17,9 +20,25 @@ export interface ICategoryData {
   samples?: ICategorySample[]
 }
 
+type Props = {
+  params: { category: string }
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { category } = params
+  const data: ICategoryData = await getCategoryData(`web/${category}`)
+
+  return {
+    title: data.pageInfoSection.seoTitle,
+    description: data.pageInfoSection.seoDescription,
+    alternates: {
+      canonical: getCanonicalLink(`video-production/${category}`),
+    },
+  }
+}
+
 const CatPage = async ({ params }: { params: { category: string } }) => {
   const { category } = params
-
   const data: ICategoryData = await getCategoryData(`web/${category}`)
 
   const crumbs: ICrumb[] = [

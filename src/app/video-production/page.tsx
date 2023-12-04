@@ -13,7 +13,7 @@ const crumbs: ICrumb[] = [
 
 export function generateMetadata() {
   return {
-    title: "Video Production Services Maumee Ohio",
+    title: "Video Production Services",
     description:
       "Award winning video development team, based in Maumee Ohio. Providing production for commercial use and much more!",
     alternates: {

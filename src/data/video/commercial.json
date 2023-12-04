@@ -8,7 +8,9 @@
     "button": {
       "link": "/contact-us",
       "label": "create a commercial today"
-    }
+    },
+    "seoTitle": "Spread The Word Of Your Business",
+    "seoDescription": "Todd Productions' has experience in developing commercial video production for all different media outlets in Maumee and Northwest Ohio"
   },
   "samples": [
     {
@@ -60,7 +62,7 @@
       "slug": "/video-production/commercial/nursing-home-testimonial-tv-commercial",
       "img": "/images/placeholders/commercial/nursing-home-testimonial.jpg",
       "videoLink": "https://www.youtube.com/embed/6i3k7gntSE0",
-      "description": "Recruitment tool for the nursing home to find hardworking individuals with a passion for elderly care to join their ranks. Highlighting the loving atmosphere and the benefits of employment you’d find at this establishment.",
+      "description": "Recruitment tool for the nursing home to find hardworking individuals with a passion for elderly care to join their ranks. Highlighting the loving atmosphere and the benefits of employment you'd find at this establishment.",
       "button": {
         "link": "https://www.youtube.com/watch?v=6i3k7gntSE0",
         "label": "watch video on youtube"

@@ -24,11 +24,9 @@ const TeamMembers: React.FC<TeamMembersProps> = (props) => {
     <Section>
       <Wrapper>
         <SimpleSectionHeading>{title ?? "Our Team"}</SimpleSectionHeading>
-        <Content>
-          <div className="mb-12">
-            <p className="mx-auto md:w-3/4">{description}</p>
-          </div>
-        </Content>
+        <div className="mb-12 mx-auto md:w-3/4">
+          <Content>{description}</Content>
+        </div>
 
         <div className="grid justify-items-center align-items-start md:grid-cols-2 h-full gap-x-20 lg:gap-x-40 gap-y-12">
           {members.map((member) => (

@@ -25,7 +25,7 @@ const fontHeading = localFont({
 export const metadata: Metadata = {
   title: {
     default: "Todd Productions",
-    template: "%s | Todd Productions Inc.",
+    template: "%s Maumee Ohio | Todd Productions Inc.",
   },
   description:
     "A multimedia production company that offers an incredibly wide range of services from video production to website design services in Northwest Ohio",
