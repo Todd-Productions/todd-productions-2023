@@ -4,11 +4,11 @@
 - [x] Add text to samples
 - [x] Merge About Us and Who We Are or added to Nav?
 - [x] SectionHeading uses an H2, add prop for H1 variant
-- [-] SEO title, description
+- [x] SEO title, description
   - [x] Refactor page into server component, made async function getSampleData
-    - [ ] video-production -  site page
-    - [ ] web marketing -   video page
-- [ ] Checkout link in 404 page
+    - [x] video-production -  site page
+    - [x] web marketing -   video page
+- [x] Checkout link in 404 page
 
 # Need
 - [ ] Marketing site page (/web-services/marketing-websites/[site])

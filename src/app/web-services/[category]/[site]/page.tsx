@@ -1,5 +1,7 @@
 import React from "react"
+import { Metadata } from "next"
 
+import { getCanonicalLink, capitalizeWords } from "../../../../../utils/common"
 import getSampleData from "../../../../../utils/getSampleData"
 import { getDefaultProps } from "../../../actions"
 import { ExampleTemplate } from "../../../../ui/templates"
@@ -13,6 +15,26 @@ export interface IRawPageInfo {
   url: string
   slug: string
   description: string
+}
+
+type Props = {
+  params: { category: string; site: string }
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { category, site } = params
+  const data: IRawPageInfo = await getSampleData(
+    "web",
+    category,
+    `/web-services/${category}/${site}`
+  )
+  return {
+    title: capitalizeWords(data.title),
+    description: `${data.description} Maumee Ohio | Todd Productions Inc.`,
+    alternates: {
+      canonical: getCanonicalLink(`web-services/${category}/${site}`),
+    },
+  }
 }
 
 const ExamplePage = async ({
