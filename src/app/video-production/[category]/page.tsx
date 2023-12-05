@@ -5,7 +5,7 @@ import { getTopCTA, getDefaultProps } from "../../actions"
 import { ICategoryData } from "../../web-services/[category]/page"
 import { SamplesTemplate } from "../../../ui/templates"
 
-import getCategoryData from "../../../../lib/getCategoryData"
+import getCategoryData from "../../../../utils/getCategoryData"
 
 // @types
 import { ICrumb } from "../../../ui/molecules/Breadcrumbs/Breadcrumbs"

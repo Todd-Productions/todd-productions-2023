@@ -3,7 +3,7 @@ import { Metadata } from "next"
 import { getCanonicalLink } from "../../../../utils/common"
 import { SamplesTemplate } from "../../../ui/templates"
 import { IPageInfo } from "../../../ui/molecules/PageInfoSection/PageInfoSection"
-import getCategoryData from "../../../../lib/getCategoryData"
+import getCategoryData from "../../../../utils/getCategoryData"
 import { getTopCTA, getDefaultProps } from "../../actions"
 import { ICrumb } from "../../../ui/molecules/Breadcrumbs/Breadcrumbs"
 

@@ -5,7 +5,7 @@
 - [x] Merge About Us and Who We Are or added to Nav?
 - [x] SectionHeading uses an H2, add prop for H1 variant
 - [-] SEO title, description
-  - [ ] Refactor page into server component, move state logic into a new compnent (cannot use generateMetadata in a client component)
+  - [x] Refactor page into server component, made async function getSampleData
     - [ ] video-production -  site page
     - [ ] web marketing -   video page
 - [ ] Checkout link in 404 page

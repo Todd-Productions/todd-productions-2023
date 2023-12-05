@@ -1,13 +1,8 @@
-"use client"
+import React from "react"
 
-import React, { useEffect, useState } from "react"
-// import Link from "next/link"
-import { usePathname } from "next/navigation"
-
-import path from "path"
+import getSampleData from "../../../../../utils/getSampleData"
 import { getDefaultProps } from "../../../actions"
-import { ExampleTemplate, InternalTemplate } from "../../../../ui/templates"
-// import NotFoundPage from "../../../not-found"
+import { ExampleTemplate } from "../../../../ui/templates"
 
 import { ICrumb } from "../../../../ui/molecules/Breadcrumbs/Breadcrumbs"
 
@@ -20,9 +15,18 @@ export interface IRawPageInfo {
   description: string
 }
 
-const ExamplePage = () => {
-  const pathname = usePathname()
-  const [data, setData] = useState<IRawPageInfo>()
+const ExamplePage = async ({
+  params,
+}: {
+  params: { category: string; site: string }
+}) => {
+  const { category, site } = params
+
+  const data: IRawPageInfo = await getSampleData(
+    "web",
+    category,
+    `/web-services/${category}/${site}`
+  )
 
   const crumbs: ICrumb[] = [
     {
@@ -37,19 +41,6 @@ const ExamplePage = () => {
       label: data?.title ?? "Website",
     },
   ]
-
-  useEffect(() => {
-    fetch(`/api/website?slug=${pathname}`)
-      .then((res) => res.json())
-      .then((data) => {
-        if (!data.error) {
-          setData(data)
-        }
-      })
-  }, [])
-
-  // Avoid "loading" render
-  if (!data) return null
 
   return (
     <ExampleTemplate

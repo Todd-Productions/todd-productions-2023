@@ -1,12 +1,10 @@
-"use client"
-
-import React, { useEffect, useState } from "react"
-import { usePathname } from "next/navigation"
+import React from "react"
 
 import { getDefaultProps } from "../../../actions"
 import { ExampleTemplate } from "../../../../ui/templates"
 
 import { ICrumb } from "../../../../ui/molecules/Breadcrumbs/Breadcrumbs"
+import getSampleData from "../../../../../utils/getSampleData"
 
 export interface IRawPageInfo {
   title: string
@@ -18,16 +16,19 @@ export interface IRawPageInfo {
   videoLink: string
 }
 
-const ExampleVideoPage = ({
+const ExampleVideoPage = async ({
   params,
 }: {
   params: { category: string; video: string }
 }) => {
   const { category, video } = params
 
-  const pathname = usePathname()
+  const data: IRawPageInfo = await getSampleData(
+    "video",
+    category,
+    `/video-production/${category}/${video}`
+  )
 
-  const [data, setData] = useState<IRawPageInfo>()
   const crumbs: ICrumb[] = [
     {
       label: "Video Services",
@@ -41,17 +42,6 @@ const ExampleVideoPage = ({
       label: data?.title ?? "Promo Video",
     },
   ]
-
-  useEffect(() => {
-    fetch(`/api/video?category=${category}&path=${pathname}`)
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data)
-      })
-  }, [category, pathname])
-
-  // Avoid "loading" render
-  if (!data) return null
 
   return (
     <ExampleTemplate
