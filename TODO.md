@@ -9,8 +9,8 @@
     - [x] video-production -  site page
     - [x] web marketing -   video page
 - [x] Checkout link in 404 page
-- [ ] Increase size of mobile footer links, should be a min of 48x48
-- [ ] Crumbs - Background and foreground colors do not have a sufficient contrast ratio
+- [x] Increase size of mobile footer links, should be a min of 48x48
+- [x] Crumbs - Background and foreground colors do not have a sufficient contrast ratio
 - [ ] Slightly decrease size of video player, maybe match yt size
   - [ ] Example page heading - red dot slightly overflows-x on mobile
 
@@ -20,8 +20,8 @@
 - [ ] Marketing site page (/web-services/marketing-websites/[site])
   - [ ] Description
   - [ ] Sample image (small Monitor image and a larger image for the page image)
-- [x] Video Production Cat page examples images
 - [ ] CARL & HIS CAMERA – “HERE WE ARE NOW” (Needs description, in /video-production/cat/[video])
+- [x] Video Production Cat page examples images
 - [x] Favicon
 
 

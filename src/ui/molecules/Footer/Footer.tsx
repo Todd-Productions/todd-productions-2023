@@ -31,17 +31,18 @@ const Footer: React.FC<FooterProps> = (props) => {
               alt="Todd Productions"
               className=""
             />
-            <div className="mt-4 md:mb-6 mb-8 text-center capitalized">
+            <ul className="mt-4 md:mb-6 mb-8 text-center capitalized">
               {links.map((link) => (
-                <Link
-                  key={slugify(link.label)}
-                  href={link.url}
-                  className="my-1 md:my-0 mx-0 md:mx-2 block hover:underline"
-                >
-                  {link.label}
-                </Link>
+                <li key={slugify(link.label)}>
+                  <Link
+                    href={link.url}
+                    className="my-3 py-3 md:py-2 text-xl md:text-base md:my-0 mx-0 md:mx-2 block hover:underline"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
             <Social
               facebook={socialLinks.facebook}
               youtube={socialLinks.youtube}
