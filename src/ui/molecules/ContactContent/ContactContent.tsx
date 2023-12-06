@@ -1,6 +1,6 @@
 import React from "react"
 
-import { SectionHeading } from "../../atoms"
+import { SectionHeading, SectionSubHeading } from "../../atoms"
 import Social from "../Social/Social"
 
 // @types
@@ -50,9 +50,9 @@ const ContactContent: React.FC<ContactContentProps> = (props) => {
         </div>
       </div>
 
-      <h3 className="text-grey-600 text-2xl font-normal mb-6">
+      <h2 className="text-grey-600 text-2xl font-normal mb-6">
         Connect With Us
-      </h3>
+      </h2>
       <div>
         <Social
           facebook={facebook}
