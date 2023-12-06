@@ -70,6 +70,4 @@ const PersonCard: React.FC<PersonCardProps> = (props: PersonCardProps) => {
   )
 }
 
-PersonCard.defaultProps = {}
-
 export default PersonCard

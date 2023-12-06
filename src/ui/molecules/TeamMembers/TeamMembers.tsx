@@ -1,15 +1,8 @@
-"use client"
-
 import React from "react"
 import slugify from "slugify"
 
-import { PersonCard } from "../../molecules"
+import PersonCard, { IMember } from "../PersonCard/PersonCard"
 import { Section, Wrapper, SimpleSectionHeading, Content } from "../../atoms"
-
-import "./team-members.css"
-
-// @types
-import { IMember } from "../../molecules/PersonCard/PersonCard"
 
 export interface TeamMembersProps {
   title: string

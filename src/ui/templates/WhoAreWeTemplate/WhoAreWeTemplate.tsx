@@ -1,7 +1,7 @@
 import React from "react"
 
-import { PageInfoSection } from "../../molecules"
-import { MainLayout, TeamMembers } from "../../organisms"
+import { PageInfoSection, TeamMembers } from "../../molecules"
+import { MainLayout } from "../../organisms"
 
 import {
   DefaultTemplateProps,
