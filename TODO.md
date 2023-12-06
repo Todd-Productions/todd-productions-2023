@@ -9,6 +9,12 @@
     - [x] video-production -  site page
     - [x] web marketing -   video page
 - [x] Checkout link in 404 page
+- [ ] Increase size of mobile footer links, should be a min of 48x48
+- [ ] Crumbs - Background and foreground colors do not have a sufficient contrast ratio
+- [ ] Slightly decrease size of video player, maybe match yt size
+  - [ ] Example page heading - red dot slightly overflows-x on mobile
+
+
 
 # Need
 - [ ] Marketing site page (/web-services/marketing-websites/[site])
