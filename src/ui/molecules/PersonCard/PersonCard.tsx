@@ -1,6 +1,6 @@
 "use client"
 
-import React, { ReactNode, useState } from "react"
+import React, { ReactNode, useState, useRef } from "react"
 
 import Image from "next/image"
 import { Content, Button } from "../../atoms"
@@ -23,14 +23,19 @@ export interface PersonCardProps {
 const PersonCard: React.FC<PersonCardProps> = (props: PersonCardProps) => {
   const { member } = props
   const { img, name, title, bio } = member
+
   const [showBio, setShowBio] = useState(false)
+  const contentRef = useRef<HTMLDivElement>(null)
 
   const previewBio = `${String(bio).split(" ").slice(0, 29).join(" ")}...`
 
-  const handleShowBio = () => setShowBio(!showBio)
+  const handleShowBio = () => {
+    setShowBio(!showBio)
+    contentRef.current?.scrollIntoView()
+  }
 
   return (
-    <figure className="person-card w-full h-fit">
+    <figure ref={contentRef} className="person-card w-full h-fit">
       <div className="relative h-full w-full mx-auto person-img-container">
         <Image
           className="absolute w-full h-auto object-contain"
@@ -47,23 +52,18 @@ const PersonCard: React.FC<PersonCardProps> = (props: PersonCardProps) => {
           </h4>
           <p className="opacity-95 text-lg uppercase mt-3">{title}</p>
           <Content>
-            {showBio ? (
-              <div
-                className="text-left mt-4 text-xl md:text-2xl leading-10"
-                dangerouslySetInnerHTML={{ __html: String(bio) }}
-              />
-            ) : (
-              <div
-                className="text-left mt-4 text-xl md:text-2xl leading-10"
-                dangerouslySetInnerHTML={{ __html: String(previewBio) }}
-              />
-            )}
+            <div
+              className="text-left mt-4 text-xl md:text-2xl leading-10"
+              dangerouslySetInnerHTML={{
+                __html: showBio ? String(bio) : String(previewBio),
+              }}
+            />
           </Content>
         </div>
       </figcaption>
       <div className="w-full text-center">
-        <Button type="button" onClick={handleShowBio}>
-          Read More
+        <Button color="default" type="button" onClick={handleShowBio}>
+          {showBio ? "Collapse" : "Read More"}
         </Button>
       </div>
     </figure>

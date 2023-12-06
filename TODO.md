@@ -11,10 +11,11 @@
 - [x] Checkout link in 404 page
 - [x] Increase size of mobile footer links, should be a min of 48x48
 - [x] Crumbs - Background and foreground colors do not have a sufficient contrast ratio
-- [ ] Slightly decrease size of video player, maybe match yt size
+- [ ] Slightly decrease size of video player, maybe match yt size?
   - [ ] Example page heading - red dot slightly overflows-x on mobile
+- [ ] Mobile logo missing
 
-- [ ] Can you cut off the text for each bio if it surpasses 100 words or what looks like 1 paragraph (may need to play with the amount of words).
+- [x] Can you cut off the text for each bio if it surpasses 100 words or what looks like 1 paragraph (may need to play with the amount of words).
   Example:  sjfdsdhf kjhsd kjfhskdjhf kjsdh fkjsdh fkjshd fkjshd fksjdhf .... Read More
   "Read More" which expands text
 - [x]  On Todd's, just strike the last paragraph of his bio for now.
