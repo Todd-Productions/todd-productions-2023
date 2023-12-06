@@ -1,7 +1,9 @@
-import React, { ReactNode } from "react"
+"use client"
+
+import React, { ReactNode, useState } from "react"
 
 import Image from "next/image"
-import { Content } from "../../atoms"
+import { Content, Button } from "../../atoms"
 
 import "./person-card.css"
 
@@ -21,6 +23,11 @@ export interface PersonCardProps {
 const PersonCard: React.FC<PersonCardProps> = (props: PersonCardProps) => {
   const { member } = props
   const { img, name, title, bio } = member
+  const [showBio, setShowBio] = useState(false)
+
+  const previewBio = `${String(bio).split(" ").slice(0, 29).join(" ")}...`
+
+  const handleShowBio = () => setShowBio(!showBio)
 
   return (
     <figure className="person-card w-full h-fit">
@@ -40,13 +47,25 @@ const PersonCard: React.FC<PersonCardProps> = (props: PersonCardProps) => {
           </h4>
           <p className="opacity-95 text-lg uppercase mt-3">{title}</p>
           <Content>
-            <div
-              className="text-left mt-4 text-xl md:text-2xl leading-10"
-              dangerouslySetInnerHTML={{ __html: String(bio) }}
-            />
+            {showBio ? (
+              <div
+                className="text-left mt-4 text-xl md:text-2xl leading-10"
+                dangerouslySetInnerHTML={{ __html: String(bio) }}
+              />
+            ) : (
+              <div
+                className="text-left mt-4 text-xl md:text-2xl leading-10"
+                dangerouslySetInnerHTML={{ __html: String(previewBio) }}
+              />
+            )}
           </Content>
         </div>
       </figcaption>
+      <div className="w-full text-center">
+        <Button type="button" onClick={handleShowBio}>
+          Read More
+        </Button>
+      </div>
     </figure>
   )
 }
