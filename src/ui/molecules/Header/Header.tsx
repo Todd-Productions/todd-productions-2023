@@ -7,7 +7,6 @@ import { INavLink, ISocialLinks } from "@/types"
 import { Wrapper, Hamburger } from "../../atoms"
 import Social from "../Social/Social"
 import Nav from "../Nav/Nav"
-import "./header.css"
 
 export interface HeaderProps extends ISocialLinks {
   links: INavLink[]
@@ -54,7 +53,7 @@ const Header: React.FC<HeaderProps> = (props) => {
 
             <a
               href="mailto:contact@toddprod.com"
-              className="nav-email text-sm ml-4 text-blue-500"
+              className="transition-all hover:border-b-4 border-blue-500 text-sm ml-4 text-blue-500"
             >
               CONTACT@TODDPROD.COM
             </a>

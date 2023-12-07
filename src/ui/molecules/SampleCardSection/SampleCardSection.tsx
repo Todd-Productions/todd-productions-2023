@@ -8,7 +8,6 @@ import {
   SampleImage,
 } from "../../atoms"
 import { ISampleCard } from "../../atoms/SampleCard/SampleCard"
-import "./sample-card-section.css"
 
 export interface SampleCardsProps {
   title: string

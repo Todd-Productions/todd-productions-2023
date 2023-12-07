@@ -1,7 +1,6 @@
 import React, { ReactNode } from "react"
 
 import { Section, Wrapper } from "../../atoms"
-import "./internal-section.css"
 
 export interface InternalSectionProps {
   children: ReactNode
@@ -13,7 +12,7 @@ const InternalSection: React.FC<InternalSectionProps> = (props) => {
   return (
     <Section>
       <Wrapper>
-        <div className="internal-section">{children}</div>
+        <div className="my-32">{children}</div>
       </Wrapper>
     </Section>
   )

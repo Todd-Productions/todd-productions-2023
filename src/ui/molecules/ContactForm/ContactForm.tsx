@@ -4,7 +4,6 @@ import React, { useState } from "react"
 
 import { useForm } from "react-hook-form"
 import { Input, Button, Alert } from "../../atoms"
-import "./contact-form.css"
 
 export interface IContactValues {
   name: string
@@ -87,7 +86,7 @@ const ContactForm: React.FC<ContactFormProps> = () => {
       <div className="bg-white pb-4">
         <label
           htmlFor="message"
-          className="uppercase font-bold text-blue-500 pt-4 radius-2 w-full block font-helvetica text-xs"
+          className="uppercase font-bold text-blue-500 pt-4 radius-2 w-full block font-heading text-xs"
         >
           what can we do for you? *
           <textarea

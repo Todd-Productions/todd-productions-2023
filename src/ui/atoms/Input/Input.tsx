@@ -16,7 +16,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
     <div className="bg-white pb-4">
       <label
         htmlFor={name}
-        className="uppercase font-bold text-blue-500 py-4 radius-2 w-full block font-helvetica text-xs "
+        className="uppercase font-bold text-blue-500 py-4 radius-2 w-full block font-heading text-xs "
       >
         {label} {required && "*"}
       </label>

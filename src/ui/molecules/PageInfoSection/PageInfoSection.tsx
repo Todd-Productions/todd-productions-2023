@@ -12,7 +12,6 @@ import {
   Content,
 } from "../../atoms"
 import { IButton } from "../../../types"
-import "./pageinfosection.css"
 
 export interface IPageInfo {
   title: string

@@ -2,8 +2,6 @@ import { forwardRef } from "react"
 import slugify from "slugify"
 import Link from "next/link"
 
-import "./drawer.css"
-
 // @types
 import { INavLink } from "../../../types"
 
@@ -17,7 +15,7 @@ const Drawer = forwardRef<HTMLDivElement, DrawerProps>((props, ref) => {
   const { links, isOpen, onClose } = props
 
   return isOpen ? (
-    <div className="drawer fixed md:hidden z-10" ref={ref}>
+    <div className="w-full h-full bg-black/[.9] fixed md:hidden z-10" ref={ref}>
       <div className="grid grid-rows-[1fr_2fr]">
         <div>
           <button
