@@ -11,8 +11,8 @@
 - [x] Checkout link in 404 page
 - [x] Increase size of mobile footer links, should be a min of 48x48
 - [x] Crumbs - Background and foreground colors do not have a sufficient contrast ratio
+- [x] Example page heading - red dot slightly overflows-x on mobile
 - [ ] Slightly decrease size of video player, maybe match yt size?
-  - [ ] Example page heading - red dot slightly overflows-x on mobile
 - [ ] Mobile logo missing
 
 - [x] Can you cut off the text for each bio if it surpasses 100 words or what looks like 1 paragraph (may need to play with the amount of words).
