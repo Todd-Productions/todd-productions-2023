@@ -32,8 +32,10 @@ const Header: React.FC<HeaderProps> = (props) => {
           <div className="md:hidden">
             <Hamburger on={isOpen} onClick={onHamburgerClick} />
           </div>
-          <div className="hidden md:flex md:mb-8 xl:mb-0 justify-between xl:justify-start items-center">
-            <Social {...getSocialLinks(props)} echo />
+          <div className="flex md:mb-8 xl:mb-0 justify-between xl:justify-start items-center">
+            <div className="hidden md:block">
+              <Social {...getSocialLinks(props)} echo />
+            </div>
 
             <div className="text-center lg:py-0 block xl:hidden">
               <Link
@@ -53,7 +55,7 @@ const Header: React.FC<HeaderProps> = (props) => {
 
             <a
               href="mailto:contact@toddprod.com"
-              className="transition-all hover:border-b-4 border-blue-500 text-sm ml-4 text-blue-500"
+              className="hidden md:block transition-all hover:border-b-4 border-blue-500 text-sm ml-4 text-blue-500"
             >
               CONTACT@TODDPROD.COM
             </a>
