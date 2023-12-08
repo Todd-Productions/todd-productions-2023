@@ -5,6 +5,8 @@ import { Button, SectionHeading, Wrapper, VideoPlayer } from "../../atoms"
 import { IButton } from "../../../types"
 import "./example-section.css"
 
+import image from "../../../../public/images/placeholders/marketing-sites/apca-fullpage.png"
+
 export interface IExampleProps {
   title: string
   description: string
@@ -35,12 +37,22 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
 
           <div className="order-1 md:order-2 bg-white">{description}</div>
         </div>
-        <div className="media-container">
+
+        <div className="media-container mx-auto">
           {videoLink ? (
             <VideoPlayer videoId={videoLink.split("/embed/")[1]} />
           ) : (
-            <div className="img-container">
-              <Image src={siteImg as string} alt={title} fill />
+            <div className="img-container relative mx-auto">
+              <Image
+                className="absolute"
+                src={siteImg as string}
+                alt={title}
+                fill
+                style={{
+                  objectFit: "cover",
+                  objectPosition: "top",
+                }}
+              />
             </div>
           )}
         </div>

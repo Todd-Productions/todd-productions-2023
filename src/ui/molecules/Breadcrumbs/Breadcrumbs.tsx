@@ -19,14 +19,14 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = (props) => {
   const { crumbs } = props
 
   return (
-    <div className="text-xl text-grey-700 bg-grey-100 p-3 text-center box-border w-full">
+    <div className="md:text-xl text-grey-700 uppercase bg-grey-100 p-3 text-center box-border w-full">
       <Wrapper>
         {crumbs.map((crumb, ix) => (
           <React.Fragment key={slugify(crumb.label)}>
             {crumb.url ? (
               <Link
                 href={crumb.url}
-                className="uppercase inline-block p-3 no-underline hover:underline"
+                className="inline-block p-3 no-underline hover:underline"
               >
                 {crumb.label}
               </Link>
