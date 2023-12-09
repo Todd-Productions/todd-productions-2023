@@ -14,13 +14,14 @@
 - [x] Example page heading - red dot slightly overflows-x on mobile
 - [x] Mobile logo missing
 - [ ] Slightly decrease size of video player, maybe match yt size?
-- [ ] Marketing sites
+- [x] Marketing sites
   - [x] left side of desktop image is cut off
-  - [x] image max-w 800px
+  - [-] image max-w 800px
+    - [ ] Image cut off, check local import implementation (automatically get height and width)
   - [x] image does not render on mobile, check height
   - [x] crumbs are not uppercase, check component
   - [x] make grid 1 col on mobile
-  - [ ] Updated marketing site description
+  - [x] Updated marketing site description
 
 - [x] Can you cut off the text for each bio if it surpasses 100 words or what looks like 1 paragraph (may need to play with the amount of words).
   Example:  sjfdsdhf kjhsd kjfhskdjhf kjsdh fkjsdh fkjshd fkjshd fksjdhf .... Read More

@@ -1,7 +1,13 @@
 import React from "react"
 import Image from "next/image"
 
-import { Button, SectionHeading, Wrapper, VideoPlayer } from "../../atoms"
+import {
+  Button,
+  SectionHeading,
+  Wrapper,
+  VideoPlayer,
+  Content,
+} from "../../atoms"
 import { IButton } from "../../../types"
 import "./example-section.css"
 
@@ -35,7 +41,11 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
             )}
           </div>
 
-          <div className="order-1 md:order-2 bg-white">{description}</div>
+          <div className="order-1 md:order-2 bg-white">
+            <Content>
+              <div dangerouslySetInnerHTML={{ __html: description }} />
+            </Content>
+          </div>
         </div>
 
         <div className="media-container mx-auto">
