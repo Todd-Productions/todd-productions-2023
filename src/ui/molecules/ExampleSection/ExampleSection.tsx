@@ -59,7 +59,7 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
                 alt={title}
                 fill
                 style={{
-                  objectFit: "cover",
+                  objectFit: "contain",
                   objectPosition: "top",
                 }}
               />
