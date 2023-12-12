@@ -2,3 +2,7 @@
   max-width: 100%;
   width: 1200px;
 }
+
+.video-container {
+  min-height: 650px;
+}

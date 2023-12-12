@@ -9,9 +9,8 @@ import {
   Content,
 } from "../../atoms"
 import { IButton } from "../../../types"
-import "./example-section.css"
 
-import image from "../../../../public/images/placeholders/marketing-sites/apca-fullpage.png"
+import "./example-section.css"
 
 export interface IExampleProps {
   title: string
@@ -48,11 +47,11 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
           </div>
         </div>
 
-        <div className="media-container mx-auto">
+        <div className="media-container px-10 mx-auto">
           {videoLink ? (
             <VideoPlayer videoId={videoLink.split("/embed/")[1]} />
           ) : (
-            <div className="relative mx-auto">
+            <div className="video-container relative mx-auto">
               <Image
                 src={siteImg as string}
                 alt={title}
@@ -64,6 +63,7 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
                   objectFit: "contain",
                   objectPosition: "top",
                 }}
+                priority
               />
             </div>
           )}
