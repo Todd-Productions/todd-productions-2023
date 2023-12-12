@@ -13,15 +13,14 @@
 - [x] Crumbs - Background and foreground colors do not have a sufficient contrast ratio
 - [x] Example page heading - red dot slightly overflows-x on mobile
 - [x] Mobile logo missing
-- [ ] Slightly decrease size of video player, maybe match yt size?
 - [x] Marketing sites
   - [x] left side of desktop image is cut off
-  - [-] image max-w 800px
-    - [ ] Image cut off, check local import implementation (automatically get height and width)
+  - [x] image max-w 800px
   - [x] image does not render on mobile, check height
   - [x] crumbs are not uppercase, check component
   - [x] make grid 1 col on mobile
   - [x] Updated marketing site description
+- [ ] Slightly decrease size of video player, maybe match yt size?
 
 - [x] Can you cut off the text for each bio if it surpasses 100 words or what looks like 1 paragraph (may need to play with the amount of words).
   Example:  sjfdsdhf kjhsd kjfhskdjhf kjsdh fkjsdh fkjshd fkjshd fksjdhf .... Read More
@@ -32,10 +31,10 @@
 
 
 # Need
-- [ ] Marketing site page (/web-services/marketing-websites/[site])
-  - [ ] Description
-  - [ ] Sample image (small Monitor image and a larger image for the page image)
-- [ ] CARL & HIS CAMERA – “HERE WE ARE NOW” (Needs description, in /video-production/cat/[video])
+- [x] Marketing site page (/web-services/marketing-websites/[site])
+  - [x] Description
+  - [x] Sample image (small Monitor image and a larger image for the page image)
+- [x] CARL & HIS CAMERA – “HERE WE ARE NOW” (Needs description, in /video-production/cat/[video])
 - [x] Video Production Cat page examples images
 - [x] Favicon
 

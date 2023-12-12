@@ -52,12 +52,14 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
           {videoLink ? (
             <VideoPlayer videoId={videoLink.split("/embed/")[1]} />
           ) : (
-            <div className="img-container relative mx-auto">
+            <div className="relative mx-auto">
               <Image
-                className="absolute"
                 src={siteImg as string}
                 alt={title}
-                fill
+                width="0"
+                height="0"
+                sizes="100vw"
+                className="w-full h-auto"
                 style={{
                   objectFit: "contain",
                   objectPosition: "top",
