@@ -1,11 +1,11 @@
 import { Metadata } from "next"
 
 import { getCanonicalLink } from "../../../../utils/common"
-import { SamplesTemplate } from "../../../ui/templates"
-import { IPageInfo } from "../../../ui/molecules/PageInfoSection/PageInfoSection"
 import getCategoryData from "../../../../utils/getCategoryData"
-import { getTopCTA, getDefaultProps } from "../../actions"
 import { ICrumb } from "../../../ui/molecules/Breadcrumbs/Breadcrumbs"
+import { IPageInfo } from "../../../ui/molecules/PageInfoSection/PageInfoSection"
+import { SamplesTemplate } from "../../../ui/templates"
+import { getDefaultProps, getTopCTA } from "../../actions"
 
 export interface ICategorySample {
   title: string
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: data.pageInfoSection.seoTitle,
     description: data.pageInfoSection.seoDescription,
     alternates: {
-      canonical: getCanonicalLink(`video-production/${category}`),
+      canonical: getCanonicalLink(`/video-production/${category}`),
     },
   }
 }

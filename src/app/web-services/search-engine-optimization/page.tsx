@@ -1,7 +1,7 @@
 import { getCanonicalLink } from "../../../../utils/common"
-import { getTopCTA, getDefaultProps } from "../../actions"
-import { SEOTemplate } from "../../../ui/templates"
 import data from "../../../data/web/seo.json"
+import { SEOTemplate } from "../../../ui/templates"
+import { getDefaultProps, getTopCTA } from "../../actions"
 
 // @types
 import { ICrumb } from "../../../ui/molecules/Breadcrumbs/Breadcrumbs"
@@ -12,7 +12,7 @@ export function generateMetadata() {
     description:
       "Search Engine Optimization packages will help boost your website's Google search rankings and get more customers. Get higher rankings in Maumee Ohio",
     alternates: {
-      canonical: getCanonicalLink("web-services/search-engine-optimization"),
+      canonical: getCanonicalLink("/web-services/search-engine-optimization"),
     },
   }
 }

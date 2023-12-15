@@ -1,12 +1,11 @@
-import React from "react"
 import { Metadata } from "next"
 
-import { getCanonicalLink, capitalizeWords } from "../../../../../utils/common"
-import { getDefaultProps } from "../../../actions"
+import { capitalizeWords, getCanonicalLink } from "../../../../../utils/common"
 import { ExampleTemplate } from "../../../../ui/templates"
+import { getDefaultProps } from "../../../actions"
 
-import { ICrumb } from "../../../../ui/molecules/Breadcrumbs/Breadcrumbs"
 import getSampleData from "../../../../../utils/getSampleData"
+import { ICrumb } from "../../../../ui/molecules/Breadcrumbs/Breadcrumbs"
 
 export interface IRawPageInfo {
   title: string
@@ -33,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: capitalizeWords(data.title),
     description: `${data.description} Maumee Ohio | Todd Productions Inc.`,
     alternates: {
-      canonical: getCanonicalLink(`video-production/${category}/${video}`),
+      canonical: getCanonicalLink(`/video-production/${category}/${video}`),
     },
   }
 }

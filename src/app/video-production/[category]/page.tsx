@@ -1,9 +1,9 @@
 import { Metadata } from "next"
 
 import { getCanonicalLink } from "../../../../utils/common"
-import { getTopCTA, getDefaultProps } from "../../actions"
-import { ICategoryData } from "../../web-services/[category]/page"
 import { SamplesTemplate } from "../../../ui/templates"
+import { getDefaultProps, getTopCTA } from "../../actions"
+import { ICategoryData } from "../../web-services/[category]/page"
 
 import getCategoryData from "../../../../utils/getCategoryData"
 
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: data.pageInfoSection.seoTitle,
     description: data.pageInfoSection.seoDescription,
     alternates: {
-      canonical: getCanonicalLink(`video-production/${category}`),
+      canonical: getCanonicalLink(`/video-production/${category}`),
     },
   }
 }

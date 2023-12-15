@@ -1,8 +1,6 @@
-import React from "react"
-import localFont from "next/font/local"
 import type { Metadata } from "next"
-
-import { getCanonicalLink } from "../../utils/common"
+import localFont from "next/font/local"
+import React from "react"
 
 import "./globals.css"
 
@@ -29,9 +27,6 @@ export const metadata: Metadata = {
   },
   description:
     "A multimedia production company that offers an incredibly wide range of services from video production to website design services in Northwest Ohio",
-  alternates: {
-    canonical: getCanonicalLink(null),
-  },
 }
 
 interface RootLayoutProps {

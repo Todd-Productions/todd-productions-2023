@@ -3,11 +3,11 @@ import React from "react"
 import { ExampleSection } from "../../molecules"
 import { MainLayout } from "../../organisms"
 
+import { IButton } from "../../../types"
 import {
   DefaultTemplateProps,
   getMainLayoutProps,
 } from "../HomeTemplate/HomeTemplate"
-import { IButton } from "../../../types"
 
 export interface BasicTemplateProps extends DefaultTemplateProps {
   title: string
@@ -17,7 +17,7 @@ export interface BasicTemplateProps extends DefaultTemplateProps {
   siteImg?: string
 }
 
-const BasicTemplate: React.FC<BasicTemplateProps> = (props) => {
+const ExampleTemplatte: React.FC<BasicTemplateProps> = (props) => {
   const { title, description, button, videoLink, siteImg } = props
 
   return (
@@ -33,4 +33,4 @@ const BasicTemplate: React.FC<BasicTemplateProps> = (props) => {
   )
 }
 
-export default BasicTemplate
+export default ExampleTemplatte

@@ -1,10 +1,9 @@
-import React from "react"
 import { Metadata } from "next"
 
-import { getCanonicalLink, capitalizeWords } from "../../../../../utils/common"
+import { capitalizeWords, getCanonicalLink } from "../../../../../utils/common"
 import getSampleData from "../../../../../utils/getSampleData"
-import { getDefaultProps } from "../../../actions"
 import { ExampleTemplate } from "../../../../ui/templates"
+import { getDefaultProps } from "../../../actions"
 
 import { ICrumb } from "../../../../ui/molecules/Breadcrumbs/Breadcrumbs"
 
@@ -30,9 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   )
   return {
     title: capitalizeWords(data.title),
-    description: `${data.description} Maumee Ohio | Todd Productions Inc.`,
+    description: `${data.description} | Todd Productions Inc.`,
     alternates: {
-      canonical: getCanonicalLink(`web-services/${category}/${site}`),
+      canonical: getCanonicalLink(`/web-services/${category}/${site}`),
     },
   }
 }

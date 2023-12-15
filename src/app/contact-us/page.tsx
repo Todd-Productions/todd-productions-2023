@@ -1,7 +1,7 @@
 import { getCanonicalLink } from "../../../utils/common"
-import { getDefaultProps } from "../actions"
-import { ContactTemplate } from "../../ui/templates"
 import data from "../../data/contact.json"
+import { ContactTemplate } from "../../ui/templates"
+import { getDefaultProps } from "../actions"
 
 // types
 import { ICrumb } from "../../ui/molecules/Breadcrumbs/Breadcrumbs"
@@ -18,7 +18,7 @@ export function generateMetadata() {
     description:
       "Video Production, Web Design, Graphic Designs - What Do You Need?",
     alternates: {
-      canonical: getCanonicalLink("contact-us"),
+      canonical: getCanonicalLink("/contact-us"),
     },
   }
 }

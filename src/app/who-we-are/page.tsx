@@ -1,7 +1,7 @@
 import { getCanonicalLink } from "../../../utils/common"
-import { getDefaultProps } from "../actions"
-import { WhoAreWeTemplate } from "../../ui/templates"
 import data from "../../data/whoAreWe.json"
+import { WhoAreWeTemplate } from "../../ui/templates"
+import { getDefaultProps } from "../actions"
 
 // @ types
 import { ICrumb } from "../../ui/molecules/Breadcrumbs/Breadcrumbs"
@@ -18,7 +18,7 @@ export function generateMetadata() {
     description:
       "Based in Maumee Ohio, Todd Productions has more than 20 years experience as a full service media firm. Video production to website design and more!",
     alternates: {
-      canonical: getCanonicalLink("who-are-we"),
+      canonical: getCanonicalLink("/who-are-we"),
     },
   }
 }

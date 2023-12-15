@@ -1,14 +1,14 @@
-import React from "react"
 import Image from "next/image"
+import React from "react"
 
+import { IButton } from "../../../types"
 import {
   Button,
-  SectionHeading,
-  Wrapper,
-  VideoPlayer,
   Content,
+  SectionHeading,
+  VideoPlayer,
+  Wrapper,
 } from "../../atoms"
-import { IButton } from "../../../types"
 
 import "./example-section.css"
 
@@ -55,15 +55,16 @@ const ExampleSection: React.FC<IExampleProps> = (props) => {
               <Image
                 src={siteImg as string}
                 alt={title}
-                width="0"
-                height="0"
-                sizes="100vw"
                 className="w-full h-auto"
                 style={{
                   objectFit: "contain",
                   objectPosition: "top",
                 }}
+                width="1750"
+                height="2000"
                 priority
+                quality={100}
+                sizes="(max-width: 1000px) 50vw"
               />
             </div>
           )}

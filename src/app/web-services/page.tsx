@@ -1,7 +1,7 @@
 import { getCanonicalLink } from "../../../utils/common"
-import { getTopCTA, getSplitContent, getDefaultProps } from "../actions"
-import { ServiceTemplate } from "../../ui/templates"
 import data from "../../data/web/web.json"
+import { ServiceTemplate } from "../../ui/templates"
+import { getDefaultProps, getSplitContent, getTopCTA } from "../actions"
 
 // @types
 import { ICrumb } from "../../ui/molecules/Breadcrumbs/Breadcrumbs"
@@ -18,7 +18,7 @@ export function generateMetadata() {
     description:
       "Marketing websites, website applications, to SEO adjustments. Todd Productions offers a wide array of website developments services in Maumee Ohio",
     alternates: {
-      canonical: getCanonicalLink("web-services"),
+      canonical: getCanonicalLink("/web-services"),
     },
   }
 }

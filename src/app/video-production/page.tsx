@@ -1,9 +1,9 @@
-import { ServiceTemplate } from "../../ui/templates"
 import data from "../../data/video/video.json"
+import { ServiceTemplate } from "../../ui/templates"
 
-import { getTopCTA, getSplitContent, getDefaultProps } from "../actions"
-import { ICrumb } from "../../ui/molecules/Breadcrumbs/Breadcrumbs"
 import { getCanonicalLink } from "../../../utils/common"
+import { ICrumb } from "../../ui/molecules/Breadcrumbs/Breadcrumbs"
+import { getDefaultProps, getSplitContent, getTopCTA } from "../actions"
 
 const crumbs: ICrumb[] = [
   {
@@ -17,7 +17,7 @@ export function generateMetadata() {
     description:
       "Award winning video development team, based in Maumee Ohio. Providing production for commercial use and much more!",
     alternates: {
-      canonical: getCanonicalLink("video-production"),
+      canonical: getCanonicalLink("/video-production"),
     },
   }
 }
