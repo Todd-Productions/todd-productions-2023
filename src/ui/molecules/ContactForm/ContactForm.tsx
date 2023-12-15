@@ -3,7 +3,7 @@
 import React, { useState } from "react"
 
 import { useForm } from "react-hook-form"
-import { Input, Button, Alert } from "../../atoms"
+import { Alert, Button, Input } from "../../atoms"
 
 export interface IContactValues {
   name: string
@@ -21,6 +21,7 @@ export interface ContactFormProps {}
 
 const ContactForm: React.FC<ContactFormProps> = () => {
   const [success, setSuccess] = useState(false)
+  const [loading, setLoading] = useState(false)
 
   const {
     register,
@@ -35,6 +36,8 @@ const ContactForm: React.FC<ContactFormProps> = () => {
    * Handle Submission
    */
   const onSubmit = async (data: IContactValues) => {
+    setLoading(true)
+
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
@@ -48,8 +51,10 @@ const ContactForm: React.FC<ContactFormProps> = () => {
       } else {
         console.log("Success")
         setSuccess(true)
+        setLoading(false)
       }
     } catch (error) {
+      setLoading(false)
       setError("root", {
         type: "400",
         message: "Sorry, we couldn't process your request",
@@ -110,8 +115,8 @@ const ContactForm: React.FC<ContactFormProps> = () => {
       )}
 
       <div className="text-center">
-        <Button color="primary" type="submit" fullWidth>
-          contact us
+        <Button color="primary" type="submit" fullWidth disabled={loading}>
+          {loading ? "submitting" : "contact us"}
         </Button>
       </div>
     </form>
