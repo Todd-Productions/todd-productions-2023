@@ -18,7 +18,7 @@ export function generateMetadata() {
     description:
       "Based in Maumee Ohio, Todd Productions has more than 20 years experience as a full service media firm. Video production to website design and more!",
     alternates: {
-      canonical: getCanonicalLink("/who-are-we"),
+      canonical: getCanonicalLink("who-we-are"),
     },
   }
 }

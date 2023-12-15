@@ -18,7 +18,7 @@ export function generateMetadata() {
     description:
       "Marketing websites, website applications, to SEO adjustments. Todd Productions offers a wide array of website developments services in Maumee Ohio",
     alternates: {
-      canonical: getCanonicalLink("/web-services"),
+      canonical: getCanonicalLink("web-services"),
     },
   }
 }

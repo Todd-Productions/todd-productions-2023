@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: capitalizeWords(data.title),
     description: `${data.description} Maumee Ohio | Todd Productions Inc.`,
     alternates: {
-      canonical: getCanonicalLink(`/video-production/${category}/${video}`),
+      canonical: getCanonicalLink(`video-production/${category}/${video}`),
     },
   }
 }

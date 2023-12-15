@@ -12,7 +12,7 @@ export function generateMetadata() {
     description:
       "Search Engine Optimization packages will help boost your website's Google search rankings and get more customers. Get higher rankings in Maumee Ohio",
     alternates: {
-      canonical: getCanonicalLink("/web-services/search-engine-optimization"),
+      canonical: getCanonicalLink("web-services/search-engine-optimization"),
     },
   }
 }

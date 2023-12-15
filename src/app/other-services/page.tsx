@@ -18,7 +18,7 @@ export function generateMetadata() {
     description:
       "We offer a wide array of media services other than video production, including print and voice over work, Maumee and Northwest Ohio",
     alternates: {
-      canonical: getCanonicalLink("/other-services"),
+      canonical: getCanonicalLink("other-services"),
     },
   }
 }

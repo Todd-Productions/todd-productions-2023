@@ -17,7 +17,7 @@ export function generateMetadata() {
     description:
       "Award winning video development team, based in Maumee Ohio. Providing production for commercial use and much more!",
     alternates: {
-      canonical: getCanonicalLink("/video-production"),
+      canonical: getCanonicalLink("video-production"),
     },
   }
 }

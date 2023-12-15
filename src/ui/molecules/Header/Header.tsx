@@ -1,12 +1,12 @@
-import React from "react"
 import Image from "next/image"
 import Link from "next/link"
+import React from "react"
 
 import { INavLink, ISocialLinks } from "@/types"
 
-import { Wrapper, Hamburger } from "../../atoms"
-import Social from "../Social/Social"
+import { Hamburger, Wrapper } from "../../atoms"
 import Nav from "../Nav/Nav"
+import Social from "../Social/Social"
 
 export interface HeaderProps extends ISocialLinks {
   links: INavLink[]
@@ -39,7 +39,7 @@ const Header: React.FC<HeaderProps> = (props) => {
 
             <div className="text-center lg:py-0 block xl:hidden">
               <Link
-                href="/"
+                href="."
                 title="Todd Production's Home Page"
                 className="inline-block"
               >

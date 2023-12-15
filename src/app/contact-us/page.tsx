@@ -18,7 +18,7 @@ export function generateMetadata() {
     description:
       "Video Production, Web Design, Graphic Designs - What Do You Need?",
     alternates: {
-      canonical: getCanonicalLink("/contact-us"),
+      canonical: getCanonicalLink("contact-us"),
     },
   }
 }

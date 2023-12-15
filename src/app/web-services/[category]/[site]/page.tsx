@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: capitalizeWords(data.title),
     description: `${data.description} | Todd Productions Inc.`,
     alternates: {
-      canonical: getCanonicalLink(`/web-services/${category}/${site}`),
+      canonical: getCanonicalLink(`web-services/${category}/${site}`),
     },
   }
 }
