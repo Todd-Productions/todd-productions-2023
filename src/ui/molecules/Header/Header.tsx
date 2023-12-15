@@ -52,13 +52,6 @@ const Header: React.FC<HeaderProps> = (props) => {
                 />
               </Link>
             </div>
-
-            <a
-              href="mailto:contact@toddprod.com"
-              className="hidden md:block transition-all hover:border-b-4 border-blue-500 text-sm ml-4 text-blue-500"
-            >
-              CONTACT@TODDPROD.COM
-            </a>
           </div>
           <div className="text-center lg:py-0 hidden xl:block">
             <Link
