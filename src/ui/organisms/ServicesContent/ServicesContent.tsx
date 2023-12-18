@@ -27,7 +27,9 @@ const ServicesContent: React.FC<ServicesContentProps> = (props) => {
           subHeading={section.subHeading}
           content={section.content}
           imageSrc={section.imageSrc}
-          imageAlt={section.imageAlt}
+          imageAlt={
+            section.imageAlt.length ? section.imageAlt : section.heading
+          }
           button={section.button}
           imgLeft={section.imgLeft}
           key={slugify(String(idx))}

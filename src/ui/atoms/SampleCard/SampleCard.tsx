@@ -35,7 +35,7 @@ const SampleCard: React.FC<SampleCardProps> = (props) => {
             <Image
               className="absolute object-cover h-full w-full"
               src={card.img as string}
-              alt={card.slug}
+              alt={card.title}
               fill
             />
           </div>

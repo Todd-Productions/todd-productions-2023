@@ -39,7 +39,7 @@ const Hero: React.FC<HeroProps> = (props) => {
           style={{ objectPosition }}
           src={img}
           priority={priority}
-          alt={altText ?? ""}
+          alt={altText ?? "banner image"}
           fill
         />
       )}
