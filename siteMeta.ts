@@ -26,7 +26,7 @@ export const navLinks: INavLink[] = [
 export const footerLinks: INavLink[] = [
   {
     label: "Home",
-    url: ".",
+    url: "/",
   },
   {
     label: "Video Production",
