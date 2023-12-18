@@ -61,15 +61,6 @@ const Footer: React.FC<FooterProps> = (props) => {
                   419-290-0794
                 </a>
               </div>
-              <div className="mb-4">
-                <p className="font-black">Email:</p>
-                <a
-                  className="hover:underline"
-                  href="mailto: contact@toddprod.com"
-                >
-                  contact@toddprod.com
-                </a>
-              </div>
             </div>
           </div>
         </div>
