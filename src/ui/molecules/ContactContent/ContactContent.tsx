@@ -30,15 +30,6 @@ const ContactContent: React.FC<ContactContentProps> = (props) => {
       <SectionHeading headingLevel="h1">{title}</SectionHeading>
       <p className="mt-4">{description}</p>
       <div className="mt-4 mb-12">
-        <div className="pb-3">
-          <b className="text-grey-600">Email: </b>
-          <a
-            href={`mailto: ${email}`}
-            className="inline text-blue-500 hover:underline"
-          >
-            {email as string}
-          </a>
-        </div>
         <div>
           <b className="text-grey-600">Phone: </b>
           <a

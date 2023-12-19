@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: data.pageInfoSection.seoTitle,
     description: data.pageInfoSection.seoDescription,
     alternates: {
-      canonical: getCanonicalLink(`video-production/${category}`),
+      canonical: getCanonicalLink(`web-services/${category}`),
     },
   }
 }

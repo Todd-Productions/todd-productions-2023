@@ -72,6 +72,7 @@ const Social: React.FC<SocialProps> = (props) => {
         .filter((v) => !!v.url)
         .map((link) => (
           <a
+            aria-label={link.title}
             key={link.url}
             href={link.url}
             title={link.title}

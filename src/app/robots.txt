@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.toddproductions.com
+
+# Sitemaps
+Sitemap: https://www.toddproductions.com/sitemap.xml
