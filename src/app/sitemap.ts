@@ -3,6 +3,7 @@ import getDynamicPages from "../../utils/getDynamicPagesData"
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const data = await getDynamicPages()
+  const siteURL = process.env.SITE_URL
 
   const staticRoutes = [
     {
@@ -42,6 +43,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     ...staticRoutes,
-    ...data.map((page) => ({ url: page.slug, lastModified: new Date() })),
+    ...data.map((page) => ({
+      url: `${siteURL}${page.slug}`,
+      lastModified: new Date(),
+    })),
   ]
 }

@@ -22,7 +22,7 @@ const Hero: React.FC<HeroProps> = (props) => {
           <video src="/videos/home-hero.mp4" autoPlay loop muted />
           <div className="video-text h-16 flex flex-col items-center justify-center text-white">
             <div className="video-heading font-black px-4 leading-normal mb-6 text-5xl md:text-7xl text-center">
-              ELECTRONIC MEDIA COMPANY
+              <h1>ELECTRONIC MEDIA COMPANY</h1>
             </div>
             <div className="video-subheading flex items-center justify-around text-xl md:text-4xl ">
               VIDEO

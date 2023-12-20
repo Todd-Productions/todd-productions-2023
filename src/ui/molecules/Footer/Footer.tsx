@@ -24,13 +24,15 @@ const Footer: React.FC<FooterProps> = (props) => {
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <Image
-              src="/images/logo-footer.jpg"
-              height={73}
-              width={118}
-              alt="Todd Productions"
-              className=""
-            />
+            <Link href="/">
+              <Image
+                src="/images/logo-footer.jpg"
+                height={73}
+                width={118}
+                alt="Todd Productions"
+                className="hover:scale-105 transition-all"
+              />
+            </Link>
             <ul className="mt-4 md:mb-6 mb-8 text-center capitalized">
               {links.map((link) => (
                 <li key={slugify(link.label)}>
