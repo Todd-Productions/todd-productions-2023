@@ -56,11 +56,11 @@ const ExamplePage = async ({
     },
     {
       label: "Web Services",
-      url: "/web-services/",
+      url: "/web-services",
     },
     {
       label: "Marketing Services",
-      url: "/web-services/marketing-websites/",
+      url: "/web-services/marketing-websites",
     },
     {
       label: data?.title ?? "Website",

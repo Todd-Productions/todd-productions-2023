@@ -57,11 +57,11 @@ const ExampleVideoPage = async ({
     },
     {
       label: "Video Services",
-      url: "/video-production/",
+      url: "/video-production",
     },
     {
       label: category.split("-").join(" "),
-      url: `/video-production/${category}/`,
+      url: `/video-production/${category}`,
     },
     {
       label: data?.title ?? "Promo Video",
