@@ -51,6 +51,10 @@ const ExamplePage = async ({
 
   const crumbs: ICrumb[] = [
     {
+      label: "Home",
+      url: "/",
+    },
+    {
       label: "Web Services",
       url: "/web-services/",
     },

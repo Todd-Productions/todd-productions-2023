@@ -19,7 +19,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = (props) => {
   const { crumbs } = props
 
   return (
-    <div className="md:text-xl text-grey-700 uppercase bg-grey-100 p-3 text-center box-border w-full">
+    <div className="md:text-lg text-grey-700 uppercase bg-grey-100 p-3 text-center box-border w-full">
       <Wrapper>
         {crumbs.map((crumb, ix) => (
           <React.Fragment key={slugify(crumb.label)}>

@@ -52,6 +52,10 @@ const ExampleVideoPage = async ({
 
   const crumbs: ICrumb[] = [
     {
+      label: "Home",
+      url: "/",
+    },
+    {
       label: "Video Services",
       url: "/video-production/",
     },

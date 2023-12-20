@@ -20,6 +20,10 @@ export function generateMetadata() {
 const SEOPage = () => {
   const crumbs: ICrumb[] = [
     {
+      label: "Home",
+      url: "/",
+    },
+    {
       url: "/web-services",
       label: "WEB SERVICES",
     },
