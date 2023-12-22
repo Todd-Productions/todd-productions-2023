@@ -24,7 +24,7 @@ const Footer: React.FC<FooterProps> = (props) => {
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <Link href="/">
+            <Link href=".">
               <Image
                 src="/images/logo-footer.jpg"
                 height={73}

@@ -21,7 +21,7 @@ const SEOPage = () => {
   const crumbs: ICrumb[] = [
     {
       label: "Home",
-      url: "/",
+      url: ".",
     },
     {
       url: "/web-services",

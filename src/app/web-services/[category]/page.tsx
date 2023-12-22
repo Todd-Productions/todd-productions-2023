@@ -44,7 +44,7 @@ const CatPage = async ({ params }: { params: { category: string } }) => {
   const crumbs: ICrumb[] = [
     {
       label: "Home",
-      url: "/",
+      url: ".",
     },
     {
       label: "WEB SERVICES",

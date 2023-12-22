@@ -55,7 +55,7 @@ const Header: React.FC<HeaderProps> = (props) => {
           </div>
           <div className="text-center lg:py-0 hidden xl:block">
             <Link
-              href="/"
+              href="."
               title="Todd Production's Home Page"
               className="inline-block"
             >
