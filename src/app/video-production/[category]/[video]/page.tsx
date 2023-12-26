@@ -44,6 +44,8 @@ const ExampleVideoPage = async ({
 }) => {
   const { category, video } = params
 
+  console.log("here", category, video)
+
   const data: IRawPageInfo = await getSampleData(
     "video",
     category,
@@ -56,7 +58,7 @@ const ExampleVideoPage = async ({
       url: ".",
     },
     {
-      label: "Video Services",
+      label: "Video Production",
       url: "/video-production",
     },
     {

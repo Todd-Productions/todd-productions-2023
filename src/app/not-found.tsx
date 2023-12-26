@@ -6,7 +6,7 @@ const NotFoundPage = () => (
     <div className="text-center">
       <h2>Not Found</h2>
       <p>Sorry 😔 we couldn&apos;t find what you were looking for.</p>
-      <a style={{ textDecoration: "underline" }} href="/">
+      <a style={{ textDecoration: "underline" }} href=".">
         Return Home
       </a>
     </div>

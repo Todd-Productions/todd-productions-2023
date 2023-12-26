@@ -8,6 +8,10 @@ import { ICrumb } from "../../ui/molecules/Breadcrumbs/Breadcrumbs"
 
 const crumbs: ICrumb[] = [
   {
+    label: "Home",
+    url: ".",
+  },
+  {
     label: "CONTACT US",
   },
 ]

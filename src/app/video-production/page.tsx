@@ -7,6 +7,10 @@ import { getDefaultProps, getSplitContent, getTopCTA } from "../actions"
 
 const crumbs: ICrumb[] = [
   {
+    label: "Home",
+    url: ".",
+  },
+  {
     label: "VIDEO PRODUCTION",
   },
 ]
