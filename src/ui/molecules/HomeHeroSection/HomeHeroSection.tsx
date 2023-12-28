@@ -1,7 +1,14 @@
 import React, { ReactNode } from "react"
 import Link from "next/link"
 
-import { Button, SectionHeading, Wrapper, Hero } from "../../atoms"
+import {
+  Button,
+  SectionHeading,
+  SectionSubHeading,
+  Wrapper,
+  Hero,
+  Content,
+} from "../../atoms"
 import { IButton } from "../../../types"
 
 export interface IPageInfo {
@@ -23,6 +30,18 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
     <Hero img={bannerImg} height={500} isVideo priority />
     <Wrapper>
       <div className="py-8 z-10">
+        <div className="text-center pb-10 pt-2 mx-auto  md:max-w-5xl">
+          <SectionSubHeading>Section Title</SectionSubHeading>
+          <div className="text-left">
+            <Content>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+              ratione pariatur dolorum fugit harum, qui soluta ullam,
+              perferendis vero autem, possimus reprehenderit dolor? Illum atque
+              sint eaque, non eos magnam?
+            </Content>
+          </div>
+        </div>
+
         <div className="grid gap-0 xl:gap-20 grid-cols-1 xl:grid-cols-[1fr_3fr]">
           <div className="mt-4 order-2 xl:order-1">
             <SectionHeading>{title}</SectionHeading>
