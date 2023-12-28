@@ -42,6 +42,8 @@ const RootLayout: React.FC<RootLayoutProps> = (props) => {
 
   return (
     <html lang="en">
+      <body className={fontHeading.variable}>{children}</body>
+
       {GA_ID && (
         <>
           <Script
@@ -78,8 +80,6 @@ const RootLayout: React.FC<RootLayoutProps> = (props) => {
           }}
         />
       )}
-
-      <body className={fontHeading.variable}>{children}</body>
     </html>
   )
 }
