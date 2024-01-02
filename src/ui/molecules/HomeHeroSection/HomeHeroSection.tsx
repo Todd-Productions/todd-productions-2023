@@ -30,17 +30,31 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
     <section>
       <Hero img={bannerImg} height={500} isVideo priority />
     </section>
-    <section>
-      <div className="text-white text-center my-8 py-16 px-8 mx-auto md:max-w-5xl bg-grey-600">
-        <h3 className="font-black text-xl mb-8 uppercase">Section Title</h3>
-        <div className="text-left">
+    <section className="bg-grey-600">
+      <div className="text-white text-center mb-8 py-16 px-8 mx-auto md:max-w-6xl">
+        <h3 className="font-black text-4xl mb-8 uppercase">
+          What&apos;s Next for Todd Productions?
+        </h3>
+        <div className="text-left mb-8">
           <Content textWhite>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
-            ratione pariatur dolorum fugit harum, qui soluta ullam, perferendis
-            vero autem, possimus reprehenderit dolor? Illum atque sint eaque,
-            non eos magnam?
+            As we turn the page on 2024 – and Todd Productions’ 25th year in
+            business – we are thrilled to announce that we will soon be
+            rebranded as Stanton Creative Media! This new name reflects our
+            passion for creating stunning video and web presence that showcase
+            your brand, vision and mission. Whether you need a promotional
+            video, legacy film, a corporate website, SEO strategy or anything in
+            between, we are here to help you achieve your goals. Stanton
+            Creative Media is more than just a name change, it&apos;s a
+            continued commitment to deliver quality, creativity, and
+            professionalism in every project we do. Stay tuned for more exciting
+            updates throughout January – including the full story of how we have
+            evolved over the last quarter century.
           </Content>
         </div>
+        <SectionSubHeading isWhite>
+          Go behind the scenes and learn how Todd Stanton decided it was time
+          for a change.
+        </SectionSubHeading>
       </div>
     </section>
     <section>
