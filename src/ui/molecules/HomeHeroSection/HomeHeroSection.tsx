@@ -33,26 +33,57 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
     <section className="bg-grey-600">
       <div className="text-white text-center mb-8 py-16 px-8 mx-auto md:max-w-6xl">
         <h3 className="font-black text-4xl mb-8 uppercase">
-          Marking our 25th year as Todd Productions
+          Todd Productions Inc. Celebrates 25 Years of Excellence in Digital
+          Media Production
         </h3>
+        <SectionSubHeading isWhite>
+          Maumee area experts in video, audio, animation and web design marks
+          business anniversary with streaming documentary
+        </SectionSubHeading>
         <div className="text-left mb-8">
           <Content textWhite>
-            We are thrilled to announce that Todd Productions Inc. is
-            celebrating its 25th year in business on January 15. Under the name
-            that was conceived at the tender age of ten, Todd Stanton and his
-            team have been producing high-quality content that always aims to
-            entertain, educate and inspire our audiences. We are grateful for
-            the support of our partners, clients and fans who have made this
-            journey possible. You are the reason we do what we do! As our
-            founder and CEO Todd Stanton says, &quot;We believe that every story
-            deserves to be told in a captivating and engaging way – digitally
-            and masterfully.&quote;
+            <p>
+              <strong>Maumee, Ohio, January 15, 2024</strong> - Todd Productions
+              Inc., a leading media production company based in Maumee, Ohio, is
+              proud to announce its 25th business anniversary. Since its
+              founding in 1999, the company has produced award-winning
+              documentaries, TV spots, corporate videos, and educational
+              materials for clients across northwest Ohio, and throughout the
+              East Coast.
+            </p>
+            <p>
+              Todd Stanton, the founder and CEO of Todd Productions Inc., said:
+              &quot;We are thrilled to celebrate this milestone with our loyal
+              clients, partners, and creative team. For 25 years, we have been
+              committed to delivering high-quality digital media products that
+              inform, inspire, and entertain. We are grateful for the trust and
+              support we have received from our clients and the community over
+              the years. We look forward to continuing our mission of excellence
+              for many more years to come.&quot;
+            </p>
+            <p>
+              Todd Productions Inc. offers a full range of media production
+              services, including video production, animation, graphics,
+              audio/visual services and digital distribution, plus website
+              programming and hosting, as well as application development. The
+              company employs a talented team of professionals who can handle
+              any project from concept to completion. Some of the company’s
+              notable works include The Paul Schlegel Documentary; development
+              of the Maumee Palooza daytime music stage and streaming Maumee
+              Palooza TV; as well as numerous corporate training and promotional
+              videos, convention reels, legacy films, music videos, ecommerce
+              and marketing websites, software applications, and more.
+            </p>
+            <p>
+              <i>
+                To celebrate its 25th business anniversary, Todd Productions
+                Inc. will debut a new documentary, titled “XX,” which will
+                stream on Facebook and YouTube on XX. To learn more, visit
+                (social links).
+              </i>
+            </p>
           </Content>
         </div>
-        <SectionSubHeading isWhite>
-          Now the question begs itself, what will Todd Productions, the Sequel,
-          have in store for you?
-        </SectionSubHeading>
       </div>
     </section>
     <section>
