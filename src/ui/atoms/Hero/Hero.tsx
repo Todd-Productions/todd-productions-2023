@@ -1,5 +1,5 @@
-import React from "react"
 import Image from "next/image"
+import React from "react"
 
 import "./hero.css"
 
@@ -19,11 +19,11 @@ const Hero: React.FC<HeroProps> = (props) => {
     <div className="hero" style={{ height }}>
       {isVideo ? (
         <>
-          <video src="/videos/home-hero.mp4" autoPlay loop muted />
+          <video src="/videos/25-year.mp4" autoPlay loop muted />
           <div className="video-text h-16 flex flex-col items-center justify-center text-white">
-            <div className="video-heading font-black px-4 leading-normal mb-6 text-5xl md:text-7xl text-center">
+            {/* <div className="video-heading font-black px-4 leading-normal mb-6 text-5xl md:text-7xl text-center">
               <h1>CELEBRATING 25 YEARS</h1>
-            </div>
+            </div> */}
             {/* <div className="video-subheading flex items-center justify-around text-xl md:text-4xl ">
               VIDEO
               <span />
