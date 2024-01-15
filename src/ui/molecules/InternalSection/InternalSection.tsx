@@ -12,7 +12,7 @@ const InternalSection: React.FC<InternalSectionProps> = (props) => {
   return (
     <Section>
       <Wrapper>
-        <div className="my-32">{children}</div>
+        <div className="my-10">{children}</div>
       </Wrapper>
     </Section>
   )

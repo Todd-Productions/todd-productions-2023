@@ -3,7 +3,6 @@ import React, { ReactNode } from "react"
 
 import { IButton, ISocialLinks } from "../../../types"
 import { Button, Content, Hero, SectionHeading, Wrapper } from "../../atoms"
-import Social from "../Social/Social"
 
 import "./styles.css"
 
@@ -61,11 +60,10 @@ const HomeHeroSection: React.FC<HomeHeroSectionProps> = (props) => {
                   on <strong>January 23</strong>.
                 </em>
               </p>
-              <div
-                className="justify-center mx-auto content-center items-center mt-10 text-center"
-                style={{ width: "120px" }}
-              >
-                <Social facebook={facebook} youtube={youtube} fill />
+              <div className="justify-center mx-auto content-center items-center mt-10 text-center">
+                <Link href="/25-year-announcement">
+                  <Button>View More Details</Button>
+                </Link>{" "}
               </div>
             </Content>
           </div>
