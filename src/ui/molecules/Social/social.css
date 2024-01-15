@@ -45,3 +45,10 @@
 .color-white {
   color: white;
 }
+
+.announcement .social-icon,
+.announcement .social-icon::before {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+}
