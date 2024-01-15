@@ -1,14 +1,14 @@
-import React from "react"
-import cn from "classnames"
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core"
 import {
-  faYoutube,
   faFacebook,
-  faXTwitter,
-  faLinkedin,
   faInstagram,
+  faLinkedin,
+  faXTwitter,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { IconDefinition } from "@fortawesome/fontawesome-svg-core"
+import cn from "classnames"
+import React from "react"
 
 import "./social.css"
 
@@ -18,6 +18,7 @@ export interface SocialProps extends ISocialLinks {
   whiteHover?: boolean
   echo?: boolean
   whiteColor?: boolean
+  fill?: boolean
 }
 
 interface ISocial {
@@ -36,6 +37,7 @@ const Social: React.FC<SocialProps> = (props) => {
     echo,
     whiteHover,
     whiteColor,
+    fill,
   } = props
 
   const links: ISocial[] = [
@@ -67,7 +69,7 @@ const Social: React.FC<SocialProps> = (props) => {
   ]
 
   return (
-    <div className="flex justify-start content-center items-center h-full">
+    <div className="flex justify-start content-center items-center h-full social">
       {links
         .filter((v) => !!v.url)
         .map((link) => (
@@ -84,6 +86,7 @@ const Social: React.FC<SocialProps> = (props) => {
                 "white-hover": whiteHover,
                 "echo-hover": echo,
                 "color-white": whiteColor,
+                "bg-white": fill,
               }
             )}
           >
