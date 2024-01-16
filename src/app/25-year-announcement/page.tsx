@@ -73,7 +73,7 @@ const ContactPage = () => (
         applications.
       </p>
 
-      <VideoPlayer videoId="NpEaa2P7qZI" />
+      <VideoPlayer videoId="X-gPqQQhoRU" />
     </Content>
   </InternalTemplate>
 )
