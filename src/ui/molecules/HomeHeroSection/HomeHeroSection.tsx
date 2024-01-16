@@ -1,6 +1,6 @@
-import React, { ReactNode } from "react"
-import Link from "next/link"
 import Image from "next/image"
+import Link from "next/link"
+import React, { ReactNode } from "react"
 
 import { IButton, ISocialLinks } from "../../../types"
 import { Button, Content, Hero, SectionHeading, Wrapper } from "../../atoms"
@@ -24,9 +24,9 @@ const HomeHeroSection: React.FC<HomeHeroSectionProps> = (props) => {
       <section>
         <Hero img={bannerImg} height={500} isVideo priority />
       </section>
-      <section className="announcement">
+      <section className="announcement pt-16">
         <Wrapper>
-          <div className="text-grey-600 grid gap-y-10 md:gap-y-0 md:grid-cols-[1fr_2fr] pt-10 gap-x-10">
+          <div className="text-grey-600 grid gap-y-10 md:gap-y-0 md:grid-cols-[1fr_2fr] gap-x-10">
             <div className="flex flex-col items-center">
               <h3 className="font-black text-4xl mb-8 uppercase">
                 Todd Productions: the Sequel
@@ -71,11 +71,6 @@ const HomeHeroSection: React.FC<HomeHeroSectionProps> = (props) => {
                     </a>{" "}
                     on <strong>January 23</strong>.
                   </em>
-                </p>
-                <p>
-                  The company will debut a new documentary, titled &quot;Todd
-                  Productions: 25 Years of Creative Media&quot; which on January
-                  23 at 10a.m. Watch below or visit Facebook and Youtube
                 </p>
                 <div className="justify-center mx-auto content-center items-center mt-10 text-center">
                   <Link href="/25-year-announcement">
