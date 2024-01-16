@@ -24,10 +24,10 @@ const HomeHeroSection: React.FC<HomeHeroSectionProps> = (props) => {
       <section>
         <Hero img={bannerImg} height={500} isVideo priority />
       </section>
-      <section className="bg-grey-600 announcement">
+      <section className="announcement">
         <Wrapper>
-          <div className="text-white grid gap-y-10 md:gap-y-0 md:grid-cols-[1fr_2fr] py-10 gap-x-10">
-            <div className="flex flex-col items-center md:items-start">
+          <div className="text-grey-600 grid gap-y-10 md:gap-y-0 md:grid-cols-[1fr_2fr] pt-10 gap-x-10">
+            <div className="flex flex-col items-center">
               <h3 className="font-black text-4xl mb-8 uppercase">
                 Todd Productions: the Sequel
               </h3>
@@ -39,8 +39,8 @@ const HomeHeroSection: React.FC<HomeHeroSectionProps> = (props) => {
                 priority
               />
             </div>
-            <div className="text-right mb-2s">
-              <Content textWhite>
+            <div className="text-left mb-2s">
+              <Content>
                 <p>
                   We are thrilled to announce that Todd Productions Inc. is
                   celebrating its 25th year in business. Under the name that was
@@ -86,6 +86,14 @@ const HomeHeroSection: React.FC<HomeHeroSectionProps> = (props) => {
             </div>
           </div>
         </Wrapper>
+        <div className="banner-bg relative w-full">
+          <Image
+            src="/images/placeholders/announcement.jpg"
+            alt="background"
+            fill
+            className="absolute"
+          />
+        </div>
       </section>
       <section>
         <Wrapper>
