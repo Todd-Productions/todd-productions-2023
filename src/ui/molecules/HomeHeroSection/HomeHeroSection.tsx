@@ -1,7 +1,13 @@
 import React, { ReactNode } from "react"
 import Image from "next/image"
 
-import { SectionSubHeading, Wrapper, Hero, Content } from "../../atoms"
+import {
+  SectionSubHeading,
+  Wrapper,
+  Hero,
+  Content,
+  VideoPlayer,
+} from "../../atoms"
 import { IButton } from "../../../types"
 import "./HomeHeroSection.css"
 
@@ -65,6 +71,7 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
                   time for a change.
                 </SectionSubHeading>
               </div>
+              <VideoPlayer videoId="vSxHnjO_Ox8" />
             </Content>
           </div>
         </div>
