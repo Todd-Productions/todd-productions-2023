@@ -31,23 +31,14 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
       <Hero img={bannerImg} height={500} isVideo priority />
     </section>
     <section className="announcement pt-16">
-      <Wrapper>
-        <div className="text-grey-600 grid gap-y-10 md:gap-y-0 lg:grid-cols-[600px_1fr] gap-x-10">
-          <div className="flex flex-col items-center md:items-start">
+      <Wrapper maxWidth="900px">
+        <div className="text-grey-600">
+          <div>
             <h3 className="font-black text-4xl mb-8 uppercase">
               What&apos;s Next For Todd Productions?
             </h3>
-            <div>
-              <Image
-                src="/images/logo-25-years.png"
-                alt="logo"
-                width={250}
-                height={300}
-                priority
-              />
-            </div>
           </div>
-          <div className="text-left mb-2s">
+          <div>
             <Content>
               <p>
                 As we turn the page on 2024 – and Todd Productions&apos; 25th
