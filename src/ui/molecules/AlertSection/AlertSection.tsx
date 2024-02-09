@@ -1,7 +1,7 @@
 import React, { FC } from "react"
 import Image from "next/image"
 
-import { Section, Wrapper, Content, SectionSubHeading } from "@/ui/atoms"
+import { Wrapper, Content } from "@/ui/atoms"
 
 export interface AlertSectionProps {}
 
