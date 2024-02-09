@@ -35,8 +35,7 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
         <div className="text-grey-600 grid gap-y-10 md:gap-y-0 lg:grid-cols-[600px_1fr] gap-x-10">
           <div className="flex flex-col items-center md:items-start">
             <h3 className="font-black text-4xl mb-8 uppercase">
-              What&apos;s Next for Stanton Creative Media (A Todd Productions
-              Company)?
+              What&apos;s Next For Todd Productions?
             </h3>
             <div>
               <Image
@@ -51,19 +50,19 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
           <div className="text-left mb-2s">
             <Content>
               <p>
-                As we turn the page on 2024 – and Stanton Creative Media (A Todd
-                Productions Company)&apos; 25th year in business – we are
-                thrilled to announce that we will soon be rebranded as Stanton
-                Creative Media! This new name reflects our passion for creating
-                stunning video and web presence that showcase your brand, vision
-                and mission. Whether you need a promotional video, legacy film,
-                a corporate website, SEO strategy or anything in between, we are
-                here to help you achieve your goals. Stanton Creative Media is
-                more than just a name change, it&apos;s a continued commitment
-                to deliver quality, creativity, and professionalism in every
-                project we do. Stay tuned for more exciting updates throughout
-                January – including the full story of how we have evolved over
-                the last quarter century.
+                As we turn the page on 2024 – and Todd Productions&apos; 25th
+                year in business – we are thrilled to announce that we will soon
+                be rebranded as Stanton Creative Media! This new name reflects
+                our passion for creating stunning video and web presence that
+                showcase your brand, vision and mission. Whether you need a
+                promotional video, legacy film, a corporate website, SEO
+                strategy or anything in between, we are here to help you achieve
+                your goals. Stanton Creative Media is more than just a name
+                change, it&apos;s a continued commitment to deliver quality,
+                creativity, and professionalism in every project we do. Stay
+                tuned for more exciting updates throughout January – including
+                the full story of how we have evolved over the last quarter
+                century.
               </p>
               <div className="mt-4">
                 <SectionSubHeading isGrey>
