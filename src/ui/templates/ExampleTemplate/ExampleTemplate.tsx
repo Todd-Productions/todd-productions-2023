@@ -1,6 +1,6 @@
 import React from "react"
 
-import { ExampleSection, AlertSection } from "../../molecules"
+import { ExampleSection } from "../../molecules"
 import { MainLayout } from "../../organisms"
 
 import { IButton } from "../../../types"
@@ -22,8 +22,6 @@ const ExampleTemplatte: React.FC<BasicTemplateProps> = (props) => {
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
-      <AlertSection />
-
       <ExampleSection
         title={title}
         description={description}

@@ -1,6 +1,5 @@
 import React from "react"
 
-import { AlertSection } from "@/ui/molecules"
 import { MainLayout, ServicesContent } from "../../organisms"
 import {
   getMainLayoutProps,
@@ -17,7 +16,6 @@ const ServiceTemplate: React.FC<ServiceTemplateProps> = (props) => {
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
-      <AlertSection />
       <ServicesContent topCTAData={topCTAData} contentBlocks={splitContent} />
     </MainLayout>
   )

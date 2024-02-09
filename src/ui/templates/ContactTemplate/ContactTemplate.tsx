@@ -1,6 +1,5 @@
 import React from "react"
 
-import { AlertSection } from "@/ui/molecules"
 import { MainLayout, ContactSection } from "../../organisms"
 
 import {
@@ -27,8 +26,6 @@ const ContactTemplate: React.FC<ContactTemplateProps> = (props) => {
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
-      <AlertSection />
-
       <ContactSection
         title={title}
         description={description}

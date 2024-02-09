@@ -1,6 +1,6 @@
 import React from "react"
 
-import { PageInfoSection, TeamMembers, AlertSection } from "../../molecules"
+import { PageInfoSection, TeamMembers } from "../../molecules"
 import { MainLayout } from "../../organisms"
 
 import {
@@ -37,7 +37,6 @@ const WhoAreWeTemplate: React.FC<WhoAreWeTemplateProps> = (props) => {
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
-      <AlertSection />
       <PageInfoSection
         title={title}
         description={description}

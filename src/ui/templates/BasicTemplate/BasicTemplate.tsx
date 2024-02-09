@@ -1,6 +1,6 @@
 import React from "react"
 
-import { PageInfoSection, AlertSection } from "../../molecules"
+import { PageInfoSection } from "../../molecules"
 import { MainLayout } from "../../organisms"
 
 import {
@@ -22,8 +22,6 @@ const BasicTemplate: React.FC<BasicTemplateProps> = (props) => {
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
-      <AlertSection />
-
       <PageInfoSection
         title={title}
         description={description}
