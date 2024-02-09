@@ -31,21 +31,22 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
       <Hero img={bannerImg} height={500} isVideo priority />
     </section>
     <section className="bg-grey-600">
-      <div className="text-white text-center mb-8 py-16 px-8 mx-auto md:max-w-6xl">
+      <div className="text-white text-center py-16 px-8 mx-auto md:max-w-6xl">
         <h3 className="font-black text-4xl mb-8 uppercase">
-          What&apos;s Next for Todd Productions?
+          What&apos;s Next for Stanton Creative Media (A Todd Productions
+          Company)?
         </h3>
         <div className="text-left mb-8">
           <Content textWhite>
-            As we turn the page on 2024 – and Todd Productions’ 25th year in
-            business – we are thrilled to announce that we will soon be
-            rebranded as Stanton Creative Media! This new name reflects our
-            passion for creating stunning video and web presence that showcase
-            your brand, vision and mission. Whether you need a promotional
-            video, legacy film, a corporate website, SEO strategy or anything in
-            between, we are here to help you achieve your goals. Stanton
-            Creative Media is more than just a name change, it&apos;s a
-            continued commitment to deliver quality, creativity, and
+            As we turn the page on 2024 – and Stanton Creative Media (A Todd
+            Productions Company)’ 25th year in business – we are thrilled to
+            announce that we will soon be rebranded as Stanton Creative Media!
+            This new name reflects our passion for creating stunning video and
+            web presence that showcase your brand, vision and mission. Whether
+            you need a promotional video, legacy film, a corporate website, SEO
+            strategy or anything in between, we are here to help you achieve
+            your goals. Stanton Creative Media is more than just a name change,
+            it&apos;s a continued commitment to deliver quality, creativity, and
             professionalism in every project we do. Stay tuned for more exciting
             updates throughout January – including the full story of how we have
             evolved over the last quarter century.
@@ -57,7 +58,7 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
         </SectionSubHeading>
       </div>
     </section>
-    <section>
+    {/* <section>
       <Wrapper>
         <div className="pb-8 z-10">
           <div className="grid gap-0 xl:gap-20 grid-cols-1 xl:grid-cols-[1fr_3fr]">
@@ -78,7 +79,7 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
           </div>
         </div>
       </Wrapper>
-    </section>
+    </section> */}
   </>
 )
 
