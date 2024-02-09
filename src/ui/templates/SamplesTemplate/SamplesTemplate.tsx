@@ -1,6 +1,10 @@
 import React from "react"
 
-import { PageInfoSection, SampleCardSection } from "../../molecules"
+import {
+  PageInfoSection,
+  SampleCardSection,
+  AlertSection,
+} from "../../molecules"
 import { MainLayout } from "../../organisms"
 import {
   getMainLayoutProps,
@@ -21,6 +25,8 @@ const SamplesTemplate: React.FC<SampleTemplateProps> = (props) => {
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
+      <AlertSection />
+
       <PageInfoSection
         title={topCTAData.title}
         description={topCTAData.description}

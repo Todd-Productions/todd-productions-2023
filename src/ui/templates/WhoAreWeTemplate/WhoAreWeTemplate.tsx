@@ -1,6 +1,6 @@
 import React from "react"
 
-import { PageInfoSection, TeamMembers } from "../../molecules"
+import { PageInfoSection, TeamMembers, AlertSection } from "../../molecules"
 import { MainLayout } from "../../organisms"
 
 import {
@@ -37,6 +37,7 @@ const WhoAreWeTemplate: React.FC<WhoAreWeTemplateProps> = (props) => {
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
+      <AlertSection />
       <PageInfoSection
         title={title}
         description={description}
@@ -44,7 +45,6 @@ const WhoAreWeTemplate: React.FC<WhoAreWeTemplateProps> = (props) => {
         videoLink={videoLink as string}
         bannerImg={bannerImg as string}
       />
-
       <TeamMembers
         members={members}
         title={membersTitle}

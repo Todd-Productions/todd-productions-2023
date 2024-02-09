@@ -1,6 +1,6 @@
 import React from "react"
 
-import { PageInfoSection } from "../../molecules"
+import { PageInfoSection, AlertSection } from "../../molecules"
 import { MainLayout } from "../../organisms"
 import {
   getMainLayoutProps,
@@ -22,6 +22,7 @@ const SEOTemplate: React.FC<SEOTemplateProps> = (props) => {
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
+      <AlertSection />
       <PageInfoSection
         title={topCTAData.title}
         description={topCTAData.description}

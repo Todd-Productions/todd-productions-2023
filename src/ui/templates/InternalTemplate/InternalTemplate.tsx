@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react"
 
-import { InternalSection } from "../../molecules"
+import { InternalSection, AlertSection } from "../../molecules"
 import { MainLayout } from "../../organisms"
 
 import {
@@ -17,6 +17,8 @@ const BasicTemplate: React.FC<BasicTemplateProps> = (props) => {
 
   return (
     <MainLayout {...getMainLayoutProps(props)}>
+      <AlertSection />
+
       <InternalSection>{children}</InternalSection>
     </MainLayout>
   )
