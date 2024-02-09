@@ -1,15 +1,9 @@
 import React, { ReactNode } from "react"
-import Link from "next/link"
+import Image from "next/image"
 
-import {
-  Button,
-  SectionHeading,
-  SectionSubHeading,
-  Wrapper,
-  Hero,
-  Content,
-} from "../../atoms"
+import { SectionSubHeading, Wrapper, Hero, Content } from "../../atoms"
 import { IButton } from "../../../types"
+import "./HomeHeroSection.css"
 
 export interface IPageInfo {
   title: string
@@ -30,7 +24,61 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
     <section>
       <Hero img={bannerImg} height={500} isVideo priority />
     </section>
-    <section className="bg-grey-600">
+    <section className="announcement pt-16">
+      <Wrapper>
+        <div className="text-grey-600 grid gap-y-10 md:gap-y-0 lg:grid-cols-[600px_1fr] gap-x-10">
+          <div className="flex flex-col items-center md:items-start">
+            <h3 className="font-black text-4xl mb-8 uppercase">
+              What&apos;s Next for Stanton Creative Media (A Todd Productions
+              Company)?
+            </h3>
+            <div>
+              <Image
+                src="/images/logo-25-years.png"
+                alt="logo"
+                width={250}
+                height={300}
+                priority
+              />
+            </div>
+          </div>
+          <div className="text-left mb-2s">
+            <Content>
+              <p>
+                As we turn the page on 2024 – and Stanton Creative Media (A Todd
+                Productions Company)&apos; 25th year in business – we are
+                thrilled to announce that we will soon be rebranded as Stanton
+                Creative Media! This new name reflects our passion for creating
+                stunning video and web presence that showcase your brand, vision
+                and mission. Whether you need a promotional video, legacy film,
+                a corporate website, SEO strategy or anything in between, we are
+                here to help you achieve your goals. Stanton Creative Media is
+                more than just a name change, it&apos;s a continued commitment
+                to deliver quality, creativity, and professionalism in every
+                project we do. Stay tuned for more exciting updates throughout
+                January – including the full story of how we have evolved over
+                the last quarter century.
+              </p>
+              <div className="mt-4">
+                <SectionSubHeading isGrey>
+                  Go behind the scenes and learn how Todd Stanton decided it was
+                  time for a change.
+                </SectionSubHeading>
+              </div>
+            </Content>
+          </div>
+        </div>
+      </Wrapper>
+      <div className="banner-bg relative w-full">
+        <Image
+          src="/images/placeholders/announcement.jpg"
+          alt="background"
+          fill
+          className="absolute"
+        />
+      </div>
+    </section>
+    {/* <section className="bg-grey-600">
       <div className="text-white text-center py-16 px-8 mx-auto md:max-w-6xl">
         <h3 className="font-black text-4xl mb-8 uppercase">
           What&apos;s Next for Stanton Creative Media (A Todd Productions
@@ -39,17 +87,17 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
         <div className="text-left mb-8">
           <Content textWhite>
             As we turn the page on 2024 – and Stanton Creative Media (A Todd
-            Productions Company)’ 25th year in business – we are thrilled to
-            announce that we will soon be rebranded as Stanton Creative Media!
-            This new name reflects our passion for creating stunning video and
-            web presence that showcase your brand, vision and mission. Whether
-            you need a promotional video, legacy film, a corporate website, SEO
-            strategy or anything in between, we are here to help you achieve
-            your goals. Stanton Creative Media is more than just a name change,
-            it&apos;s a continued commitment to deliver quality, creativity, and
-            professionalism in every project we do. Stay tuned for more exciting
-            updates throughout January – including the full story of how we have
-            evolved over the last quarter century.
+            Productions Company)&apos; 25th year in business – we are thrilled
+            to announce that we will soon be rebranded as Stanton Creative
+            Media! This new name reflects our passion for creating stunning
+            video and web presence that showcase your brand, vision and mission.
+            Whether you need a promotional video, legacy film, a corporate
+            website, SEO strategy or anything in between, we are here to help
+            you achieve your goals. Stanton Creative Media is more than just a
+            name change, it&apos;s a continued commitment to deliver quality,
+            creativity, and professionalism in every project we do. Stay tuned
+            for more exciting updates throughout January – including the full
+            story of how we have evolved over the last quarter century.
           </Content>
         </div>
         <SectionSubHeading isWhite>
@@ -57,7 +105,7 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
           for a change.
         </SectionSubHeading>
       </div>
-    </section>
+    </section> */}
     {/* <section>
       <Wrapper>
         <div className="pb-8 z-10">
