@@ -55,7 +55,7 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
                 the full story of how we have evolved over the last quarter
                 century.
               </p>
-              <div className="mt-4">
+              <div className="mt-4 text-center">
                 <SectionSubHeading isGrey>
                   Go behind the scenes and learn how Todd Stanton decided it was
                   time for a change.
