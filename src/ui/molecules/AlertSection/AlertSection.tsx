@@ -12,10 +12,11 @@ const AlertSection: FC<AlertSectionProps> = () => (
         <div className="md:col-span-2">
           <Content>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-              ratione doloremque qui earum provident dolorem aspernatur, esse
-              necessitatibus eveniet sapiente harum iure molestias explicabo
-              totam modi voluptas neque! Ad, architecto.
+              In our 25th year, we are rebranding as Stanton Creative Media,
+              symbolizing our family company&apos;s growth in digital and print
+              media. Todd Productions, Inc. will remain the parent company to
+              Stanton Creative Media, Frontward Web Hosting and Three Quarters
+              Entertainment.
             </p>
           </Content>
         </div>

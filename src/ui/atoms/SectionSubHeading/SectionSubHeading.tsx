@@ -1,8 +1,8 @@
-import React from "react"
+import React, { ReactNode } from "react"
 import cns from "classnames"
 
 export interface SectionSubHeadingProps {
-  children?: string
+  children?: string | ReactNode
   isWhite?: boolean
   isGrey?: boolean
 }

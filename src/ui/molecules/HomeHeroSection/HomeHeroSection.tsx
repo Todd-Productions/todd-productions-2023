@@ -51,14 +51,15 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
                 your goals. Stanton Creative Media is more than just a name
                 change, it&apos;s a continued commitment to deliver quality,
                 creativity, and professionalism in every project we do. Stay
-                tuned for more exciting updates throughout January – including
-                the full story of how we have evolved over the last quarter
-                century.
+                tuned as our rebranding fully unfolds, making Stanton Creative
+                Media your go-to resource for video production, web development
+                and SEO services.
               </p>
               <div className="mt-4 text-center">
                 <SectionSubHeading isGrey>
                   Go behind the scenes and learn how Todd Stanton decided it was
-                  time for a change.
+                  time <br />
+                  for a change.
                 </SectionSubHeading>
               </div>
               <VideoPlayer videoId="vSxHnjO_Ox8" />
