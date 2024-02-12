@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react"
 import Image from "next/image"
+import Link from "next/link"
 
 import {
   SectionSubHeading,
@@ -7,6 +8,7 @@ import {
   Hero,
   Content,
   VideoPlayer,
+  Button,
 } from "../../atoms"
 import { IButton } from "../../../types"
 import "./HomeHeroSection.css"
@@ -64,6 +66,11 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
               </div>
               <VideoPlayer videoId="vSxHnjO_Ox8" />
             </Content>
+            <div className="text-center mt-8">
+              <Link href="/25-year-announcement">
+                <Button>get the details</Button>
+              </Link>
+            </div>
           </div>
         </div>
       </Wrapper>

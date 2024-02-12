@@ -22,7 +22,7 @@ const AlertSection: FC<AlertSectionProps> = () => (
         </div>
         <div className="justify-self-center">
           <Image
-            src="/images/scm-logo.png"
+            src="/images/logo-25-years.png"
             width={300}
             height={100}
             alt="logo"
