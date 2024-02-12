@@ -1,16 +1,16 @@
 import React from "react"
 import slugify from "slugify"
 
-import { MainLayout } from "../../organisms"
 import { getSocialLinks } from "../../molecules/Header/Header"
+import { MainLayout } from "../../organisms"
 
 import { INavLink, ISocialLinks } from "../../../types"
+import { HomeHeroSection, SplitContentSection } from "../../molecules"
 import { ICrumb } from "../../molecules/Breadcrumbs/Breadcrumbs"
-import { SplitContentSection, HomeHeroSection } from "../../molecules"
 
 // @types
-import { ISplitContent } from "../../molecules/SplitContentSection/SplitContentSection"
 import { IPageInfo } from "../../molecules/PageInfoSection/PageInfoSection"
+import { ISplitContent } from "../../molecules/SplitContentSection/SplitContentSection"
 
 export interface DefaultTemplateProps extends ISocialLinks {
   crumbs?: ICrumb[]
@@ -40,6 +40,7 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
         description={topCTAData.description}
         button={topCTAData.button}
         bannerImg={String(topCTAData.bannerImg)}
+        {...getSocialLinks(props)}
       />
 
       {splitContent.map((section) => (

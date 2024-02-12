@@ -44,7 +44,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                 className="inline-block"
               >
                 <Image
-                  src="/images/logo.svg"
+                  src="/images/logo.png"
                   height={73}
                   width={118}
                   alt="Todd Productions"
@@ -60,7 +60,7 @@ const Header: React.FC<HeaderProps> = (props) => {
               className="inline-block"
             >
               <Image
-                src="/images/logo.svg"
+                src="/images/logo.png"
                 height={73}
                 width={118}
                 alt="Todd Productions"
