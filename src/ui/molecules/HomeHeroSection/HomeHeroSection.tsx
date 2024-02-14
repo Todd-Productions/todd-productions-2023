@@ -45,17 +45,18 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
               <p>
                 As we turn the page on 2024 – and Todd Productions&apos; 25th
                 year in business – we are thrilled to announce that we will soon
-                be rebranded as Stanton Creative Media! This new name reflects
-                our passion for creating stunning video and web presence that
-                showcase your brand, vision and mission. Whether you need a
-                promotional video, legacy film, a corporate website, SEO
-                strategy or anything in between, we are here to help you achieve
-                your goals. Stanton Creative Media is more than just a name
+                be rebranded as <strong>Stanton Creative Media</strong>! This
+                new name reflects our passion for creating stunning video and
+                web presence that showcase your brand, vision and mission.
+                Whether you need a promotional video, legacy film, a corporate
+                website, SEO strategy or anything in between, we are here to
+                help you achieve your goals.{" "}
+                <strong>Stanton Creative Media</strong> is more than just a name
                 change, it&apos;s a continued commitment to deliver quality,
                 creativity, and professionalism in every project we do. Stay
-                tuned as our rebranding fully unfolds, making Stanton Creative
-                Media your go-to resource for video production, web development
-                and SEO services.
+                tuned as our rebranding fully unfolds, making{" "}
+                <strong>Stanton Creative Media</strong> your go-to resource for
+                video production, web development and SEO services.
               </p>
               <div className="mt-4 text-center">
                 <SectionSubHeading isGrey>
@@ -67,9 +68,13 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
               <VideoPlayer videoId="vSxHnjO_Ox8" />
             </Content>
             <div className="text-center mt-8">
-              <Link href="/25-year-announcement">
-                <Button>get the details</Button>
-              </Link>
+              <a
+                href="https://www.stantoncreativemedia.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Button capitalize>View Website</Button>
+              </a>
             </div>
           </div>
         </div>

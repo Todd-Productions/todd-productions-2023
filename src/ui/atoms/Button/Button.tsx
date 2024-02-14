@@ -3,7 +3,7 @@ import React from "react"
 
 import "./button.css"
 
-export type ButtonColors = "primary" | "danger" | "default"
+export type ButtonColors = "primary" | "danger" | "default" | "orange"
 
 export interface ButtonProps {
   type?: "submit" | "button"
@@ -12,10 +12,12 @@ export interface ButtonProps {
   children?: string
   fullWidth?: boolean
   onClick?: () => void
+  capitalize?: boolean
 }
 
 const Button: React.FC<ButtonProps> = (props) => {
-  const { type, children, fullWidth, color, onClick, disabled } = props
+  const { type, children, fullWidth, color, onClick, disabled, capitalize } =
+    props
   return (
     <button
       /* eslint-disable react/button-has-type */
@@ -27,6 +29,7 @@ const Button: React.FC<ButtonProps> = (props) => {
         {
           [`btn-${color ?? "primary"}`]: true,
           "btn-block": fullWidth,
+          capitalize,
         }
       )}
     >
