@@ -50,13 +50,12 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
                 web presence that showcase your brand, vision and mission.
                 Whether you need a promotional video, legacy film, a corporate
                 website, SEO strategy or anything in between, we are here to
-                help you achieve your goals.{" "}
-                <strong>Stanton Creative Media</strong> is more than just a name
-                change, it&apos;s a continued commitment to deliver quality,
-                creativity, and professionalism in every project we do. Stay
-                tuned as our rebranding fully unfolds, making{" "}
-                <strong>Stanton Creative Media</strong> your go-to resource for
-                video production, web development and SEO services.
+                help you achieve your goals. Stanton Creative Media is more than
+                just a name change, it&apos;s a continued commitment to deliver
+                quality, creativity, and professionalism in every project we do.
+                Stay tuned as our rebranding fully unfolds, making Stanton
+                Creative Media your go-to resource for video production, web
+                development and SEO services.
               </p>
               <div className="mt-4 text-center">
                 <SectionSubHeading isGrey>
