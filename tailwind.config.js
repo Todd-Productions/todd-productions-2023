@@ -24,6 +24,9 @@ module.exports = {
         red: {
           500: "#ff0000",
         },
+        orange: {
+          500: "#E97300",
+        },
       },
       fontFamily: {
         sans: ["Arial", "sans-serif"],

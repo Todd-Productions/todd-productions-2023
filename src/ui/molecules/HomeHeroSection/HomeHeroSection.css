@@ -1,0 +1,7 @@
+.announcement a {
+  @apply underline hover:no-underline;
+}
+
+.banner-bg {
+  height: 250px;
+}

@@ -44,7 +44,6 @@ const WhoAreWeTemplate: React.FC<WhoAreWeTemplateProps> = (props) => {
         videoLink={videoLink as string}
         bannerImg={bannerImg as string}
       />
-
       <TeamMembers
         members={members}
         title={membersTitle}
