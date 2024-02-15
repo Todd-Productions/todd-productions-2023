@@ -1,7 +1,7 @@
-import React, { FC } from "react"
 import Image from "next/image"
+import { FC } from "react"
 
-import { Wrapper, Content, Button } from "@/ui/atoms"
+import { Button, Content, Wrapper } from "@/ui/atoms"
 
 export interface AlertSectionProps {}
 
@@ -14,9 +14,8 @@ const AlertSection: FC<AlertSectionProps> = () => (
             In our 25th year, we are rebranding as{" "}
             <strong>Stanton Creative Media</strong>, symbolizing our family
             company&apos;s growth in digital and print media. Todd Productions,
-            Inc. will remain the parent company to{" "}
-            <strong>Stanton Creative Media</strong>, Frontward Web Hosting and
-            Three Quarters Entertainment.
+            Inc. will remain the parent company to Stanton Creative Media,
+            Frontward Web Hosting and Three Quarters Entertainment.
           </Content>
         </div>
         <div className="justify-self-center">
