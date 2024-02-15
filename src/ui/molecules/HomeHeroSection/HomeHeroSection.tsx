@@ -67,7 +67,7 @@ const HomeHeroSection: React.FC<SplitContentProps> = ({
             </Content>
             <div className="text-center mt-8">
               <a
-                href="https://www.stantoncreativemedia.com/"
+                href="https://www.stantoncreativemedia.com/?utm_source=toddprod&utm_medium=button&utm_campaign=rebrand_announcement"
                 target="_blank"
                 rel="noreferrer noopener"
               >
