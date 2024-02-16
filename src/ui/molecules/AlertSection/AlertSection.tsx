@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { FC } from "react"
 
-import { Button, Content, Wrapper } from "@/ui/atoms"
+import { Content, Wrapper } from "@/ui/atoms"
 
 export interface AlertSectionProps {}
 
@@ -28,7 +28,7 @@ const AlertSection: FC<AlertSectionProps> = () => (
           />
         </div>
       </div>
-      <div className="text-center mt-8 w-full">
+      {/* <div className="text-center mt-8 w-full">
         <a
           href="https://www.stantoncreativemedia.com/?utm_source=toddprod&utm_medium=button&utm_campaign=rebrand_announcement"
           target="_blank"
@@ -38,7 +38,7 @@ const AlertSection: FC<AlertSectionProps> = () => (
             View Website
           </Button>
         </a>
-      </div>
+      </div> */}
     </Wrapper>
   </section>
 )
